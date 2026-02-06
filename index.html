@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,11 @@
     <meta name="description" content="Interactive Hungarian cultural exam quiz with multilingual support (HU/EN/RU)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Language Selector -->
     <div class="language-selector">
@@ -32,6 +35,15 @@
             <div id="topicGrid" class="topic-grid">
                 <!-- Topics will be loaded here -->
             </div>
+
+            <!-- Mock Exam Card -->
+            <div class="mock-exam-section">
+                <div class="mock-exam-card" id="mockExamCard">
+                    <span class="mock-exam-icon">🎓</span>
+                    <h3 class="mock-exam-title" data-i18n="mockExam">Mock Exam</h3>
+                    <p class="mock-exam-desc" data-i18n="mockExamDesc">12 random questions (2 from each topic)</p>
+                </div>
+            </div>
         </div>
 
         <!-- Quiz View -->
@@ -52,36 +64,85 @@
 
             <!-- Question Card -->
             <div class="question-card">
-                <div class="card-inner">
-                    <!-- Front (Hungarian) -->
-                    <div id="cardFront" class="card-face card-front">
-                        <div class="word-section">
-                            <span class="label" data-i18n="word">Word</span>
-                            <h3 id="wordHu" class="word">-</h3>
-                        </div>
-                        <div class="example-section">
-                            <span class="label" data-i18n="example">Example</span>
-                            <p id="exampleHu" class="example">-</p>
-                        </div>
+                <!-- Question Display -->
+                <div class="question-display">
+                    <div class="question-header">
+                        <span class="question-type" id="questionType">Open Question</span>
+                        <button id="translateQuestionBtn" class="translate-btn" title="Toggle translation">
+                            🔄 <span data-i18n="translate">Translate</span>
+                        </button>
                     </div>
+                    <h3 id="questionText" class="question-text">-</h3>
+                </div>
 
-                    <!-- Back (Translation) -->
-                    <div id="cardBack" class="card-face card-back">
-                        <div class="word-section">
-                            <span class="label" data-i18n="translation">Translation</span>
-                            <h3 id="wordTranslation" class="word">-</h3>
-                        </div>
-                        <div class="example-section">
-                            <span class="label" data-i18n="exampleTranslation">Translation Example</span>
-                            <p id="exampleTranslation" class="example">-</p>
-                        </div>
+                <!-- Answer Input (for Open questions) -->
+                <div id="answerInput" class="answer-input hidden">
+                    <label class="input-label" data-i18n="yourAnswer">Your Answer:</label>
+                    <input type="text" id="userAnswer" class="answer-field" placeholder="Type your answer...">
+                </div>
+
+                <!-- Multiple Choice Options (for Multiple questions) -->
+                <div id="multipleChoice" class="multiple-choice hidden">
+                    <div class="options-label" data-i18n="selectOptions">Select the correct option(s):</div>
+                    <div id="optionsList" class="options-list">
+                        <!-- Options will be inserted here -->
                     </div>
                 </div>
 
-                <!-- Flip Button -->
-                <button id="flipBtn" class="flip-btn">
-                    <span class="flip-icon">🔄</span>
-                    <span data-i18n="showTranslation">Show Translation</span>
+                <!-- Feedback Display -->
+                <div id="feedback" class="feedback hidden">
+                    <div id="feedbackIcon" class="feedback-icon"></div>
+                    <div id="feedbackText" class="feedback-text"></div>
+                    <div id="correctAnswer" class="correct-answer hidden">
+                        <div class="answer-header">
+                            <span class="label" data-i18n="correctAnswer">Correct Answer:</span>
+                            <button id="translateAnswerBtn" class="translate-btn small" title="Toggle translation">
+                                🔄
+                            </button>
+                        </div>
+                        <span id="correctAnswerText"></span>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="action-buttons">
+                    <button id="checkBtn" class="action-btn check-btn">
+                        <span data-i18n="checkAnswer">Check Answer</span>
+                    </button>
+                    <button id="showAnswerBtn" class="action-btn show-btn hidden">
+                        <span data-i18n="showAnswer">Show Answer</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Problem Reporting -->
+            <div class="problem-section">
+                <button id="problemBtn" class="problem-btn">
+                    ⚠️ <span data-i18n="reportProblem">Report Problem</span>
+                </button>
+                <div id="problemOptions" class="problem-options hidden">
+                    <label class="problem-option">
+                        <input type="checkbox" value="unclear" class="problem-checkbox">
+                        <span data-i18n="problemUnclear">Unclear question</span>
+                    </label>
+                    <label class="problem-option">
+                        <input type="checkbox" value="wrongOptions" class="problem-checkbox">
+                        <span data-i18n="problemWrongOptions">Wrong options</span>
+                    </label>
+                    <label class="problem-option">
+                        <input type="checkbox" value="noTranslation" class="problem-checkbox">
+                        <span data-i18n="problemNoTranslation">No translation</span>
+                    </label>
+                    <label class="problem-option">
+                        <input type="checkbox" value="other" class="problem-checkbox">
+                        <span data-i18n="problemOther">Other issue</span>
+                    </label>
+                    <button id="submitProblemBtn" class="submit-problem-btn">
+                        <span data-i18n="submitProblem">Submit</span>
+                    </button>
+                </div>
+                <button id="exportProblemsBtn" class="export-btn hidden">
+                    📋 <span data-i18n="exportProblems">Export Problems</span> (<span id="problemCount">0</span>)
                 </button>
             </div>
 
@@ -104,4 +165,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
