@@ -49,7 +49,10 @@ const translations = {
         exportProblems: 'Export Problems',
         problemReported: 'Problem reported!',
         mockExam: 'Mock Exam',
-        mockExamDesc: '12 random questions (2 from each topic)'
+        mockExamDesc: '12 random questions (2 from each topic)',
+        quizComplete: 'Quiz Complete!',
+        backToMain: 'Back to Main Menu',
+        additionalNotes: 'Additional notes:'
     },
     ru: {
         subtitle: 'Изучайте венгерскую культуру и историю',
@@ -76,7 +79,10 @@ const translations = {
         exportProblems: 'Экспортировать проблемы',
         problemReported: 'Проблема зарегистрирована!',
         mockExam: 'Пробный экзамен',
-        mockExamDesc: '12 случайных вопросов (2 из каждой темы)'
+        mockExamDesc: '12 случайных вопросов (2 из каждой темы)',
+        quizComplete: 'Викторина завершена!',
+        backToMain: 'Вернуться в главное меню',
+        additionalNotes: 'Дополнительные заметки:'
     },
     hu: {
         subtitle: 'Magyar kultúra és történelem mesterei',
@@ -103,7 +109,10 @@ const translations = {
         exportProblems: 'Problémák exportálása',
         problemReported: 'Probléma jelentve!',
         mockExam: 'Próbavizsga',
-        mockExamDesc: '12 véletlen kérdés (2 minden témából)'
+        mockExamDesc: '12 véletlen kérdés (2 minden témából)',
+        quizComplete: 'Kvíz kész!',
+        backToMain: 'Vissza a főmenübe',
+        additionalNotes: 'További megjegyzések:'
     }
 };
 
@@ -139,7 +148,14 @@ const elements = {
     submitProblemBtn: document.getElementById('submitProblemBtn'),
     exportProblemsBtn: document.getElementById('exportProblemsBtn'),
     problemCount: document.getElementById('problemCount'),
-    mockExamCard: document.getElementById('mockExamCard')
+    mockExamCard: document.getElementById('mockExamCard'),
+    problemNotes: document.getElementById('problemNotes'),
+    resultsView: document.getElementById('resultsView'),
+    finalPercentage: document.getElementById('finalPercentage'),
+    finalScore: document.getElementById('finalScore'),
+    correctCount: document.getElementById('correctCount'),
+    incorrectCount: document.getElementById('incorrectCount'),
+    backToMainBtn: document.getElementById('backToMainBtn')
 };
 
 // == Utility Functions ==
@@ -246,6 +262,17 @@ function setupEventListeners() {
     // Mock exam
     if (elements.mockExamCard) {
         elements.mockExamCard.addEventListener('click', startMockExam);
+    }
+
+    // Back to main from results
+    if (elements.backToMainBtn) {
+        elements.backToMainBtn.addEventListener('click', () => {
+            showView('topic');
+            state.currentTopic = null;
+            state.currentQuestions = [];
+            state.userScore = 0;
+            state.answeredQuestions = 0;
+        });
     }
 }
 
@@ -492,7 +519,15 @@ function showCorrectAnswer() {
 
 // == Navigation ==
 function navigateQuestion(direction) {
-    state.currentQuestionIndex += direction;
+    const newIndex = state.currentQuestionIndex + direction;
+
+    // Check if we're moving past the last question
+    if (newIndex >= state.currentQuestions.length) {
+        showResults();
+        return;
+    }
+
+    state.currentQuestionIndex = newIndex;
     loadQuestion();
 }
 
@@ -512,15 +547,32 @@ function updateProgress() {
         const scorePercentage = ((state.userScore / state.answeredQuestions) * 100).toFixed(1);
         scoreText = ` | ${translations[state.currentLang].score}: ${state.userScore}/${state.answeredQuestions} (${scorePercentage}%)`;
     }
-
     elements.progressText.textContent = `${current} / ${total}${scoreText}`;
     elements.progressFill.style.width = `${percentage}%`;
+}
+
+// == Results Screen ==
+function showResults() {
+    const totalQuestions = state.answeredQuestions;
+    const correctAnswers = state.userScore;
+    const incorrectAnswers = totalQuestions - correctAnswers;
+    const percentage = totalQuestions > 0 ? ((correctAnswers / totalQuestions) * 100).toFixed(1) : 0;
+
+    // Update results display
+    elements.finalPercentage.textContent = `${percentage}%`;
+    elements.finalScore.textContent = `${correctAnswers} / ${totalQuestions}`;
+    elements.correctCount.textContent = correctAnswers;
+    elements.incorrectCount.textContent = incorrectAnswers;
+
+    // Show results view
+    showView('results');
 }
 
 // == UI Updates ==
 function showView(viewName) {
     elements.topicView.classList.toggle('active', viewName === 'topic');
     elements.quizView.classList.toggle('active', viewName === 'quiz');
+    elements.resultsView.classList.toggle('active', viewName === 'results');
 }
 
 function updateActiveLanguageButton() {
@@ -554,6 +606,7 @@ function submitProblem() {
 
     const issues = Array.from(checkboxes).map(cb => cb.value);
     const question = state.currentQuestions[state.currentQuestionIndex];
+    const notes = elements.problemNotes.value.trim();
 
     state.reportedProblems.push({
         topicId: state.currentTopic.id,
@@ -562,7 +615,12 @@ function submitProblem() {
         questionHu: state.currentQuestionHu,
         questionTranslated: state.currentQuestionTranslated,
         answerHu: state.currentAnswerHu,
+        answerTranslated: state.currentAnswerTranslated,
+        questionType: question.type,
+        options: question.options || null,
+        correctIndices: question.correctIndices || null,
         issues: issues,
+        notes: notes,
         timestamp: new Date().toISOString()
     });
 
@@ -571,8 +629,9 @@ function submitProblem() {
     elements.exportProblemsBtn.classList.remove('hidden');
     elements.problemOptions.classList.add('hidden');
 
-    // Uncheck all boxes
+    // Reset form
     checkboxes.forEach(cb => cb.checked = false);
+    elements.problemNotes.value = '';
 
     // Show confirmation
     alert(translations[state.currentLang].problemReported);

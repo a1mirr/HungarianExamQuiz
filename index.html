@@ -48,18 +48,27 @@
 
         <!-- Quiz View -->
         <div id="quizView" class="view">
-            <!-- Quiz Header -->
             <div class="quiz-header">
-                <button id="backBtn" class="back-btn" aria-label="Back to topics">
-                    ← <span data-i18n="back">Back</span>
+                <button id="backBtn" class="back-btn">
+                    <span>← <span data-i18n="back">Back</span></span>
                 </button>
-                <h2 id="topicTitle" class="topic-title"></h2>
+                <h2 id="topicTitle" class="topic-title">-</h2>
                 <div class="progress-container">
-                    <span id="progressText" class="progress-text">1 / 10</span>
+                    <span id="progressText" class="progress-text">0 / 0</span>
                     <div class="progress-bar">
-                        <div id="progressFill" class="progress-fill"></div>
+                        <div id="progressFill" class="progress-fill" style="width: 0%"></div>
                     </div>
                 </div>
+            </div>
+
+            <!-- Navigation (Top) -->
+            <div class="nav-controls nav-top">
+                <button id="prevBtn" class="nav-btn" aria-label="Previous question">
+                    <span data-i18n="previous">Previous</span>
+                </button>
+                <button id="nextBtn" class="nav-btn nav-btn-primary" aria-label="Next question">
+                    <span data-i18n="next">Next</span>
+                </button>
             </div>
 
             <!-- Question Card -->
@@ -115,7 +124,7 @@
                 </div>
             </div>
 
-            <!-- Problem Reporting -->
+            <!-- Problem Reporting (Bottom) -->
             <div class="problem-section">
                 <button id="problemBtn" class="problem-btn">
                     ⚠️ <span data-i18n="reportProblem">Report Problem</span>
@@ -137,6 +146,11 @@
                         <input type="checkbox" value="other" class="problem-checkbox">
                         <span data-i18n="problemOther">Other issue</span>
                     </label>
+                    <div class="problem-notes">
+                        <label class="input-label" data-i18n="additionalNotes">Additional notes:</label>
+                        <textarea id="problemNotes" class="problem-textarea"
+                            placeholder="Describe the issue..."></textarea>
+                    </div>
                     <button id="submitProblemBtn" class="submit-problem-btn">
                         <span data-i18n="submitProblem">Submit</span>
                     </button>
@@ -145,14 +159,33 @@
                     📋 <span data-i18n="exportProblems">Export Problems</span> (<span id="problemCount">0</span>)
                 </button>
             </div>
+        </div>
 
-            <!-- Navigation -->
-            <div class="nav-controls">
-                <button id="prevBtn" class="nav-btn" aria-label="Previous question">
-                    ← <span data-i18n="previous">Previous</span>
-                </button>
-                <button id="nextBtn" class="nav-btn nav-btn-primary" aria-label="Next question">
-                    <span data-i18n="next">Next</span> →
+        <!-- Results View -->
+        <div id="resultsView" class="view">
+            <div class="results-container">
+                <h2 class="results-title" data-i18n="quizComplete">Quiz Complete!</h2>
+                <div class="results-card">
+                    <div class="score-display">
+                        <div class="score-icon">🎉</div>
+                        <div class="score-stats">
+                            <div class="score-percentage" id="finalPercentage">0%</div>
+                            <div class="score-fraction" id="finalScore">0 / 0</div>
+                        </div>
+                    </div>
+                    <div class="score-breakdown">
+                        <div class="breakdown-item">
+                            <span class="breakdown-label" data-i18n="correct">Correct</span>
+                            <span class="breakdown-value correct" id="correctCount">0</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label" data-i18n="incorrect">Incorrect</span>
+                            <span class="breakdown-value incorrect" id="incorrectCount">0</span>
+                        </div>
+                    </div>
+                </div>
+                <button id="backToMainBtn" class="back-to-main-btn">
+                    <span data-i18n="backToMain">Back to Main Menu</span>
                 </button>
             </div>
         </div>
