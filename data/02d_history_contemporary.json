@@ -1,0 +1,507 @@
+{
+  "id": "02d_history_contemporary",
+  "name": {
+    "en": "History: 20th Century",
+    "ru": "История: XX век",
+    "hu": "Történelem: 20. század"
+  },
+  "questions": [
+    {
+      "word_hu": "trónörökös",
+      "example_hu": "A trónörököst meggyilkolták.",
+      "word_en": "heir to the throne",
+      "example_en": "The heir to the throne was assassinated.",
+      "word_ru": "наследник престола",
+      "example_ru": "В 1914 году в Сараево был убит эрцгерцог Франц Фердинанд, наследник австро-венгерского престола."
+    },
+    {
+      "word_hu": "merénylő",
+      "example_hu": "Egy merénylő meggyilkolta.",
+      "word_en": "assassin",
+      "example_en": "An assassin killed him.",
+      "word_ru": "террорист",
+      "example_ru": "Сербский националист-террорист застрелил эрцгерцога в Сараево."
+    },
+    {
+      "word_hu": "hadat üzenni",
+      "example_hu": "Hadat üzent Szerbiának.",
+      "word_en": "declare war",
+      "example_en": "Declared war on Serbia.",
+      "word_ru": "объявить войну",
+      "example_ru": "28 июля 1914 года Австро-Венгрия объявила войну Сербии, что стало началом Первой мировой войны."
+    },
+    {
+      "word_hu": "antant",
+      "example_hu": "Antant és szövetségesei",
+      "word_en": "Entente",
+      "example_en": "The Entente and its allies",
+      "word_ru": "Антанта",
+      "example_ru": "Антанта и союзники"
+    },
+    {
+      "word_hu": "Központi hatalmak",
+      "example_hu": "Központi hatalmak",
+      "word_en": "Central Powers",
+      "example_en": "Central Powers",
+      "word_ru": "Центральные державы",
+      "example_ru": "Центральные державы"
+    },
+    {
+      "word_hu": "győzelem",
+      "example_hu": "Az antanthatalmak győzelmével végződött.",
+      "word_en": "victory",
+      "example_en": "It ended with the victory of the Entente powers.",
+      "word_ru": "победа",
+      "example_ru": "Завершилось победой держав Антанты."
+    },
+    {
+      "word_hu": "békeszerződés",
+      "example_hu": "A trianoni békeszerződést 1920. június 4-én írták alá.",
+      "word_en": "peace treaty",
+      "example_en": "The Treaty of Trianon was signed on 4 June 1920.",
+      "word_ru": "мирный договор",
+      "example_ru": "4 июня 1920 года с Венгрией был подписан Трианонский мирный договор, завершивший для неё Первую мировую войну."
+    },
+    {
+      "word_hu": "revízió",
+      "example_hu": "A határok revíziója volt a cél.",
+      "word_en": "revision",
+      "example_en": "The goal was the revision of borders.",
+      "word_ru": "ревизия",
+      "example_ru": "Основной целью венгерских правительств 1920–30-х годов была ревизия несправедливых границ, установленных Трианоном."
+    },
+    {
+      "word_hu": "kormányzó",
+      "example_hu": "Horthy Miklós kormányzó",
+      "word_en": "regent",
+      "example_en": "Regent Miklós Horthy",
+      "word_ru": "регент",
+      "example_ru": "Регент Horthy Miklós"
+    },
+    {
+      "word_hu": "megtámadni",
+      "example_hu": "Németország megtámadta Lengyelországot.",
+      "word_en": "attack",
+      "example_en": "Germany attacked Poland.",
+      "word_ru": "напасть",
+      "example_ru": "Германия напала на Польшу."
+    },
+    {
+      "word_hu": "hadba lépni",
+      "example_hu": "Magyarország 1941-ben hadba lépett.",
+      "word_en": "enter the war",
+      "example_en": "Hungary entered the war in 1941.",
+      "word_ru": "вступить в войну",
+      "example_ru": "В 1941 году Венгрия вступила во Вторую мировую войну на стороне стран Оси."
+    },
+    {
+      "word_hu": "keleti front",
+      "example_hu": "A keleti fronton harcoltak.",
+      "word_en": "eastern front",
+      "example_en": "They fought on the Eastern Front.",
+      "word_ru": "восточный фронт",
+      "example_ru": "Сражались на Восточном фронте."
+    },
+    {
+      "word_hu": "megszállni",
+      "example_hu": "Németország megszállta Magyarországot.",
+      "word_en": "occupy",
+      "example_en": "Germany occupied Hungary.",
+      "word_ru": "оккупировать",
+      "example_ru": "Германия оккупировала Венгрию."
+    },
+    {
+      "word_hu": "bábállam",
+      "example_hu": "Az ország bábállammá vált.",
+      "word_en": "puppet state",
+      "example_en": "The country became a puppet state.",
+      "word_ru": "марионеточное государство",
+      "example_ru": "Страна стала марионеточным государством."
+    },
+    {
+      "word_hu": "hadszíntér",
+      "example_hu": "Az ország hadszíntérré vált.",
+      "word_en": "theater of war",
+      "example_en": "The country became a theater of war.",
+      "word_ru": "театр военных действий",
+      "example_ru": "Страна стала театром военных действий."
+    },
+    {
+      "word_hu": "deportrálás",
+      "example_hu": "A zsidóság szisztematikus deportálása.",
+      "word_en": "deportation",
+      "example_en": "Systematic deportation of the Jews.",
+      "word_ru": "депортация",
+      "example_ru": "Систематическая депортация евреев."
+    },
+    {
+      "word_hu": "holokauszt",
+      "example_hu": "A holokauszt áldozatainak száma.",
+      "word_en": "Holocaust",
+      "example_en": "The number of Holocaust victims.",
+      "word_ru": "Холокост",
+      "example_ru": "Число жертв Холокоста."
+    },
+    {
+      "word_hu": "Gulag",
+      "example_hu": "Sokakat hurcoltak a Gulagra.",
+      "word_en": "Gulag",
+      "example_en": "Many were taken to the Gulag.",
+      "word_ru": "ГУЛАГ",
+      "example_ru": "Оккупировавшие страну советские войска депортировали сотни тысяч людей в лагеря ГУЛАГ."
+    },
+    {
+      "word_hu": "jóvátétel",
+      "example_hu": "Jóvátétel fizetésére kötelezték.",
+      "word_en": "reparations",
+      "example_en": "They were obliged to pay reparations.",
+      "word_ru": "репарации",
+      "example_ru": "По итогам войны Венгрию обязали выплачивать репарации победившим державам."
+    },
+    {
+      "word_hu": "kitelepítés",
+      "example_hu": "A németeket kitelepítették.",
+      "word_en": "expulsion",
+      "example_en": "The Germans were expelled.",
+      "word_ru": "выселение",
+      "example_ru": "Значительную часть венгерских немцев (свабов) выселили из страны."
+    },
+    {
+      "word_hu": "szovjet hadsereg",
+      "example_hu": "A szovjet hadsereg nem vonult ki.",
+      "word_en": "Soviet army",
+      "example_en": "The Soviet army did not withdraw.",
+      "word_ru": "советская армия",
+      "example_ru": "После окончания Второй мировой войны советская армия не вывела войска с территории Венгрии."
+    },
+    {
+      "word_hu": "kommunista",
+      "example_hu": "Kommunisták vették át a hatalmat.",
+      "word_en": "communist",
+      "example_en": "Communists took power.",
+      "word_ru": "коммунист",
+      "example_ru": "Поддерживаемые СССР коммунисты захватили власть в Венгрии."
+    },
+    {
+      "word_hu": "egypártrendszer",
+      "example_hu": "Egypártrendszert alakítottak ki.",
+      "word_en": "one-party system",
+      "example_en": "They established a one-party system.",
+      "word_ru": "однопартийная система",
+      "example_ru": "Коммунисты установили однопартийную политическую систему."
+    },
+    {
+      "word_hu": "üldözni",
+      "example_hu": "Az értelmiséget üldözték.",
+      "word_en": "persecute",
+      "example_en": "The intelligentsia were persecuted.",
+      "word_ru": "преследовать",
+      "example_ru": "Преследовали интеллигенцию."
+    },
+    {
+      "word_hu": "tüntetés",
+      "example_hu": "Diákok békés tüntetésével kezdődött.",
+      "word_en": "protest",
+      "example_en": "It began with a peaceful student protest.",
+      "word_ru": "митинг",
+      "example_ru": "23 октября 1956 года в Будапеште революция началась с мирной демонстрации студентов."
+    },
+    {
+      "word_hu": "összecsapás",
+      "example_hu": "A Magyar Rádiónál összecsapás alakult ki.",
+      "word_en": "clash",
+      "example_en": "A clash broke out at the Hungarian Radio.",
+      "word_ru": "столкновение",
+      "example_ru": "У Magyar Rádió произошло столкновение."
+    },
+    {
+      "word_hu": "ellenállás",
+      "example_hu": "A fegyveres ellenállás központja Budapest volt.",
+      "word_en": "resistance",
+      "example_en": "The center of armed resistance was Budapest.",
+      "word_ru": "сопротивление",
+      "example_ru": "Центром вооружённого сопротивления был Budapest."
+    },
+    {
+      "word_hu": "lyukas zászló",
+      "example_hu": "A forradalom jelképe a lyukas zászló volt.",
+      "word_en": "holey flag",
+      "example_en": "The holey flag was a symbol of the revolution.",
+      "word_ru": "дырявый флаг",
+      "example_ru": "Символом революции был дырявый флаг."
+    },
+    {
+      "word_hu": "kivágni",
+      "example_hu": "Kivágták a Rákosi-címert.",
+      "word_en": "cut out",
+      "example_en": "They cut out the Rákosi coat of arms.",
+      "word_ru": "вырезать",
+      "example_ru": "Вырезали герб Rákosi."
+    },
+    {
+      "word_hu": "ígéret",
+      "example_hu": "Ígéretük ellenére visszatértek.",
+      "word_en": "promise",
+      "example_en": "Despite their promise, they returned.",
+      "word_ru": "обещание",
+      "example_ru": "Несмотря на обещание вывести войска, советское руководство вновь ввело войска и начало ликвидацию сопротивления."
+    },
+    {
+      "word_hu": "felszámolás",
+      "example_hu": "Megkezdték a felszámolást.",
+      "word_en": "liquidation",
+      "example_en": "They began the liquidation.",
+      "word_ru": "ликвидация",
+      "example_ru": "Начали ликвидацию."
+    },
+    {
+      "word_hu": "visszaállni",
+      "example_hu": "Visszaállt a kommunista egypártrendszer.",
+      "word_en": "restore",
+      "example_en": "The communist one-party system was restored.",
+      "word_ru": "восстановиться",
+      "example_ru": "Восстановилась коммунистическая однопартийная система."
+    },
+    {
+      "word_hu": "vezetés",
+      "example_hu": "Kádár Jánost jelölték ki vezetésre.",
+      "word_en": "leadership",
+      "example_en": "János Kádár was appointed to the leadership.",
+      "word_ru": "руководство",
+      "example_ru": "Kádár János назначен руководителем."
+    },
+    {
+      "word_hu": "korszak",
+      "example_hu": "A korszak 1956-tól 1989-ig tartott.",
+      "word_en": "period",
+      "example_en": "The period lasted from 1956 to 1989.",
+      "word_ru": "период",
+      "example_ru": "Период длился с 1956 по 1989 годы."
+    },
+    {
+      "word_hu": "rendszerváltás",
+      "example_hu": "A rendszerváltás alapvető átalakulást jelentett.",
+      "word_en": "system change",
+      "example_en": "The transition meant a fundamental transformation.",
+      "word_ru": "смена системы",
+      "example_ru": "Смена режима 1989–1990 годов означала переход от социалистической системы к многопартийной демократической системе."
+    },
+    {
+      "word_hu": "parlamentáris",
+      "example_hu": "Többpárti parlamentáris demokrácia.",
+      "word_en": "parliamentary",
+      "example_en": "Multi-party parliamentary democracy.",
+      "word_ru": "парламентарный",
+      "example_ru": "Многопартийная парламентская демократия."
+    },
+    {
+      "word_hu": "választás",
+      "example_hu": "1990 tavaszán szabad választásokat tartottak.",
+      "word_en": "election",
+      "example_en": "Free elections were held in spring 1990.",
+      "word_ru": "выборы",
+      "example_ru": "Весной 1990 года прошли свободные выборы."
+    },
+    {
+      "word_hu": "jobboldali",
+      "example_hu": "Jobboldali konzervatív kormány alakult.",
+      "word_en": "right-wing",
+      "example_en": "A right-wing conservative government was formed.",
+      "word_ru": "правый",
+      "example_ru": "Сформировалось правое консервативное правительство."
+    },
+    {
+      "word_hu": "konzervatív",
+      "example_hu": "Jobboldali konzervatív kormány.",
+      "word_en": "conservative",
+      "example_en": "Right-wing conservative government.",
+      "word_ru": "консервативный",
+      "example_ru": "Правое консервативное правительство."
+    },
+    {
+      "word_hu": "Ferenc Ferdinánd",
+      "example_hu": "Ferenc Ferdinándot ... Szarajevóban meggyilkolták.",
+      "word_en": "Archduke Franz Ferdinand",
+      "example_en": "Archduke Franz Ferdinand was assassinated in Sarajevo.",
+      "word_ru": "эрцгерцог Франц Фердинанд",
+      "example_ru": "Эрцгерцог Франц Фердинанд был убит в Сараево."
+    },
+    {
+      "word_hu": "Horthy Miklós",
+      "example_hu": "Horthy Miklós kormányzó",
+      "word_en": "Miklós Horthy",
+      "example_en": "Regent Miklós Horthy",
+      "word_ru": "Horthy Miklós",
+      "example_ru": "Регент Horthy Miklós"
+    },
+    {
+      "word_hu": "Rákosi Mátyás",
+      "example_hu": "A rendszer gyűlölt vezetője Rákosi Mátyás volt.",
+      "word_en": "Mátyás Rákosi",
+      "example_en": "Mátyás Rákosi was the hated leader of the regime.",
+      "word_ru": "Rákosi Mátyás",
+      "example_ru": "Ненавистным лидером режима был Rákosi Mátyás."
+    },
+    {
+      "word_hu": "Nagy Imre",
+      "example_hu": "A kormány élére Nagy Imre került.",
+      "word_en": "Imre Nagy",
+      "example_en": "Imre Nagy became head of the government.",
+      "word_ru": "Nagy Imre",
+      "example_ru": "Главой правительства стал Nagy Imre."
+    },
+    {
+      "word_hu": "Kádár János",
+      "example_hu": "Magyarország vezetésére Kádár Jánost jelölték ki.",
+      "word_en": "János Kádár",
+      "example_en": "János Kádár was appointed to lead Hungary.",
+      "word_ru": "Kádár János",
+      "example_ru": "На руководство Венгрией назначили Kádár János."
+    },
+    {
+      "word_hu": "Göncz Árpád",
+      "example_hu": "Köztársasági elnök Göncz Árpád lett.",
+      "word_en": "Árpád Göncz",
+      "example_en": "Árpád Göncz became President of the Republic.",
+      "word_ru": "Göncz Árpád",
+      "example_ru": "Президентом республики стал Göncz Árpád."
+    },
+    {
+      "word_hu": "Antall József",
+      "example_hu": "Antall József vezetésével kormány alakult.",
+      "word_en": "József Antall",
+      "example_en": "A government was formed under József Antall.",
+      "word_ru": "Antall József",
+      "example_ru": "Под руководством Antall József сформировалось правительство."
+    },
+    {
+      "word_hu": "Bethlen István",
+      "example_hu": "Bethlen István a '20-as és '30-as évek meghatározó politikusa.",
+      "word_en": "István Bethlen",
+      "example_en": "István Bethlen was a defining politician of the '20s and '30s.",
+      "word_ru": "Bethlen István",
+      "example_ru": "Bethlen István был определяющим политиком 1920-30-х годов."
+    },
+    {
+      "word_hu": "Teleki Pál",
+      "example_hu": "Teleki Pál a '20-as és '30-as évek meghatározó politikusa.",
+      "word_en": "Pál Teleki",
+      "example_en": "Pál Teleki was a defining politician of the '20s and '30s.",
+      "word_ru": "Teleki Pál",
+      "example_ru": "Teleki Pál был определяющим политиком 1920-30-х годов."
+    },
+    {
+      "word_hu": "Ferenc József",
+      "example_hu": "Ferenc József osztrák császár és magyar király (1848-1916).",
+      "word_en": "Franz Joseph",
+      "example_en": "Franz Joseph, Austrian Emperor and Hungarian King (1848-1916).",
+      "word_ru": "Франц Иосиф",
+      "example_ru": "Франц Иосиф — австрийский император и венгерский король (1848-1916)."
+    },
+    {
+      "word_hu": "Szarajevó",
+      "example_hu": "1914. június 28-án Szarajevóban meggyilkolták.",
+      "word_en": "Sarajevo",
+      "example_en": "On 28 June 1914 he was assassinated in Sarajevo.",
+      "word_ru": "Сараево",
+      "example_ru": "28 июня 1914 года был убит в Сараево."
+    },
+    {
+      "word_hu": "Corvin köz",
+      "example_hu": "Az ellenállás emblematikus helyszíne a Corvin köz.",
+      "word_en": "Corvin Passage",
+      "example_en": "Corvin Passage was an emblematic location of resistance.",
+      "word_ru": "Corvin köz",
+      "example_ru": "Corvin köz был символическим местом сопротивления."
+    },
+    {
+      "word_hu": "Széna tér",
+      "example_hu": "Az ellenállás emblematikus helyszíne a Széna tér.",
+      "word_en": "Széna Square",
+      "example_en": "Széna Square was an emblematic location of resistance.",
+      "word_ru": "Széna tér",
+      "example_ru": "Széna tér был символическим местом сопротивления."
+    },
+    {
+      "word_hu": "sváb",
+      "example_hu": "A magyarországi németek (svábok) jelentős részét kitelepítették.",
+      "word_en": "Swabian",
+      "example_en": "A significant part of the Hungarian Germans (Swabians) were expelled.",
+      "word_ru": "свабы",
+      "example_ru": "Значительную часть венгерских немцев (свабов) депортировали."
+    },
+    {
+      "word_hu": "Don",
+      "example_hu": "1943 januárjában a Don térségében zajló harcokban megsemmisült.",
+      "word_en": "Don",
+      "example_en": "In January 1943 it was destroyed in battles in the Don region.",
+      "word_ru": "Дон",
+      "example_ru": "В январе 1943 года была уничтожена в боях в районе Дона."
+    },
+    {
+      "word_hu": "2. magyar hadsereg",
+      "example_hu": "1943 januárjában a 2. magyar hadsereg jelentős része megsemmisült.",
+      "word_en": "2nd Hungarian Army",
+      "example_en": "In January 1943, a significant part of the 2nd Hungarian Army was destroyed.",
+      "word_ru": "2-я венгерская армия",
+      "example_ru": "В январе 1943 года значительная часть 2-й венгерской армии была уничтожена."
+    },
+    {
+      "word_hu": "bécsi döntés",
+      "example_hu": "Az első bécsi döntésben (1938) visszakapott területeit.",
+      "word_en": "Vienna Award",
+      "example_en": "Territories returned in the First Vienna Award (1938).",
+      "word_ru": "венский арбитраж",
+      "example_ru": "Территории, возвращённые по Первому венскому арбитражу (1938)."
+    },
+    {
+      "word_hu": "vidéki",
+      "example_hu": "A többségében vidéki zsidóság szisztematikus deportálása.",
+      "word_en": "rural",
+      "example_en": "The systematic deportation of predominantly rural Jews.",
+      "word_ru": "сельский",
+      "example_ru": "Систематическая депортация преимущественно сельских евреев."
+    },
+    {
+      "word_hu": "újratemetés",
+      "example_hu": "Nagy Imre és mártírtársainak ünnepélyes újratemetése.",
+      "word_en": "reburial",
+      "example_en": "The ceremonial reburial of Imre Nagy and his fellow martyrs.",
+      "word_ru": "перезахоронение",
+      "example_ru": "Торжественное перезахоронение Nagy Imre и его товарищей-мучеников."
+    },
+    {
+      "word_hu": "mártírtárs",
+      "example_hu": "Nagy Imre és mártírtársainak ünnepélyes újratemetése.",
+      "word_en": "fellow martyr",
+      "example_en": "The ceremonial reburial of Imre Nagy and his fellow martyrs.",
+      "word_ru": "товарищ-мученик",
+      "example_ru": "Торжественное перезахоронение Nagy Imre и его товарищей-мучеников."
+    },
+    {
+      "word_hu": "trianoni békeszerződés",
+      "example_hu": "A trianoni békeszerződés",
+      "word_en": "Treaty of Trianon",
+      "example_en": "The Treaty of Trianon",
+      "word_ru": "Трианонский договор",
+      "example_ru": "Трианонский мирный договор"
+    },
+    {
+      "word_hu": "második világháború",
+      "example_hu": "A második világháború",
+      "word_en": "Second World War",
+      "example_en": "The Second World War",
+      "word_ru": "Вторая мировая война",
+      "example_ru": "Вторая мировая война"
+    },
+    {
+      "word_hu": "1956-os forradalom",
+      "example_hu": "Az 1956-os forradalom és szabadságharc",
+      "word_en": "1956 revolution",
+      "example_en": "The 1956 revolution and war of independence",
+      "word_ru": "революция 1956 года",
+      "example_ru": "Революция и война за независимость 1956 года"
+    }
+  ],
+  "count": 62
+}

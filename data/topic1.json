@@ -1,0 +1,1293 @@
+[
+  {
+    "type": "Open",
+    "question": "Soroljon fel négy nemzeti jelképet",
+    "answer": "Zászló ÷ Szent Korona ÷ Himnusz ÷ Magyarország címere",
+    "translations": {
+      "en": {
+        "question": "List four national symbols!",
+        "answer": "Flag ÷ Holy Crown ÷ Anthem ÷ Coat of arms of Hungary"
+      },
+      "ru": {
+        "question": "Перечислите четыре национальных символа!",
+        "answer": "Флаг ÷ Святая Корона ÷ Гимн ÷ Герб Венгрии"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik tartozik Magyarország nemzeti jelképei közé?",
+    "correctCount": 3,
+    "options": [
+      "Zászló",
+      "Szent Korona",
+      "Himnusz",
+      "Dunakanyar",
+      "Koronázási palást",
+      "Országalma"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which belongs to Hungary's national symbols?",
+        "answer": "Flag, Holy Crown, Anthem, Dunakanyar"
+      },
+      "ru": {
+        "question": "Который принадлежит национальным символам Венгрии?",
+        "answer": "Флаг, Святая Корона, Гимн, Излучина Дуная"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik NEM tartozik Magyarország nemzeti jelképei közé?",
+    "correctCount": 2,
+    "options": [
+      "Budavári Palota",
+      "Koronázási palást",
+      "Zászló",
+      "Szent Korona",
+      "Himnusz"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "Which does NOT belong to Hungary's national symbols?",
+        "answer": "Buda Castle"
+      },
+      "ru": {
+        "question": "Который НЕ принадлежит национальным символам Венгрии?",
+        "answer": "Будайский дворец"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "A Szent Korona Magyarország nemzeti jelképe?",
+    "answer": "Igen",
+    "translations": {
+      "en": {
+        "question": "Is the Holy Crown Hungary's national symbol?",
+        "answer": "Yes"
+      },
+      "ru": {
+        "question": "Является ли Святая Корона национальным символом Венгрии?",
+        "answer": "Да"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mely tárgy számít Magyarország nemzeti jelképének?",
+    "correctCount": 2,
+    "options": [
+      "Szent Korona",
+      "Magyarország címere",
+      "Királyi palota",
+      "Országgyűlés épülete"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "Which object counts as Hungary's national symbol?",
+        "answer": "Holy Crown, Coat of arms of Hungary"
+      },
+      "ru": {
+        "question": "Какой предмет считается национальным символом Венгрии?",
+        "answer": "Святая Корона, Герб Венгрии"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Milyen színnel van vágva a címer mezője?",
+    "answer": "Vörössel és ezüsttel",
+    "translations": {
+      "en": {
+        "question": "What color is the coat of arms field cut with?",
+        "answer": "With red and silver"
+      },
+      "ru": {
+        "question": "Каким цветом рассечено поле герба?",
+        "answer": "Красным и серебром"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hányszor van vágva a címer mezője?",
+    "answer": "Hétszer ÷ 7 ÷ Hét",
+    "translations": {
+      "en": {
+        "question": "How many times is the coat of arms field cut?",
+        "answer": "Seven ÷ 7"
+      },
+      "ru": {
+        "question": "Сколько раз рассечено поле герба?",
+        "answer": "Семь ÷ 7"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mi látható a magyar címer hármas halmán?",
+    "answer": "Korona es Kettős kereszt",
+    "translations": {
+      "en": {
+        "question": "What is visible on the triple hill of the Hungarian coat of arms?",
+        "answer": "Crown"
+      },
+      "ru": {
+        "question": "Что видно на тройном холме венгерского герба?",
+        "answer": "Корона"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Milyen kereszt látható a magyar címeren?",
+    "answer": "Kettős kereszt",
+    "translations": {
+      "en": {
+        "question": "What kind of cross is visible on the Hungarian coat of arms?",
+        "answer": "Double cross"
+      },
+      "ru": {
+        "question": "Какой крест виден на венгерском гербе?",
+        "answer": "Двойной крест"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen kereszt van a magyar címeren?",
+    "correctCount": 1,
+    "options": [
+      "Kettős kereszt",
+      "Egyszerű kereszt",
+      "Hármas kereszt"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "What kind of cross is on the Hungarian coat of arms?",
+        "answer": "Double cross"
+      },
+      "ru": {
+        "question": "Какой крест на венгерском гербе?",
+        "answer": "Двойной крест"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit tartalmaz a magyar címer?",
+    "correctCount": 3,
+    "options": [
+      "Vörössel és ezüsttel hétszer vágott mezőt",
+      "Kettős keresztet",
+      "Hármas halmot koronával",
+      "Kardot",
+      "Oroszlánt"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "What does the Hungarian coat of arms contain?",
+        "answer": "Field cut seven times with red and silver, Double cross, Triple hill with crown"
+      },
+      "ru": {
+        "question": "Что содержит венгерский герб?",
+        "answer": "Поле, рассеченное семь раз красным и серебром, Двойной крест, Тройной холм с короной"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "A magyar címer hármas halmán mi található?",
+    "correctCount": 2,
+    "options": [
+      "Korona",
+      "Kereszt",
+      "Kard"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "What is found on the triple hill of the Hungarian coat of arms?",
+        "answer": "Crown"
+      },
+      "ru": {
+        "question": "Что находится на тройном холме венгерского герба?",
+        "answer": "Корона"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Sorrendben felülről lefelé milyen színű a magyar zászló?",
+    "answer": "Piros, fehér, zöld",
+    "translations": {
+      "en": {
+        "question": "What color is the Hungarian flag from top to bottom in order?",
+        "answer": "Red, white, green"
+      },
+      "ru": {
+        "question": "Какого цвета венгерский флаг сверху вниз по порядку?",
+        "answer": "Красный, белый, зеленый"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Milyen színek vannak a magyar zászlón?",
+    "answer": "Piros, fehér, zöld",
+    "translations": {
+      "en": {
+        "question": "What colors are on the Hungarian flag?",
+        "answer": "Red, white, green"
+      },
+      "ru": {
+        "question": "Какие цвета на венгерском флаге?",
+        "answer": "Красный, белый, зеленый"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen színekből áll a magyar zászló?",
+    "correctCount": 3,
+    "options": [
+      "Piros",
+      "Fehér",
+      "Zöld",
+      "Kék",
+      "Sárga"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "What colors does the Hungarian flag consist of?",
+        "answer": "Red, White, Green"
+      },
+      "ru": {
+        "question": "Из каких цветов состоит венгерский флаг?",
+        "answer": "Красный, Белый, Зеленый"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mit jelképez a piros sáv a magyar zászlón?",
+    "answer": "Az erőt ÷ erő",
+    "translations": {
+      "en": {
+        "question": "What does the red stripe symbolize on the Hungarian flag?",
+        "answer": "Strength"
+      },
+      "ru": {
+        "question": "Что символизирует красная полоса на венгерском флаге?",
+        "answer": "Силу"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "A fehér sáv mit szimbolizál a magyar zászlón?",
+    "answer": "A hűséget ÷ hűség",
+    "translations": {
+      "en": {
+        "question": "What does the white stripe symbolize on the Hungarian flag?",
+        "answer": "Loyalty"
+      },
+      "ru": {
+        "question": "Что символизирует белая полоса на венгерском флаге?",
+        "answer": "Верность"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit jelképez a piros szín a magyar zászlón?",
+    "correctCount": 1,
+    "options": [
+      "Az erőt",
+      "A hűséget",
+      "A reményt"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "What does the red color symbolize on the Hungarian flag?",
+        "answer": "Strength"
+      },
+      "ru": {
+        "question": "Что символизирует красный цвет на венгерском флаге?",
+        "answer": "Силу"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "A zöld sáv mit jelképez a zászlón?",
+    "answer": "A reményt ÷ remény",
+    "translations": {
+      "en": {
+        "question": "What does the green stripe represent on the flag?",
+        "answer": "Hope"
+      },
+      "ru": {
+        "question": "Что представляет зеленая полоса на флаге?",
+        "answer": "Надежду"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit szimbolizál a fehér szín a magyar zászlón?",
+    "correctCount": 1,
+    "options": [
+      "A hűséget",
+      "Az erőt",
+      "A reményt"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "What does the white color symbolize on the Hungarian flag?",
+        "answer": "Loyalty"
+      },
+      "ru": {
+        "question": "Что символизирует белый цвет на венгерском флаге?",
+        "answer": "Верность"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hol vonják fel a magyar nemzeti lobogót nemzeti ünnepeken?",
+    "answer": "Az Országház előtt ÷ Országház előtt ÷ Országház",
+    "translations": {
+      "en": {
+        "question": "Where is the Hungarian national flag raised on national holidays?",
+        "answer": "In front of the Parliament"
+      },
+      "ru": {
+        "question": "Где поднимают венгерский национальный флаг в национальные праздники?",
+        "answer": "Перед Парламентом"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor vonják fel a nemzeti lobogót az Országház előtt?",
+    "answer": "Nemzeti ünnepeken ÷ Nemzeti ünnepek",
+    "translations": {
+      "en": {
+        "question": "When is the national flag raised in front of the Parliament?",
+        "answer": "On national holidays"
+      },
+      "ru": {
+        "question": "Когда поднимают национальный флаг перед Парламентом?",
+        "answer": "В национальные праздники"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi volt a koronázási jelvények eredeti szerepe?",
+    "correctCount": 1,
+    "options": [
+      "Az egykori királyi hatalom jelképei",
+      "Vallási szertartások kellékei",
+      "Hadsereg zászlói"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "What was the original role of the coronation insignia?",
+        "answer": "Symbols of the former royal power"
+      },
+      "ru": {
+        "question": "Какова была первоначальная роль коронационных регалий?",
+        "answer": "Символы прежней королевской власти"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három koronázási jelvényt",
+    "answer": "Szent Korona ÷ koronázási jogar ÷ országalma ÷ koronázási kard ÷ koronázási palást",
+    "translations": {
+      "en": {
+        "question": "List three coronation insignia",
+        "answer": "Holy Crown ÷ coronation scepter ÷ orb ÷ coronation sword ÷ coronation mantle"
+      },
+      "ru": {
+        "question": "Перечислите три коронационные регалии!",
+        "answer": "Святая Корона ÷ коронационный скипетр ÷ держава ÷ коронационный меч ÷ коронационная мантия"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik tartozik a koronázási jelvények közé?",
+    "correctCount": 3,
+    "options": [
+      "Szent Korona",
+      "Koronázási jogar",
+      "Országalma",
+      "Címer",
+      "Zászló"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which belongs to the coronation insignia?",
+        "answer": "Holy Crown, Coronation scepter, Orb"
+      },
+      "ru": {
+        "question": "Что относится к коронационным регалиям?",
+        "answer": "Святая Корона, Коронационный скипетр, Держава"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány koronázási jelvény van összesen?",
+    "answer": "Öt ÷ 5",
+    "translations": {
+      "en": {
+        "question": "How many coronation insignia are there in total?",
+        "answer": "Five ÷ 5"
+      },
+      "ru": {
+        "question": "Сколько всего коронационных регалий?",
+        "answer": "Пять ÷ 5"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik NEM koronázási jelvény?",
+    "correctCount": 1,
+    "options": [
+      "Magyar címer",
+      "Koronázási kard",
+      "Országalma",
+      "Koronázási palást"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "Which is NOT a coronation insignia?",
+        "answer": "Hungarian coat of arms"
+      },
+      "ru": {
+        "question": "Что НЕ является коронационной регалией?",
+        "answer": "Венгерский герб"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hol tekinthető meg a Szent Korona?",
+    "answer": "Az Országházban ÷ Az Országház ÷ Országház",
+    "translations": {
+      "en": {
+        "question": "Where can the Holy Crown be viewed?",
+        "answer": "In the Parliament"
+      },
+      "ru": {
+        "question": "Где можно увидеть Святую Корону?",
+        "answer": "В Парламенте"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Hol található jelenleg a Szent Korona?",
+    "correctCount": 1,
+    "options": [
+      "Az Országházban",
+      "A Nemzeti Múzeumban",
+      "A Budavári Palotában"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "Where is the Holy Crown currently located?",
+        "answer": "In the Parliament"
+      },
+      "ru": {
+        "question": "Где находится Святая Корона в настоящее время?",
+        "answer": "В Парламенте"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Látogatható-e a Szent Korona?",
+    "correctCount": 1,
+    "options": [
+      "Igen",
+      "Nem",
+      "Igen, de csak évente egyszer"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "Can the Holy Crown be visited?",
+        "answer": "Yes, in the Parliament"
+      },
+      "ru": {
+        "question": "Можно ли посетить Святую Корону?",
+        "answer": "Да, в Парламенте"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három egykori magyar koronázó várost",
+    "answer": "Buda ÷ Esztergom ÷ Pozsony ÷ Sopron ÷ Székesfehérvár",
+    "translations": {
+      "en": {
+        "question": "List three former Hungarian coronation cities!",
+        "answer": "Buda ÷ Esztergom ÷ Pozsony ÷ Sopron ÷ Székesfehérvár"
+      },
+      "ru": {
+        "question": "Перечислите три бывших венгерских города коронации!",
+        "answer": "Буда ÷ Эстергом ÷ Пожонь ÷ Шопрон ÷ Секешфехервар"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik volt magyar koronázó város?",
+    "correctCount": 3,
+    "options": [
+      "Székesfehérvár",
+      "Esztergom",
+      "Pozsony",
+      "Debrecen",
+      "Szeged"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which was a Hungarian coronation city?",
+        "answer": "Székesfehérvár, Esztergom, Pozsony"
+      },
+      "ru": {
+        "question": "Какой был венгерским городом коронации?",
+        "answer": "Секешфехервар, Эстергом, Пожонь"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Budapest melyik része volt koronázó város?",
+    "answer": "Buda",
+    "translations": {
+      "en": {
+        "question": "Which part of Budapest was a coronation city?",
+        "answer": "Buda"
+      },
+      "ru": {
+        "question": "Какая часть Будапешта была городом коронации?",
+        "answer": "Буда"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik NEM volt koronázó város?",
+    "correctCount": 1,
+    "options": [
+      "Pécs",
+      "Sopron",
+      "Buda",
+      "Székesfehérvár"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "Which was NOT a coronation city?",
+        "answer": "Pécs"
+      },
+      "ru": {
+        "question": "Какой НЕ был городом коронации?",
+        "answer": "Печ"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit testesít meg a Szent Korona az Alaptörvény szerint?",
+    "correctCount": 2,
+    "options": [
+      "Magyarország alkotmányos állami folytonosságát",
+      "A nemzet egységét",
+      "A király hatalmát",
+      "Az egyház erejét"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "What does the Holy Crown embody according to the Basic Law?",
+        "answer": "Hungary's constitutional state continuity, The unity of the nation"
+      },
+      "ru": {
+        "question": "Что воплощает Святая Корона согласно Основному закону?",
+        "answer": "Конституционную государственную непрерывность Венгрии, Единство нации"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Az Alaptörvény szerint mit tartunk tiszteletben?",
+    "correctCount": 2,
+    "options": [
+      "Történeti alkotmányunk vívmányait",
+      "A Szent Koronát",
+      "A koronázási jelvényeket",
+      "Az összes várat"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "What do we respect according to the Basic Law?",
+        "answer": "The achievements of our historical constitution, The Holy Crown"
+      },
+      "ru": {
+        "question": "Что мы уважаем согласно Основному закону?",
+        "answer": "Достижения нашей исторической конституции, Святую Корону"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki írta a magyar Himnuszt?",
+    "answer": "Kölcsey Ferenc",
+    "translations": {
+      "en": {
+        "question": "Who wrote the Hungarian anthem?",
+        "answer": "Ferenc Kölcsey"
+      },
+      "ru": {
+        "question": "Кто написал венгерский гимн?",
+        "answer": "Ференц Кёльчеи"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor írta Kölcsey Ferenc a Himnuszt?",
+    "answer": "1823 ÷ 1823 ÷ 1823ban",
+    "translations": {
+      "en": {
+        "question": "When did Ferenc Kölcsey write the anthem?",
+        "answer": "1823"
+      },
+      "ru": {
+        "question": "Когда Ференц Кёльчеи написал гимн?",
+        "answer": "1823"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik évben született a magyar Himnusz szövege?",
+    "correctCount": 1,
+    "options": [
+      "1823-ban",
+      "1848-ban",
+      "1867-ben"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "In which year was the Hungarian anthem text born?",
+        "answer": "In 1823"
+      },
+      "ru": {
+        "question": "В каком году родился текст венгерского гимна?",
+        "answer": "В 1823"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki zenésítette meg a Himnuszt?",
+    "answer": "Erkel Ferenc",
+    "translations": {
+      "en": {
+        "question": "Who composed the anthem?",
+        "answer": "Ferenc Erkel"
+      },
+      "ru": {
+        "question": "Кто сочинил гимн?",
+        "answer": "Ференц Эркель"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Kinek a műve a Himnusz költeménye?",
+    "answer": "Kölcsey Ferenc",
+    "translations": {
+      "en": {
+        "question": "Whose work is the anthem poem?",
+        "answer": "Ferenc Kölcsey"
+      },
+      "ru": {
+        "question": "Чьё произведение стихотворение гимна?",
+        "answer": "Ференц Кёльчеи"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki írta a Szózatot?",
+    "answer": "Vörösmarty Mihály",
+    "translations": {
+      "en": {
+        "question": "Who wrote the Szózat?",
+        "answer": "Mihály Vörösmarty"
+      },
+      "ru": {
+        "question": "Кто написал Сёжат?",
+        "answer": "Михал Вёрешмарти"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor írta Vörösmarty Mihály a Szózatot?",
+    "answer": "1836 ÷ 1836",
+    "translations": {
+      "en": {
+        "question": "When did Mihály Vörösmarty write the Szózat?",
+        "answer": "1836"
+      },
+      "ru": {
+        "question": "Когда Михал Вёрешмарти написал Szózat?",
+        "answer": "1836"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki zenésítette meg a Szózatot?",
+    "answer": "Egressy Béni",
+    "translations": {
+      "en": {
+        "question": "Who composed the Szózat?",
+        "answer": "Béni Egressy"
+      },
+      "ru": {
+        "question": "Кто написал музыку к Szózat?",
+        "answer": "Бени Эгресси"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit énekelünk gyakran a Himnusz mellett nemzeti ünnepeken?",
+    "correctCount": 1,
+    "options": [
+      "Szózatot",
+      "Nemzeti dalt",
+      "Tavaszi széltt"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "What do we often sing next to the anthem on national holidays?",
+        "answer": "Szózat"
+      },
+      "ru": {
+        "question": "Что мы часто поём рядом с гимном в национальные праздники?",
+        "answer": "Сёжат"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mi a Szózat első sora?",
+    "answer": "Hazádnak rendületlenül",
+    "translations": {
+      "en": {
+        "question": "What is the first line of Szózat?",
+        "answer": "Firmly to your country"
+      },
+      "ru": {
+        "question": "Какая первая строка Сёжата?",
+        "answer": "Непоколебимо к твоей родине"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Kit szólít meg a Szózat?",
+    "answer": "A magyart ÷ A magyarokat",
+    "translations": {
+      "en": {
+        "question": "Who does the Szózat address?",
+        "answer": "The Hungarian ÷ The Hungarians"
+      },
+      "ru": {
+        "question": "К кому обращается Szózat?",
+        "answer": "К венграм"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "\"Légy híve, oh magyar\" - melyik műből származik ez a sor?",
+    "answer": "Szózat",
+    "translations": {
+      "en": {
+        "question": "\"Be faithful, oh Hungarian\" - from which work does this line come?",
+        "answer": "Szózat"
+      },
+      "ru": {
+        "question": "\"Будь верен, о венгр\" - из какого произведения эта строка?",
+        "answer": "Szózat"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "\"Bölcsőd az s majdan sírod is\" - melyik költeményből való ez?",
+    "correctCount": 1,
+    "options": [
+      "Szózat",
+      "Himnusz",
+      "Nemzeti dal"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "\"Your cradle and later your grave\" - from which poem is this?",
+        "answer": "Szózat"
+      },
+      "ru": {
+        "question": "\"Твоя колыбель и позже твоя могила\" - из какого стихотворения это?",
+        "answer": "Сёжат"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "A Szózat szerint hol kell élned és halnod?",
+    "answer": "Itt ÷ Hazádban ÷ Magyarországon",
+    "translations": {
+      "en": {
+        "question": "According to Szózat, where should you live and die?",
+        "answer": "Here ÷ In your homeland ÷ In Hungary"
+      },
+      "ru": {
+        "question": "Согласно Szózat, где ты должен жить и умереть?",
+        "answer": "Здесь ÷ На родине ÷ В Венгрии"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "\"A nagy világon e kivűl / Nincsen számodra hely\" - melyik műből való?",
+    "correctCount": 1,
+    "options": [
+      "Szózat",
+      "Himnusz",
+      "Az ember tragédiája"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "\"In the great world outside this / There is no place for you\" - from which work is this?",
+        "answer": "Szózat"
+      },
+      "ru": {
+        "question": "\"В великом мире вне этого / Нет для тебя места\" - из какого произведения это?",
+        "answer": "Szózat"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Sorolja fel Magyarország három nemzeti ünnepét",
+    "answer": "03.15 ÷ 08.20 ÷ 10.23",
+    "translations": {
+      "en": {
+        "question": "List Hungary's three national holidays!",
+        "answer": "03.15 ÷ 08.20 ÷ 10.23"
+      },
+      "ru": {
+        "question": "Перечислите три национальных праздника Венгрии!",
+        "answer": "15 марта ÷ 20 августа ÷ 23 октября"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány nemzeti ünnepe van Magyarországnak?",
+    "answer": "Három ÷ 3",
+    "translations": {
+      "en": {
+        "question": "How many national holidays does Hungary have?",
+        "answer": "Three ÷ 3"
+      },
+      "ru": {
+        "question": "Сколько национальных праздников у Венгрии?",
+        "answer": "Три ÷ 3"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik Magyarország nemzeti ünnepe?",
+    "correctCount": 3,
+    "options": [
+      "Március 15.",
+      "Augusztus 20.",
+      "Október 23.",
+      "Május 1.",
+      "December 25."
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which is Hungary's national holiday?",
+        "answer": "March 15, August 20, October 23"
+      },
+      "ru": {
+        "question": "Какой национальный праздник Венгрии?",
+        "answer": "15 марта, 20 августа, 23 октября"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Minek az emlékére van március 15-én nemzeti ünnep?",
+    "answer": "Az 1848-49-es forradalom és szabadságharc emlékére",
+    "translations": {
+      "en": {
+        "question": "In memory of what is there a national holiday on March 15?",
+        "answer": "In memory of the 1848-49 revolution and freedom fight"
+      },
+      "ru": {
+        "question": "В память о чём 15 марта национальный праздник?",
+        "answer": "В память о революции и борьбе за свободу 1848-49 годов"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik dátum az 1848-49-es forradalom és szabadságharc emléknapja?",
+    "answer": "03.15",
+    "translations": {
+      "en": {
+        "question": "Which date is the memorial day of the 1848-49 revolution and freedom fight?",
+        "answer": "03.15"
+      },
+      "ru": {
+        "question": "Какая дата является днём памяти революции и борьбы за свободу 1848-49 годов?",
+        "answer": "15 марта"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Március 15. minek az emléknapja?",
+    "correctCount": 1,
+    "options": [
+      "Az 1848-49-es forradalom és szabadságharc",
+      "Az 1956-os forradalom",
+      "Az államalapítás"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "What is March 15 the memorial day of?",
+        "answer": "The 1848-49 revolution and freedom fight"
+      },
+      "ru": {
+        "question": "Чей день памяти 15 марта?",
+        "answer": "Революции и борьбы за свободу 1848-49 годов"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Minek az emlékére van augusztus 20-án nemzeti ünnep?",
+    "answer": "Az államalapítás és az államalapító Szent István király emlékére",
+    "translations": {
+      "en": {
+        "question": "In memory of what is there a national holiday on August 20?",
+        "answer": "In memory of the state foundation and the state founder St. István king"
+      },
+      "ru": {
+        "question": "В память о чём 20 августа национальный праздник?",
+        "answer": "В память об основании государства и основателе государства короле Иштване"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt az államalapító király, akire augusztus 20-án emlékezünk?",
+    "answer": "Szent István király ÷ Szent István",
+    "translations": {
+      "en": {
+        "question": "Who was the state founder king we commemorate on August 20?",
+        "answer": "King Saint István"
+      },
+      "ru": {
+        "question": "Кто был королём-основателем государства, которого мы вспоминаем 20 августа?",
+        "answer": "Король Иштван"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Augusztus 20. minek az emléknapja?",
+    "correctCount": 2,
+    "options": [
+      "Az államalapításnak",
+      "Szent István királynak",
+      "Az 1848-as forradalomnak",
+      "A trianoni békének"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "What is August 20 the memorial day of?",
+        "answer": "The state foundation, St. István king"
+      },
+      "ru": {
+        "question": "Чей день памяти 20 августа?",
+        "answer": "Основания государства, короля Иштвана"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik dátum az államalapítás ünnepe?",
+    "answer": "08.20",
+    "translations": {
+      "en": {
+        "question": "Which date is the state foundation holiday?",
+        "answer": "08.20"
+      },
+      "ru": {
+        "question": "Какая дата праздника основания государства?",
+        "answer": "20 августа"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik király emlékére van augusztus 20-án nemzeti ünnep?",
+    "correctCount": 1,
+    "options": [
+      "Szent István király",
+      "Szent László",
+      "Mátyás király"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "In memory of which king is there a national holiday on August 20?",
+        "answer": "St. István king"
+      },
+      "ru": {
+        "question": "В память о каком короле 20 августа национальный праздник?",
+        "answer": "Король Иштван"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi volt Szent István szerepe, akire augusztus 20-án emlékezünk?",
+    "correctCount": 1,
+    "options": [
+      "Államalapító király",
+      "Király a török időkben",
+      "Király a reformkorban"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "What was the role of St. István, whom we commemorate on August 20?",
+        "answer": "He was the state founder king"
+      },
+      "ru": {
+        "question": "Какова была роль святого Иштвана, которого мы вспоминаем 20 августа?",
+        "answer": "Он был королём-основателем государства"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Minek az emlékére van október 23-án nemzeti ünnep?",
+    "answer": "Az 1956. évi forradalom és szabadságharc emlékére",
+    "translations": {
+      "en": {
+        "question": "In memory of what is there a national holiday on October 23?",
+        "answer": "In memory of the 1956 revolution and freedom fight"
+      },
+      "ru": {
+        "question": "В память о чём 23 октября национальный праздник?",
+        "answer": "В память о революции и борьбе за свободу 1956 года"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik dátum az 1956-os forradalom emléknapja?",
+    "answer": "10.23",
+    "translations": {
+      "en": {
+        "question": "Which date is the memorial day of the 1956 revolution?",
+        "answer": "10.23"
+      },
+      "ru": {
+        "question": "Какая дата дня памяти революции 1956 года?",
+        "answer": "23 октября"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Október 23. minek az emléknapja?",
+    "correctCount": 1,
+    "options": [
+      "Az 1956. évi forradalom és szabadságharc",
+      "Az 1848-49-es forradalom",
+      "Az államalapítás"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "What is October 23 the memorial day of?",
+        "answer": "The 1956 revolution and freedom fight"
+      },
+      "ru": {
+        "question": "Чей день памяти 23 октября?",
+        "answer": "Революции и борьбы за свободу 1956 года"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Milyen évszámú forradalomra emlékezünk október 23-án?",
+    "answer": "1956 ÷ 1956",
+    "translations": {
+      "en": {
+        "question": "What year revolution do we commemorate on October 23?",
+        "answer": "1956"
+      },
+      "ru": {
+        "question": "Какую по годам революцию мы вспоминаем 23 октября?",
+        "answer": "1956"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik eseményre emlékezünk október 23-án?",
+    "correctCount": 1,
+    "options": [
+      "Az 1956. évi forradalomra és szabadságharcra",
+      "Az 1848-49-es forradalomra",
+      "A rendszerváltásra"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "Which event do we commemorate on October 23?",
+        "answer": "The 1956 revolution and freedom fight"
+      },
+      "ru": {
+        "question": "Какое событие мы вспоминаем 23 октября?",
+        "answer": "Революцию и борьбу за свободу 1956 года"
+      }
+    }
+  }
+]

@@ -1,0 +1,4667 @@
+[
+  {
+    "type": "Open",
+    "question": "Mikor volt a honfoglalás?",
+    "answer": "895-896 ÷ 895-896-ban ÷ a IX. század végén",
+    "translations": {
+      "en": {
+        "question": "[EN] When was the Hungarian Conquest?",
+        "answer": "[EN] 895-896 ÷ in 895-896 ÷ at the end of the 9th century"
+      },
+      "ru": {
+        "question": "[RU] Когда было обретение родины?",
+        "answer": "[RU] 895-896 ÷ в 895-896 годах ÷ в конце IX века"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik évszázad végén történt a honfoglalás?",
+    "answer": "IX. század végén ÷ kilencedik század végén ÷ IX",
+    "translations": {
+      "en": {
+        "question": "[EN] At the end of which century did the Conquest take place?",
+        "answer": "[EN] At the end of the 9th century"
+      },
+      "ru": {
+        "question": "[RU] В конце какого века произошло обретение родины?",
+        "answer": "[RU] В конце IX века"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor foglalták el a magyarok a Kárpát-medencét?",
+    "correctCount": 1,
+    "options": [
+      "895-896-ban",
+      "1000-ben",
+      "800-ban"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did the Hungarians occupy the Carpathian Basin?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда венгры заняли Карпатский бассейн?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány magyar törzs foglalta el a Kárpát-medencét?",
+    "answer": "Hét ÷ 7",
+    "translations": {
+      "en": {
+        "question": "[EN] How many Hungarian tribes occupied the Carpathian Basin?",
+        "answer": "[EN] Seven ÷ 7"
+      },
+      "ru": {
+        "question": "[RU] Сколько венгерских племен заняли Карпатский бассейн?",
+        "answer": "[RU] Семь ÷ 7"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki vezette a honfoglaló magyarokat?",
+    "answer": "Árpád",
+    "translations": {
+      "en": {
+        "question": "[EN] Who led the conquering Hungarians?",
+        "answer": "[EN] Árpád"
+      },
+      "ru": {
+        "question": "[RU] Кто возглавлял венгров при обретении родины?",
+        "answer": "[RU] Арпад"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki volt a honfoglalás vezetője?",
+    "correctCount": 1,
+    "options": [
+      "Árpád",
+      "Szent István",
+      "Géza fejedelem"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the leader of the Conquest?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто был лидером обретения родины?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Hány törzs foglalta el a Kárpát-medencét?",
+    "correctCount": 1,
+    "options": [
+      "7 törzs",
+      "5 törzs",
+      "10 törzs"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] How many tribes occupied the Carpathian Basin?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Сколько племен заняли Карпатский бассейн?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Milyen területet foglaltak el 895-896-ban a magyarok?",
+    "answer": "Kárpát-medencét",
+    "translations": {
+      "en": {
+        "question": "[EN] What territory did the Hungarians occupy in 895-896?",
+        "answer": "[EN] The Carpathian Basin"
+      },
+      "ru": {
+        "question": "[RU] Какую территорию заняли венгры в 895-896 годах?",
+        "answer": "[RU] Карпатский бассейн"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen életmódot folytattak a magyarok a honfoglalás előtt?",
+    "correctCount": 1,
+    "options": [
+      "Sztyeppei vándorló életmódot",
+      "Letelepült életmódot",
+      "Tengeri hajózó életmódot"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What lifestyle did the Hungarians lead before the Conquest?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какой образ жизни вели венгры до обретения родины?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik évben koronázták meg az első magyar királyt?",
+    "answer": "1001",
+    "translations": {
+      "en": {
+        "question": "[EN] In which year was the first Hungarian king crowned?",
+        "answer": "[EN] 1001"
+      },
+      "ru": {
+        "question": "[RU] В каком году короновали первого венгерского короля?",
+        "answer": "[RU] 1001"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt az első keresztény magyar király?",
+    "answer": "I. Szent István ÷ Szent István",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the first Christian Hungarian king?",
+        "answer": "[EN] St. Stephen I ÷ St. Stephen"
+      },
+      "ru": {
+        "question": "[RU] Кто был первым христианским венгерским королем?",
+        "answer": "[RU] Святой Иштван I ÷ Святой Иштван"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki volt Szent István?",
+    "correctCount": 2,
+    "options": [
+      "Az első keresztény magyar király",
+      "Államalapító",
+      "A második honalapító",
+      "Reformkor vezéralakja"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who was St. Stephen?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кем был Святой Иштван?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen kultúrát vett fel Magyarország Szent István alatt?",
+    "correctCount": 1,
+    "options": [
+      "Nyugati keresztény kultúrát",
+      "Keleti keresztény kultúrát",
+      "Bizánci kultúrát"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What culture did Hungary adopt under St. Stephen?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какую культуру приняла Венгрия при Святом Иштване?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Milyen vallást vett fel az ország Szent István idejében?",
+    "answer": "Római katolikus vallást",
+    "translations": {
+      "en": {
+        "question": "[EN] What religion did the country adopt in the time of St. Stephen?",
+        "answer": "[EN] Roman Catholic religion"
+      },
+      "ru": {
+        "question": "[RU] Какую религию приняла страна во времена Святого Иштвана?",
+        "answer": "[RU] Римско-католическую религию"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen vallást vett fel Magyarország Szent István idejében?",
+    "correctCount": 1,
+    "options": [
+      "Római katolikus vallást",
+      "Ortodox vallást",
+      "Protestáns vallást"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What religion did Hungary adopt in the time of St. Stephen?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какую религию приняла Венгрия во времена Святого Иштвана?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány egyházmegyét alapított Szent István?",
+    "answer": "Tízet ÷ 10",
+    "translations": {
+      "en": {
+        "question": "[EN] How many dioceses did St. Stephen establish?",
+        "answer": "[EN] Ten ÷ 10"
+      },
+      "ru": {
+        "question": "[RU] Сколько епархий основал Святой Иштван?",
+        "answer": "[RU] Десять ÷ 10"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit szervezett meg Szent István?",
+    "correctCount": 3,
+    "options": [
+      "Vármegyerendszert",
+      "Egyházmegyéket",
+      "Püspökségeket",
+      "Gyárakat",
+      "Vasutakat"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What did St. Stephen organize?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что организовал Святой Иштван?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen szerepe volt a Magyar Királyságnak a középkori Európában?",
+    "correctCount": 1,
+    "options": [
+      "Erős, meghatározó állam volt",
+      "Gyenge, jelentéktelen állam volt",
+      "Nem létezett még"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was the role of the Kingdom of Hungary in medieval Europe?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какова была роль Венгерского королевства в средневековой Европе?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi jellemezte az időszakot Szent István halála után?",
+    "correctCount": 1,
+    "options": [
+      "Trónviszályok",
+      "Béke és fejlődés",
+      "Nagy gazdasági fellendülés"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What characterized the period after St. Stephen's death?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что характеризовало период после смерти Святого Иштвана?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt az Árpád-házi uralkodók közül Szent László mellett a másik legjelentősebb?",
+    "answer": "Könyves Kálmán",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the other most significant Árpád dynasty ruler besides St. Ladislaus?",
+        "answer": "[EN] Coloman the Learned"
+      },
+      "ru": {
+        "question": "[RU] Кто был другим наиболее значительным правителем из династии Арпадов наряду со Святым Ласло?",
+        "answer": "[RU] Кальман Книжник"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Két legjelentősebb Árpád-házi uralkodó Szent István után?",
+    "answer": "Szent László ÷ Könyves Kálmán",
+    "translations": {
+      "en": {
+        "question": "[EN] Two most significant Árpád dynasty rulers after St. Stephen?",
+        "answer": "[EN] St. Ladislaus ÷ Coloman the Learned"
+      },
+      "ru": {
+        "question": "[RU] Два самых значительных правителя из династии Арпадов после Святого Иштвана?",
+        "answer": "[RU] Святой Ласло ÷ Кальман Книжник"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor adta ki II. András az Aranybullát?",
+    "answer": "1222",
+    "translations": {
+      "en": {
+        "question": "[EN] When did Andrew II issue the Golden Bull?",
+        "answer": "[EN] 1222"
+      },
+      "ru": {
+        "question": "[RU] Когда Андраш II издал Золотую буллу?",
+        "answer": "[RU] 1222"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik király adta ki 1222-ben az Aranybullát?",
+    "answer": "II. András",
+    "translations": {
+      "en": {
+        "question": "[EN] Which king issued the Golden Bull in 1222?",
+        "answer": "[EN] Andrew II"
+      },
+      "ru": {
+        "question": "[RU] Какой король издал Золотую буллу в 1222 году?",
+        "answer": "[RU] Андраш II"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor készült az Aranybulla?",
+    "correctCount": 1,
+    "options": [
+      "1222-ben",
+      "1215-ben",
+      "1301-ben"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When was the Golden Bull made?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда была создана Золотая булла?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Kinek a jogait összegezte az Aranybulla?",
+    "answer": "A nemesek",
+    "translations": {
+      "en": {
+        "question": "[EN] Whose rights did the Golden Bull summarize?",
+        "answer": "[EN] The nobles"
+      },
+      "ru": {
+        "question": "[RU] Чьи права подытожила Золотая булла?",
+        "answer": "[RU] Дворян"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit tartalmazott az Aranybulla?",
+    "correctCount": 1,
+    "options": [
+      "A nemesek jogait",
+      "A parasztok jogait",
+      "A király kötelességeit"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What did the Golden Bull contain?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что содержала Золотая булла?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor volt a tatárjárás?",
+    "answer": "1241-42 között ÷ 1241-1242",
+    "translations": {
+      "en": {
+        "question": "[EN] When was the Mongol invasion?",
+        "answer": "[EN] Between 1241-42 ÷ 1241-1242"
+      },
+      "ru": {
+        "question": "[RU] Когда было татаро-монгольское нашествие?",
+        "answer": "[RU] Между 1241-42 ÷ 1241-1242"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen következménye volt a tatárjárásnak?",
+    "correctCount": 2,
+    "options": [
+      "A Kárpát-medence nagy térségei elnéptelenedtek",
+      "Az ország megrendült",
+      "Az ország megerősödött",
+      "Új városok épültek"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was the consequence of the Mongol invasion?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Каковы были последствия татаро-монгольского нашествия?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik király volt a második honalapító?",
+    "answer": "IV. Béla",
+    "translations": {
+      "en": {
+        "question": "[EN] Which king was the second founder of the state?",
+        "answer": "[EN] Béla IV"
+      },
+      "ru": {
+        "question": "[RU] Какой король был вторым основателем государства?",
+        "answer": "[RU] Бела IV"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki állította talpra az országot a tatárjárás után?",
+    "correctCount": 1,
+    "options": [
+      "IV. Béla",
+      "Szent István",
+      "Szent László"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who restored the country after the Mongol invasion?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто восстановил страну после татаро-монгольского нашествия?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor halt ki az Árpád-ház?",
+    "answer": "1301",
+    "translations": {
+      "en": {
+        "question": "[EN] When did the Árpád dynasty die out?",
+        "answer": "[EN] 1301"
+      },
+      "ru": {
+        "question": "[RU] Когда вымерла династия Арпадов?",
+        "answer": "[RU] 1301"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik király halálával halt ki az Árpád-ház?",
+    "answer": "III. András halálával",
+    "translations": {
+      "en": {
+        "question": "[EN] With the death of which king did the Árpád dynasty die out?",
+        "answer": "[EN] With the death of Andrew III"
+      },
+      "ru": {
+        "question": "[RU] Со смертью какого короля вымерла династия Арпадов?",
+        "answer": "[RU] Со смертью Андраша III"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Honnan származtak a királyok az Árpád-ház kihalása után?",
+    "correctCount": 2,
+    "options": [
+      "Anjou-házból",
+      "Luxemburgi-házból",
+      "Habsburg-házból",
+      "Tudor-házból"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Where did the kings come from after the extinction of the Árpád dynasty?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Откуда происходили короли после вымирания династии Арпадов?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik birodalommal vívott harcokat a Magyar Királyság a XV. századtól?",
+    "answer": "Az Oszmán",
+    "translations": {
+      "en": {
+        "question": "[EN] With which empire did the Kingdom of Hungary fight wars from the 15th century?",
+        "answer": "[EN] The Ottoman"
+      },
+      "ru": {
+        "question": "[RU] С какой империей вело войны Венгерское королевство с XV века?",
+        "answer": "[RU] С Османской"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor volt a nándorfehérvári győzelem?",
+    "answer": "1456 ÷ 1456",
+    "translations": {
+      "en": {
+        "question": "[EN] When was the victory at Nándorfehérvár?",
+        "answer": "[EN] 1456"
+      },
+      "ru": {
+        "question": "[RU] Когда была победа при Нандорфехерваре?",
+        "answer": "[RU] 1456"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki vezette a magyar sereget Nándorfehérvárnál 1456-ban?",
+    "answer": "Hunyadi János",
+    "translations": {
+      "en": {
+        "question": "[EN] Who led the Hungarian army at Nándorfehérvár in 1456?",
+        "answer": "[EN] János Hunyadi"
+      },
+      "ru": {
+        "question": "[RU] Кто возглавлял венгерскую армию при Нандорфехерваре в 1456 году?",
+        "answer": "[RU] Янош Хуньяди"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik mai város neve Nándorfehérvár?",
+    "answer": "Belgrád",
+    "translations": {
+      "en": {
+        "question": "[EN] What is the modern name of the city Nándorfehérvár?",
+        "answer": "[EN] Belgrade"
+      },
+      "ru": {
+        "question": "[RU] Как называется современный город Нандорфехервар?",
+        "answer": "[RU] Белград"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki vezette a keresztény sereget Nándorfehérvárnál?",
+    "correctCount": 1,
+    "options": [
+      "Hunyadi János",
+      "Hunyadi Mátyás",
+      "Széchenyi István"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who led the Christian army at Nándorfehérvár?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто возглавлял христианскую армию при Нандорфехерваре?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány évre tartóztatták fel a nándorfehérvári győzelemmel a törökök terjeszkedését?",
+    "answer": "70 évre ÷ hetven évre ÷ 70",
+    "translations": {
+      "en": {
+        "question": "[EN] For how many years did the victory at Nándorfehérvár halt the Turkish expansion?",
+        "answer": "[EN] For 70 years"
+      },
+      "ru": {
+        "question": "[RU] На сколько лет победа при Нандорфехерваре остановила турецкую экспансию?",
+        "answer": "[RU] На 70 лет"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mire emlékeztet a déli harangszó?",
+    "correctCount": 1,
+    "options": [
+      "A nándorfehérvári diadalra 1456-ban",
+      "A mohácsi csatára",
+      "Az államalapításra"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What does the noon bell commemorate?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] О чем напоминает полуденный звон колоколов?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Kinek az uralkodása alatt élte fénykorát a reneszánsz kori Magyarország?",
+    "answer": "Hunyadi Mátyás",
+    "translations": {
+      "en": {
+        "question": "[EN] Under whose reign did Renaissance Hungary experience its golden age?",
+        "answer": "[EN] Matthias Hunyadi"
+      },
+      "ru": {
+        "question": "[RU] Во время чьего правления ренессансная Венгрия переживала свой золотой век?",
+        "answer": "[RU] Матьяша Хуньяди"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor uralkodott Hunyadi Mátyás?",
+    "answer": "1458-1490 között ÷ 1458-1490",
+    "translations": {
+      "en": {
+        "question": "[EN] When did Matthias Hunyadi reign?",
+        "answer": "[EN] Between 1458-1490"
+      },
+      "ru": {
+        "question": "[RU] Когда правил Матьяш Хуньяди?",
+        "answer": "[RU] Между 1458-1490 годами"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik király uralkodása alatt élte fénykorát a reneszánsz Magyarország?",
+    "correctCount": 1,
+    "options": [
+      "Hunyadi Mátyás",
+      "Szent István",
+      "IV. Béla"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Under the reign of which king did Renaissance Hungary experience its golden age?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Во время правления какого короля ренессансная Венгрия переживала свой золотой век?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor uralkodott Hunyadi Mátyás?",
+    "correctCount": 1,
+    "options": [
+      "1458-1490 között",
+      "1001-1038 között",
+      "1848-1849 között"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did Matthias Hunyadi reign?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда правил Матьяш Хуньяди?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor volt a mohácsi csata?",
+    "answer": "1526.08.29 ÷ 1526 ÷ 1526.08.29",
+    "translations": {
+      "en": {
+        "question": "[EN] When was the Battle of Mohács?",
+        "answer": "[EN] 1526.08.29"
+      },
+      "ru": {
+        "question": "[RU] Когда была битва при Мохаче?",
+        "answer": "[RU] 1526.08.29"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik évben szenvedtek a magyarok vereséget Mohácsnál?",
+    "answer": "1526 ÷ 1526",
+    "translations": {
+      "en": {
+        "question": "[EN] In which year did the Hungarians suffer defeat at Mohács?",
+        "answer": "[EN] 1526"
+      },
+      "ru": {
+        "question": "[RU] В каком году венгры потерпели поражение при Мохаче?",
+        "answer": "[RU] 1526"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi volt a mohácsi csata eredménye?",
+    "correctCount": 1,
+    "options": [
+      "A magyar seregek súlyos vereséget szenvedtek",
+      "A magyarok győztek",
+      "Döntetlen lett"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was the result of the Battle of Mohács?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Каков был результат битвы при Мохаче?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor foglalták el a törökök Budát?",
+    "answer": "1541 ÷ 1541",
+    "translations": {
+      "en": {
+        "question": "[EN] When did the Turks capture Buda?",
+        "answer": "[EN] 1541"
+      },
+      "ru": {
+        "question": "[RU] Когда турки захватили Буду?",
+        "answer": "[RU] 1541"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mi volt a Magyar Királyság központja, amit 1541-ben elfoglaltak?",
+    "answer": "Buda",
+    "translations": {
+      "en": {
+        "question": "[EN] What was the center of the Kingdom of Hungary, captured in 1541?",
+        "answer": "[EN] Buda"
+      },
+      "ru": {
+        "question": "[RU] Что было центром Венгерского королевства, захваченным в 1541 году?",
+        "answer": "[RU] Буда"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány részre szakadt Magyarország 1541-ben?",
+    "answer": "Három részre ÷ 3 részre ÷ 3",
+    "translations": {
+      "en": {
+        "question": "[EN] Into how many parts did Hungary split in 1541?",
+        "answer": "[EN] Into three parts ÷ 3"
+      },
+      "ru": {
+        "question": "[RU] На сколько частей раскололась Венгрия в 1541 году?",
+        "answer": "[RU] На три части ÷ 3"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mennyi ideig volt három részre szakadva Magyarország?",
+    "answer": "Közel 150 évig ÷ 150",
+    "translations": {
+      "en": {
+        "question": "[EN] How long was Hungary split into three parts?",
+        "answer": "[EN] For nearly 150 years"
+      },
+      "ru": {
+        "question": "[RU] Как долго Венгрия была расколота на три части?",
+        "answer": "[RU] Почти 150 лет"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor volt Eger ostroma?",
+    "answer": "1552",
+    "translations": {
+      "en": {
+        "question": "[EN] When was the Siege of Eger?",
+        "answer": "[EN] 1552"
+      },
+      "ru": {
+        "question": "[RU] Когда была осада Эгера?",
+        "answer": "[RU] 1552"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik vár ostroma volt híres esemény 1552-ben?",
+    "correctCount": 1,
+    "options": [
+      "Eger",
+      "Buda",
+      "Székesfehérvár"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] The siege of which castle was a famous event in 1552?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Осада какой крепости была знаменитым событием в 1552 году?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor foglalták vissza Budát?",
+    "answer": "1686.09.02 ÷ 1686 ÷ 1686.09.02",
+    "translations": {
+      "en": {
+        "question": "[EN] When was Buda recaptured?",
+        "answer": "[EN] 1686.09.02"
+      },
+      "ru": {
+        "question": "[RU] Когда была отвоевана Буда?",
+        "answer": "[RU] 1686.09.02"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki vezetésével foglalták vissza Budát 1686-ban?",
+    "answer": "A Habsburgok vezetésével ÷ A Habsburgok",
+    "translations": {
+      "en": {
+        "question": "[EN] Under whose leadership was Buda recaptured in 1686?",
+        "answer": "[EN] Under the leadership of the Habsburgs"
+      },
+      "ru": {
+        "question": "[RU] Под чьим руководством была отвоевана Буда в 1686 году?",
+        "answer": "[RU] Под руководством Габсбургов"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor foglalták vissza Budát a töröktől?",
+    "correctCount": 1,
+    "options": [
+      "1686. szeptember 2-án",
+      "1541-ben",
+      "1526-ban"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When was Buda recaptured from the Turks?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда Буда была отвоевана у турок?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit tett a Habsburg uralkodó a török hódoltság után?",
+    "correctCount": 2,
+    "options": [
+      "Újjáépítették az országot",
+      "Benépesítették a lakatlan területeket",
+      "Kiűzték a magyarokat",
+      "Bezárták a templomokat"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What did the Habsburg ruler do after the Turkish occupation?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что сделал правитель Габсбург после турецкой оккупации?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor vált soknemzetiségűvé az ország?",
+    "correctCount": 2,
+    "options": [
+      "A török hódoltság után",
+      "A benépesítés során",
+      "Szent István idejében",
+      "A honfoglaláskor"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did the country become multi-ethnic?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда страна стала многонациональной?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor volt a Rákóczi-féle szabadságharc?",
+    "answer": "1703-1711 között ÷ 1703-1711",
+    "translations": {
+      "en": {
+        "question": "[EN] When was Rákóczi's War of Independence?",
+        "answer": "[EN] Between 1703-1711"
+      },
+      "ru": {
+        "question": "[RU] Когда была освободительная война Ракоци?",
+        "answer": "[RU] Между 1703-1711 годами"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki vezette a Habsburg elnyomás elleni felkelést 1703-1711 között?",
+    "answer": "II. Rákóczi Ferenc",
+    "translations": {
+      "en": {
+        "question": "[EN] Who led the uprising against Habsburg oppression between 1703-1711?",
+        "answer": "[EN] Francis II Rákóczi"
+      },
+      "ru": {
+        "question": "[RU] Кто возглавлял восстание против гнета Габсбургов между 1703-1711 годами?",
+        "answer": "[RU] Ференц Ракоци II"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki vezette a nemzeti felkelést 1703-1711 között?",
+    "correctCount": 1,
+    "options": [
+      "II. Rákóczi Ferenc",
+      "I. Rákóczi György",
+      "Kossuth Lajos"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who led the national uprising between 1703-1711?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто возглавлял национальное восстание между 1703-1711 годами?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor volt II. Rákóczi Ferenc felkelése?",
+    "correctCount": 1,
+    "options": [
+      "1703-1711 között",
+      "1848-1849 között",
+      "1956-ban"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When was Francis II Rákóczi's uprising?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда было восстание Ференца Ракоци II?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor volt a reformkor?",
+    "answer": "1825-1848 között",
+    "translations": {
+      "en": {
+        "question": "[EN] When was the Reform Era?",
+        "answer": "[EN] Between 1825-1848"
+      },
+      "ru": {
+        "question": "[RU] Когда была Эпоха реформ?",
+        "answer": "[RU] Между 1825-1848 годами"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor volt a reformkor Magyarországon?",
+    "correctCount": 1,
+    "options": [
+      "1825-1848 között",
+      "1703-1711 között",
+      "1867-1918 között"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When was the Reform Era in Hungary?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда была Эпоха реформ в Венгрии?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi jellemezte a reformkort?",
+    "correctCount": 3,
+    "options": [
+      "A modernkori magyar nemzet megszületése",
+      "A magyar nyelv és kultúra megerősödése",
+      "Az első nemzeti intézmények megalapítása",
+      "A török kiűzése",
+      "A tatárjárás"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What characterized the Reform Era?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что характеризовало Эпоху реформ?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mit alapítottak a reformkorban?",
+    "answer": "Az első nemzeti intézményeket ÷ nemzeti intézményeket ÷ intézményeket",
+    "translations": {
+      "en": {
+        "question": "[EN] What was founded in the Reform Era?",
+        "answer": "[EN] The first national institutions"
+      },
+      "ru": {
+        "question": "[RU] Что было основано в Эпоху реформ?",
+        "answer": "[RU] Первые национальные учреждения"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi történt a reformkorban?",
+    "correctCount": 2,
+    "options": [
+      "Jelentős gazdasági-társadalmi változások",
+      "Nemzeti intézmények alapítása",
+      "Háborúk",
+      "Járványok"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What happened in the Reform Era?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что происходило в Эпоху реформ?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három reformkori politikai célt",
+    "answer": "A magyar nyelv hivatalossá tétele ÷ a magyar alkotmányos intézmények védelme ÷ a nemzeti fejlődés kereteinek kialakítása ÷ a feudális viszonyok lebontása ÷ a polgárosodás megindulása",
+    "translations": {
+      "en": {
+        "question": "[EN] List three political goals of the Reform Era",
+        "answer": "[EN] Making Hungarian the official language ÷ protecting Hungarian constitutional institutions ÷ establishing frameworks for national development ÷ dismantling feudal relations ÷ starting urbanization"
+      },
+      "ru": {
+        "question": "[RU] Перечислите три политические цели Эпохи реформ",
+        "answer": "[RU] Сделать венгерский официальным языком ÷ защита венгерских конституционных учреждений ÷ создание рамок для национального развития ÷ демонтаж феодальных отношений ÷ начало урбанизации"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik volt a reformkor fő célja?",
+    "correctCount": 3,
+    "options": [
+      "A magyar nyelv hivatalossá tétele",
+      "A feudális viszonyok lebontása",
+      "A polgárosodás megindulása",
+      "A háború megnyerése",
+      "A király lemondatása"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was the main goal of the Reform Era?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какова была главная цель Эпохи реформ?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit akartak védeni a reformkorban?",
+    "correctCount": 1,
+    "options": [
+      "A magyar alkotmányos intézményeket",
+      "A feudális viszonyokat",
+      "A Habsburg uralmat"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What did they want to protect in the Reform Era?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что хотели защитить в Эпоху реформ?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen társadalmi folyamat indult meg a reformkorban?",
+    "correctCount": 1,
+    "options": [
+      "A polgárosodás",
+      "A feudalizmus megerősödése",
+      "Az ipari forradalom"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What social process started in the Reform Era?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какой социальный процесс начался в Эпоху реформ?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor élt Széchenyi István?",
+    "answer": "1791-1860 között ÷ 1791-1860",
+    "translations": {
+      "en": {
+        "question": "[EN] When did István Széchenyi live?",
+        "answer": "[EN] Between 1791-1860"
+      },
+      "ru": {
+        "question": "[RU] Когда жил Иштван Сечени?",
+        "answer": "[RU] Между 1791-1860 годами"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor élt Széchenyi István?",
+    "correctCount": 1,
+    "options": [
+      "1791-1860",
+      "1803-1876",
+      "1802-1849"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did István Széchenyi live?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда жил Иштван Сечени?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik intézmény alapítója volt Széchenyi István?",
+    "answer": "A Magyar Tudományos Akadémia alapítója ÷ A Magyar Tudományos Akadémia",
+    "translations": {
+      "en": {
+        "question": "[EN] Of which institution was István Széchenyi the founder?",
+        "answer": "[EN] Founder of the Hungarian Academy of Sciences"
+      },
+      "ru": {
+        "question": "[RU] Основателем какого учреждения был Иштван Сечени?",
+        "answer": "[RU] Основатель Венгерской академии наук"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit alapított Széchenyi István?",
+    "correctCount": 1,
+    "options": [
+      "A Magyar Tudományos Akadémiát",
+      "Az Országgyűlést",
+      "A Nemzeti Múzeumot"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What did István Széchenyi establish?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что основал Иштван Сечени?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen területeken dolgozott Széchenyi István?",
+    "correctCount": 3,
+    "options": [
+      "Mezőgazdaság",
+      "Közlekedés",
+      "Hajózás",
+      "Hadügy",
+      "Vallásügy"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] In which areas did István Széchenyi work?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] В каких областях работал Иштван Сечени?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik híd megépítése fűződik Széchenyi nevéhez?",
+    "answer": "A Lánchíd",
+    "translations": {
+      "en": {
+        "question": "[EN] The construction of which bridge is linked to Széchenyi's name?",
+        "answer": "[EN] The Chain Bridge"
+      },
+      "ru": {
+        "question": "[RU] Строительство какого моста связано с именем Сечени?",
+        "answer": "[RU] Цепной мост"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mit kötött össze a Lánchíd?",
+    "answer": "Budát és Pestet ÷ Budá é Pest",
+    "translations": {
+      "en": {
+        "question": "[EN] What did the Chain Bridge connect?",
+        "answer": "[EN] Buda and Pest"
+      },
+      "ru": {
+        "question": "[RU] Что соединил Цепной мост?",
+        "answer": "[RU] Буду и Пешт"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik híd építése Széchenyi István nevéhez fűződik?",
+    "correctCount": 1,
+    "options": [
+      "Lánchíd",
+      "Erzsébet híd",
+      "Margit híd"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] The building of which bridge is linked to István Széchenyi's name?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Строительство какого моста связано с именем Иштвана Сечени?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hogyan nevezik Széchenyi Istvánt?",
+    "answer": "A legnagyobb magyar",
+    "translations": {
+      "en": {
+        "question": "[EN] What is István Széchenyi called?",
+        "answer": "[EN] The Greatest Hungarian"
+      },
+      "ru": {
+        "question": "[RU] Как называют Иштвана Сечени?",
+        "answer": "[RU] Величайший венгр"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi volt Széchenyi István szerepe?",
+    "correctCount": 2,
+    "options": [
+      "Jelentős fejlesztéseket indított",
+      "A Lánchíd megépítése az ő nevéhez fűződik",
+      "Királlyá koronázták",
+      "Kivégezték"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was István Széchenyi's role?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какова была роль Иштвана Сечени?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három további jelentős reformkori személyiséget Széchenyim mellett",
+    "answer": "Kossuth Lajos ÷ Batthyány Lajos ÷ Wesselényi Miklós ÷ Deák Ferenc ÷ Kölcsey Ferenc",
+    "translations": {
+      "en": {
+        "question": "[EN] List three other significant Reform Era personalities besides Széchenyi",
+        "answer": "[EN] Lajos Kossuth ÷ Lajos Batthyány ÷ Miklós Wesselényi ÷ Ferenc Deák ÷ Ferenc Kölcsey"
+      },
+      "ru": {
+        "question": "[RU] Перечислите трех других значительных личностей Эпохи реформ помимо Сечени",
+        "answer": "[RU] Лайош Кошут ÷ Лайош Баттьяни ÷ Миклош Вешшеленьи ÷ Ференц Деак ÷ Ференц Кёльчеи"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki volt még jelentős a reformkorban Széchenyin kívül?",
+    "correctCount": 3,
+    "options": [
+      "Kossuth Lajos",
+      "Batthyány Lajos",
+      "Deák Ferenc",
+      "Rákóczi Ferenc",
+      "Szent István"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who else was significant in the Reform Era besides Széchenyi?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто еще был значителен в Эпоху реформ кроме Сечени?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen volt a Habsburg Birodalom 1848 előtt?",
+    "correctCount": 1,
+    "options": [
+      "Abszolutista",
+      "Demokratikus",
+      "Alkotmányos"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was the Habsburg Empire like before 1848?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какой была Габсбургская империя до 1848 года?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor tört ki forradalom Bécsben?",
+    "answer": "1848.03.13 ÷ 1848.03.13",
+    "translations": {
+      "en": {
+        "question": "[EN] When did the revolution break out in Vienna?",
+        "answer": "[EN] 1848.03.13"
+      },
+      "ru": {
+        "question": "[RU] Когда вспыхнула революция в Вене?",
+        "answer": "[RU] 1848.03.13"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor tört ki a bécsi forradalom?",
+    "correctCount": 1,
+    "options": [
+      "1848. március 13-án",
+      "1848. március 15-én",
+      "1848. március 17-én"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did the Vienna revolution break out?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда вспыхнула венская революция?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor érkezett meg a bécsi forradalom híre Pozsonyba és Pest-Budára?",
+    "answer": "1848.03.14 ÷ 1848.03.14",
+    "translations": {
+      "en": {
+        "question": "[EN] When did the news of the Vienna revolution arrive in Pozsony and Pest-Buda?",
+        "answer": "[EN] 1848.03.14"
+      },
+      "ru": {
+        "question": "[RU] Когда новость о венской революции дошла до Пожони и Пешт-Буды?",
+        "answer": "[RU] 1848.03.14"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mely városokba érkezett március 14-én a bécsi forradalom híre?",
+    "correctCount": 2,
+    "options": [
+      "Pozsonyba",
+      "Pest-Budára",
+      "Debrecenbe",
+      "Szegedre"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] To which cities did the news of the Vienna revolution arrive on March 14?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] В какие города 14 марта пришла весть о венской революции?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor tört ki a magyar forradalom?",
+    "answer": "1848.03.15 ÷ 1848.03.15",
+    "translations": {
+      "en": {
+        "question": "[EN] When did the Hungarian revolution break out?",
+        "answer": "[EN] 1848.03.15"
+      },
+      "ru": {
+        "question": "[RU] Когда вспыхнула венгерская революция?",
+        "answer": "[RU] 1848.03.15"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hol gyűltek össze a márciusi ifjak?",
+    "answer": "A Pilvax kávéházban ÷ Pilvax",
+    "translations": {
+      "en": {
+        "question": "[EN] Where did the Youth of March gather?",
+        "answer": "[EN] At the Pilvax Café"
+      },
+      "ru": {
+        "question": "[RU] Где собралась Мартовская молодежь?",
+        "answer": "[RU] В кафе Пильвакс"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Hol találkoztak a márciusi ifjak?",
+    "correctCount": 1,
+    "options": [
+      "A Pilvax kávéházban",
+      "Az Országházban",
+      "A Nemzeti Múzeumban"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Where did the Youth of March meet?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Где встречалась Мартовская молодежь?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hol nyomtatták ki a 12 pontot?",
+    "answer": "Landerer nyomdájában ÷ Landerer",
+    "translations": {
+      "en": {
+        "question": "[EN] Where were the 12 points printed?",
+        "answer": "[EN] At Landerer's printing press"
+      },
+      "ru": {
+        "question": "[RU] Где напечатали 12 пунктов?",
+        "answer": "[RU] В типографии Ландерера"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit nyomtattak ki Landerer nyomdájában?",
+    "correctCount": 1,
+    "options": [
+      "A 12 pontot",
+      "A Himnuszt",
+      "Az újságot"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was printed in Landerer's printing press?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что напечатали в типографии Ландерера?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány pontból álltak a márciusi követelések?",
+    "answer": "12 pontból ÷ tizenkét pontból ÷ 12",
+    "translations": {
+      "en": {
+        "question": "[EN] How many points did the March demands consist of?",
+        "answer": "[EN] 12 points ÷ 12"
+      },
+      "ru": {
+        "question": "[RU] Из скольких пунктов состояли мартовские требования?",
+        "answer": "[RU] 12 пунктов ÷ 12"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hol rendeztek nagygyűlést március 15-én?",
+    "answer": "A Nemzeti Múzeum előtt",
+    "translations": {
+      "en": {
+        "question": "[EN] Where was the grand assembly held on March 15?",
+        "answer": "[EN] In front of the National Museum"
+      },
+      "ru": {
+        "question": "[RU] Где провели большой митинг 15 марта?",
+        "answer": "[RU] Перед Национальным музеем"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Kit szabadítottak ki börtönéből március 15-én?",
+    "answer": "Táncsics Mihályt",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was released from prison on March 15?",
+        "answer": "[EN] Mihály Táncsics"
+      },
+      "ru": {
+        "question": "[RU] Кого освободили из тюрьмы 15 марта?",
+        "answer": "[RU] Михая Танчича"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Hol tartottak nagygyűlést március 15-én?",
+    "correctCount": 1,
+    "options": [
+      "A Nemzeti Múzeum előtt",
+      "A Pilvax kávéházban",
+      "Az Országház előtt"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Where did they hold a grand assembly on March 15?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Где провели большой митинг 15 марта?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor nevezték ki Batthyány Lajost miniszterelnökké?",
+    "answer": "1848.03.17",
+    "translations": {
+      "en": {
+        "question": "[EN] When was Lajos Batthyány appointed Prime Minister?",
+        "answer": "[EN] 1848.03.17"
+      },
+      "ru": {
+        "question": "[RU] Когда Лайоша Баттьяни назначили премьер-министром?",
+        "answer": "[RU] 1848.03.17"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki lett az első magyar miniszterelnök 1848-ban?",
+    "correctCount": 1,
+    "options": [
+      "Batthyány Lajos",
+      "Kossuth Lajos",
+      "Széchenyi István"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who became the first Hungarian Prime Minister in 1848?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто стал первым венгерским премьер-министром в 1848 году?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három szereplőt a márciusi eseményekből",
+    "answer": "Petőfi Sándor ÷ Jókai Mór ÷ Vasvári Pál",
+    "translations": {
+      "en": {
+        "question": "[EN] List three figures from the March events",
+        "answer": "[EN] Sándor Petőfi ÷ Mór Jókai ÷ Pál Vasvári"
+      },
+      "ru": {
+        "question": "[RU] Перечислите трех участников мартовских событий",
+        "answer": "[RU] Шандор Петефи ÷ Мор Йокаи ÷ Пал Вашвари"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mi az 1848-49-es forradalom és szabadságharc egyik legfőbb szimbóluma?",
+    "answer": "A piros-fehér-zöld kokárda ÷ kokárda",
+    "translations": {
+      "en": {
+        "question": "[EN] What is one of the main symbols of the 1848-49 Revolution and War of Independence?",
+        "answer": "[EN] The red-white-green cockade"
+      },
+      "ru": {
+        "question": "[RU] Что является одним из главных символов революции и освободительной войны 1848-49 годов?",
+        "answer": "[RU] Красно-бело-зеленая кокарда"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi volt a forradalom egyik legfőbb jelképe?",
+    "correctCount": 1,
+    "options": [
+      "A piros-fehér-zöld kokárda",
+      "A lyukas zászló",
+      "A Lánchíd"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was one of the main symbols of the revolution?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что было одним из главных символов революции?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor alakult meg az első felelős magyar kormány?",
+    "answer": "1848.04.11 ÷ 1848.04.11",
+    "translations": {
+      "en": {
+        "question": "[EN] When was the first responsible Hungarian government formed?",
+        "answer": "[EN] 1848.04.11"
+      },
+      "ru": {
+        "question": "[RU] Когда было сформировано первое ответственное венгерское правительство?",
+        "answer": "[RU] 1848.04.11"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor alakult az első felelős magyar kormány?",
+    "correctCount": 1,
+    "options": [
+      "1848. április 11-én",
+      "1848. március 15-én",
+      "1849. április 11-én"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When was the first responsible Hungarian government formed?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда сформировалось первое ответственное венгерское правительство?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt az első felelős magyar kormány miniszterelnöke?",
+    "answer": "Batthyány Lajos",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the Prime Minister of the first responsible Hungarian government?",
+        "answer": "[EN] Lajos Batthyány"
+      },
+      "ru": {
+        "question": "[RU] Кто был премьер-министром первого ответственного венгерского правительства?",
+        "answer": "[RU] Лайош Баттьяни"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt a belügyminiszter az első magyar kormányban?",
+    "answer": "Szemere Bertalan",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the Minister of Interior in the first Hungarian government?",
+        "answer": "[EN] Bertalan Szemere"
+      },
+      "ru": {
+        "question": "[RU] Кто был министром внутренних дел в первом венгерском правительстве?",
+        "answer": "[RU] Берталан Семере"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt a pénzügyminiszter 1848-ban?",
+    "answer": "Kossuth Lajos",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the Minister of Finance in 1848?",
+        "answer": "[EN] Lajos Kossuth"
+      },
+      "ru": {
+        "question": "[RU] Кто был министром финансов в 1848 году?",
+        "answer": "[RU] Лайош Кошут"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt a közmunka- és közlekedési miniszter 1848-ban?",
+    "answer": "Széchenyi István",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the Minister of Public Works and Transport in 1848?",
+        "answer": "[EN] István Széchenyi"
+      },
+      "ru": {
+        "question": "[RU] Кто был министром общественных работ и транспорта в 1848 году?",
+        "answer": "[RU] Иштван Сечени"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt az igazságügy-miniszter 1848-ban?",
+    "answer": "Deák Ferenc",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the Minister of Justice in 1848?",
+        "answer": "[EN] Ferenc Deák"
+      },
+      "ru": {
+        "question": "[RU] Кто был министром юстиции в 1848 году?",
+        "answer": "[RU] Ференц Деак"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt a hadügyminiszter 1848-ban?",
+    "answer": "Mészáros Lázár",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the Minister of War in 1848?",
+        "answer": "[EN] Lázár Mészáros"
+      },
+      "ru": {
+        "question": "[RU] Кто был военным министром в 1848 году?",
+        "answer": "[RU] Лазар Месарош"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki volt az igazságügy-miniszter 1848-ban?",
+    "correctCount": 1,
+    "options": [
+      "Deák Ferenc",
+      "Kossuth Lajos",
+      "Eötvös József"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the Minister of Justice in 1848?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто был министром юстиции в 1848 году?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt a földművelés-, ipar- és kereskedelmi miniszter 1848-ban?",
+    "answer": "Klauzál Gábor",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the Minister of Agriculture, Industry and Trade in 1848?",
+        "answer": "[EN] Gábor Klauzál"
+      },
+      "ru": {
+        "question": "[RU] Кто был министром сельского хозяйства, промышленности и торговли в 1848 году?",
+        "answer": "[RU] Габор Клаузал"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt a vallás- és közoktatási miniszter 1848-ban?",
+    "answer": "Eötvös József",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the Minister of Religion and Public Education in 1848?",
+        "answer": "[EN] József Eötvös"
+      },
+      "ru": {
+        "question": "[RU] Кто был министром религии и народного образования в 1848 году?",
+        "answer": "[RU] Йожеф Этвеш"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt a király személye körüli miniszter 1848-ban?",
+    "answer": "Esterházy Pál",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the Minister besides the King in 1848?",
+        "answer": "[EN] Pál Esterházy"
+      },
+      "ru": {
+        "question": "[RU] Кто был министром при особе короля в 1848 году?",
+        "answer": "[RU] Пал Эстерхази"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Hány tagja volt az első felelős magyar kormánynak?",
+    "correctCount": 1,
+    "options": [
+      "9 tag",
+      "7 tag",
+      "12 tag"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] How many members did the first responsible Hungarian government have?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Сколько членов было в первом ответственном венгерском правительстве?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki segített a Habsburgoknak a magyar szabadságharc leverésében?",
+    "correctCount": 1,
+    "options": [
+      "Az orosz cári hadsereg",
+      "A francia hadsereg",
+      "Az angol hadsereg"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who helped the Habsburgs in suppressing the Hungarian War of Independence?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто помог Габсбургам в подавлении венгерской освободительной войны?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor tette le a fegyvert Görgei Artúr?",
+    "answer": "1849.08.13 ÷ 1849.08.13",
+    "translations": {
+      "en": {
+        "question": "[EN] When did Artúr Görgei lay down his arms?",
+        "answer": "[EN] 1849.08.13"
+      },
+      "ru": {
+        "question": "[RU] Когда Артур Гёргей сложил оружие?",
+        "answer": "[RU] 1849.08.13"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hol tette le a fegyvert Görgei Artúr?",
+    "answer": "Világosnál ÷ Világos",
+    "translations": {
+      "en": {
+        "question": "[EN] Where did Artúr Görgei lay down his arms?",
+        "answer": "[EN] At Világos"
+      },
+      "ru": {
+        "question": "[RU] Где Артур Гёргей сложил оружие?",
+        "answer": "[RU] При Вилагоше"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor volt a világosi fegyverletétel?",
+    "correctCount": 1,
+    "options": [
+      "1849. augusztus 13-án",
+      "1848. augusztus 13-án",
+      "1849. október 6-án"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When was the surrender at Világos?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда была капитуляция при Вилагоше?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki tette le a fegyvert Világosnál?",
+    "correctCount": 1,
+    "options": [
+      "Görgei Artúr tábornok",
+      "Kossuth Lajos",
+      "Batthyány Lajos"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who laid down arms at Világos?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто сложил оружие при Вилагоше?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor végezték ki az aradi vértanúkat?",
+    "answer": "1849.10.06 ÷ 1849.10.06",
+    "translations": {
+      "en": {
+        "question": "[EN] When were the Martyrs of Arad executed?",
+        "answer": "[EN] 1849.10.06"
+      },
+      "ru": {
+        "question": "[RU] Когда казнили арадских мучеников?",
+        "answer": "[RU] 1849.10.06"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány honvédtisztet végeztek ki Aradon?",
+    "answer": "13-at ÷ tizenhárom ÷ 13",
+    "translations": {
+      "en": {
+        "question": "[EN] How many Honvéd officers were executed in Arad?",
+        "answer": "[EN] 13 ÷ thirteen ÷ 13"
+      },
+      "ru": {
+        "question": "[RU] Сколько офицеров гонведа казнили в Араде?",
+        "answer": "[RU] 13 ÷ тринадцать ÷ 13"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Hány aradi vértanú volt?",
+    "correctCount": 1,
+    "options": [
+      "13",
+      "12",
+      "10"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] How many Arad Martyrs were there?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Сколько было арадских мучеников?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hol végezték ki Batthyány Lajost?",
+    "answer": "Pesten ÷ Pest",
+    "translations": {
+      "en": {
+        "question": "[EN] Where was Lajos Batthyány executed?",
+        "answer": "[EN] In Pest"
+      },
+      "ru": {
+        "question": "[RU] Где казнили Лайоша Баттьяни?",
+        "answer": "[RU] В Пеште"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor végezték ki Batthyány Lajost?",
+    "answer": "1849.10.06 ÷ 1849.10.06",
+    "translations": {
+      "en": {
+        "question": "[EN] When was Lajos Batthyány executed?",
+        "answer": "[EN] 1849.10.06"
+      },
+      "ru": {
+        "question": "[RU] Когда казнили Лайоша Баттьяни?",
+        "answer": "[RU] 1849.10.06"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Kit végeztek ki Pesten 1849. október 6-án?",
+    "correctCount": 1,
+    "options": [
+      "Batthyány Lajos",
+      "Kossuth Lajost",
+      "Deák Ferencet"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who was executed in Pest on October 6, 1849?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кого казнили в Пеште 6 октября 1849 года?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány szabadságharcost végeztek ki, börtönöztek be vagy ítéltek kényszermunkára 1848-1849 később?",
+    "answer": "Több ezer ÷ >1000 ÷ 1000",
+    "translations": {
+      "en": {
+        "question": "[EN] How many freedom fighters were executed, imprisoned or sentenced to forced labor after 1848-1849?",
+        "answer": "[EN] Thousands ÷ >1000 ÷ 1000"
+      },
+      "ru": {
+        "question": "[RU] Сколько борцов за свободу казнили, посадили в тюрьму или приговорили к каторжным работам после 1848-1849?",
+        "answer": "[RU] Тысячи ÷ >1000 ÷ 1000"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit szerveztek újra a 1848-1849 vereség után?",
+    "correctCount": 2,
+    "options": [
+      "Az ország területi egységét",
+      "Közigazgatását",
+      "Oktatási rendszerét",
+      "Egészségügyet"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was reorganized after the defeat of 1848-1849?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что реорганизовали после поражения 1848-1849 годов?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor élt Deák Ferenc?",
+    "answer": "1803-1876 között ÷ 1803-1876",
+    "translations": {
+      "en": {
+        "question": "[EN] When did Ferenc Deák live?",
+        "answer": "[EN] Between 1803-1876"
+      },
+      "ru": {
+        "question": "[RU] Когда жил Ференц Деак?",
+        "answer": "[RU] Между 1803-1876 годами"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hogyan nevezik Deák Ferencet?",
+    "answer": "A haza bölcse",
+    "translations": {
+      "en": {
+        "question": "[EN] What is Ferenc Deák called?",
+        "answer": "[EN] The Wise Man of the Nation"
+      },
+      "ru": {
+        "question": "[RU] Как называют Ференца Деака?",
+        "answer": "[RU] Мудрец нации"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mi volt Deák Ferenc szerepe a Batthyány-kormányban?",
+    "answer": "Igazságügy-miniszter",
+    "translations": {
+      "en": {
+        "question": "[EN] What was Ferenc Deák's role in the Batthyány government?",
+        "answer": "[EN] Minister of Justice"
+      },
+      "ru": {
+        "question": "[RU] Какова была роль Ференца Деака в правительстве Баттьяни?",
+        "answer": "[RU] Министр юстиции"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit hívtak Deák Ferencet?",
+    "correctCount": 1,
+    "options": [
+      "A haza bölcse",
+      "A legnagyobb magyar",
+      "A second honalapító"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What did they call Ferenc Deák?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Как звали Ференца Деака?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen időszak alkotmányos rendszerét alkotta meg Deák Ferenc?",
+    "correctCount": 1,
+    "options": [
+      "1867-1918 között",
+      "1848-1849 között",
+      "1703-1711 között"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] The constitutional system of which period did Ferenc Deák create?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Конституционную систему какого периода создал Ференц Деак?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mit vezetett Deák Ferenc a megtorlás éveiben?",
+    "answer": "A magyar passzív ellenállást ÷ passzív ellenállást",
+    "translations": {
+      "en": {
+        "question": "[EN] What did Ferenc Deák lead during the years of retaliation?",
+        "answer": "[EN] Passive resistance"
+      },
+      "ru": {
+        "question": "[RU] Что возглавлял Ференц Деак в годы репрессий?",
+        "answer": "[RU] Пассивное сопротивление"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit vezetett Deák a forradalom leverése után?",
+    "correctCount": 1,
+    "options": [
+      "A passzív ellenállást",
+      "A fegyveres ellenállást",
+      "A külföldre menekülést"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What did Deák lead after the revolution was crushed?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что возглавлял Деак после подавления революции?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mely két város között történt a kiegyezés?",
+    "answer": "Bécs és Pest-Buda között",
+    "translations": {
+      "en": {
+        "question": "[EN] Between which two cities did the Compromise take place?",
+        "answer": "[EN] Between Vienna and Pest-Buda"
+      },
+      "ru": {
+        "question": "[RU] Между какими двумя городами произошло Соглашение?",
+        "answer": "[RU] Между Веной и Пешт-Будой"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor volt a kiegyezés?",
+    "correctCount": 1,
+    "options": [
+      "1867-ben",
+      "1848-ban",
+      "1849-ben"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When was the Compromise?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда было Соглашение?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mi jött létre a 1867-ben kiegyezéssel?",
+    "answer": "Az Osztrák-Magyar Monarchia",
+    "translations": {
+      "en": {
+        "question": "[EN] What was created with the Compromise in 1867?",
+        "answer": "[EN] The Austro-Hungarian Monarchy"
+      },
+      "ru": {
+        "question": "[RU] Что было создано Соглашением 1867 года?",
+        "answer": "[RU] Австро-Венгерская монархия"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Meddig tartott a kiegyezéstől az első világháború kitöréséig tartó időszak?",
+    "answer": "1867-1914 között",
+    "translations": {
+      "en": {
+        "question": "[EN] How long did the period from the Compromise to the outbreak of WWI last?",
+        "answer": "[EN] Between 1867-1914"
+      },
+      "ru": {
+        "question": "[RU] Сколько длился период от Соглашения до начала Первой мировой войны?",
+        "answer": "[RU] Между 1867-1914 годами"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen időszak volt 1867-1914 között?",
+    "correctCount": 1,
+    "options": [
+      "Aranykor",
+      "Háborús időszak",
+      "Hanyatlás időszaka"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What kind of period was between 1867-1914?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какой период был между 1867-1914 годами?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi jellemezte az 1867-1914 közötti időszakot?",
+    "correctCount": 2,
+    "options": [
+      "Jelentős gazdasági fejlődés",
+      "Társadalmi átalakulás",
+      "Háborúk",
+      "Gazdasági válság"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What characterized the period between 1867-1914?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что характеризовало период между 1867-1914 годами?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor volt az első világháború?",
+    "answer": "1914-1918 között ÷ 1914-1918",
+    "translations": {
+      "en": {
+        "question": "[EN] When was the First World War?",
+        "answer": "[EN] Between 1914-1918"
+      },
+      "ru": {
+        "question": "[RU] Когда была Первая мировая война?",
+        "answer": "[RU] Между 1914-1918 годами"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt az Osztrák-Magyar Monarchia trónörököse, akit meggyilkoltak?",
+    "answer": "Ferenc Ferdinánd",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the heir to the throne of the Austro-Hungarian Monarchy who was assassinated?",
+        "answer": "[EN] Franz Ferdinand"
+      },
+      "ru": {
+        "question": "[RU] Кто был наследником престола Австро-Венгерской монархии, которого убили?",
+        "answer": "[RU] Франц Фердинанд"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor gyilkolták meg Ferenc Ferdinánd trónörököst?",
+    "answer": "1914.06.28 ÷ 1914.06.28",
+    "translations": {
+      "en": {
+        "question": "[EN] When was Archduke Franz Ferdinand assassinated?",
+        "answer": "[EN] 1914.06.28"
+      },
+      "ru": {
+        "question": "[RU] Когда убили наследника престола Франца Фердинанда?",
+        "answer": "[RU] 1914.06.28"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor ölték meg Ferenc Ferdinándot?",
+    "correctCount": 1,
+    "options": [
+      "1914. június 28-án",
+      "1914. július 28-án",
+      "1918. november 11-én"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When was Franz Ferdinand killed?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда убили Франца Фердинанда?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hol gyilkolták meg Ferenc Ferdinándot és feleségét?",
+    "answer": "Szarajevóban ÷ Szarajevó",
+    "translations": {
+      "en": {
+        "question": "[EN] Where were Franz Ferdinand and his wife assassinated?",
+        "answer": "[EN] In Sarajevo"
+      },
+      "ru": {
+        "question": "[RU] Где убили Франца Фердинанда и его жену?",
+        "answer": "[RU] В Сараево"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki gyilkolta meg Ferenc Ferdinándot?",
+    "answer": "Egy szerb nacionalista",
+    "translations": {
+      "en": {
+        "question": "[EN] Who assassinated Franz Ferdinand?",
+        "answer": "[EN] A Serbian nationalist"
+      },
+      "ru": {
+        "question": "[RU] Кто убил Франца Фердинанда?",
+        "answer": "[RU] Сербский националист"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Hol történt a merénylet Ferenc Ferdinánd ellen?",
+    "correctCount": 1,
+    "options": [
+      "Szarajevóban",
+      "Bécsben",
+      "Budapesten"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Where did the assassination attempt against Franz Ferdinand happen?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Где произошло покушение на Франца Фердинанда?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor üzent hadat az Osztrák-Magyar Monarchia Szerbiának?",
+    "answer": "1914.07.28 ÷ 1914.06.28",
+    "translations": {
+      "en": {
+        "question": "[EN] When did the Austro-Hungarian Monarchy declare war on Serbia?",
+        "answer": "[EN] 1914.07.28"
+      },
+      "ru": {
+        "question": "[RU] Когда Австро-Венгерская монархия объявила войну Сербии?",
+        "answer": "[RU] 1914.07.28"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor tört ki az első világháború?",
+    "correctCount": 1,
+    "options": [
+      "1914. július 28-án",
+      "1914. június 28-án",
+      "1939. szeptember 1-jén"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did the First World War break out?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда вспыхнула Первая мировая война?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három antanthatalom országot",
+    "answer": "Franciaország ÷ Oroszország ÷ Nagy-Britannia ÷ Olaszország ÷ Japán ÷ Amerikai Egyesült Államok ÷ Szerb Királyság ÷ Román Királyság",
+    "translations": {
+      "en": {
+        "question": "[EN] List three Entente power countries",
+        "answer": "[EN] France ÷ Russia ÷ Great Britain ÷ Italy ÷ Japan ÷ United States of America ÷ Kingdom of Serbia ÷ Kingdom of Romania"
+      },
+      "ru": {
+        "question": "[RU] Перечислите три страны Антанты",
+        "answer": "[RU] Франция ÷ Россия ÷ Великобритания ÷ Италия ÷ Япония ÷ Соединенные Штаты Америки ÷ Королевство Сербия ÷ Королевство Румыния"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik ország tartozott az antanthoz?",
+    "correctCount": 3,
+    "options": [
+      "Franciaország",
+      "Oroszország",
+      "Nagy-Britannia",
+      "Németország",
+      "Osztrák-Magyar Monarchia"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Which country belonged to the Entente?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какая страна принадлежала к Антанте?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három központi hatalmat",
+    "answer": "Németország ÷ Osztrák-Magyar Monarchia ÷ Oszmán Birodalom ÷ Bulgária",
+    "translations": {
+      "en": {
+        "question": "[EN] List three Central Powers",
+        "answer": "[EN] Germany ÷ Austro-Hungarian Monarchy ÷ Ottoman Empire ÷ Bulgaria"
+      },
+      "ru": {
+        "question": "[RU] Перечислите три Центральные державы",
+        "answer": "[RU] Германия ÷ Австро-Венгерская монархия ÷ Османская империя ÷ Болгария"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik ország volt központi hatalom?",
+    "correctCount": 3,
+    "options": [
+      "Németország",
+      "Osztrák-Magyar Monarchia",
+      "Oszmán Birodalom",
+      "Franciaország",
+      "Oroszország"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Which country was a Central Power?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какая страна была Центральной державой?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik oldalon harcolt Magyarország az első világháborúban?",
+    "answer": "Központi hatalmak",
+    "translations": {
+      "en": {
+        "question": "[EN] On which side did Hungary fight in the First World War?",
+        "answer": "[EN] Central Powers"
+      },
+      "ru": {
+        "question": "[RU] На чьей стороне воевала Венгрия в Первой мировой войне?",
+        "answer": "[RU] Центральные державы"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik szövetségben harcolt az Osztrák-Magyar Monarchia?",
+    "correctCount": 1,
+    "options": [
+      "Központi hatalmak",
+      "Antant",
+      "Semleges volt"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] In which alliance did the Austro-Hungarian Monarchy fight?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] В каком союзе воевала Австро-Венгерская монархия?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki nyerte meg az első világháborút?",
+    "correctCount": 1,
+    "options": [
+      "Az antanthatalmak",
+      "A központi hatalmak",
+      "Döntetlen lett"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who won the First World War?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто выиграл Первую мировую войну?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor uralkodott Ferenc József?",
+    "correctCount": 1,
+    "options": [
+      "1848-1916 között",
+      "1867-1918 között",
+      "1914-1918 között"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did Franz Joseph reign?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда правил Франц Иосиф?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor írták alá a trianoni békeszerződést?",
+    "answer": "1920.06.04 ÷ 1920.06.04",
+    "translations": {
+      "en": {
+        "question": "[EN] When was the Treaty of Trianon signed?",
+        "answer": "[EN] 1920.06.04"
+      },
+      "ru": {
+        "question": "[RU] Когда был подписан Трианонский мирный договор?",
+        "answer": "[RU] 1920.06.04"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik évben kötötték a trianoni békét?",
+    "answer": "1920 ÷ 1920",
+    "translations": {
+      "en": {
+        "question": "[EN] In which year was the Trianon peace concluded?",
+        "answer": "[EN] 1920"
+      },
+      "ru": {
+        "question": "[RU] В каком году был заключен Трианонский мир?",
+        "answer": "[RU] 1920"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor írták alá Trianonban a békeszerződést?",
+    "correctCount": 1,
+    "options": [
+      "1920. június 4-én",
+      "1918. november 11-én",
+      "1919. június 28-án"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When was the peace treaty signed in Trianon?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда был подписан мирный договор в Трианоне?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit írtak alá 1920. június 4-én?",
+    "correctCount": 1,
+    "options": [
+      "A trianoni békeszerződést",
+      "A kiegyezést",
+      "A világosi fegyverletételt"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was signed on June 4, 1920?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что подписали 4 июня 1920 года?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Területének mekkora részét veszítette el Magyarország Trianonban?",
+    "answer": "Mintegy kétharmadát ÷ 2/3",
+    "translations": {
+      "en": {
+        "question": "[EN] What part of its territory did Hungary lose in Trianon?",
+        "answer": "[EN] About two-thirds ÷ 2/3"
+      },
+      "ru": {
+        "question": "[RU] Какую часть своей территории потеряла Венгрия в Трианоне?",
+        "answer": "[RU] Около двух третей ÷ 2/3"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mennyi területet veszített Magyarország a trianoni békében?",
+    "correctCount": 1,
+    "options": [
+      "Mintegy kétharmadát",
+      "A felét",
+      "Egyharmadát"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] How much territory did Hungary lose in the Trianon peace?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Сколько территории потеряла Венгрия в Трианонском мире?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mekkora volt Magyarország népessége Trianon után?",
+    "correctCount": 1,
+    "options": [
+      "7,6 millió fő",
+      "18,2 millió fő",
+      "10 millió fő"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was Hungary's population after Trianon?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Каково было население Венгрии после Трианона?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány millió magyar rekedt határainkon kívül Trianon után?",
+    "answer": "3,3 millió magyar ÷ 3.3",
+    "translations": {
+      "en": {
+        "question": "[EN] How many million Hungarians were stranded outside our borders after Trianon?",
+        "answer": "[EN] 3.3 million Hungarians"
+      },
+      "ru": {
+        "question": "[RU] Сколько миллионов венгров остались за пределами наших границ после Трианона?",
+        "answer": "[RU] 3,3 миллиона венгров"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "A magyar nemzet mekkora része került határon kívülre?",
+    "answer": "Egyharmada ÷ 1/3",
+    "translations": {
+      "en": {
+        "question": "[EN] What part of the Hungarian nation ended up outside the borders?",
+        "answer": "[EN] One-third ÷ 1/3"
+      },
+      "ru": {
+        "question": "[RU] Какая часть венгерской нации оказалась за границей?",
+        "answer": "[RU] Одна треть ÷ 1/3"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Hány magyar került határon kívülre Trianon után?",
+    "correctCount": 1,
+    "options": [
+      "3,3 millió",
+      "1 millió",
+      "5 millió"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] How many Hungarians ended up outside the borders after Trianon?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Сколько венгров оказалось за границей после Трианона?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi volt a cél 1920 után?",
+    "correctCount": 1,
+    "options": [
+      "A revízió, az igazságtalan határok felülvizsgálata",
+      "Új háború indítása",
+      "Teljes függetlenség"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was the goal after 1920?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какова была цель после 1920 года?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel két meghatározó politikust a '20-as és '30-as években",
+    "answer": "Horthy Miklós kormányzó ÷ Bethlen István ÷ Teleki Pál",
+    "translations": {
+      "en": {
+        "question": "[EN] List two defining politicians in the 20s and 30s",
+        "answer": "[EN] Governor Miklós Horthy ÷ István Bethlen ÷ Pál Teleki"
+      },
+      "ru": {
+        "question": "[RU] Перечислите двух определяющих политиков в 20-е и 30-е годы",
+        "answer": "[RU] Губернатор Миклош Хорти ÷ Иштван Бетлен ÷ Пал Телеки"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki volt meghatározó politikus a '20-as és '30-as években?",
+    "correctCount": 2,
+    "options": [
+      "Horthy Miklós kormányzó",
+      "Bethlen István",
+      "Kossuth Lajos",
+      "Batthyány Lajos"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who was a defining politician in the 20s and 30s?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто был определяющим политиком в 20-е и 30-е годы?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor volt a második világháború?",
+    "answer": "1939-1945 között ÷ 1939-1945",
+    "translations": {
+      "en": {
+        "question": "[EN] When was the Second World War?",
+        "answer": "[EN] Between 1939-1945"
+      },
+      "ru": {
+        "question": "[RU] Когда была Вторая мировая война?",
+        "answer": "[RU] Между 1939-1945 годами"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor támadta meg Németország Lengyelországot?",
+    "answer": "1939.09.01 ÷ 1939.09.01",
+    "translations": {
+      "en": {
+        "question": "[EN] When did Germany attack Poland?",
+        "answer": "[EN] 1939.09.01"
+      },
+      "ru": {
+        "question": "[RU] Когда Германия напала на Польшу?",
+        "answer": "[RU] 1939.09.01"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik országot támadta meg Németország 1939. szeptember 1-jén?",
+    "answer": "Lengyelországot ÷ Lengyelorszag",
+    "translations": {
+      "en": {
+        "question": "[EN] Which country did Germany attack on September 1, 1939?",
+        "answer": "[EN] Poland"
+      },
+      "ru": {
+        "question": "[RU] Какую страну Германия атаковала 1 сентября 1939 года?",
+        "answer": "[RU] Польшу"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három szövetséges országot a második világháborúban!",
+    "answer": "Egyesült Királyság ÷ Egyesült Államok ÷ Szovjetunió",
+    "translations": {
+      "en": {
+        "question": "[EN] List three allied countries in the Second World War!",
+        "answer": "[EN] United Kingdom ÷ United States ÷ Soviet Union"
+      },
+      "ru": {
+        "question": "[RU] Перечислите три страны-союзника во Второй мировой войне!",
+        "answer": "[RU] Великобритания ÷ Соединенные Штаты ÷ Советский Союз"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik ország volt szövetséges a második világháborúban?",
+    "correctCount": 3,
+    "options": [
+      "Egyesült Királyság",
+      "Egyesült Államok",
+      "Szovjetunió",
+      "Németország",
+      "Japán"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Which country was an ally in the Second World War?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какая страна была союзником во Второй мировой войне?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három tengelyhatalom országot",
+    "answer": "Németország ÷ Olaszország ÷ Japán",
+    "translations": {
+      "en": {
+        "question": "[EN] Soroljon fel három tengelyhatalom országot!",
+        "answer": "[EN] Németország ÷ Olaszország ÷ Japán"
+      },
+      "ru": {
+        "question": "[RU] Soroljon fel három tengelyhatalom országot!",
+        "answer": "[RU] Németország ÷ Olaszország ÷ Japán"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik ország volt tengelyhatalom?",
+    "correctCount": 3,
+    "options": [
+      "Németország",
+      "Olaszország",
+      "Japán",
+      "Egyesült Államok",
+      "Szovjetunió"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Which country was an Axis power?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какая страна была державой Оси?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor lépett hadba Magyarország a második világháborúban?",
+    "answer": "1941 ÷ 1941",
+    "translations": {
+      "en": {
+        "question": "[EN] When did Hungary enter the Second World War?",
+        "answer": "[EN] 1941"
+      },
+      "ru": {
+        "question": "[RU] Когда Венгрия вступила во Вторую мировую войну?",
+        "answer": "[RU] 1941"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Melyik oldalon harcolt Magyarország a második világháborúban?",
+    "answer": "A tengelyhatalmak oldalán ÷ tengelyhatalmak",
+    "translations": {
+      "en": {
+        "question": "[EN] On which side did Hungary fight in the Second World War?",
+        "answer": "[EN] On the side of the Axis powers"
+      },
+      "ru": {
+        "question": "[RU] На чьей стороне воевала Венгрия во Второй мировой войне?",
+        "answer": "[RU] На стороне держав Оси"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor lépett hadba Magyarország a második világháborúban?",
+    "correctCount": 1,
+    "options": [
+      "1941-ben",
+      "1939-ben",
+      "1944-ben"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did Hungary enter the Second World War?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда Венгрия вступила во Вторую мировую войну?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik fronton harcoltak a magyar csapatok?",
+    "correctCount": 1,
+    "options": [
+      "A keleti fronton",
+      "A nyugati fronton",
+      "Az afrikai fronton"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] On which front did the Hungarian troops fight?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] На каком фронте воевали венгерские войска?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor semmisült meg a 2. magyar hadsereg a Don térségében?",
+    "answer": "1943 januárjában ÷ 1943.01",
+    "translations": {
+      "en": {
+        "question": "[EN] When was the 2nd Hungarian Army destroyed in the Don region?",
+        "answer": "[EN] 1943"
+      },
+      "ru": {
+        "question": "[RU] Когда была уничтожена 2-я венгерская армия в районе Дона?",
+        "answer": "[RU] 1943"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hol semmisült meg a 2. magyar hadsereg 1943-ban?",
+    "answer": "A Don térségében",
+    "translations": {
+      "en": {
+        "question": "[EN] Where was the 2nd Hungarian Army destroyed in 1943?",
+        "answer": "[EN] At the Don Bend"
+      },
+      "ru": {
+        "question": "[RU] Где была уничтожена 2-я венгерская армия в 1943 году?",
+        "answer": "[RU] В излучине Дона"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor szállta meg Németország Magyarországot?",
+    "answer": "1944.03.19 ÷ 1944.03.19",
+    "translations": {
+      "en": {
+        "question": "[EN] When did Germany occupy Hungary?",
+        "answer": "[EN] 1944.03.19"
+      },
+      "ru": {
+        "question": "[RU] Когда Германия оккупировала Венгрию?",
+        "answer": "[RU] 1944.03.19"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor szállta meg Németország Magyarországot?",
+    "correctCount": 1,
+    "options": [
+      "1944. március 19-én",
+      "1941-ben",
+      "1945-ben"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did Germany occupy Hungary?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда Германия оккупировала Венгрию?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt Magyarország kormányzója 1944-ben?",
+    "answer": "Horthy Miklós",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the Regent of Hungary in 1944?",
+        "answer": "[EN] Miklós Horthy"
+      },
+      "ru": {
+        "question": "[RU] Кто был регентом Венгрии в 1944 году?",
+        "answer": "[RU] Миклош Хорти"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor mondott le Horthy Miklós?",
+    "answer": "1944 őszén",
+    "translations": {
+      "en": {
+        "question": "[EN] When did Miklós Horthy resign?",
+        "answer": "[EN] In October 1944"
+      },
+      "ru": {
+        "question": "[RU] Когда отрекся Миклош Хорти?",
+        "answer": "[RU] В октябре 1944 года"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi történt Horthy Miklós 1944 őszi lemondása után?",
+    "correctCount": 1,
+    "options": [
+      "Az ország a németek bábállamává vált",
+      "Magyarország kiszállt a háborúból",
+      "Béke lett"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What happened after Miklós Horthy's resignation in the autumn of 1944?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что произошло после отречения Миклоша Хорти осенью 1944 года?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi történt a német megszállás után?",
+    "correctCount": 1,
+    "options": [
+      "Megindult a zsidóság szisztematikus deportálása",
+      "Vége lett a háborúnak",
+      "Magyarország visszanyerte függetlenségét"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What happened after the German occupation?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что произошло после немецкой оккупации?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány főre tehető a holokauszt magyarországi áldozatainak száma?",
+    "answer": "500-600 ezer ÷ 500000-600000",
+    "translations": {
+      "en": {
+        "question": "[EN] What is the estimated number of Holocaust victims in Hungary?",
+        "answer": "[EN] About 600,000"
+      },
+      "ru": {
+        "question": "[RU] Каково оценочное число жертв Холокоста в Венгрии?",
+        "answer": "[RU] Около 600 000"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mekkora volt a holokauszt áldozatainak száma Magyarországon?",
+    "correctCount": 1,
+    "options": [
+      "500-600 ezer fő",
+      "100 ezer fő",
+      "1 millió fő"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was the number of Holocaust victims in Hungary?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Каково было число жертв Холокоста в Венгрии?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Meddig tartottak a magyarországi harcok?",
+    "answer": "Fél évig ÷ 6 honap",
+    "translations": {
+      "en": {
+        "question": "[EN] How long did the fighting in Hungary last?",
+        "answer": "[EN] Until April 1945"
+      },
+      "ru": {
+        "question": "[RU] Как долго шли бои в Венгрии?",
+        "answer": "[RU] До апреля 1945 года"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi történt Budapest ostromában?",
+    "correctCount": 1,
+    "options": [
+      "A budai vár és belvárosi részek szinte teljesen megsemmisültek",
+      "Nem sérült a város",
+      "Csak a külvárosok sérültek"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What happened in the Siege of Budapest?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что произошло при осаде Будапешта?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Milyen munkára hurcoltak embereket a Gulagra?",
+    "answer": "Kényszermunkára",
+    "translations": {
+      "en": {
+        "question": "[EN] For what kind of work were people deported to the Gulag?",
+        "answer": "[EN] Forced labor"
+      },
+      "ru": {
+        "question": "[RU] На какую работу угоняли людей в ГУЛАГ?",
+        "answer": "[RU] На принудительные работы"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Hová hurcolták a szovjet csapatok a magyarokat?",
+    "correctCount": 1,
+    "options": [
+      "A Szovjetunióba a Gulagra",
+      "Németországba",
+      "Franciaországba"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Where did the Soviet troops deport the Hungarians?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Куда советские войска депортировали венгров?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor ért véget a második világháború Európában?",
+    "answer": "1945 tavaszán ÷ 1945.05.08",
+    "translations": {
+      "en": {
+        "question": "[EN] When did the Second World War end in Europe?",
+        "answer": "[EN] 1945.05.09"
+      },
+      "ru": {
+        "question": "[RU] Когда закончилась Вторая мировая война в Европе?",
+        "answer": "[RU] 1945.05.09"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor tették le a fegyvert a németek?",
+    "correctCount": 1,
+    "options": [
+      "1945 tavaszán",
+      "1944-ben",
+      "1943-ban"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did the Germans lay down their arms?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда немцы сложили оружие?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit vesztett el újra Magyarország a háború után?",
+    "correctCount": 1,
+    "options": [
+      "Az első és második bécsi döntésben visszakapott területeket",
+      "Trianon előtti területeket",
+      "Nem vesztett területet"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What did Hungary lose again after the war?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что снова потеряла Венгрия после войны?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mire kötelezték a győztes hatalmak Magyarországot?",
+    "answer": "Jóvátétel fizetésére",
+    "translations": {
+      "en": {
+        "question": "[EN] What did the victorious powers oblige Hungary to do?",
+        "answer": "[EN] To pay war reparations"
+      },
+      "ru": {
+        "question": "[RU] К чему обязали Венгрию державы-победительницы?",
+        "answer": "[RU] Выплатить военные репарации"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mire kötelezték Magyarországot a háború után?",
+    "correctCount": 1,
+    "options": [
+      "Jóvátétel fizetésére",
+      "Katonai szolgálatra",
+      "Új háború indítására"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was Hungary obliged to do after the war?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] К чему обязали Венгрию после войны?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány magyar került újra a határokon kívülre?",
+    "answer": "Több millió magyar ÷ > 1000000 ÷ 1000000",
+    "translations": {
+      "en": {
+        "question": "[EN] How many Hungarians ended up outside the borders again?",
+        "answer": "[EN] Millions"
+      },
+      "ru": {
+        "question": "[RU] Сколько венгров снова оказалось за границей?",
+        "answer": "[RU] Миллионы"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Kit telepítettek ki a háború után?",
+    "correctCount": 1,
+    "options": [
+      "A magyarországi németeket (svábokat)",
+      "A szlovákokat",
+      "A románokat"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who were deported after the war?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кого депортировали после войны?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Kivonult-e a szovjet hadsereg Magyarországról a második világháború után?",
+    "answer": "Nem",
+    "translations": {
+      "en": {
+        "question": "[EN] Did the Soviet army withdraw from Hungary after the Second World War?",
+        "answer": "[EN] No"
+      },
+      "ru": {
+        "question": "[RU] Вышла ли советская армия из Венгрии после Второй мировой войны?",
+        "answer": "[RU] Нет"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi történt a szovjet hadsereggel a háború után?",
+    "correctCount": 1,
+    "options": [
+      "Nem vonult ki az ország területéről",
+      "Azonnal kivonult",
+      "1946-ban kivonult"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What happened to the Soviet army after the war?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что случилось с советской армией после войны?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki vette át a hatalmat néhány év után?",
+    "correctCount": 1,
+    "options": [
+      "A Szovjetunió által támogatott kommunisták",
+      "A demokratikus pártok",
+      "A katonaság"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who took over power after a few years?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто захватил власть через несколько лет?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Milyen rendszert alakítottak ki a kommunisták?",
+    "answer": "Egypártrendszert",
+    "translations": {
+      "en": {
+        "question": "[EN] What kind of system did the communists establish?",
+        "answer": "[EN] A one-party dictatorship"
+      },
+      "ru": {
+        "question": "[RU] Какую систему создали коммунисты?",
+        "answer": "[RU] Однопартийную диктатуру"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Kit üldöztek a kommunista rendszerben?",
+    "correctCount": 3,
+    "options": [
+      "Eltérő politikai nézeteket vallókat",
+      "Egyházakat",
+      "Értelmiséget",
+      "Parasztokat",
+      "Munkásokat"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who was persecuted in the communist system?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кого преследовали в коммунистической системе?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki volt a rendszer gyűlölt vezetője?",
+    "answer": "Rákosi Mátyás",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was the hated leader of the regime?",
+        "answer": "[EN] Mátyás Rákosi"
+      },
+      "ru": {
+        "question": "[RU] Кто был ненавистным лидером режима?",
+        "answer": "[RU] Матьяш Ракоши"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor kezdődött az 1956-os forradalom?",
+    "answer": "1956.10.23 ÷ 1956.10.23",
+    "translations": {
+      "en": {
+        "question": "[EN] When did the 1956 revolution begin?",
+        "answer": "[EN] 1956.10.23"
+      },
+      "ru": {
+        "question": "[RU] Когда началась революция 1956 года?",
+        "answer": "[RU] 1956.10.23"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor tört ki az 1956-os forradalom?",
+    "correctCount": 1,
+    "options": [
+      "1956. október 23-án",
+      "1956. november 4-én",
+      "1956. október 6-án"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did the 1956 revolution break out?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда вспыхнула революция 1956 года?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hogyan kezdődött az 1956-os forradalom?",
+    "answer": "Békés tüntetés",
+    "translations": {
+      "en": {
+        "question": "[EN] How did the 1956 revolution begin?",
+        "answer": "[EN] With a peaceful demonstration"
+      },
+      "ru": {
+        "question": "[RU] Как началась революция 1956 года?",
+        "answer": "[RU] С мирной демонстрации"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hol alakult ki fegyveres összecsapás 1956. október 23-án?",
+    "answer": "A Magyar Rádió épületénél ÷ A Magyar Rádió épület",
+    "translations": {
+      "en": {
+        "question": "[EN] Where did an armed clash develop on October 23, 1956?",
+        "answer": "[EN] At the Radio building"
+      },
+      "ru": {
+        "question": "[RU] Где произошло вооруженное столкновение 23 октября 1956 года?",
+        "answer": "[RU] У здания Радио"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Hol kezdődött a fegyveres összecsapás 1956-ban?",
+    "correctCount": 1,
+    "options": [
+      "A Magyar Rádió épületénél",
+      "Az Országháznál",
+      "A Várban"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Where did the armed clash begin in 1956?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Где началось вооруженное столкновение в 1956 году?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hol terjedtek szét gyorsan a harcok 1956-ban?",
+    "answer": "Budapest",
+    "translations": {
+      "en": {
+        "question": "[EN] Where did the fighting spread quickly in 1956?",
+        "answer": "[EN] Throughout the country"
+      },
+      "ru": {
+        "question": "[RU] Где быстро распространились бои в 1956 году?",
+        "answer": "[RU] По всей стране"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi volt az 1956-os fegyveres ellenállás központja?",
+    "correctCount": 1,
+    "options": [
+      "Budapest",
+      "Debrecen",
+      "Szeged"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was the center of the 1956 armed resistance?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что было центром вооруженного сопротивления 1956 года?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki került az 1956-os forradalmi kormány élére?",
+    "answer": "Nagy Imre",
+    "translations": {
+      "en": {
+        "question": "[EN] Who became the head of the 1956 revolutionary government?",
+        "answer": "[EN] Imre Nagy"
+      },
+      "ru": {
+        "question": "[RU] Кто возглавил революционное правительство 1956 года?",
+        "answer": "[RU] Имре Надь"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki lett az 1956-os forradalmi kormány vezetője?",
+    "correctCount": 1,
+    "options": [
+      "Nagy Imre",
+      "Kádár János",
+      "Rákosi Mátyás"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who became the leader of the 1956 revolutionary government?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто стал лидером революционного правительства 1956 года?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel két emblematikus helyszínt az 1956-os forradalomból",
+    "answer": "Corvin köz ÷ Széna tér",
+    "translations": {
+      "en": {
+        "question": "[EN] Soroljon fel két emblematikus helyszínt az 1956-os forradalomból!",
+        "answer": "[EN] Corvin köz ÷ Széna tér"
+      },
+      "ru": {
+        "question": "[RU] Soroljon fel két emblematikus helyszínt az 1956-os forradalomból!",
+        "answer": "[RU] Corvin köz ÷ Széna tér"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik volt az 1956-os ellenállás emblematikus helyszíne?",
+    "correctCount": 2,
+    "options": [
+      "Corvin köz",
+      "Széna tér",
+      "Hősök tere",
+      "Margit-sziget"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was the emblematic site of the 1956 resistance?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Какое было знаковое место сопротивления 1956 года?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mi az 1956-os forradalom egyik legfőbb jelképe?",
+    "answer": "A lyukas zászló",
+    "translations": {
+      "en": {
+        "question": "[EN] What is one of the main symbols of the 1956 revolution?",
+        "answer": "[EN] The flag with the hole"
+      },
+      "ru": {
+        "question": "[RU] Что является одним из главных символов революции 1956 года?",
+        "answer": "[RU] Флаг с дыркой"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mit vágtak ki a zászlóból 1956-ban?",
+    "answer": "A Rákosi-címer",
+    "translations": {
+      "en": {
+        "question": "[EN] What did they cut out of the flag in 1956?",
+        "answer": "[EN] The Rákosi coat of arms"
+      },
+      "ru": {
+        "question": "[RU] Что вырезали из флага в 1956 году?",
+        "answer": "[RU] Герб Ракоши"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi volt az 1956-os forradalom jelképe?",
+    "correctCount": 1,
+    "options": [
+      "A lyukas zászló",
+      "A piros-fehér-zöld kokárda",
+      "A Szent Korona"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was the symbol of the 1956 revolution?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что было символом революции 1956 года?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor kezdték meg a szovjet csapatok a magyar ellenállás felszámolását?",
+    "answer": "11.04 ÷ 1956.11.04 ÷ 1956.11.04",
+    "translations": {
+      "en": {
+        "question": "[EN] When did Soviet troops begin to eliminate the Hungarian resistance?",
+        "answer": "[EN] 1956.11.04"
+      },
+      "ru": {
+        "question": "[RU] Когда советские войска начали ликвидацию венгерского сопротивления?",
+        "answer": "[RU] 1956.11.04"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor támadtak újra a szovjet csapatok?",
+    "correctCount": 1,
+    "options": [
+      "November 4-én",
+      "Október 23-án",
+      "December 1-jén"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did the Soviet troops attack again?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда советские войска снова атаковали?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit tettek a szovjetek november 4-én?",
+    "correctCount": 1,
+    "options": [
+      "Megkezdték a magyar ellenállás felszámolását ígéretük ellenére",
+      "Elhagyták az országot",
+      "Tárgyalásokat kezdtek"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What did the Soviets do on November 4?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что сделали Советы 4 ноября?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi történt az 1956-os forradalom leverése után?",
+    "correctCount": 1,
+    "options": [
+      "Visszaállt a kommunista egypártrendszer",
+      "Demokrácia jött létre",
+      "Monarchia alakult"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What happened after the 1956 revolution was crushed?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что произошло после подавления революции 1956 года?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Kit jelöltek ki Magyarország vezetésére?",
+    "answer": "Kádár János",
+    "translations": {
+      "en": {
+        "question": "[EN] Who was designated to lead Hungary?",
+        "answer": "[EN] János Kádár"
+      },
+      "ru": {
+        "question": "[RU] Кого назначили руководить Венгрией?",
+        "answer": "[RU] Яноша Кадара"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mit tettek Nagy Imrével?",
+    "answer": "Kivégez",
+    "translations": {
+      "en": {
+        "question": "[EN] What did they do to Imre Nagy?",
+        "answer": "[EN] He was executed"
+      },
+      "ru": {
+        "question": "[RU] Что сделали с Имре Надем?",
+        "answer": "[RU] Его казнили"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki lett Magyarország vezetője az 1956-os forradalom után?",
+    "correctCount": 1,
+    "options": [
+      "Kádár János",
+      "Nagy Imre",
+      "Rákosi Mátyás"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who became Hungary's leader after the 1956 revolution?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто стал лидером Венгрии после революции 1956 года?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Kinek a nevével fémjelzett a kommunista korszak 1956-1989 között?",
+    "answer": "Kádár János",
+    "translations": {
+      "en": {
+        "question": "[EN] Whose name marked the communist era between 1956-1989?",
+        "answer": "[EN] János Kádár"
+      },
+      "ru": {
+        "question": "[RU] Чье имя ознаменовало коммунистическую эпоху между 1956-1989 годами?",
+        "answer": "[RU] Яноша Кадара"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Meddig tartott a Kádár-korszak?",
+    "answer": "1956-tól 1989-ig ÷ 1956-1989",
+    "translations": {
+      "en": {
+        "question": "[EN] How long did the Kádár era last?",
+        "answer": "[EN] Until 1989"
+      },
+      "ru": {
+        "question": "[RU] Как долго длилась эпоха Кадара?",
+        "answer": "[RU] До 1989 года"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Meddig tartott a Kádár János nevével fémjelzett korszak?",
+    "correctCount": 1,
+    "options": [
+      "1956-tól 1989-ig",
+      "1956-tól 1990-ig",
+      "1945-től 1989-ig"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] How long did the era marked by János Kádár's name last?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Как долго длилась эпоха, отмеченная именем Яноша Кадара?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit jelent a rendszerváltás fogalma?",
+    "correctCount": 1,
+    "options": [
+      "Egy állam politikai, gazdasági és társadalmi rendszerének átalakulását",
+      "Csak a kormány cseréjét",
+      "Csak gazdasági változásokat"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What does the concept of regime change mean?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что означает понятие смены режима?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hogyan zajlott a rendszerváltás Magyarországon?",
+    "answer": "Békés úton",
+    "translations": {
+      "en": {
+        "question": "[EN] How did the regime change take place in Hungary?",
+        "answer": "[EN] Peacefully"
+      },
+      "ru": {
+        "question": "[RU] Как произошла смена режима в Венгрии?",
+        "answer": "[RU] Мирно"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Milyen módon zajlott a rendszerváltás Magyarországon?",
+    "correctCount": 1,
+    "options": [
+      "Békés úton",
+      "Fegyveres harcokkal",
+      "Forradalom útján"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] In what way did the regime change take place in Hungary?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Каким образом произошла смена режима в Венгрии?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi jött létre a rendszerváltás után?",
+    "correctCount": 1,
+    "options": [
+      "Többpárti parlamentáris demokrácia",
+      "Új egypártrendszer",
+      "Monarchia"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What was established after the regime change?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что было создано после смены режима?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor tartottak első demokratikus parlamenti választásokat?",
+    "answer": "1990 tavaszán ÷ 1990",
+    "translations": {
+      "en": {
+        "question": "[EN] When were the first democratic parliamentary elections held?",
+        "answer": "[EN] 1990"
+      },
+      "ru": {
+        "question": "[RU] Когда были проведены первые демократические парламентские выборы?",
+        "answer": "[RU] 1990"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor voltak az első szabad választások?",
+    "correctCount": 1,
+    "options": [
+      "1990 tavaszán",
+      "1989 őszén",
+      "1991 tavaszán"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When were the first free elections?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда были первые свободные выборы?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki vezetésével alakult kormány 1990-ben?",
+    "answer": "Antall József",
+    "translations": {
+      "en": {
+        "question": "[EN] Under whose leadership was a government formed in 1990?",
+        "answer": "[EN] József Antall"
+      },
+      "ru": {
+        "question": "[RU] Под чьим руководством было сформировано правительство в 1990 году?",
+        "answer": "[RU] Йожефа Анталла"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki lett a miniszterelnök 1990-ben?",
+    "correctCount": 1,
+    "options": [
+      "Antall József",
+      "Göncz Árpád",
+      "Kádár János"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who became the Prime Minister in 1990?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто стал премьер-министром в 1990 году?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Ki lett a köztársasági elnök 1990-ben?",
+    "answer": "Göncz Árpád",
+    "translations": {
+      "en": {
+        "question": "[EN] Who became the President of the Republic in 1990?",
+        "answer": "[EN] Árpád Göncz"
+      },
+      "ru": {
+        "question": "[RU] Кто стал президентом республики в 1990 году?",
+        "answer": "[RU] Арпад Гёнц"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki választotta meg Göncz Árpádot köztársasági elnöknek?",
+    "correctCount": 1,
+    "options": [
+      "Az Országgyűlés",
+      "A nép",
+      "A kormány"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] Who elected Árpád Göncz as President of the Republic?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Кто избрал Арпада Гёнца президентом республики?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor hagyták el végleg a szovjet csapatok az országot?",
+    "answer": "1991",
+    "translations": {
+      "en": {
+        "question": "[EN] When did the Soviet troops leave the country for good?",
+        "answer": "[EN] 1991"
+      },
+      "ru": {
+        "question": "[RU] Когда советские войска окончательно покинули страну?",
+        "answer": "[RU] 1991"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mikor vonultak ki végleg a szovjet csapatok?",
+    "correctCount": 1,
+    "options": [
+      "1991-ben",
+      "1990-ben",
+      "1989-ben"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] When did the Soviet troops withdraw for good?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Когда окончательно вышли советские войска?",
+        "answer": "[RU] "
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor volt Nagy Imre és mártírtársainak ünnepélyes újratemetése?",
+    "answer": "1989.06.16 ÷ 1989.06.16",
+    "translations": {
+      "en": {
+        "question": "[EN] When was the ceremonial reburial of Imre Nagy and his fellow martyrs?",
+        "answer": "[EN] 1989.06.16"
+      },
+      "ru": {
+        "question": "[RU] Когда было торжественное перезахоронение Имре Надя и его товарищей-мучеников?",
+        "answer": "[RU] 1989.06.16"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi történt 1989. június 16-án?",
+    "correctCount": 1,
+    "options": [
+      "Nagy Imre és mártírtársainak ünnepélyes újratemetése",
+      "Az első szabad választások",
+      "A szovjetek kivonulása"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "[EN] What happened on June 16, 1989?",
+        "answer": "[EN] "
+      },
+      "ru": {
+        "question": "[RU] Что произошло 16 июня 1989 года?",
+        "answer": "[RU] "
+      }
+    }
+  }
+]

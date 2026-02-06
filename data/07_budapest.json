@@ -1,0 +1,171 @@
+{
+  "id": "07_budapest",
+  "name": {
+    "en": "Budapest",
+    "ru": "Будапешт",
+    "hu": "Budapest"
+  },
+  "questions": [
+    {
+      "word_hu": "Budapest",
+      "example_hu": "Magyarország fővárosa: Budapest",
+      "word_en": "Budapest",
+      "example_en": "The capital of Hungary: Budapest",
+      "word_ru": "Budapest",
+      "example_ru": "Столица Венгрии — Будапешт, город на Дунае, созданный объединением Пешта, Буды и Обуды."
+    },
+    {
+      "word_hu": "egyesítés",
+      "example_hu": "Pest, Buda és Óbuda egyesítésével jött létre.",
+      "word_en": "unification",
+      "example_en": "It was created by unifying Pest, Buda and Óbuda.",
+      "word_ru": "объединение",
+      "example_ru": "17 ноября 1873 года произошло объединение городов Пешт, Буда и Обуда в единую столицу Будапешт."
+    },
+    {
+      "word_hu": "kerület",
+      "example_hu": "1994 óta 23 kerülettel rendelkezik.",
+      "word_en": "district",
+      "example_en": "Since 1994 it has 23 districts.",
+      "word_ru": "район",
+      "example_ru": "С 1994 года Будапешт административно делится на 23 района."
+    },
+    {
+      "word_hu": "Budavári Palota",
+      "example_hu": "Főbb nevezetességek: Budavári Palota",
+      "word_en": "Buda Castle",
+      "example_en": "Main sights: Buda Castle",
+      "word_ru": "Budavári Palota",
+      "example_ru": "Основные достопримечательности: Budavári Palota"
+    },
+    {
+      "word_hu": "Citadella",
+      "example_hu": "Főbb nevezetességek: Citadella",
+      "word_en": "Citadel",
+      "example_en": "Main sights: Citadel",
+      "word_ru": "Citadella",
+      "example_ru": "Основные достопримечательности: Citadella"
+    },
+    {
+      "word_hu": "Gellért Gyógyfürdő",
+      "example_hu": "Főbb nevezetességek: Gellért Gyógyfürdő",
+      "word_en": "Gellért Thermal Bath",
+      "example_en": "Main sights: Gellért Thermal Bath",
+      "word_ru": "Gellért Gyógyfürdő",
+      "example_ru": "Основные достопримечательности: Gellért Gyógyfürdő"
+    },
+    {
+      "word_hu": "Halászbástya",
+      "example_hu": "Főbb nevezetességek: Halászbástya",
+      "word_en": "Fisherman's Bastion",
+      "example_en": "Main sights: Fisherman's Bastion",
+      "word_ru": "Halászbástya",
+      "example_ru": "Основные достопримечательности: Halászbástya"
+    },
+    {
+      "word_hu": "Hősök tere",
+      "example_hu": "Főbb nevezetességek: Hősök tere",
+      "word_en": "Heroes' Square",
+      "example_en": "Main sights: Heroes' Square",
+      "word_ru": "Hősök tere",
+      "example_ru": "Основные достопримечательности: Hősök tere"
+    },
+    {
+      "word_hu": "Magyar Nemzeti Múzeum",
+      "example_hu": "Főbb nevezetességek: Magyar Nemzeti Múzeum",
+      "word_en": "Hungarian National Museum",
+      "example_en": "Main sights: Hungarian National Museum",
+      "word_ru": "Magyar Nemzeti Múzeum",
+      "example_ru": "Основные достопримечательности: Magyar Nemzeti Múzeum"
+    },
+    {
+      "word_hu": "Magyar Zene Háza",
+      "example_hu": "Főbb nevezetességek: Magyar Zene Háza",
+      "word_en": "House of Hungarian Music",
+      "example_en": "Main sights: House of Hungarian Music",
+      "word_ru": "Magyar Zene Háza",
+      "example_ru": "Основные достопримечательности: Magyar Zene Háza"
+    },
+    {
+      "word_hu": "Magyar Állami Operaház",
+      "example_hu": "Főbb nevezetességek: Magyar Állami Operaház",
+      "word_en": "Hungarian State Opera",
+      "example_en": "Main sights: Hungarian State Opera",
+      "word_ru": "Magyar Állami Operaház",
+      "example_ru": "Основные достопримечательности: Magyar Állami Operaház"
+    },
+    {
+      "word_hu": "Mátyás-templom",
+      "example_hu": "Főbb nevezetességek: Mátyás-templom",
+      "word_en": "Matthias Church",
+      "example_en": "Main sights: Matthias Church",
+      "word_ru": "Mátyás-templom",
+      "example_ru": "Основные достопримечательности: Mátyás-templom"
+    },
+    {
+      "word_hu": "Parlament",
+      "example_hu": "Főbb nevezetességek: Parlament",
+      "word_en": "Parliament",
+      "example_en": "Main sights: Parliament",
+      "word_ru": "здание парламента",
+      "example_ru": "Основные достопримечательности: здание парламента"
+    },
+    {
+      "word_hu": "Szent István Bazilika",
+      "example_hu": "Főbb nevezetességek: Szent István Bazilika",
+      "word_en": "St. Stephen's Basilica",
+      "example_en": "Main sights: St. Stephen's Basilica",
+      "word_ru": "Szent István Bazilika",
+      "example_ru": "Основные достопримечательности: Szent István Bazilika"
+    },
+    {
+      "word_hu": "Széchenyi Lánchíd",
+      "example_hu": "Főbb nevezetességek: Széchenyi Lánchíd",
+      "word_en": "Széchenyi Chain Bridge",
+      "example_en": "Main sights: Széchenyi Chain Bridge",
+      "word_ru": "Széchenyi Lánchíd",
+      "example_ru": "Основные достопримечательности: Széchenyi Lánchíd"
+    },
+    {
+      "word_hu": "Szépművészeti Múzeum",
+      "example_hu": "Főbb nevezetességek: Szépművészeti Múzeum",
+      "word_en": "Museum of Fine Arts",
+      "example_en": "Main sights: Museum of Fine Arts",
+      "word_ru": "Szépművészeti Múzeum",
+      "example_ru": "Основные достопримечательности: Szépművészeti Múzeum"
+    },
+    {
+      "word_hu": "Vajdahunyad vára",
+      "example_hu": "Főbb nevezetességek: Vajdahunyad vára",
+      "word_en": "Vajdahunyad Castle",
+      "example_en": "Main sights: Vajdahunyad Castle",
+      "word_ru": "Vajdahunyad vára",
+      "example_ru": "Основные достопримечательности: Vajdahunyad vára"
+    },
+    {
+      "word_hu": "Buda",
+      "example_hu": "Budai vár; Buda – koronázó város",
+      "word_en": "Buda",
+      "example_en": "Buda Castle; Buda – a coronation town",
+      "word_ru": "Buda",
+      "example_ru": "Budai vár; Buda — город коронаций"
+    },
+    {
+      "word_hu": "Pest",
+      "example_hu": "Pest-Buda; Pest városa",
+      "word_en": "Pest",
+      "example_en": "Pest-Buda; the city of Pest",
+      "word_ru": "Pest",
+      "example_ru": "Pest-Buda; город Pest"
+    },
+    {
+      "word_hu": "Óbuda",
+      "example_hu": "Buda és Óbuda egyesítése",
+      "word_en": "Óbuda",
+      "example_en": "The unification of Buda and Óbuda",
+      "word_ru": "Óbuda",
+      "example_ru": "Объединение Buda и Óbuda"
+    }
+  ],
+  "count": 20
+}

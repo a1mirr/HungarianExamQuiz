@@ -1,0 +1,56 @@
+[
+  {
+    "id": "topic1",
+    "name": {
+      "hu": "Nemzeti szimbólumok és ünnepek",
+      "en": "National Symbols & Holidays",
+      "ru": "Национальные символы и праздники"
+    },
+    "icon": "🇭🇺"
+  },
+  {
+    "id": "topic2",
+    "name": {
+      "hu": "Történelem",
+      "en": "History",
+      "ru": "История"
+    },
+    "icon": "📜"
+  },
+  {
+    "id": "topic3",
+    "name": {
+      "hu": "Irodalom és művészet",
+      "en": "Literature & Art",
+      "ru": "Литература и искусство"
+    },
+    "icon": "📚"
+  },
+  {
+    "id": "topic4",
+    "name": {
+      "hu": "Alkotmány",
+      "en": "Constitution",
+      "ru": "Конституция"
+    },
+    "icon": "⚖️"
+  },
+  {
+    "id": "topic5",
+    "name": {
+      "hu": "Jogok és kötelességek",
+      "en": "Rights & Obligations",
+      "ru": "Права и обязанности"
+    },
+    "icon": "👥"
+  },
+  {
+    "id": "topic6",
+    "name": {
+      "hu": "Földrajz és kultúra",
+      "en": "Geography & Culture",
+      "ru": "География и культура"
+    },
+    "icon": "🗺️"
+  }
+]

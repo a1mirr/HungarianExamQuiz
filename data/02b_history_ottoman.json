@@ -1,0 +1,227 @@
+{
+  "id": "02b_history_ottoman",
+  "name": {
+    "en": "History: Ottoman Period",
+    "ru": "История: Османы",
+    "hu": "Történelem: Oszmán"
+  },
+  "questions": [
+    {
+      "word_hu": "Oszmán Birodalom",
+      "example_hu": "Harcokat vívott az Oszmán Birodalommal",
+      "word_en": "Ottoman Empire",
+      "example_en": "Fought battles with the Ottoman Empire",
+      "word_ru": "Османская империя",
+      "example_ru": "Венгерское королевство веками вело войны с Османской империей за контроль над Балканами и южными границами страны."
+    },
+    {
+      "word_hu": "Balkán",
+      "example_hu": "A Balkánon",
+      "word_en": "Balkans",
+      "example_en": "In the Balkans",
+      "word_ru": "Балканы",
+      "example_ru": "На Балканах"
+    },
+    {
+      "word_hu": "határ",
+      "example_hu": "Az ország déli határain",
+      "word_en": "border",
+      "example_en": "At the southern borders of the country",
+      "word_ru": "граница",
+      "example_ru": "На южных границах страны"
+    },
+    {
+      "word_hu": "Nándorfehérvár",
+      "example_hu": "Nándorfehérvárnál fényes győzelmet arattak.",
+      "word_en": "Belgrade",
+      "example_en": "They won a resounding victory at Belgrade.",
+      "word_ru": "Nándorfehérvár",
+      "example_ru": "В 1456 году под Нандорфехерваром (ныне Белград) венгерские и союзные христианские войска одержали блестящую победу над османами."
+    },
+    {
+      "word_hu": "fényes győzelem",
+      "example_hu": "Fényes győzelmet arattak.",
+      "word_en": "resounding victory",
+      "example_en": "They achieved a resounding victory.",
+      "word_ru": "блестящая победа",
+      "example_ru": "Блестящая победа христианских войск над турками под Нандорфехерваром в 1456 году."
+    },
+    {
+      "word_hu": "terjeszkedés",
+      "example_hu": "A törökök európai terjeszkedését feltartóztatták.",
+      "word_en": "expansion",
+      "example_en": "They halted the Turks' European expansion.",
+      "word_ru": "экспансия",
+      "example_ru": "Эта победа на 70 лет остановила европейскую экспансию Османской империи."
+    },
+    {
+      "word_hu": "harangszó",
+      "example_hu": "A déli harangszó e diadalra emlékeztet.",
+      "word_en": "bell ringing",
+      "example_en": "The noon bell ringing commemorates this victory.",
+      "word_ru": "звон колоколов",
+      "example_ru": "Полуденный звон колоколов в католических странах напоминает о победе при Нандорфехерваре."
+    },
+    {
+      "word_hu": "reneszánsz",
+      "example_hu": "Reneszánsz kori Magyarország",
+      "word_en": "Renaissance",
+      "example_en": "Renaissance-era Hungary",
+      "word_ru": "ренессанс",
+      "example_ru": "Венгрия эпохи Возрождения"
+    },
+    {
+      "word_hu": "hódoltság",
+      "example_hu": "A török hódoltság kora",
+      "word_en": "Ottoman occupation",
+      "example_en": "The period of Ottoman occupation",
+      "word_ru": "османское владычество",
+      "example_ru": "Период османского владычества"
+    },
+    {
+      "word_hu": "vereség",
+      "example_hu": "Súlyos vereséget szenvedtek.",
+      "word_en": "defeat",
+      "example_en": "They suffered a heavy defeat.",
+      "word_ru": "поражение",
+      "example_ru": "29 августа 1526 года под Мохачем венгерские войска потерпели тяжёлое поражение от османской армии."
+    },
+    {
+      "word_hu": "elfoglalni",
+      "example_hu": "1541-ben elfoglalták Budát.",
+      "word_en": "occupy",
+      "example_en": "They occupied Buda in 1541.",
+      "word_ru": "захватить",
+      "example_ru": "В 1541 году турки захватили Буду — столицу Венгерского королевства."
+    },
+    {
+      "word_hu": "szakadni",
+      "example_hu": "Az ország 3 részre szakadt.",
+      "word_en": "split",
+      "example_en": "The country split into three parts.",
+      "word_ru": "расколоться",
+      "example_ru": "Страна раскололась на три части."
+    },
+    {
+      "word_hu": "ostrom",
+      "example_hu": "Eger ostroma",
+      "word_en": "Siege",
+      "example_en": "The Siege of Eger",
+      "word_ru": "осада",
+      "example_ru": "Осада Eger"
+    },
+    {
+      "word_hu": "visszafoglalni",
+      "example_hu": "1686-ban visszafoglalták Budát.",
+      "word_en": "recapture",
+      "example_en": "They recaptured Buda in 1686.",
+      "word_ru": "отвоевать",
+      "example_ru": "2 сентября 1686 года объединённые европейские христианские войска под руководством Габсбургов отвоевали Буду у османов."
+    },
+    {
+      "word_hu": "Habsburg",
+      "example_hu": "A Habsburg uralkodók alatt",
+      "word_en": "Habsburg",
+      "example_en": "Under the Habsburg rulers",
+      "word_ru": "династия Habsburg",
+      "example_ru": "При правителях династии Habsburg"
+    },
+    {
+      "word_hu": "újjáépítés",
+      "example_hu": "Megindult az ország újjáépítése.",
+      "word_en": "reconstruction",
+      "example_en": "The reconstruction of the country began.",
+      "word_ru": "восстановление",
+      "example_ru": "После изгнания турок при Габсбургах началось восстановление разорённой страны."
+    },
+    {
+      "word_hu": "benépesítés",
+      "example_hu": "A lakatlan területek benépesítése.",
+      "word_en": "repopulation",
+      "example_en": "Repopulation of uninhabited areas.",
+      "word_ru": "заселение",
+      "example_ru": "При Габсбургах началось заселение опустевших территорий Венгрии переселенцами из разных регионов Европы."
+    },
+    {
+      "word_hu": "soknemzetiségű",
+      "example_hu": "Az ország soknemzetiségűvé vált.",
+      "word_en": "multi-ethnic",
+      "example_en": "The country became multi-ethnic.",
+      "word_ru": "многонациональный",
+      "example_ru": "Страна стала многонациональной."
+    },
+    {
+      "word_hu": "elnyomás",
+      "example_hu": "A Habsburg elnyomás ellen",
+      "word_en": "oppression",
+      "example_en": "Against Habsburg oppression",
+      "word_ru": "угнетение",
+      "example_ru": "Против габсбургского угнетения"
+    },
+    {
+      "word_hu": "felkelés",
+      "example_hu": "nemzeti felkelés",
+      "word_en": "uprising",
+      "example_en": "national uprising",
+      "word_ru": "восстание",
+      "example_ru": "национальное восстание"
+    },
+    {
+      "word_hu": "Hunyadi János",
+      "example_hu": "Hunyadi János vezetésével ... győzelmet arattak.",
+      "word_en": "John Hunyadi",
+      "example_en": "Under John Hunyadi's leadership they achieved victory.",
+      "word_ru": "Hunyadi János",
+      "example_ru": "Под руководством Яноша Хуньяди венгерские и союзные христианские войска победили турок под Нандорфехерваром в 1456 году."
+    },
+    {
+      "word_hu": "Hunyadi Mátyás",
+      "example_hu": "Hunyadi Mátyás uralkodása alatt élte fénykorát...",
+      "word_en": "Matthias Corvinus",
+      "example_en": "During the reign of Matthias Corvinus it flourished.",
+      "word_ru": "Hunyadi Mátyás",
+      "example_ru": "Во время правления Матьяша Хуньяди (1458–1490) Венгерское королевство эпохи Ренессанса переживало политический и культурный расцвет."
+    },
+    {
+      "word_hu": "Eger",
+      "example_hu": "Eger ostroma (1552)",
+      "word_en": "Eger",
+      "example_en": "The Siege of Eger (1552)",
+      "word_ru": "Eger",
+      "example_ru": "Осада Eger (1552)"
+    },
+    {
+      "word_hu": "Mohács",
+      "example_hu": "Mohácsnál súlyos vereséget szenvedtek.",
+      "word_en": "Mohács",
+      "example_en": "They suffered a heavy defeat at Mohács.",
+      "word_ru": "Mohács",
+      "example_ru": "Под Mohács потерпели тяжёлое поражение."
+    },
+    {
+      "word_hu": "Belgrád",
+      "example_hu": "Nándorfehérvárnál (ma Belgrád)",
+      "word_en": "Belgrade",
+      "example_en": "At Nándorfehérvár (today Belgrade)",
+      "word_ru": "Белград",
+      "example_ru": "У Nándorfehérvár (ныне Белград)"
+    },
+    {
+      "word_hu": "II. Rákóczi Ferenc",
+      "example_hu": "II. Rákóczi Ferenc vezetésével nemzeti felkelés tört ki 1703-1711 között.",
+      "word_en": "Ferenc II Rákóczi",
+      "example_en": "Ferenc II Rákóczi led a national uprising between 1703-1711.",
+      "word_ru": "II. Rákóczi Ferenc",
+      "example_ru": "II. Rákóczi Ferenc возглавил национальное восстание 1703-1711 гг."
+    },
+    {
+      "word_hu": "abszolutista",
+      "example_hu": "Az abszolutista Habsburg Birodalom része.",
+      "word_en": "absolutist",
+      "example_en": "Part of the absolutist Habsburg Empire.",
+      "word_ru": "абсолютистский",
+      "example_ru": "Часть абсолютистской империи Габсбургов."
+    }
+  ],
+  "count": 27
+}

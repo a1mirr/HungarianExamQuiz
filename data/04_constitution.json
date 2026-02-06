@@ -1,0 +1,299 @@
+{
+  "id": "04_constitution",
+  "name": {
+    "en": "Constitution",
+    "ru": "Конституция",
+    "hu": "Alkotmány"
+  },
+  "questions": [
+    {
+      "word_hu": "alkotmány",
+      "example_hu": "Magyarország alkotmányos állami folytonosságát",
+      "word_en": "constitution",
+      "example_en": "Hungary’s constitutional state continuity",
+      "word_ru": "конституция",
+      "example_ru": "Конституционная государственная преемственность Венгрии"
+    },
+    {
+      "word_hu": "Alaptörvény",
+      "example_hu": "Magyarország Alaptörvénye",
+      "word_en": "Fundamental Law",
+      "example_en": "Fundamental Law of Hungary",
+      "word_ru": "Основной закон",
+      "example_ru": "Основной закон Венгрии"
+    },
+    {
+      "word_hu": "Alaptörvény (intézmény)",
+      "example_hu": "Magyarország Alaptörvénye",
+      "word_en": "Fundamental Law",
+      "example_en": "The Fundamental Law of Hungary",
+      "word_ru": "Основной закон",
+      "example_ru": "Основной закон Венгрии"
+    },
+    {
+      "word_hu": "jogrend",
+      "example_hu": "Magyarország jogrendjének alapja.",
+      "word_en": "legal order",
+      "example_en": "The basis of Hungary’s legal order.",
+      "word_ru": "правовая система",
+      "example_ru": "Основа правовой системы Венгрии."
+    },
+    {
+      "word_hu": "szuverenitás",
+      "example_hu": "nemzeti függetlenség és szuverenitás.",
+      "word_en": "sovereignty",
+      "example_en": "national independence and sovereignty.",
+      "word_ru": "суверенитет",
+      "example_ru": "национальная независимость и суверенитет."
+    },
+    {
+      "word_hu": "érték",
+      "example_hu": "keresztény értékek.",
+      "word_en": "values",
+      "example_en": "Christian values.",
+      "word_ru": "ценности",
+      "example_ru": "христианские ценности."
+    },
+    {
+      "word_hu": "család",
+      "example_hu": "A családok védelme.",
+      "word_en": "family",
+      "example_en": "Protection of families.",
+      "word_ru": "семья",
+      "example_ru": "Защита семей."
+    },
+    {
+      "word_hu": "közösség",
+      "example_hu": "Határon túli magyar közösségek.",
+      "word_en": "community",
+      "example_en": "Hungarian communities beyond the border.",
+      "word_ru": "сообщество",
+      "example_ru": "Венгерские сообщества за границей."
+    },
+    {
+      "word_hu": "képviselet",
+      "example_hu": "Magyarország legfőbb népképviseleti szerve.",
+      "word_en": "representation",
+      "example_en": "Hungary’s supreme representative body.",
+      "word_ru": "представительство",
+      "example_ru": "Высший представительный орган Венгрии."
+    },
+    {
+      "word_hu": "képviselő",
+      "example_hu": "Az országgyűlési képviselők száma 199 fő.",
+      "word_en": "Member of Parliament",
+      "example_en": "The number of Members of Parliament is 199.",
+      "word_ru": "депутат",
+      "example_ru": "Число депутатов Országgyűlés — 199."
+    },
+    {
+      "word_hu": "költségvetés",
+      "example_hu": "Elfogadja a központi költségvetést.",
+      "word_en": "budget",
+      "example_en": "It adopts the central budget.",
+      "word_ru": "бюджет",
+      "example_ru": "Принимает центральный бюджет."
+    },
+    {
+      "word_hu": "miniszterelnök (szerep)",
+      "example_hu": "Magyarország miniszterelnöke.",
+      "word_en": "Prime Minister",
+      "example_en": "The Prime Minister of Hungary.",
+      "word_ru": "премьер-министр",
+      "example_ru": "Премьер-министр Венгрии."
+    },
+    {
+      "word_hu": "közigazgatás",
+      "example_hu": "Irányítja a közigazgatás munkáját.",
+      "word_en": "public administration",
+      "example_en": "Directs the work of public administration.",
+      "word_ru": "госуправление",
+      "example_ru": "Руководит работой госуправления."
+    },
+    {
+      "word_hu": "jogszabály",
+      "example_hu": "Jogszabályokat alkot.",
+      "word_en": "legislation",
+      "example_en": "Makes legislation.",
+      "word_ru": "законодательство",
+      "example_ru": "Создаёт законодательство."
+    },
+    {
+      "word_hu": "ellátórendszer",
+      "example_hu": "Működteti az állami ellátórendszereket.",
+      "word_en": "provision systems",
+      "example_en": "Operates state provision systems.",
+      "word_ru": "системы обеспечения",
+      "example_ru": "Управляет государственными системами обеспечения."
+    },
+    {
+      "word_hu": "honvédelem",
+      "example_hu": "A Kormány működteti a honvédelem állami ellátórendszerét.",
+      "word_en": "defense",
+      "example_en": "The Government operates the state system of national defense.",
+      "word_ru": "оборона",
+      "example_ru": "Правительство управляет государственной системой обороны."
+    },
+    {
+      "word_hu": "rendvédelem",
+      "example_hu": "A Kormány működteti a rendvédelem állami ellátórendszerét.",
+      "word_en": "law enforcement",
+      "example_en": "The Government operates the state law-enforcement system.",
+      "word_ru": "правоохранительные органы",
+      "example_ru": "Правительство управляет государственной системой правоохранения."
+    },
+    {
+      "word_hu": "oktatás",
+      "example_hu": "A Kormány működteti az állami oktatási rendszert.",
+      "word_en": "education",
+      "example_en": "The Government operates the state education system.",
+      "word_ru": "образование",
+      "example_ru": "Правительство управляет государственной системой образования."
+    },
+    {
+      "word_hu": "egészségügy",
+      "example_hu": "A Kormány működteti az állami egészségügyi rendszert.",
+      "word_en": "health care",
+      "example_en": "The Government operates the state healthcare system.",
+      "word_ru": "здравоохранение",
+      "example_ru": "Правительство управляет государственной системой здравоохранения."
+    },
+    {
+      "word_hu": "Agrárminisztérium",
+      "example_hu": "Agrárminisztérium",
+      "word_en": "Ministry of Agriculture",
+      "example_en": "Ministry of Agriculture",
+      "word_ru": "Министерство сельского хозяйства",
+      "example_ru": "Министерство сельского хозяйства"
+    },
+    {
+      "word_hu": "Belügyminisztérium",
+      "example_hu": "Belügyminisztérium",
+      "word_en": "Ministry of Interior",
+      "example_en": "Ministry of Interior",
+      "word_ru": "Министерство внутренних дел",
+      "example_ru": "Министерство внутренних дел"
+    },
+    {
+      "word_hu": "Energiaügyi Minisztérium",
+      "example_hu": "Energiaügyi Minisztérium",
+      "word_en": "Ministry of Energy",
+      "example_en": "Ministry of Energy",
+      "word_ru": "Министерство энергетики",
+      "example_ru": "Министерство энергетики"
+    },
+    {
+      "word_hu": "Építési és Közlekedési Minisztérium",
+      "example_hu": "Építési és Közlekedési Minisztérium",
+      "word_en": "Ministry of Construction and Transport",
+      "example_en": "Ministry of Construction and Transport",
+      "word_ru": "Министерство строительства и транспорта",
+      "example_ru": "Министерство строительства и транспорта"
+    },
+    {
+      "word_hu": "Európai Uniós Ügyek Minisztériuma",
+      "example_hu": "Európai Uniós Ügyek Minisztériuma",
+      "word_en": "Ministry for EU Affairs",
+      "example_en": "Ministry for EU Affairs",
+      "word_ru": "Министерство по делам ЕС",
+      "example_ru": "Министерство по делам ЕС"
+    },
+    {
+      "word_hu": "Honvédelmi Minisztérium",
+      "example_hu": "Honvédelmi Minisztérium",
+      "word_en": "Ministry of Defence",
+      "example_en": "Ministry of Defence",
+      "word_ru": "Министерство обороны",
+      "example_ru": "Министерство обороны"
+    },
+    {
+      "word_hu": "Igazságügyi Minisztérium",
+      "example_hu": "Igazságügyi Minisztérium",
+      "word_en": "Ministry of Justice",
+      "example_en": "Ministry of Justice",
+      "word_ru": "Министерство юстиции",
+      "example_ru": "Министерство юстиции"
+    },
+    {
+      "word_hu": "Közigazgatási és Területfejlesztési Minisztérium",
+      "example_hu": "Közigazgatási és Területfejlesztési Minisztérium",
+      "word_en": "Ministry of Public Administration and Regional Development",
+      "example_en": "Ministry of Public Administration and Regional Development",
+      "word_ru": "Министерство госуправления и регионального развития",
+      "example_ru": "Министерство госуправления и регионального развития"
+    },
+    {
+      "word_hu": "Kulturális és Innovációs Minisztérium",
+      "example_hu": "Kulturális és Innovációs Minisztérium",
+      "word_en": "Ministry of Culture and Innovation",
+      "example_en": "Ministry of Culture and Innovation",
+      "word_ru": "Министерство культуры и инноваций",
+      "example_ru": "Министерство культуры и инноваций"
+    },
+    {
+      "word_hu": "Külgazdasági és Külügyminisztérium",
+      "example_hu": "Külgazdasági és Külügyminisztérium",
+      "word_en": "Ministry of Foreign Affairs and Trade",
+      "example_en": "Ministry of Foreign Affairs and Trade",
+      "word_ru": "Министерство иностранных дел и внешней торговли",
+      "example_ru": "Министерство иностранных дел и внешней торговли"
+    },
+    {
+      "word_hu": "Miniszterelnöki Kabinetiroda",
+      "example_hu": "Miniszterelnöki Kabinetiroda",
+      "word_en": "Prime Minister’s Cabinet Office",
+      "example_en": "Prime Minister’s Cabinet Office",
+      "word_ru": "Кабинет премьер-министра",
+      "example_ru": "Кабинет премьер-министра"
+    },
+    {
+      "word_hu": "Miniszterelnökség",
+      "example_hu": "Miniszterelnökség",
+      "word_en": "Prime Minister’s Office",
+      "example_en": "Prime Minister’s Office",
+      "word_ru": "Канцелярия премьер-министра",
+      "example_ru": "Канцелярия премьер-министра"
+    },
+    {
+      "word_hu": "Nemzetgazdasági Minisztérium",
+      "example_hu": "Nemzetgazdasági Minisztérium",
+      "word_en": "Ministry of National Economy",
+      "example_en": "Ministry of National Economy",
+      "word_ru": "Министерство национальной экономики",
+      "example_ru": "Министерство национальной экономики"
+    },
+    {
+      "word_hu": "Országgyűlés",
+      "example_hu": "Az Országgyűlés választotta meg.",
+      "word_en": "National Assembly",
+      "example_en": "He was elected by the National Assembly.",
+      "word_ru": "Országgyűlés",
+      "example_ru": "Его избрало Országgyűlés."
+    },
+    {
+      "word_hu": "köztársasági elnök",
+      "example_hu": "Magyarország köztársasági elnöke",
+      "word_en": "President of the Republic",
+      "example_en": "The President of the Republic of Hungary",
+      "word_ru": "президент республики",
+      "example_ru": "Президент Республики Венгрия"
+    },
+    {
+      "word_hu": "Orbán Viktor",
+      "example_hu": "Magyarország miniszterelnöke: Orbán Viktor",
+      "word_en": "Viktor Orbán",
+      "example_en": "Hungary’s Prime Minister: Viktor Orbán",
+      "word_ru": "Orbán Viktor",
+      "example_ru": "Премьер-министр Венгрии: Orbán Viktor"
+    },
+    {
+      "word_hu": "Sulyok Tamás",
+      "example_hu": "Magyarország köztársasági elnöke: Dr. Sulyok Tamás",
+      "word_en": "Tamás Sulyok",
+      "example_en": "Hungary’s President: Dr. Tamás Sulyok",
+      "word_ru": "Sulyok Tamás",
+      "example_ru": "Президент Венгрии: Dr. Sulyok Tamás"
+    }
+  ],
+  "count": 36
+}

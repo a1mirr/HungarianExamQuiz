@@ -1,0 +1,75 @@
+{
+  "id": "05_rights",
+  "name": {
+    "en": "Rights",
+    "ru": "Права",
+    "hu": "Jogok"
+  },
+  "questions": [
+    {
+      "word_hu": "Magna Charta Libertatum",
+      "example_hu": "Az angol Magna Charta Libertatum (1215).",
+      "word_en": "Magna Carta",
+      "example_en": "The English Magna Carta (1215).",
+      "word_ru": "Великая хартия вольностей",
+      "example_ru": "Английская Великая хартия вольностей (1215) — один из первых европейских документов, ограничивающих власть монарха."
+    },
+    {
+      "word_hu": "Emberi és Polgári Jogok Nyilatkozata",
+      "example_hu": "A francia Emberi és Polgári Jogok Nyilatkozata (1789).",
+      "word_en": "Declaration of the Rights of Man",
+      "example_en": "The French Declaration of the Rights of Man and of the Citizen (1789).",
+      "word_ru": "Декларация прав человека и гражданина",
+      "example_ru": "Французская Декларация прав человека и гражданина (1789) — ключевой документ о правах и свободах эпохи Французской революции."
+    },
+    {
+      "word_hu": "Aranybulla",
+      "example_hu": "1222-ben II. András kiadta az Aranybullát.",
+      "word_en": "Golden Bull",
+      "example_en": "In 1222 Andrew II issued the Golden Bull.",
+      "word_ru": "Aranybulla",
+      "example_ru": "В 1222 году король Андраш II издал Золотую буллу — важнейший правовой документ средневековой Венгрии, закрепивший права дворян."
+    },
+    {
+      "word_hu": "jogszabály",
+      "example_hu": "Jogszabályokat alkot.",
+      "word_en": "legislation",
+      "example_en": "Makes legislation.",
+      "word_ru": "законодательство",
+      "example_ru": "Создаёт законодательство."
+    },
+    {
+      "word_hu": "alkotmányos",
+      "example_hu": "A magyar alkotmányos intézmények",
+      "word_en": "constitutional",
+      "example_en": "Hungarian constitutional institutions",
+      "word_ru": "конституционный",
+      "example_ru": "Венгерские конституционные учреждения"
+    },
+    {
+      "word_hu": "szuverenitás",
+      "example_hu": "nemzeti függetlenség és szuverenitás.",
+      "word_en": "sovereignty",
+      "example_en": "national independence and sovereignty.",
+      "word_ru": "суверенитет",
+      "example_ru": "национальная независимость и суверенитет."
+    },
+    {
+      "word_hu": "érték",
+      "example_hu": "keresztény értékek.",
+      "word_en": "values",
+      "example_en": "Christian values.",
+      "word_ru": "ценности",
+      "example_ru": "христианские ценности."
+    },
+    {
+      "word_hu": "nemes",
+      "example_hu": "A nemesek jogait összegezte.",
+      "word_en": "noble",
+      "example_en": "It summarized the rights of nobles.",
+      "word_ru": "дворянин",
+      "example_ru": "Документ обобщил права дворян."
+    }
+  ],
+  "count": 8
+}

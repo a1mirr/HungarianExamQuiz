@@ -1,0 +1,1383 @@
+[
+  {
+    "type": "Open",
+    "question": "Mi Magyarország államformája?",
+    "answer": "Köztársaság",
+    "translations": {
+      "en": {
+        "question": "What is Hungary's form of government?",
+        "answer": "Republic"
+      },
+      "ru": {
+        "question": "Какая форма правления в Венгрии?",
+        "answer": "Республика"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mi Magyarország államformája?",
+    "correctCount": 1,
+    "options": [
+      "Köztársaság",
+      "Monarchia",
+      "Diktatúra"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "What is Hungary's form of government?",
+        "answer": "Republic"
+      },
+      "ru": {
+        "question": "Какая форма правления в Венгрии?",
+        "answer": "Республика"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mekkora km² Magyarország területe?",
+    "answer": "93 ezer ÷ 93000",
+    "translations": {
+      "en": {
+        "question": "What is the area of Hungary?",
+        "answer": "93 thousand km² ÷ 93000 km²"
+      },
+      "ru": {
+        "question": "Какова площадь Венгрии?",
+        "answer": "93 тысячи км² ÷ 93000 км²"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány millió fő Magyarország népessége?",
+    "answer": "9,6 millió fő ÷ 9,6 millió ÷ 9.6 millió",
+    "translations": {
+      "en": {
+        "question": "How many million people live in Hungary?",
+        "answer": "9.6 million people"
+      },
+      "ru": {
+        "question": "Сколько миллионов человек проживает в Венгрии?",
+        "answer": "9,6 миллиона человек"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mi Magyarország fővárosa?",
+    "answer": "Budapest",
+    "translations": {
+      "en": {
+        "question": "What is the capital of Hungary?",
+        "answer": "Budapest"
+      },
+      "ru": {
+        "question": "Какая столица Венгрии?",
+        "answer": "Будапешт"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mi Magyarország pénzneme?",
+    "answer": "Forint",
+    "translations": {
+      "en": {
+        "question": "What is Hungary's currency?",
+        "answer": "Forint"
+      },
+      "ru": {
+        "question": "Какая валюта Венгрии?",
+        "answer": "Форинт"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mi Magyarország hivatalos nyelve?",
+    "answer": "Magyar",
+    "translations": {
+      "en": {
+        "question": "What is Hungary's official language?",
+        "answer": "Hungarian"
+      },
+      "ru": {
+        "question": "Какой официальный язык Венгрии?",
+        "answer": "Венгерский"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három magyarországi tájegységet",
+    "answer": "Alföld ÷ Alpokalja ÷ Dunántúli-dombság ÷ Dunántúli-középhegység ÷ Északi-középhegység ÷ Kisalföld",
+    "translations": {
+      "en": {
+        "question": "List three Hungarian landscapes!",
+        "answer": "Great Hungarian Plain ÷ Alpokalja ÷ Transdanubian Hills ÷ Transdanubian Central Range ÷ Northern Central Range ÷ Little Hungarian Plain"
+      },
+      "ru": {
+        "question": "Перечислите три венгерские природные зоны!",
+        "answer": "Великая Венгерская равнина ÷ Альпокалья ÷ Трансдунбийские холмы ÷ Трансдунбийское среднегорье ÷ Северное среднегорье ÷ Малая Венгерская низменность"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik Magyarország tájegysége?",
+    "correctCount": 3,
+    "options": [
+      "Alföld",
+      "Dunántúli-középhegység",
+      "Északi-középhegység",
+      "Alpok",
+      "Kárpátok"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is a Hungarian landscape?",
+        "answer": "Great Hungarian Plain, Transdanubian Central Range, Northern Central Range"
+      },
+      "ru": {
+        "question": "Какая является венгерской природной зоной?",
+        "answer": "Великая Венгерская равнина, Среднегорье Трансдунубии, Северное среднегорье"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány tájegysége van Magyarországnak?",
+    "answer": "Hat ÷ 6",
+    "translations": {
+      "en": {
+        "question": "How many landscapes does Hungary have?",
+        "answer": "Six ÷ 6"
+      },
+      "ru": {
+        "question": "Сколько природных зон в Венгрии?",
+        "answer": "Шесть ÷ 6"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Sorolja fel Magyarország három legnagyobb tavát",
+    "answer": "Balaton ÷ Fertő tó ÷ Velencei-tó",
+    "translations": {
+      "en": {
+        "question": "List Hungary's three largest lakes!",
+        "answer": "Lake Balaton ÷ Lake Fertő ÷ Lake Velence"
+      },
+      "ru": {
+        "question": "Перечислите три крупнейших озера Венгрии!",
+        "answer": "Балатон ÷ озеро Фертё ÷ озеро Веленце"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mi Magyarország legnagyobb tava?",
+    "answer": "Balaton",
+    "translations": {
+      "en": {
+        "question": "What is Hungary's largest lake?",
+        "answer": "Lake Balaton"
+      },
+      "ru": {
+        "question": "Какое крупнейшее озеро Венгрии?",
+        "answer": "Балатон"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Sorolja fel Magyarország négy legnagyobb folyóját",
+    "answer": "Duna ÷ Tisza ÷ Dráva ÷ Rába",
+    "translations": {
+      "en": {
+        "question": "List Hungary's four largest rivers!",
+        "answer": "Danube ÷ Tisza ÷ Drava ÷ Rába"
+      },
+      "ru": {
+        "question": "Перечислите четыре крупнейшие реки Венгрии!",
+        "answer": "Дунай ÷ Тиса ÷ Драва ÷ Раба"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik Magyarország folyója?",
+    "correctCount": 4,
+    "options": [
+      "Duna",
+      "Tisza",
+      "Dráva",
+      "Rába",
+      "Viszla",
+      "Oder"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is a river in Hungary?",
+        "answer": "Danube, Tisza, Drava, Rába"
+      },
+      "ru": {
+        "question": "Какая является рекой Венгрии?",
+        "answer": "Дунай, Тиса, Драва, Раба"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel öt szomszédos országot",
+    "answer": "Szlovákia ÷ Ukrajna ÷ Románia ÷ Szerbia ÷ Horvátország ÷ Szlovénia ÷ Ausztria",
+    "translations": {
+      "en": {
+        "question": "List five neighboring countries!",
+        "answer": "Slovakia ÷ Ukraine ÷ Romania ÷ Serbia ÷ Croatia ÷ Slovenia ÷ Austria"
+      },
+      "ru": {
+        "question": "Перечислите пять соседних стран!",
+        "answer": "Словакия ÷ Украина ÷ Румыния ÷ Сербия ÷ Хорватия ÷ Словения ÷ Австрия"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány szomszédos országa van Magyarországnak?",
+    "answer": "Hét ÷ 7",
+    "translations": {
+      "en": {
+        "question": "How many neighboring countries does Hungary have?",
+        "answer": "Seven ÷ 7"
+      },
+      "ru": {
+        "question": "Сколько соседних стран у Венгрии?",
+        "answer": "Семь ÷ 7"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik Magyarország szomszédja?",
+    "correctCount": 4,
+    "options": [
+      "Szlovákia",
+      "Románia",
+      "Szerbia",
+      "Ausztria",
+      "Lengyelország",
+      "Olaszország",
+      "Németország"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is a neighbor of Hungary?",
+        "answer": "Slovakia, Romania, Serbia, Austria"
+      },
+      "ru": {
+        "question": "Какая является соседом Венгрии?",
+        "answer": "Словакия, Румыния, Сербия, Австрия"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel öt Magyarországon élő nemzetiséget!",
+    "answer": "Bolgár ÷ görög ÷ horvát ÷ lengyel ÷ német ÷ örmény ÷ roma ÷ román ÷ ruszin ÷ szerb ÷ szlovák ÷ szlovén ÷ ukrán",
+    "translations": {
+      "en": {
+        "question": "List five nationalities living in Hungary!",
+        "answer": "Bulgarian ÷ Greek ÷ Croatian ÷ Polish ÷ German ÷ Armenian ÷ Roma ÷ Romanian ÷ Rusyn ÷ Serbian ÷ Slovak ÷ Slovenian ÷ Ukrainian"
+      },
+      "ru": {
+        "question": "Перечислите пять национальностей, проживающих в Венгрии!",
+        "answer": "Болгарская ÷ Греческая ÷ Хорватская ÷ Польская ÷ Немецкая ÷ Армянская ÷ Цыганская ÷ Румынская ÷ Русинская ÷ Сербская ÷ Словацкая ÷ Словенская ÷ Украинская"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik nemzetiség él Magyarországon?",
+    "correctCount": 5,
+    "options": [
+      "Roma",
+      "Német",
+      "Horvát",
+      "Szerb",
+      "Szlovák",
+      "Francia",
+      "Olasz",
+      "Spanyol"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is an EU member state?",
+        "answer": "Germany, France, Italy, Spain, Poland"
+      },
+      "ru": {
+        "question": "Какая является государством-членом ЕС?",
+        "answer": "Германия, Франция, Италия, Испания, Польша"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik NEM EU-tagállam?",
+    "correctCount": 1,
+    "options": [
+      "Svájc",
+      "Németország",
+      "Franciaország",
+      "Olaszország"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is NOT an EU member state?",
+        "answer": "Switzerland"
+      },
+      "ru": {
+        "question": "Какая НЕ является государством-членом ЕС?",
+        "answer": "Швейцария"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik ország tagja az EU-nak?",
+    "correctCount": 4,
+    "options": [
+      "Ausztria",
+      "Belgium",
+      "Hollandia",
+      "Dánia",
+      "Norvégia",
+      "Svájc"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "translations": {
+      "en": {
+        "question": "Which country is a member of the EU?",
+        "answer": "Austria, Belgium, Netherlands, Denmark"
+      },
+      "ru": {
+        "question": "Какая страна является членом ЕС?",
+        "answer": "Австрия, Бельгия, Нидерланды, Дания"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány vármegyéje van Magyarországnak?",
+    "answer": "Tizenkilenc ÷ 19",
+    "translations": {
+      "en": {
+        "question": "How many counties does Hungary have?",
+        "answer": "Nineteen ÷ 19"
+      },
+      "ru": {
+        "question": "Сколько областей в Венгрии?",
+        "answer": "Девятнадцать ÷ 19"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel öt vármegyét!",
+    "answer": "Baranya ÷ Borsod-Abaúj-Zemplén ÷ Bács-Kiskun ÷ Békés ÷ Csongrád-Csanád ÷ Fejér ÷ Győr-Moson-Sopron ÷ Hajdú-Bihar ÷ Heves ÷ Jász-Nagykun-Szolnok ÷ Komárom-Esztergom ÷ Nógrád ÷ Pest ÷ Somogy ÷ Szabolcs-Szatmár-Bereg ÷ Tolna ÷ Vas ÷ Veszprém ÷ Zala",
+    "translations": {
+      "en": {
+        "question": "List five counties!",
+        "answer": "Baranya ÷ Borsod-Abaúj-Zemplén ÷ Bács-Kiskun ÷ Békés ÷ Csongrád-Csanád ÷ Fejér ÷ Győr-Moson-Sopron ÷ Hajdú-Bihar ÷ Heves ÷ Jász-Nagykun-Szolnok ÷ Komárom-Esztergom ÷ Nógrád ÷ Pest ÷ Somogy ÷ Szabolcs-Szatmár-Bereg ÷ Tolna ÷ Vas ÷ Veszprém ÷ Zala"
+      },
+      "ru": {
+        "question": "Перечислите пять областей!",
+        "answer": "Барань ÷ Боршод-Абауй-Земплен ÷ Бачки-Кишкун ÷ Бекеш ÷ Чонград-Чанад ÷ Фейер ÷ Дьёр-Мошон-Шопрон ÷ Хайду-Бихар ÷ Хевеш ÷ Яс-Надькун-Шольнок ÷ Комаром-Эстергом ÷ Ноград ÷ Пешт ÷ Шомодь ÷ Саболь-Сатмар-Берег ÷ Толна ÷ Ваш ÷ Веспрем ÷ Зала"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik Magyarország vármegyéje?",
+    "correctCount": 5,
+    "options": [
+      "Pest",
+      "Baranya",
+      "Hajdú-Bihar",
+      "Somogy",
+      "Tolna",
+      "Erdély",
+      "Felvidék",
+      "Délvidék"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is a county in Hungary?",
+        "answer": "Pest, Baranya, Hajdú-Bihar, Somogy, Tolna"
+      },
+      "ru": {
+        "question": "Какая является областью Венгрии?",
+        "answer": "Пешт, Барань, Хайду-Бихар, Шомодь, Толна"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor jött létre Budapest?",
+    "answer": "1873.11.17 ÷ 1873 ÷ 1873.11.17",
+    "translations": {
+      "en": {
+        "question": "When was Budapest created?",
+        "answer": "1873.11.17"
+      },
+      "ru": {
+        "question": "Когда был создан Будапешт?",
+        "answer": "1873.11.17"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mely városok egyesüléséből jött létre Budapest?",
+    "answer": "Pest ÷ Buda ÷ Óbuda",
+    "translations": {
+      "en": {
+        "question": "From the merger of which cities was Budapest created?",
+        "answer": "From the merger of Pest, Buda and Óbuda"
+      },
+      "ru": {
+        "question": "Из объединения каких городов был создан Будапешт?",
+        "answer": "Из объединения Пешта, Буды и Обуды"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mely városok egyesültek 1873-ban?",
+    "correctCount": 3,
+    "options": [
+      "Pest",
+      "Buda",
+      "Óbuda",
+      "Kőbánya",
+      "Lipótváros"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which cities united in 1873?",
+        "answer": "Pest, Buda, Óbuda"
+      },
+      "ru": {
+        "question": "Какие города объединились в 1873 году?",
+        "answer": "Пешт, Буда, Обуда"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik folyó választja el Pestet és Budát?",
+    "correctCount": 1,
+    "options": [
+      "Duna",
+      "Tisza",
+      "Dráva"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "Which river separates Pest and Buda?",
+        "answer": "Danube"
+      },
+      "ru": {
+        "question": "Какая река разделяет Пешт и Буду?",
+        "answer": "Дунай"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány kerülete van Budapestnek?",
+    "answer": "23 ÷ huszonhárom",
+    "translations": {
+      "en": {
+        "question": "How many districts does Budapest have?",
+        "answer": "23 ÷ twenty-three"
+      },
+      "ru": {
+        "question": "Сколько районов в Будапеште?",
+        "answer": "23 ÷ двадцать три"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mióta van Budapestnek 23 kerülete?",
+    "answer": "1994 óta",
+    "translations": {
+      "en": {
+        "question": "Since when has Budapest had 23 districts?",
+        "answer": "1994"
+      },
+      "ru": {
+        "question": "С каких пор у Будапешта 23 района?",
+        "answer": "1994"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel öt budapesti nevezetességet!",
+    "answer": "Budavári Palota ÷ Citadella ÷ Gellért Gyógyfürdő ÷ Halászbástya ÷ Hősök tere ÷ Magyar Nemzeti Múzeum ÷ Magyar Zene Háza ÷ Magyar Állami Operaház ÷ Mátyás-templom ÷ Parlament ÷ Szent István Bazilika ÷ Széchenyi Lánchíd ÷ Szépművészeti Múzeum ÷ Vajdahunyad vára",
+    "translations": {
+      "en": {
+        "question": "List five Budapest landmarks!",
+        "answer": "Buda Castle ÷ Citadel ÷ Gellért Spa ÷ Fisherman's Bastion ÷ Heroes' Square ÷ Hungarian National Museum ÷ House of Hungarian Music ÷ Hungarian State Opera House ÷ Matthias Church ÷ Parliament ÷ St. Stephen's Basilica ÷ Széchenyi Chain Bridge ÷ Museum of Fine Arts ÷ Vajdahunyad Castle"
+      },
+      "ru": {
+        "question": "Перечислите пять достопримечательностей Будапешта!",
+        "answer": "Будайский замок ÷ Цитадель ÷ Купальня Геллерт ÷ Рыбацкий бастион ÷ Площадь Героев ÷ Венгерский национальный музей ÷ Дом венгерской музыки ÷ Венгерский государственный оперный театр ÷ Церковь Матяша ÷ Парламент ÷ Базилика Святого Иштвана ÷ Цепной мост Сечени ÷ Музей изобразительных искусств ÷ Замок Вайдахуняд"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik Budapesti nevezetesség?",
+    "correctCount": 5,
+    "options": [
+      "Parlament",
+      "Budavári Palota",
+      "Halászbástya",
+      "Szent István Bazilika",
+      "Turul",
+      "Esztergomi Bazilika",
+      "Akropolisz"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is a landmark in Budapest?",
+        "answer": "Parliament, Buda Castle, Fisherman's Bastion, St. Stephen's Basilica, Opera House"
+      },
+      "ru": {
+        "question": "Какая является достопримечательностью Будапешта?",
+        "answer": "Парламент, Будайский замок, Рыбацкий бастион, Базилика Святого Иштвана, Оперный театр"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három hungarikum ételt!",
+    "answer": "Gulyásleves ÷ halászlé ÷ dobostorta ÷ Pick téliszalámi",
+    "translations": {
+      "en": {
+        "question": "List three hungarikum foods!",
+        "answer": "Goulash soup ÷ Fisherman soup ÷ Dobos cake ÷ Pick winter salami"
+      },
+      "ru": {
+        "question": "Перечислите три хунгарикум блюда!",
+        "answer": "Гуляш ÷ Байская и Тисайская рыбная уха ÷ Торт Добош ÷ Зимняя салями Пик"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik hungarikum étel?",
+    "correctCount": 3,
+    "options": [
+      "Gulyásleves",
+      "Halászlé",
+      "Dobostorta",
+      "Paprikás csirke",
+      "Bécsi szelet"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is a Hungarian food?",
+        "answer": "Goulash soup, Fisherman's soup, Dobos cake"
+      },
+      "ru": {
+        "question": "Какая является венгерской едой?",
+        "answer": "Гуляш, Рыбацкая уха, Торт Добош"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel két hungarikum alapanyagot",
+    "answer": "Makói hagyma ÷ paprika",
+    "translations": {
+      "en": {
+        "question": "List two hungarikum ingredients!",
+        "answer": "Makó onion ÷ Kalocsa and Szeged ground paprika"
+      },
+      "ru": {
+        "question": "Перечислите два хунгарикум ингредиента!",
+        "answer": "Макойский лук ÷ Калочский и Сегедский молотый перец"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik város híres a fűszerpaprikájáról?",
+    "correctCount": 2,
+    "options": [
+      "Kalocsa",
+      "Szeged",
+      "Budapest",
+      "Debrecen"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "Which city is famous for its paprika?",
+        "answer": "Kalocsa, Szeged"
+      },
+      "ru": {
+        "question": "Какой город знаменит своим перцем?",
+        "answer": "Калоч, Сегед"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel két hungarikum italt",
+    "answer": "tokaji aszú ÷ egri bikavér ÷ pálinká",
+    "translations": {
+      "en": {
+        "question": "List two hungarikum drinks!",
+        "answer": "Hungarian wines (Tokaji Aszú, Egri Bikavér) ÷ pálinka"
+      },
+      "ru": {
+        "question": "Перечислите два хунгарикум напитка!",
+        "answer": "Венгерские вина (Токайское асу, Эгри бикавер) ÷ палинка"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik hungarikum ital?",
+    "correctCount": 2,
+    "options": [
+      "Tokaji aszú",
+      "Pálinka",
+      "Unicum",
+      "Olaszrizling"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is a Hungarian drink?",
+        "answer": "Tokaji Aszú, Pálinka"
+      },
+      "ru": {
+        "question": "Какой является венгерским напитком?",
+        "answer": "Токайское асу, Палинка"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik magyar bor hungarikum?",
+    "correctCount": 2,
+    "options": [
+      "Tokaji aszú",
+      "Egri bikavér",
+      "Bordeaux",
+      "Chianti"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "Which Hungarian wine is a cultural heritage?",
+        "answer": "Tokaji Aszú, Egri Bikavér"
+      },
+      "ru": {
+        "question": "Какое венгерское вино является культурным наследием?",
+        "answer": "Токайское асу, Эгри бикавер"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel két kulturális örökség hungarikumot!",
+    "answer": "Mohácsi busójárás ÷ Pannonhalmi Bencés Főapátság ÷ Hollókő ÷ Füredi Anna-bál ÷ Busójárás",
+    "translations": {
+      "en": {
+        "question": "List two cultural heritage hungarikums!",
+        "answer": "Mohács Busó Festival ÷ Pannonhalma Benedictine Abbey ÷ Hollókő ÷ Füred Anna Ball"
+      },
+      "ru": {
+        "question": "Перечислите два культурных наследия хунгарикума!",
+        "answer": "Мохачский карнавал бусо ÷ Паннонхалмское бенедиктинское аббатство ÷ Холлокё ÷ Бал Анны в Фюреде"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik hungarikum kulturális örökség?",
+    "correctCount": 3,
+    "options": [
+      "Mohácsi busójárás",
+      "Pannonhalmi Bencés Főapátság",
+      "Hollókő",
+      "Budavári Palotanegyed",
+      "Visegrádi Fellegvár"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is a Hungarian cultural heritage?",
+        "answer": "Mohács Busó Festival, Pannonhalma Archabbey, Hollókő"
+      },
+      "ru": {
+        "question": "Какая является венгерским культурным наследием?",
+        "answer": "Мохачский карнавал бусо, Паннонхалмское аббатство, Холлокё"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három hungarikum állatot",
+    "answer": "Szürke szarvasmarha ÷ puli ÷ komondor ÷ kuvasz ÷ magyar vizsla ÷ erdélyi kopó",
+    "translations": {
+      "en": {
+        "question": "List three hungarikum animals!",
+        "answer": "Gray cattle ÷ Hungarian shepherd dogs (Puli, Komondor, Kuvasz) ÷ Hungarian hunting dogs (Hungarian Vizsla, Transylvanian Hound)"
+      },
+      "ru": {
+        "question": "Перечислите три хунгарикум животных!",
+        "answer": "Серая корова ÷ Венгерские пастушьи собаки (Пули, Комондор, Кувас) ÷ Венгерские охотничьи собаки (Венгерская выжла, Трансильванская гончая)"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik hungarikum állat?",
+    "correctCount": 3,
+    "options": [
+      "Szürke szarvasmarha",
+      "Puli",
+      "Magyar vizsla",
+      "Német juhász",
+      "Labrador"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is a Hungarian animal?",
+        "answer": "Gray cattle, Puli, Hungarian Vizsla"
+      },
+      "ru": {
+        "question": "Какое является венгерским животным?",
+        "answer": "Серая корова, Пули, Венгерская выжла"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel két magyar pásztorkutyát!",
+    "answer": "Puli ÷ komondor ÷ kuvasz",
+    "translations": {
+      "en": {
+        "question": "List two Hungarian shepherd dogs!",
+        "answer": "Puli ÷ Komondor ÷ Kuvasz"
+      },
+      "ru": {
+        "question": "Перечислите две венгерские пастушьи собаки!",
+        "answer": "Пули ÷ Комондор ÷ Кувас"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik magyar pásztorkutya?",
+    "correctCount": 3,
+    "options": [
+      "Puli",
+      "Komondor",
+      "Kuvasz",
+      "Collie",
+      "Szürke szarvasmarha"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is a Hungarian shepherd dog?",
+        "answer": "Puli, Komondor, Kuvasz"
+      },
+      "ru": {
+        "question": "Какая является венгерской пастушьей собакой?",
+        "answer": "Пули, Комондор, Кувас"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel két magyar vadászkutyát",
+    "answer": "Magyar vizsla ÷ erdélyi kopó",
+    "translations": {
+      "en": {
+        "question": "List two Hungarian hunting dogs!",
+        "answer": "Hungarian Vizsla ÷ Transylvanian Hound"
+      },
+      "ru": {
+        "question": "Перечислите две венгерские охотничьи собаки!",
+        "answer": "Венгерская выжла ÷ Трансильванская гончая"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három nép- és iparművészeti hungarikumot",
+    "answer": "Halasi csipke ÷ matyó népművészet ÷ hollóházi és Zsolnay-porcelán",
+    "translations": {
+      "en": {
+        "question": "List three folk and industrial art hungarikums!",
+        "answer": "Halas lace ÷ Matyó folk art ÷ Hollóház and Zsolnay porcelain"
+      },
+      "ru": {
+        "question": "Перечислите три народных и промышленных искусства хунгарикума!",
+        "answer": "Халашское кружево ÷ Матьёское народное искусство ÷ Холлохазский и Золнайский фарфор"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik hungarikum nép- és iparművészet?",
+    "correctCount": 3,
+    "options": [
+      "Halasi csipke",
+      "Matyó népművészet",
+      "Zsolnay-porcelán",
+      "Korondi fazekasság",
+      "Székelykapu"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is a Hungarian folk art?",
+        "answer": "Halas lace, Matyó folk art, Zsolnay porcelain"
+      },
+      "ru": {
+        "question": "Какое является венгерским народным и прикладным искусством?",
+        "answer": "Халашское кружево, Матьёское народное искусство, Порцелан Золнай"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik porcelán hungarikum?",
+    "correctCount": 2,
+    "options": [
+      "Hollóházi porcelán",
+      "Zsolnay-porcelán",
+      "Meisseni porcelán",
+      "Limoges-i porcelán"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "Which porcelain is a Hungarian cultural heritage?",
+        "answer": "Hollóház porcelain, Zsolnay porcelain"
+      },
+      "ru": {
+        "question": "Какой фарфор является венгерским культурным наследием?",
+        "answer": "Порцелан Холлохаз, Порцелан Золнай"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Sorolja fel Magyarország három legrégibb és legjelentősebb felekezetét",
+    "answer": "Katolikus ÷ Református ÷ Evangélikus",
+    "translations": {
+      "en": {
+        "question": "List Hungary's three oldest and most significant denominations!",
+        "answer": "Hungarian Catholic Church ÷ Hungarian Reformed Church ÷ Hungarian Evangelical Church"
+      },
+      "ru": {
+        "question": "Перечислите три старейшие и наиболее значимые конфессии Венгрии!",
+        "answer": "Венгерская католическая церковь ÷ Венгерская реформатская церковь ÷ Венгерская евангелическая церковь"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik Magyarország jelentős felekezete?",
+    "correctCount": 3,
+    "options": [
+      "Katolikus",
+      "Református",
+      "Evangélikus",
+      "Anglikán",
+      "Buddhizmus"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is a significant denomination in Hungary?",
+        "answer": "Hungarian Catholic Church, Hungarian Reformed Church, Hungarian Evangelical Church"
+      },
+      "ru": {
+        "question": "Какая является значительной конфессией в Венгрии?",
+        "answer": "Венгерская католическая церковь, Венгерская реформатская церковь, Венгерская евангелическая церковь"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor van karácsony?",
+    "answer": "December 24-26. ÷ 12.24-12.26",
+    "translations": {
+      "en": {
+        "question": "When is Christmas?",
+        "answer": "December 24-26"
+      },
+      "ru": {
+        "question": "Когда Рождество?",
+        "answer": "24-26 декабря"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mit ünneplünk karácsonykor?",
+    "answer": "Jézus születését",
+    "translations": {
+      "en": {
+        "question": "What do we celebrate at Christmas?",
+        "answer": "Jesus, the birth of the Savior"
+      },
+      "ru": {
+        "question": "Что мы празднуем на Рождество?",
+        "answer": "Иисуса, рождение Спасителя"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Kit ünneplünk karácsonykor?",
+    "correctCount": 1,
+    "options": [
+      "Jézus születését",
+      "Jézus feltámadását",
+      "Szent István születését"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "Who is celebrated at Christmas?",
+        "answer": "Jesus' birth"
+      },
+      "ru": {
+        "question": "Кого празднуют на Рождество?",
+        "answer": "Рождение Иисуса"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit ünneplünk húsvétkor?",
+    "correctCount": 2,
+    "options": [
+      "Jézus kereszthalálára emlékezünk",
+      "Jézus feltámadását ünnepeljük",
+      "Jézus születését",
+      "Szent István születését"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "What is celebrated at Easter?",
+        "answer": "We remember Jesus' crucifixion, We celebrate Jesus' resurrection"
+      },
+      "ru": {
+        "question": "Что празднуют на Пасху?",
+        "answer": "Мы помним распятие Иисуса, Мы празднуем воскресение Иисуса"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Kire emlékezünk augusztus 20-án?",
+    "answer": "Szent István királyra",
+    "translations": {
+      "en": {
+        "question": "Who do we remember on August 20?",
+        "answer": "King Saint Stephen"
+      },
+      "ru": {
+        "question": "О ком мы помним 20 августа?",
+        "answer": "Короля Святого Иштвана"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Minek a napja augusztus 20.?",
+    "answer": "A magyar államalapítás ÷ Szent István",
+    "translations": {
+      "en": {
+        "question": "What day is August 20?",
+        "answer": "Day of Hungarian state foundation ÷ King Saint Stephen's day"
+      },
+      "ru": {
+        "question": "Какой день 20 августа?",
+        "answer": "День основания венгерского государства ÷ День короля Святого Иштвана"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit tartanak Szent István napján?",
+    "correctCount": 2,
+    "options": [
+      "Szent Jobb Körmenet",
+      "Tűzijáték",
+      "Karácsonyi ünnepség",
+      "Húsvéti szertartás"
+    ],
+    "correctIndices": [
+      0,
+      1
+    ],
+    "translations": {
+      "en": {
+        "question": "What is held on St. Stephen's Day?",
+        "answer": "Holy Right Procession, Fireworks"
+      },
+      "ru": {
+        "question": "Что проводят в день Святого Иштвана?",
+        "answer": "Процессия со Святой Десницей, Фейерверк"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel öt magyar szentet vagy boldogot",
+    "answer": "Szent István ÷ Szent László ÷ Szent Imre ÷ Szent Gellért ÷ Szent Margit ÷ Szent Erzsébet",
+    "translations": {
+      "en": {
+        "question": "List five Hungarian saints or blessed!",
+        "answer": "Saint Stephen ÷ Saint Ladislaus ÷ Saint Emeric ÷ Saint Gerard ÷ Saint Margaret of Árpád House ÷ Saint Elizabeth of Árpád House"
+      },
+      "ru": {
+        "question": "Перечислите пять венгерских святых или блаженных!",
+        "answer": "Святой Иштван ÷ Святой Ласло ÷ Святой Имре ÷ Святой Геллерт ÷ Святая Маргит из дома Арпадов ÷ Святая Эржебет из дома Арпадов"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Ki magyar szent?",
+    "correctCount": 4,
+    "options": [
+      "Szent István",
+      "Szent László",
+      "Szent Imre",
+      "Szent Gellért",
+      "Szent Péter",
+      "Szent Pál"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "translations": {
+      "en": {
+        "question": "Who is a Hungarian saint?",
+        "answer": "Saint Stephen, Saint Ladislaus, Saint Emeric, Saint Gerard"
+      },
+      "ru": {
+        "question": "Кто является венгерским святым?",
+        "answer": "Святой Иштван, Святой Ласло, Святой Имре, Святой Геллерт"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor csatlakozott Magyarország az Európai Unióhoz?",
+    "answer": "2004.05.01 ÷ 2004.05.01",
+    "translations": {
+      "en": {
+        "question": "When did Hungary join the European Union?",
+        "answer": "2004.05.01"
+      },
+      "ru": {
+        "question": "Когда Венгрия присоединилась к Европейскому Союзу?",
+        "answer": "2004.05.01"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány millió polgár él az Európai Unióban?",
+    "answer": "450 millió ÷ 450",
+    "translations": {
+      "en": {
+        "question": "How many million citizens live in the European Union?",
+        "answer": "450 million"
+      },
+      "ru": {
+        "question": "Сколько миллионов граждан проживает в Европейском Союзе?",
+        "answer": "450 миллионов"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mikor csatlakozott Magyarország a schengeni övezethez?",
+    "answer": "2007 ÷ 2007",
+    "translations": {
+      "en": {
+        "question": "When did Hungary join the Schengen area?",
+        "answer": "2007"
+      },
+      "ru": {
+        "question": "Когда Венгрия присоединилась к Шенгенской зоне?",
+        "answer": "2007"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Mit jelent a schengeni övezet?",
+    "correctCount": 1,
+    "options": [
+      "A határok szabad átjárhatóságát",
+      "Közös pénznemet",
+      "Közös hadsereget"
+    ],
+    "correctIndices": [
+      0
+    ],
+    "translations": {
+      "en": {
+        "question": "What does the Schengen area mean?",
+        "answer": "Free movement of borders"
+      },
+      "ru": {
+        "question": "Что означает Шенгенская зона?",
+        "answer": "Свободное пересечение границ"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Mi az Európai Unió központja?",
+    "answer": "Brüsszel",
+    "translations": {
+      "en": {
+        "question": "What is the headquarters of the European Union?",
+        "answer": "Brussels"
+      },
+      "ru": {
+        "question": "Где находится штаб-квартира Европейского Союза?",
+        "answer": "Брюссель"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel három EU intézményt",
+    "answer": "Európai Bizottság ÷ Tanács ÷ Európai Parlament ÷ Európai Tanács",
+    "translations": {
+      "en": {
+        "question": "List three EU institutions!",
+        "answer": "European Commission ÷ Council ÷ European Parliament ÷ European Council"
+      },
+      "ru": {
+        "question": "Перечислите три института ЕС!",
+        "answer": "Европейская комиссия ÷ Совет ÷ Европейский парламент ÷ Европейский совет"
+      }
+    }
+  },
+  {
+    "type": "Multiple",
+    "question": "Melyik az EU intézménye?",
+    "correctCount": 3,
+    "options": [
+      "Európai Bizottság",
+      "Európai Parlament",
+      "Európai Tanács",
+      "ENSZ",
+      "NATO"
+    ],
+    "correctIndices": [
+      0,
+      1,
+      2
+    ],
+    "translations": {
+      "en": {
+        "question": "Which one is an EU institution?",
+        "answer": "European Commission, European Parliament, European Council"
+      },
+      "ru": {
+        "question": "Какая является институтом ЕС?",
+        "answer": "Европейская комиссия, Европейский парламент, Европейский совет"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Milyen gyakran tartanak európai parlamenti választásokat?",
+    "answer": "Ötévente ÷ 5 év ÷ 5",
+    "translations": {
+      "en": {
+        "question": "How often are European Parliament elections held?",
+        "answer": "Every five years"
+      },
+      "ru": {
+        "question": "Как часто проводятся выборы в Европейский парламент?",
+        "answer": "Каждые пять лет"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány fővel képviselteti magát Magyarország az Európai Parlamentben?",
+    "answer": "21 fővel ÷ 21",
+    "translations": {
+      "en": {
+        "question": "How many representatives does Hungary have in the European Parliament?",
+        "answer": "21 representatives"
+      },
+      "ru": {
+        "question": "Сколько представителей имеет Венгрия в Европейском парламенте?",
+        "answer": "21 представителем"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Hány tagállama van az Európai Uniónak?",
+    "answer": "27",
+    "translations": {
+      "en": {
+        "question": "How many member states does the European Union have?",
+        "answer": "27"
+      },
+      "ru": {
+        "question": "Сколько государств-членов в Европейском Союзе?",
+        "answer": "27"
+      }
+    }
+  },
+  {
+    "type": "Open",
+    "question": "Soroljon fel negy EU-tagállamot!",
+    "answer": "Ausztria ÷ Belgium ÷ Bulgária ÷ Ciprus ÷ Csehország ÷ Dánia ÷ Észtország ÷ Finnország ÷ Franciaország ÷ Görögország ÷ Hollandia ÷ Horvátország ÷ Írország ÷ Lengyelország ÷ Lettország ÷ Litvánia ÷ Luxemburg ÷ Magyarország ÷ Málta ÷ Németország ÷ Olaszország ÷ Portugália ÷ Románia ÷ Spanyolország ÷ Svédország ÷ Szlovákia ÷ Szlovénia",
+    "translations": {
+      "en": {
+        "question": "List ten EU member states!",
+        "answer": "Austria ÷ Belgium ÷ Bulgaria ÷ Cyprus ÷ Czech Republic ÷ Denmark ÷ Estonia ÷ Finland ÷ France ÷ Greece ÷ Netherlands ÷ Croatia ÷ Ireland ÷ Poland ÷ Latvia ÷ Lithuania ÷ Luxembourg ÷ Hungary ÷ Malta ÷ Germany ÷ Italy ÷ Portugal ÷ Romania ÷ Spain ÷ Sweden ÷ Slovakia ÷ Slovenia"
+      },
+      "ru": {
+        "question": "Перечислите десять государств-членов ЕС!",
+        "answer": "Австрия ÷ Бельгия ÷ Болгария ÷ Кипр ÷ Чехия ÷ Дания ÷ Эстония ÷ Финляндия ÷ Франция ÷ Греция ÷ Нидерланды ÷ Хорватия ÷ Ирландия ÷ Польша ÷ Латвия ÷ Литва ÷ Люксембург ÷ Венгрия ÷ Мальта ÷ Германия ÷ Италия ÷ Португалия ÷ Румыния ÷ Испания ÷ Швеция ÷ Словакия ÷ Словения"
+      }
+    }
+  }
+]

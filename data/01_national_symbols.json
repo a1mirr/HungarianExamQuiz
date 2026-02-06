@@ -1,0 +1,283 @@
+{
+  "id": "01_national_symbols",
+  "name": {
+    "en": "National Symbols & Holidays",
+    "ru": "Символы и праздники",
+    "hu": "Nemzeti szimbólumok"
+  },
+  "questions": [
+    {
+      "word_hu": "zászló",
+      "example_hu": "Magyarország zászlója",
+      "word_en": "flag",
+      "example_en": "The flag of Hungary",
+      "word_ru": "флаг",
+      "example_ru": "Флаг Венгрии"
+    },
+    {
+      "word_hu": "címer",
+      "example_hu": "Magyarország címere",
+      "word_en": "coat of arms",
+      "example_en": "The coat of arms of Hungary",
+      "word_ru": "герб",
+      "example_ru": "Герб Венгрии"
+    },
+    {
+      "word_hu": "korona",
+      "example_hu": "Szent Korona",
+      "word_en": "crown",
+      "example_en": "Holy Crown",
+      "word_ru": "корона",
+      "example_ru": "Szent Korona"
+    },
+    {
+      "word_hu": "Szent Korona",
+      "example_hu": "Szent Korona az Országházban tekinthető meg.",
+      "word_en": "Holy Crown",
+      "example_en": "The Holy Crown can be viewed in the Parliament Building.",
+      "word_ru": "Szent Korona",
+      "example_ru": "Szent Korona можно увидеть в Országház."
+    },
+    {
+      "word_hu": "himnusz",
+      "example_hu": "Magyarország himnusza",
+      "word_en": "anthem",
+      "example_en": "The anthem of Hungary",
+      "word_ru": "гимн",
+      "example_ru": "Гимн Венгрии"
+    },
+    {
+      "word_hu": "Szózat",
+      "example_hu": "A Himnusz mellett gyakran énekeljük a Szózatot.",
+      "word_en": "Appeal (poem)",
+      "example_en": "Alongside the Hymn, we often sing the Appeal.",
+      "word_ru": "Szózat",
+      "example_ru": "Наряду с гимном мы часто поём Szózat на национальные праздники."
+    },
+    {
+      "word_hu": "lobogó",
+      "example_hu": "A magyar nemzeti lobogó",
+      "word_en": "national flag",
+      "example_en": "The Hungarian national flag",
+      "word_ru": "государственный флаг",
+      "example_ru": "Венгерский национальный флаг"
+    },
+    {
+      "word_hu": "kettős kereszt",
+      "example_hu": "Kettős kereszt",
+      "word_en": "double cross",
+      "example_en": "Double cross",
+      "word_ru": "двойной крест",
+      "example_ru": "Двойной крест"
+    },
+    {
+      "word_hu": "hármas halom",
+      "example_hu": "Hármas halom, rajta korona",
+      "word_en": "triple hill",
+      "example_en": "Triple hill with a crown on it",
+      "word_ru": "тройной холм",
+      "example_ru": "Тройной холм с короной"
+    },
+    {
+      "word_hu": "piros",
+      "example_hu": "A piros sáv az „erőt” jelképezi",
+      "word_en": "red",
+      "example_en": "The red stripe symbolizes “strength”",
+      "word_ru": "красный",
+      "example_ru": "Красная полоса символизирует «силу»"
+    },
+    {
+      "word_hu": "fehér",
+      "example_hu": "A fehér a „hűséget” jelképezi",
+      "word_en": "white",
+      "example_en": "White symbolizes “loyalty”",
+      "word_ru": "белый",
+      "example_ru": "Белый символизирует «верность»"
+    },
+    {
+      "word_hu": "zöld",
+      "example_hu": "A zöld a „reményt” jelképezi",
+      "word_en": "green",
+      "example_en": "Green symbolizes “hope”",
+      "word_ru": "зелёный",
+      "example_ru": "Зелёный символизирует «надежду»"
+    },
+    {
+      "word_hu": "jelképezni",
+      "example_hu": "A színek az alábbiakat jelképezik",
+      "word_en": "symbolize",
+      "example_en": "The colors symbolize the following",
+      "word_ru": "символизировать",
+      "example_ru": "Цвета символизируют следующее"
+    },
+    {
+      "word_hu": "koronázási jelvény",
+      "example_hu": "Koronázási jelvények",
+      "word_en": "coronation insignia",
+      "example_en": "Coronation insignia",
+      "word_ru": "коронационные регалии",
+      "example_ru": "Коронационные регалии"
+    },
+    {
+      "word_hu": "országalma",
+      "example_hu": "Országalma",
+      "word_en": "orb",
+      "example_en": "Orb",
+      "word_ru": "держава",
+      "example_ru": "Держава"
+    },
+    {
+      "word_hu": "kard",
+      "example_hu": "Koronázási kard",
+      "word_en": "sword",
+      "example_en": "Coronation sword",
+      "word_ru": "меч",
+      "example_ru": "Коронационный меч"
+    },
+    {
+      "word_hu": "jogar",
+      "example_hu": "Koronázási jogar",
+      "word_en": "scepter",
+      "example_en": "Coronation scepter",
+      "word_ru": "скипетр",
+      "example_ru": "Коронационный скипетр"
+    },
+    {
+      "word_hu": "palást",
+      "example_hu": "Koronázási palást",
+      "word_en": "mantle",
+      "example_en": "Coronation mantle",
+      "word_ru": "коронационная мантия",
+      "example_ru": "Коронационная мантия"
+    },
+    {
+      "word_hu": "Országház",
+      "example_hu": "A Szent Korona az Országházban tekinthető meg.",
+      "word_en": "Parliament Building",
+      "example_en": "The Holy Crown can be viewed in the Parliament Building.",
+      "word_ru": "здание Парламента",
+      "example_ru": "Szent Korona можно увидеть в Országház."
+    },
+    {
+      "word_hu": "felvonni",
+      "example_hu": "Magyarország lobogóját nemzeti ünnepeken felvonják az Országház előtt.",
+      "word_en": "raise (a flag)",
+      "example_en": "Hungary’s flag is raised before the Parliament Building on national holidays.",
+      "word_ru": "поднимать (флаг)",
+      "example_ru": "Флаг Венгрии поднимают перед Országház в национальные праздники."
+    },
+    {
+      "word_hu": "nemzeti ünnep",
+      "example_hu": "Nemzeti ünnepek",
+      "word_en": "national holiday",
+      "example_en": "National holidays",
+      "word_ru": "национальный праздник",
+      "example_ru": "Национальные праздники"
+    },
+    {
+      "word_hu": "Március 15.",
+      "example_hu": "Március 15.: az 1848–49-es forradalom és szabadságharc emlékére",
+      "word_en": "15 March",
+      "example_en": "15 March: in memory of the 1848–49 revolution and war of independence",
+      "word_ru": "15 марта",
+      "example_ru": "15 марта — в память о революции и войне за независимость 1848–49 гг."
+    },
+    {
+      "word_hu": "Augusztus 20.",
+      "example_hu": "Augusztus 20.: az államalapítás emlékére",
+      "word_en": "20 August",
+      "example_en": "20 August: in memory of the founding of the state",
+      "word_ru": "20 августа",
+      "example_ru": "20 августа — в память об основании государства"
+    },
+    {
+      "word_hu": "Október 23.",
+      "example_hu": "Október 23.: az 1956. évi forradalom és szabadságharc emlékére",
+      "word_en": "23 October",
+      "example_en": "23 October: in memory of the 1956 revolution and war of independence",
+      "word_ru": "23 октября",
+      "example_ru": "23 октября — в память о революции 1956 года."
+    },
+    {
+      "word_hu": "Kölcsey Ferenc",
+      "example_hu": "Kölcsey Ferenc költeménye, 1823-ban íródott.",
+      "word_en": "Ferenc Kölcsey",
+      "example_en": "It is a poem by Ferenc Kölcsey, written in 1823.",
+      "word_ru": "Kölcsey Ferenc",
+      "example_ru": "Это стихотворение Kölcsey Ferenc, написанное в 1823 году."
+    },
+    {
+      "word_hu": "Vörösmarty Mihály",
+      "example_hu": "Vörösmarty Mihály 1836-ban írta.",
+      "word_en": "Mihály Vörösmarty",
+      "example_en": "Mihály Vörösmarty wrote it in 1836.",
+      "word_ru": "Vörösmarty Mihály",
+      "example_ru": "Vörösmarty Mihály написал это в 1836 году."
+    },
+    {
+      "word_hu": "Erkel Ferenc",
+      "example_hu": "Erkel Ferenc zenésítette meg.",
+      "word_en": "Ferenc Erkel",
+      "example_en": "Ferenc Erkel set it to music.",
+      "word_ru": "Erkel Ferenc",
+      "example_ru": "Erkel Ferenc положил на музыку."
+    },
+    {
+      "word_hu": "Egressy Béni",
+      "example_hu": "Egressy Béni zenésítette meg.",
+      "word_en": "Béni Egressy",
+      "example_en": "Béni Egressy set it to music.",
+      "word_ru": "Egressy Béni",
+      "example_ru": "Egressy Béni положил на музыку."
+    },
+    {
+      "word_hu": "ünnepelni",
+      "example_hu": "A Himnusz mellett gyakran énekeljük nemzeti ünnepeken.",
+      "word_en": "celebrate",
+      "example_en": "We often sing it on national holidays.",
+      "word_ru": "праздновать",
+      "example_ru": "Наряду с гимном мы часто поём в национальные праздники."
+    },
+    {
+      "word_hu": "Buda",
+      "example_hu": "Budai vár; Buda – koronázó város",
+      "word_en": "Buda",
+      "example_en": "Buda Castle; Buda – a coronation town",
+      "word_ru": "Buda",
+      "example_ru": "Будайский замок; Buda — город коронаций"
+    },
+    {
+      "word_hu": "Esztergom",
+      "example_hu": "Egykori magyar koronázó városok: Esztergom",
+      "word_en": "Esztergom",
+      "example_en": "Former Hungarian coronation towns: Esztergom",
+      "word_ru": "Esztergom",
+      "example_ru": "Бывшие города коронаций: Esztergom"
+    },
+    {
+      "word_hu": "Pozsony",
+      "example_hu": "Egykori magyar koronázó városok: Pozsony",
+      "word_en": "Bratislava",
+      "example_en": "Former Hungarian coronation towns: Bratislava",
+      "word_ru": "Pozsony",
+      "example_ru": "Бывшие города коронаций: Pozsony"
+    },
+    {
+      "word_hu": "Sopron",
+      "example_hu": "Egykori magyar koronázó városok: Sopron",
+      "word_en": "Sopron",
+      "example_en": "Former Hungarian coronation towns: Sopron",
+      "word_ru": "Sopron",
+      "example_ru": "Бывшие города коронаций: Sopron"
+    },
+    {
+      "word_hu": "Székesfehérvár",
+      "example_hu": "Egykori magyar koronázó városok: Székesfehérvár",
+      "word_en": "Székesfehérvár",
+      "example_en": "Former Hungarian coronation towns: Székesfehérvár",
+      "word_ru": "Székesfehérvár",
+      "example_ru": "Бывшие города коронаций: Székesfehérvár"
+    }
+  ],
+  "count": 34
+}
