@@ -14,11 +14,21 @@
         "translations": {
             "en": {
                 "question": "What antecedents does the idea of human rights look back to in Europe?",
-                "answer": "Ancient antecedents"
+                "answer": "Ancient antecedents",
+                "options": [
+                    "Ancient antecedents",
+                    "Medieval antecedents",
+                    "Renaissance antecedents"
+                ]
             },
             "ru": {
                 "question": "На какие предпосылки опирается идея прав человека в Европе?",
-                "answer": "Древние предпосылки"
+                "answer": "Древние предпосылки",
+                "options": [
+                    "Древние предпосылки",
+                    "Средневековые предпосылки",
+                    "Предпосылки эпохи Возрождения"
+                ]
             }
         }
     },
@@ -69,11 +79,21 @@
         "translations": {
             "en": {
                 "question": "Which document is the oldest in the development of human rights?",
-                "answer": "Magna Charta Libertatum (1215)"
+                "answer": "Magna Charta Libertatum (1215)",
+                "options": [
+                    "Magna Charta Libertatum",
+                    "Golden Bull",
+                    "French Declaration of the Rights of Man and of the Citizen"
+                ]
             },
             "ru": {
                 "question": "Какой документ является самым древним в развитии прав человека?",
-                "answer": "Magna Charta Libertatum (1215)"
+                "answer": "Magna Charta Libertatum (1215)",
+                "options": [
+                    "Magna Charta Libertatum",
+                    "Золотая булла",
+                    "Французская декларация прав человека и гражданина"
+                ]
             }
         }
     },
@@ -108,11 +128,21 @@
         "translations": {
             "en": {
                 "question": "Which year is correct for the French Declaration of the Rights of Man and of the Citizen?",
-                "answer": "1789"
+                "answer": "1789",
+                "options": [
+                    "1789",
+                    "1779",
+                    "1848"
+                ]
             },
             "ru": {
                 "question": "Какой год верен для Французской декларации прав человека и гражданина?",
-                "answer": "1789"
+                "answer": "1789",
+                "options": [
+                    "1789",
+                    "1779",
+                    "1848"
+                ]
             }
         }
     },
@@ -147,11 +177,21 @@
         "translations": {
             "en": {
                 "question": "When did civil societies act more forcefully to achieve legal equality?",
-                "answer": "In the 17-18th century"
+                "answer": "In the 17-18th century",
+                "options": [
+                    "In the 17-18th century",
+                    "In the 19th century",
+                    "In the 16-17th century"
+                ]
             },
             "ru": {
                 "question": "Когда гражданское общество выступало более решительно для достижения равенства перед законом?",
-                "answer": "В 17-18 веках"
+                "answer": "В 17-18 веках",
+                "options": [
+                    "В 17-18 веках",
+                    "В 19 веке",
+                    "В 16-17 веках"
+                ]
             }
         }
     },
@@ -188,11 +228,23 @@
         "translations": {
             "en": {
                 "question": "What is the correct definition of legal equality?",
-                "answer": "The state grants equal rights to all its citizens, and all citizens are equal before the law"
+                "answer": "The state grants equal rights to all its citizens, and all citizens are equal before the law",
+                "options": [
+                    "The state grants equal rights to all its citizens",
+                    "All citizens are equal before the law",
+                    "All citizens have the same income",
+                    "Every citizen of the state does the same work"
+                ]
             },
             "ru": {
                 "question": "Каково правильное определение равенства перед законом?",
-                "answer": "Государство предоставляет равные права всем своим гражданам, и все граждане равны перед законом"
+                "answer": "Государство предоставляет равные права всем своим гражданам, и все граждане равны перед законом",
+                "options": [
+                    "Государство предоставляет равные права всем своим гражданам",
+                    "Все граждане равны перед законом",
+                    "У всех граждан одинаковый доход",
+                    "Каждый гражданин государства выполняет одну и ту же работу"
+                ]
             }
         }
     },
@@ -243,11 +295,21 @@
         "translations": {
             "en": {
                 "question": "In which year was the European Convention on Human Rights adopted?",
-                "answer": "1950"
+                "answer": "1950",
+                "options": [
+                    "1950",
+                    "1949",
+                    "1951"
+                ]
             },
             "ru": {
                 "question": "В каком году была принята Европейская конвенция о правах человека?",
-                "answer": "1950"
+                "answer": "1950",
+                "options": [
+                    "1950",
+                    "1949",
+                    "1951"
+                ]
             }
         }
     },
@@ -266,11 +328,21 @@
         "translations": {
             "en": {
                 "question": "According to the European Convention on Human Rights, what must states ensure?",
-                "answer": "Freedom rights for individuals under their jurisdiction"
+                "answer": "Freedom rights for individuals under their jurisdiction",
+                "options": [
+                    "Freedom rights for individuals under their jurisdiction",
+                    "Free housing for all citizens",
+                    "Identical income for all citizens"
+                ]
             },
             "ru": {
                 "question": "Согласно Европейской конвенции о правах человека, что должны обеспечивать государства?",
-                "answer": "Права свободы для лиц, находящихся под их юрисдикцией"
+                "answer": "Права свободы для лиц, находящихся под их юрисдикцией",
+                "options": [
+                    "Права свободы для лиц, находящихся под их юрисдикцией",
+                    "Бесплатное жилье для всех граждан",
+                    "Одинаковый доход для всех граждан"
+                ]
             }
         }
     },
@@ -340,11 +412,23 @@
         "translations": {
             "en": {
                 "question": "Which right belongs to the first generation rights?",
-                "answer": "The right to life, The right to personal freedom"
+                "answer": "The right to life, The right to personal freedom",
+                "options": [
+                    "The right to life",
+                    "The right to personal freedom",
+                    "The right to work",
+                    "The right to strike"
+                ]
             },
             "ru": {
                 "question": "Какое право относится к правам первого поколения?",
-                "answer": "Право на жизнь, Право на личную свободу"
+                "answer": "Право на жизнь, Право на личную свободу",
+                "options": [
+                    "Право на жизнь",
+                    "Право на личную свободу",
+                    "Право на труд",
+                    "Право на забастовку"
+                ]
             }
         }
     },
@@ -380,11 +464,23 @@
         "translations": {
             "en": {
                 "question": "Which one does NOT belong to the first generation rights?",
-                "answer": "The right to work"
+                "answer": "The right to work",
+                "options": [
+                    "The right to work",
+                    "The right to life",
+                    "Freedom of conscience and religion",
+                    "Freedom of assembly"
+                ]
             },
             "ru": {
                 "question": "Какое НЕ относится к правам первого поколения?",
-                "answer": "Право на труд"
+                "answer": "Право на труд",
+                "options": [
+                    "Право на труд",
+                    "Право на жизнь",
+                    "Свобода совести и религии",
+                    "Свобода собраний"
+                ]
             }
         }
     },
@@ -470,11 +566,23 @@
         "translations": {
             "en": {
                 "question": "Which right belongs to the second generation rights?",
-                "answer": "The right to work, The right to education"
+                "answer": "The right to work, The right to education",
+                "options": [
+                    "The right to work",
+                    "The right to education",
+                    "The right to life",
+                    "Freedom of speech"
+                ]
             },
             "ru": {
                 "question": "Какое право относится к правам второго поколения?",
-                "answer": "Право на труд, Право на образование"
+                "answer": "Право на труд, Право на образование",
+                "options": [
+                    "Право на труд",
+                    "Право на образование",
+                    "Право на жизнь",
+                    "Свобода слова"
+                ]
             }
         }
     },
@@ -510,11 +618,23 @@
         "translations": {
             "en": {
                 "question": "Which one does NOT belong to the second generation rights?",
-                "answer": "Freedom of assembly"
+                "answer": "Freedom of assembly",
+                "options": [
+                    "Freedom of assembly",
+                    "The right to work",
+                    "The right to strike",
+                    "The right to education"
+                ]
             },
             "ru": {
                 "question": "Какое НЕ относится к правам второго поколения?",
-                "answer": "Свобода собраний"
+                "answer": "Свобода собраний",
+                "options": [
+                    "Свобода собраний",
+                    "Право на труд",
+                    "Право на забастовку",
+                    "Право на образование"
+                ]
             }
         }
     },
@@ -600,11 +720,23 @@
         "translations": {
             "en": {
                 "question": "Which right belongs to the third generation rights?",
-                "answer": "Children\u0027s rights, Patients\u0027 rights"
+                "answer": "Children\u0027s rights, Patients\u0027 rights",
+                "options": [
+                    "Children\u0027s rights",
+                    "Patients\u0027 rights",
+                    "The right to work",
+                    "The right to life"
+                ]
             },
             "ru": {
                 "question": "Какое право относится к правам третьего поколения?",
-                "answer": "Права детей, Права пациентов"
+                "answer": "Права детей, Права пациентов",
+                "options": [
+                    "Права детей",
+                    "Права пациентов",
+                    "Право на труд",
+                    "Право на жизнь"
+                ]
             }
         }
     },
@@ -640,11 +772,23 @@
         "translations": {
             "en": {
                 "question": "Which one does NOT belong to the third generation rights?",
-                "answer": "The right to strike"
+                "answer": "The right to strike",
+                "options": [
+                    "The right to strike",
+                    "Children's rights",
+                    "Patients' rights",
+                    "Rights of people with disabilities"
+                ]
             },
             "ru": {
                 "question": "Какое НЕ относится к правам третьего поколения?",
-                "answer": "Право на забастовку"
+                "answer": "Право на забастовку",
+                "options": [
+                    "Право на забастовку",
+                    "Права детей",
+                    "Права пациентов",
+                    "Права инвалидов"
+                ]
             }
         }
     },
@@ -697,11 +841,23 @@
         "translations": {
             "en": {
                 "question": "How does the Fundamental Law characterize human fundamental rights?",
-                "answer": "Inviolable, Inalienable"
+                "answer": "Inviolable, Inalienable",
+                "options": [
+                    "Inviolable",
+                    "Inalienable",
+                    "Restrictable",
+                    "Transferable"
+                ]
             },
             "ru": {
                 "question": "Как Основной закон характеризует основные права человека?",
-                "answer": "Неприкосновенные, Неотъемлемые"
+                "answer": "Неприкосновенные, Неотъемлемые",
+                "options": [
+                    "Неприкосновенные",
+                    "Неотъемлемые",
+                    "Ограничиваемые",
+                    "Передаваемые"
+                ]
             }
         }
     },
@@ -719,12 +875,22 @@
         ],
         "translations": {
             "en": {
-                "question": "What is the state\u0027s primary duty regarding fundamental rights?",
-                "answer": "Respect and protection"
+                "question": "What is the state's primary duty regarding fundamental rights?",
+                "answer": "Respect and protection",
+                "options": [
+                    "Respect and protection",
+                    "Restriction",
+                    "Abolition"
+                ]
             },
             "ru": {
                 "question": "Какова основная обязанность государства в отношении основных прав?",
-                "answer": "Уважение и защита"
+                "answer": "Уважение и защита",
+                "options": [
+                    "Уважение и защита",
+                    "Ограничение",
+                    "Отмена"
+                ]
             }
         }
     },
@@ -743,11 +909,21 @@
         "translations": {
             "en": {
                 "question": "When can a fundamental right be restricted?",
-                "answer": "For the protection of another fundamental right or constitutional value"
+                "answer": "For the protection of another fundamental right or constitutional value",
+                "options": [
+                    "For the protection of another fundamental right or constitutional value",
+                    "At any time, if the government decides",
+                    "Never, in any case"
+                ]
             },
             "ru": {
                 "question": "Когда можно ограничить основное право?",
-                "answer": "Для защиты другого основного права или конституционной ценности"
+                "answer": "Для защиты другого основного права или конституционной ценности",
+                "options": [
+                    "Для защиты другого основного права или конституционной ценности",
+                    "В любое время, если правительство так решит",
+                    "Никогда, ни в коем случае"
+                ]
             }
         }
     },
@@ -787,11 +963,25 @@
         "translations": {
             "en": {
                 "question": "Which one belongs to the fundamental rights guaranteed in the Fundamental Law?",
-                "answer": "Equality before the law, Right to life and human dignity, Right to fair procedure"
+                "answer": "Equality before the law, Right to life and human dignity, Right to fair procedure",
+                "options": [
+                    "Equality before the law",
+                    "Right to life and human dignity",
+                    "Right to fair procedure",
+                    "Free car",
+                    "Obligation to move abroad"
+                ]
             },
             "ru": {
                 "question": "Какое относится к основным правам, гарантированным Основным законом?",
-                "answer": "Равенство перед законом, Право на жизнь и человеческое достоинство, Право на справедливое разбирательство"
+                "answer": "Равенство перед законом, Право на жизнь и человеческое достоинство, Право на справедливое разбирательство",
+                "options": [
+                    "Равенство перед законом",
+                    "Право на жизнь и человеческое достоинство",
+                    "Право на справедливое разбирательство",
+                    "Бесплатный автомобиль",
+                    "Обязательство переехать за границу"
+                ]
             }
         }
     },
@@ -811,11 +1001,23 @@
         "translations": {
             "en": {
                 "question": "Which one does NOT belong to the fundamental rights guaranteed in the Fundamental Law?",
-                "answer": "The right to free housing"
+                "answer": "The right to free housing",
+                "options": [
+                    "The right to free housing",
+                    "Freedom of thought, conscience and religion",
+                    "Freedom of expression",
+                    "Freedom of assembly"
+                ]
             },
             "ru": {
                 "question": "Какое НЕ относится к основным правам, гарантированным Основным законом?",
-                "answer": "Право на бесплатное жилье"
+                "answer": "Право на бесплатное жилье",
+                "options": [
+                    "Право на бесплатное жилье",
+                    "Свобода мысли, совести и религии",
+                    "Свобода выражения мнений",
+                    "Свобода собраний"
+                ]
             }
         }
     },
@@ -836,11 +1038,23 @@
         "translations": {
             "en": {
                 "question": "Which rights belong to the fundamental rights guaranteed in the Fundamental Law?",
-                "answer": "Property rights, Right to the protection of personal data"
+                "answer": "Property rights, Right to the protection of personal data",
+                "options": [
+                    "Property rights",
+                    "Right to the protection of personal data",
+                    "Right to state housing",
+                    "Right to free travel"
+                ]
             },
             "ru": {
                 "question": "Какие права относятся к основным правам, гарантированным Основным законом?",
-                "answer": "Право собственности, Право на защиту персональных данных"
+                "answer": "Право собственности, Право на защиту персональных данных",
+                "options": [
+                    "Право собственности",
+                    "Право на защиту персональных данных",
+                    "Право на государственное жилье",
+                    "Право на бесплатный проезд"
+                ]
             }
         }
     },
@@ -891,11 +1105,21 @@
         "translations": {
             "en": {
                 "question": "Which body declared the death penalty unconstitutional?",
-                "answer": "The Constitutional Court"
+                "answer": "The Constitutional Court",
+                "options": [
+                    "The Constitutional Court",
+                    "The National Assembly",
+                    "The Government"
+                ]
             },
             "ru": {
                 "question": "Какой орган объявил смертную казнь неконституционной?",
-                "answer": "Конституционный суд"
+                "answer": "Конституционный суд",
+                "options": [
+                    "Конституционный суд",
+                    "Государственное собрание",
+                    "Правительство"
+                ]
             }
         }
     }

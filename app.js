@@ -394,13 +394,28 @@ function loadQuestion() {
 
 // == Render Multiple Choice ==
 function renderMultipleChoice(question) {
-    if (!question.options || !question.options.length) {
+    // Determine which options to show
+    // Default to base options
+    let displayOptions = question.options;
+
+    // Check for translations
+    if (state.questionTranslated && question.translations?.[state.currentLang]?.options) {
+        displayOptions = question.translations[state.currentLang].options;
+    }
+
+    if (!displayOptions || !displayOptions.length) {
         elements.optionsList.innerHTML = '<p>No options available</p>';
         return;
     }
 
-    // Randomize option order but keep track of original indices
-    const indexedOptions = question.options.map((option, index) => ({ option, originalIndex: index }));
+    // We need to map display options to original indices to check correctness
+    // assumption: translated options array matches order of original options array
+    const indexedOptions = displayOptions.map((option, index) => ({
+        option,
+        originalIndex: index
+    }));
+
+    // Randomize option order
     const shuffledOptions = shuffleArray(indexedOptions);
 
     elements.optionsList.innerHTML = shuffledOptions.map((item, displayIndex) => `
@@ -466,26 +481,28 @@ function checkUserAnswer() {
         // Handle List Input Validation
         if (inputType === 'list') {
             const inputs = Array.from(elements.listInputsContainer.querySelectorAll('.list-input-field'));
-            const userAnswers = inputs.map(input => input.value.trim()).filter(val => val);
 
-            if (userAnswers.length === 0) {
-                alert(translations[state.currentLang].checkAnswer || 'Please enter an answer');
-                return;
-            }
+            // Get raw answers (including empty strings) to preserve index mapping
+            const rawAnswers = inputs.map(input => input.value.trim());
 
-            isCorrect = validateList(userAnswers, question.answer, question.inputCount || 3);
+            const listResult = validateList(rawAnswers, question.answer, question.inputCount || 3);
+            isCorrect = listResult.passed;
 
-            // Visual feedback for individual inputs could be added here
-            // For now, we apply global feedback
-            if (isCorrect) {
-                inputs.forEach(input => input.classList.add('correct'));
-            } else {
-                inputs.forEach(input => input.classList.add('incorrect'));
-            }
+            // Visual feedback for individual inputs
+            inputs.forEach((input, index) => {
+                input.classList.remove('correct', 'incorrect');
 
-            // Disable inputs
-            inputs.forEach(input => input.disabled = true);
-
+                if (listResult.validIndices.includes(index)) {
+                    input.classList.add('correct');
+                } else {
+                    // Only mark as incorrect if it has a value
+                    if (input.value.trim()) {
+                        input.classList.add('incorrect');
+                    }
+                }
+                // Disable inputs
+                input.disabled = true;
+            });
         }
         // Handle approximate validation (population, area, etc.)
         else if (inputType === 'approximate') {
@@ -553,6 +570,14 @@ function checkUserAnswer() {
     // Update buttons
     elements.checkBtn.disabled = true;
     elements.showAnswerBtn.classList.remove('hidden');
+
+    // Show translate answer button
+    const translateBtn = document.getElementById('translateAnswerBtn');
+    if (translateBtn) {
+        translateBtn.classList.remove('hidden');
+        translateBtn.onclick = toggleAnswerTranslation;
+        translateBtn.title = translations[state.currentLang].translateAnswer;
+    }
 }
 
 // == Translation Toggle ==
@@ -585,8 +610,17 @@ function showFeedback(isCorrect, question) {
         elements.feedbackText.textContent = translations[state.currentLang].incorrect;
 
         // Show correct answer using stored values
+        // Default to Hungarian initially
+        state.answerTranslated = false;
         elements.correctAnswerText.textContent = state.currentAnswerHu;
         elements.correctAnswer.classList.remove('hidden');
+
+        // Ensure translate button is visible
+        const translateBtn = document.getElementById('translateAnswerBtn');
+        if (translateBtn) {
+            translateBtn.classList.remove('hidden');
+            translateBtn.onclick = toggleAnswerTranslation;
+        }
     }
 
     // Update progress to show score
@@ -596,14 +630,24 @@ function showFeedback(isCorrect, question) {
 // == Show Correct Answer ==
 function showCorrectAnswer() {
     const question = state.currentQuestions[state.currentQuestionIndex];
-    const trans = question.translations?.[state.currentLang];
+    if (!question) return;
 
     elements.feedback.classList.remove('hidden', 'correct', 'incorrect');
     elements.feedbackIcon.textContent = '💡';
     elements.feedbackText.textContent = translations[state.currentLang].showAnswer;
 
+    // Reset translation state
+    state.answerTranslated = false;
     elements.correctAnswerText.textContent = state.currentAnswerHu;
     elements.correctAnswer.classList.remove('hidden');
+
+    // Show translate button
+    const translateBtn = document.getElementById('translateAnswerBtn');
+    if (translateBtn) {
+        translateBtn.classList.remove('hidden');
+        translateBtn.onclick = toggleAnswerTranslation;
+        translateBtn.title = translations[state.currentLang].translateAnswer;
+    }
 
     state.questionAnswered = true;
     elements.checkBtn.disabled = true;

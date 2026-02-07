@@ -29,12 +29,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] From when did they start collecting folk songs?",
-                "answer": "[EN] "
+                "question": "From when did they start collecting folk songs?",
+                "answer": "From the 1800s",
+                "options": [
+                    "From the 1800s",
+                    "From the 1700s",
+                    "From the 1900s"
+                ]
             },
             "ru": {
-                "question": "[RU] С какого времени начали собирать народные песни?",
-                "answer": "[RU] "
+                "question": "С какого времени начали собирать народные песни?",
+                "answer": "С 1800-х годов",
+                "options": [
+                    "С 1800-х годов",
+                    "С 1700-х годов",
+                    "С 1900-х годов"
+                ]
             }
         }
     },
@@ -70,12 +80,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who were the most famous representatives of Hungarian folk music research?",
-                "answer": "[EN] "
+                "question": "Who were the most famous representatives of Hungarian folk music research?",
+                "answer": "Béla Bartók, Zoltán Kodály",
+                "options": [
+                    "Béla Bartók",
+                    "Zoltán Kodály",
+                    "Ferenc Liszt",
+                    "Ferenc Erkel"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто были самыми известными представителями венгерского исследования народной музыки?",
-                "answer": "[RU] "
+                "question": "Кто были самыми известными представителями венгерского исследования народной музыки?",
+                "answer": "Бела Барток, Золтан Кодай",
+                "options": [
+                    "Бела Барток",
+                    "Золтан Кодай",
+                    "Ференц Лист",
+                    "Ференц Эркель"
+                ]
             }
         }
     },
@@ -125,12 +147,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who composed the opera Bánk bán?",
-                "answer": "[EN] "
+                "question": "Who composed the opera Bánk bán?",
+                "answer": "Ferenc Erkel",
+                "options": [
+                    "Ferenc Erkel",
+                    "Ferenc Liszt",
+                    "Béla Bartók"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто сочинил оперу Банк бан?",
-                "answer": "[RU] "
+                "question": "Кто сочинил оперу Банк бан?",
+                "answer": "Ференц Эркель",
+                "options": [
+                    "Ференц Эркель",
+                    "Ференц Лист",
+                    "Бела Барток"
+                ]
             }
         }
     },
@@ -180,12 +212,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is by Franz Liszt?",
-                "answer": "[EN] "
+                "question": "Which work is by Franz Liszt?",
+                "answer": "Hungarian Rhapsodies",
+                "options": [
+                    "Hungarian Rhapsodies",
+                    "Bánk bán",
+                    "Háry János"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Ференцу Листу?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Ференцу Листу?",
+                "answer": "Венгерские рапсодии",
+                "options": [
+                    "Венгерские рапсодии",
+                    "Банк бан",
+                    "Хари Янош"
+                ]
             }
         }
     },
@@ -235,12 +277,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who composed the opera Bluebeard\u0027s Castle?",
-                "answer": "[EN] "
+                "question": "Who composed the opera Bluebeard's Castle?",
+                "answer": "Béla Bartók",
+                "options": [
+                    "Béla Bartók",
+                    "Zoltán Kodály",
+                    "Ferenc Erkel"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто сочинил оперу Замок герцога Синяя Борода?",
-                "answer": "[RU] "
+                "question": "Кто сочинил оперу Замок герцога Синяя Борода?",
+                "answer": "Бела Барток",
+                "options": [
+                    "Бела Барток",
+                    "Золтан Кодай",
+                    "Ференц Эркель"
+                ]
             }
         }
     },
@@ -290,12 +342,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is by Zoltán Kodály?",
-                "answer": "[EN] "
+                "question": "Which work is by Zoltán Kodály?",
+                "answer": "Háry János",
+                "options": [
+                    "Háry János",
+                    "Bluebeard's Castle",
+                    "Bánk bán"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Золтану Кодаю?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Золтану Кодаю?",
+                "answer": "Хари Янош",
+                "options": [
+                    "Хари Янош",
+                    "Замок герцога Синяя Борода",
+                    "Банк бан"
+                ]
             }
         }
     },
@@ -315,12 +377,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who was both a folk music researcher and a composer?",
-                "answer": "[EN] "
+                "question": "Who was both a folk music researcher and a composer?",
+                "answer": "Béla Bartók, Zoltán Kodály",
+                "options": [
+                    "Béla Bartók",
+                    "Zoltán Kodály",
+                    "Ferenc Liszt",
+                    "Sándor Petőfi"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто был одновременно исследователем народной музыки и композитором?",
-                "answer": "[RU] "
+                "question": "Кто был одновременно исследователем народной музыки и композитором?",
+                "answer": "Бела Барток, Золтан Кодай",
+                "options": [
+                    "Бела Барток",
+                    "Золтан Кодай",
+                    "Ференц Лист",
+                    "Шандор Петефи"
+                ]
             }
         }
     },
@@ -357,12 +431,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who was a Renaissance poet?",
-                "answer": "[EN] "
+                "question": "Who was a Renaissance poet?",
+                "answer": "Janus Pannonius, Bálint Balassi",
+                "options": [
+                    "Janus Pannonius",
+                    "Bálint Balassi",
+                    "Sándor Petőfi",
+                    "János Arany"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто был поэтом эпохи Возрождения?",
-                "answer": "[RU] "
+                "question": "Кто был поэтом эпохи Возрождения?",
+                "answer": "Янус Паннониус, Балинт Балашши",
+                "options": [
+                    "Янус Паннониус",
+                    "Балинт Балашши",
+                    "Шандор Петефи",
+                    "Янош Арань"
+                ]
             }
         }
     },
@@ -412,12 +498,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who wrote the work In Praise of Pannonia?",
-                "answer": "[EN] "
+                "question": "Who wrote the work In Praise of Pannonia?",
+                "answer": "Janus Pannonius",
+                "options": [
+                    "Janus Pannonius",
+                    "Bálint Balassi",
+                    "Miklós Zrínyi"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто написал произведение Похвала Паннонии?",
-                "answer": "[RU] "
+                "question": "Кто написал произведение Похвала Паннонии?",
+                "answer": "Янус Паннониус",
+                "options": [
+                    "Янус Паннониус",
+                    "Балинт Балашши",
+                    "Миклош Зриньи"
+                ]
             }
         }
     },
@@ -467,12 +563,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] From which poet\u0027s work does the title \"Upon Finding Julia\" come?",
-                "answer": "[EN] "
+                "question": "From which poet's work does the title \"Upon Finding Julia\" come?",
+                "answer": "Bálint Balassi",
+                "options": [
+                    "Bálint Balassi",
+                    "Janus Pannonius",
+                    "Mihály Csokonai Vitéz"
+                ]
             },
             "ru": {
-                "question": "[RU] Из произведения какого поэта взято название \"Как он встретил Юлию\"?",
-                "answer": "[RU] "
+                "question": "Из произведения какого поэта взято название \"Как он встретил Юлию\"?",
+                "answer": "Балинт Балашши",
+                "options": [
+                    "Балинт Балашши",
+                    "Янус Паннониус",
+                    "Михай Чоконаи Витез"
+                ]
             }
         }
     },
@@ -506,12 +612,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who represented Baroque literature?",
-                "answer": "[EN] "
+                "question": "Who represented Baroque literature?",
+                "answer": "Miklós Zrínyi",
+                "options": [
+                    "Miklós Zrínyi",
+                    "Bálint Balassi",
+                    "Ferenc Kazinczy"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто представлял литературу барокко?",
-                "answer": "[RU] "
+                "question": "Кто представлял литературу барокко?",
+                "answer": "Миклош Зриньи",
+                "options": [
+                    "Миклош Зриньи",
+                    "Балинт Балашши",
+                    "Ференц Казинци"
+                ]
             }
         }
     },
@@ -561,12 +677,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is Miklós Zrínyi\u0027s creation?",
-                "answer": "[EN] "
+                "question": "Which work is Miklós Zrínyi's creation?",
+                "answer": "The Siege of Sziget",
+                "options": [
+                    "The Siege of Sziget",
+                    "Bánk bán",
+                    "Toldi"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Миклошу Зриньи?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Миклошу Зриньи?",
+                "answer": "Осада Сигета",
+                "options": [
+                    "Осада Сигета",
+                    "Банк бан",
+                    "Толди"
+                ]
             }
         }
     },
@@ -603,12 +729,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who was a poet of the Enlightenment era?",
-                "answer": "[EN] "
+                "question": "Who was a poet of the Enlightenment era?",
+                "answer": "Mihály Csokonai Vitéz, János Batsányi",
+                "options": [
+                    "Mihály Csokonai Vitéz",
+                    "János Batsányi",
+                    "Mihály Vörösmarty",
+                    "Sándor Petőfi"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто был поэтом эпохи Просвещения?",
-                "answer": "[RU] "
+                "question": "Кто был поэтом эпохи Просвещения?",
+                "answer": "Михай Чоконаи Витез, Янош Бачаньи",
+                "options": [
+                    "Михай Чоконаи Витез",
+                    "Янош Бачаньи",
+                    "Михай Вёрёшмарти",
+                    "Шандор Петефи"
+                ]
             }
         }
     },
@@ -658,12 +796,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is by Mihály Csokonai Vitéz?",
-                "answer": "[EN] "
+                "question": "Which work is by Mihály Csokonai Vitéz?",
+                "answer": "To Hope",
+                "options": [
+                    "To Hope",
+                    "On the Changes in France",
+                    "Szózat"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Михаю Чоконаи Витезу?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Михаю Чоконаи Витезу?",
+                "answer": "К Надежде",
+                "options": [
+                    "К Надежде",
+                    "На изменения во Франции",
+                    "Призыв (Szózat)"
+                ]
             }
         }
     },
@@ -713,12 +861,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who wrote the work On the Changes in France?",
-                "answer": "[EN] "
+                "question": "Who wrote the work On the Changes in France?",
+                "answer": "János Batsányi",
+                "options": [
+                    "János Batsányi",
+                    "Mihály Csokonai Vitéz",
+                    "Ferenc Kazinczy"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто написал произведение На изменения во Франции?",
-                "answer": "[RU] "
+                "question": "Кто написал произведение На изменения во Франции?",
+                "answer": "Янош Бачаньи",
+                "options": [
+                    "Янош Бачаньи",
+                    "Михай Чоконаи Витез",
+                    "Ференц Казинци"
+                ]
             }
         }
     },
@@ -755,12 +913,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who was a Classicist poet?",
-                "answer": "[EN] "
+                "question": "Who was a Classicist poet?",
+                "answer": "Ferenc Kazinczy, Dániel Berzsenyi",
+                "options": [
+                    "Ferenc Kazinczy",
+                    "Dániel Berzsenyi",
+                    "Sándor Petőfi",
+                    "Attila József"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто был поэтом классицизма?",
-                "answer": "[RU] "
+                "question": "Кто был поэтом классицизма?",
+                "answer": "Ференц Казинци, Даниэль Бержени",
+                "options": [
+                    "Ференц Казинци",
+                    "Даниэль Бержени",
+                    "Шандор Петефи",
+                    "Аттила Йожеф"
+                ]
             }
         }
     },
@@ -794,12 +964,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who led the Hungarian language reform?",
-                "answer": "[EN] "
+                "question": "Who led the Hungarian language reform?",
+                "answer": "Ferenc Kazinczy",
+                "options": [
+                    "Ferenc Kazinczy",
+                    "Dániel Berzsenyi",
+                    "Ferenc Kölcsey"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто руководил венгерской языковой реформой?",
-                "answer": "[RU] "
+                "question": "Кто руководил венгерской языковой реформой?",
+                "answer": "Ференц Казинци",
+                "options": [
+                    "Ференц Казинци",
+                    "Даниэль Бержени",
+                    "Ференц Кёльчеи"
+                ]
             }
         }
     },
@@ -849,12 +1029,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is by Dániel Berzsenyi?",
-                "answer": "[EN] "
+                "question": "Which work is by Dániel Berzsenyi?",
+                "answer": "The First Love",
+                "options": [
+                    "The First Love",
+                    "To Hope",
+                    "Hymn"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Даниэлю Бержени?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Даниэлю Бержени?",
+                "answer": "Первая любовь",
+                "options": [
+                    "Первая любовь",
+                    "К Надежде",
+                    "Гимн"
+                ]
             }
         }
     },
@@ -872,12 +1062,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What characterized the 1820s?",
-                "answer": "[EN] "
+                "question": "What characterized the 1820s?",
+                "answer": "The close intertwining of politics and literature",
+                "options": [
+                    "The close intertwining of politics and literature",
+                    "Wars",
+                    "Economic crisis"
+                ]
             },
             "ru": {
-                "question": "[RU] Что характеризовало 1820-е годы?",
-                "answer": "[RU] "
+                "question": "Что характеризовало 1820-е годы?",
+                "answer": "Тесное переплетение политики и литературы",
+                "options": [
+                    "Тесное переплетение политики и литературы",
+                    "Войны",
+                    "Экономический кризис"
+                ]
             }
         }
     },
@@ -911,12 +1111,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which city became the literary center during the Romantic period?",
-                "answer": "[EN] "
+                "question": "Which city became the literary center during the Romantic period?",
+                "answer": "Pest-Buda",
+                "options": [
+                    "Pest-Buda",
+                    "Debrecen",
+                    "Szeged"
+                ]
             },
             "ru": {
-                "question": "[RU] Какой город стал литературным центром в эпоху романтизма?",
-                "answer": "[RU] "
+                "question": "Какой город стал литературным центром в эпоху романтизма?",
+                "answer": "Пешт-Буда",
+                "options": [
+                    "Пешт-Буда",
+                    "Дебрецен",
+                    "Сегед"
+                ]
             }
         }
     },
@@ -936,12 +1146,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What started to appear in the 1820s?",
-                "answer": "[EN] "
+                "question": "What started to appear in the 1820s?",
+                "answer": "Newspapers, Journals",
+                "options": [
+                    "Newspapers",
+                    "Journals",
+                    "Movies",
+                    "Radios"
+                ]
             },
             "ru": {
-                "question": "[RU] Что начало появляться в 1820-х годах?",
-                "answer": "[RU] "
+                "question": "Что начало появляться в 1820-х годах?",
+                "answer": "Газеты, Журналы",
+                "options": [
+                    "Газеты",
+                    "Журналы",
+                    "Фильмы",
+                    "Радио"
+                ]
             }
         }
     },
@@ -959,12 +1181,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which institution was founded in the Romantic era?",
-                "answer": "[EN] "
+                "question": "Which institution was founded in the Romantic era?",
+                "answer": "Hungarian Academy of Sciences",
+                "options": [
+                    "Hungarian Academy of Sciences",
+                    "Hungarian National Museum",
+                    "Parliament"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое учреждение было основано в эпоху романтизма?",
-                "answer": "[RU] "
+                "question": "Какое учреждение было основано в эпоху романтизма?",
+                "answer": "Венгерская академия наук",
+                "options": [
+                    "Венгерская академия наук",
+                    "Венгерский национальный музей",
+                    "Парламент"
+                ]
             }
         }
     },
@@ -1030,12 +1262,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which Romantic poet wrote the Hymn?",
-                "answer": "[EN] "
+                "question": "Which Romantic poet wrote the Hymn?",
+                "answer": "Ferenc Kölcsey",
+                "options": [
+                    "Ferenc Kölcsey",
+                    "Mihály Vörösmarty",
+                    "Sándor Petőfi"
+                ]
             },
             "ru": {
-                "question": "[RU] Какой поэт-романтик написал Гимн?",
-                "answer": "[RU] "
+                "question": "Какой поэт-романтик написал Гимн?",
+                "answer": "Ференц Кёльчеи",
+                "options": [
+                    "Ференц Кёльчеи",
+                    "Михай Вёрёшмарти",
+                    "Шандор Петёфи"
+                ]
             }
         }
     },
@@ -1085,12 +1327,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who is the author of the Szózat?",
-                "answer": "[EN] "
+                "question": "Who is the author of the Szózat?",
+                "answer": "Mihály Vörösmarty",
+                "options": [
+                    "Mihály Vörösmarty",
+                    "Ferenc Kölcsey",
+                    "János Arany"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто автор Призыва?",
-                "answer": "[RU] "
+                "question": "Кто автор Призыва?",
+                "answer": "Михай Вёрёшмарти",
+                "options": [
+                    "Михай Вёрёшмарти",
+                    "Ференц Кёльчеи",
+                    "Янош Арань"
+                ]
             }
         }
     },
@@ -1140,12 +1392,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is by Sándor Petőfi?",
-                "answer": "[EN] "
+                "question": "Which work is by Sándor Petőfi?",
+                "answer": "National Song",
+                "options": [
+                    "National Song",
+                    "Hymn",
+                    "Szózat"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Шандору Петёфи?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Шандору Петёфи?",
+                "answer": "Национальная песня",
+                "options": [
+                    "Национальная песня",
+                    "Гимн",
+                    "Призыв (Szózat)"
+                ]
             }
         }
     },
@@ -1195,12 +1457,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who wrote the novel The Baron\u0027s Sons?",
-                "answer": "[EN] "
+                "question": "Who wrote the novel The Baron's Sons?",
+                "answer": "Mór Jókai",
+                "options": [
+                    "Mór Jókai",
+                    "Sándor Petőfi",
+                    "János Arany"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто написал роман Сыновья человека с каменным сердцем?",
-                "answer": "[RU] "
+                "question": "Кто написал роман Сыновья человека с каменным сердцем?",
+                "answer": "Мор Йокаи",
+                "options": [
+                    "Мор Йокаи",
+                    "Шандор Петёфи",
+                    "Янош Арань"
+                ]
             }
         }
     },
@@ -1250,12 +1522,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is by János Arany?",
-                "answer": "[EN] "
+                "question": "Which work is by János Arany?",
+                "answer": "The Bards of Wales",
+                "options": [
+                    "The Bards of Wales",
+                    "National Song",
+                    "Bánk bán"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Яношу Араню?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Яношу Араню?",
+                "answer": "Валлийские барды",
+                "options": [
+                    "Валлийские барды",
+                    "Национальная песня",
+                    "Банк бан"
+                ]
             }
         }
     },
@@ -1305,12 +1587,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who wrote the drama Bánk bán?",
-                "answer": "[EN] "
+                "question": "Who wrote the drama Bánk bán?",
+                "answer": "József Katona",
+                "options": [
+                    "József Katona",
+                    "Imre Madách",
+                    "Sándor Petőfi"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто написал драму Банк бан?",
-                "answer": "[RU] "
+                "question": "Кто написал драму Банк бан?",
+                "answer": "Йожеф Катона",
+                "options": [
+                    "Йожеф Катона",
+                    "Имре Мадач",
+                    "Шандор Петёфи"
+                ]
             }
         }
     },
@@ -1360,12 +1652,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is Imre Madách\u0027s creation?",
-                "answer": "[EN] "
+                "question": "Which work is Imre Madách's creation?",
+                "answer": "The Tragedy of Man",
+                "options": [
+                    "The Tragedy of Man",
+                    "Bánk bán",
+                    "The Baron's Sons"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Имре Мадачу?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Имре Мадачу?",
+                "answer": "Трагедия человека",
+                "options": [
+                    "Трагедия человека",
+                    "Банк бан",
+                    "Сыновья человека с каменным сердцем"
+                ]
             }
         }
     },
@@ -1407,12 +1709,30 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who was a Romantic poet or writer?",
-                "answer": "[EN] "
+                "question": "Who was a Romantic poet or writer?",
+                "answer": "Sándor Petőfi, János Arany, Mihály Vörösmarty, Mór Jókai",
+                "options": [
+                    "Sándor Petőfi",
+                    "János Arany",
+                    "Mihály Vörösmarty",
+                    "Mór Jókai",
+                    "Béla Bartók",
+                    "Ferenc Liszt",
+                    "Viktor Orbán"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто был поэтом или писателем эпохи романтизма?",
-                "answer": "[RU] "
+                "question": "Кто был поэтом или писателем эпохи романтизма?",
+                "answer": "Шандор Петёфи, Янош Арань, Михай Вёрёшмарти, Мор Йокаи",
+                "options": [
+                    "Шандор Петёфи",
+                    "Янош Арань",
+                    "Михай Вёрёшмарти",
+                    "Мор Йокаи",
+                    "Бела Барток",
+                    "Ференц Лист",
+                    "Виктор Орбан"
+                ]
             }
         }
     },
@@ -1454,12 +1774,30 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who was a 20th-century Hungarian poet or writer?",
-                "answer": "[EN] "
+                "question": "Who was a 20th-century Hungarian poet or writer?",
+                "answer": "Endre Ady, Attila József, Zsigmond Móricz, Sándor Márai",
+                "options": [
+                    "Endre Ady",
+                    "Attila József",
+                    "Zsigmond Móricz",
+                    "Sándor Márai",
+                    "Sándor Petőfi",
+                    "János Arany",
+                    "Bálint Balassi"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто был венгерским поэтом или писателем 20-го века?",
-                "answer": "[RU] "
+                "question": "Кто был венгерским поэтом или писателем 20-го века?",
+                "answer": "Эндре Ади, Аттила Йожеф, Жигмонд Мориц, Шандор Мараи",
+                "options": [
+                    "Эндре Ади",
+                    "Аттила Йожеф",
+                    "Жигмонд Мориц",
+                    "Шандор Мараи",
+                    "Шандор Петёфи",
+                    "Янош Арань",
+                    "Балинт Балашши"
+                ]
             }
         }
     },
@@ -1509,12 +1847,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is by Endre Ady?",
-                "answer": "[EN] "
+                "question": "Which work is by Endre Ady?",
+                "answer": "The Dismissing Beautiful Message",
+                "options": [
+                    "The Dismissing Beautiful Message",
+                    "Relatives",
+                    "With a Pure Heart"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Эндре Ади?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Эндре Ади?",
+                "answer": "Прощальное прекрасное послание",
+                "options": [
+                    "Прощальное прекрасное послание",
+                    "Родственники",
+                    "С чистым сердцем"
+                ]
             }
         }
     },
@@ -1564,12 +1912,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who wrote the work Relatives?",
-                "answer": "[EN] "
+                "question": "Who wrote the work Relatives?",
+                "answer": "Zsigmond Móricz",
+                "options": [
+                    "Zsigmond Móricz",
+                    "Dezső Kosztolányi",
+                    "Endre Ady"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто написал произведение Родственники?",
-                "answer": "[RU] "
+                "question": "Кто написал произведение Родственники?",
+                "answer": "Жигмонд Мориц",
+                "options": [
+                    "Жигмонд Мориц",
+                    "Дежё Костолани",
+                    "Эндре Ади"
+                ]
             }
         }
     },
@@ -1619,12 +1977,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is by Dezső Kosztolányi?",
-                "answer": "[EN] "
+                "question": "Which work is by Dezső Kosztolányi?",
+                "answer": "Anna Édes",
+                "options": [
+                    "Anna Édes",
+                    "That's How You Write",
+                    "Relatives"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Дежё Костолани?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Дежё Костолани?",
+                "answer": "Анна Эдеш",
+                "options": [
+                    "Анна Эдеш",
+                    "Так пишете вы",
+                    "Родственники"
+                ]
             }
         }
     },
@@ -1674,12 +2042,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who wrote the work That\u0027s How You Write?",
-                "answer": "[EN] "
+                "question": "Who wrote the work That's How You Write?",
+                "answer": "Frigyes Karinthy",
+                "options": [
+                    "Frigyes Karinthy",
+                    "Dezső Kosztolányi",
+                    "Attila József"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто написал произведение Так пишете вы?",
-                "answer": "[RU] "
+                "question": "Кто написал произведение Так пишете вы?",
+                "answer": "Фридьеш Каринти",
+                "options": [
+                    "Фридьеш Каринти",
+                    "Дежё Костолани",
+                    "Аттила Йожеф"
+                ]
             }
         }
     },
@@ -1729,12 +2107,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is by Attila József?",
-                "answer": "[EN] "
+                "question": "Which work is by Attila József?",
+                "answer": "With a Pure Heart",
+                "options": [
+                    "With a Pure Heart",
+                    "I Cannot Know",
+                    "Anna Édes"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Аттиле Йожефу?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Аттиле Йожефу?",
+                "answer": "С чистым сердцем",
+                "options": [
+                    "С чистым сердцем",
+                    "Я не могу знать",
+                    "Анна Эдеш"
+                ]
             }
         }
     },
@@ -1784,12 +2172,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who wrote the poem I Cannot Know?",
-                "answer": "[EN] "
+                "question": "Who wrote the poem I Cannot Know?",
+                "answer": "Miklós Radnóti",
+                "options": [
+                    "Miklós Radnóti",
+                    "Attila József",
+                    "Endre Ady"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто написал стихотворение Я не могу знать?",
-                "answer": "[RU] "
+                "question": "Кто написал стихотворение Я не могу знать?",
+                "answer": "Миклош Радноти",
+                "options": [
+                    "Миклош Радноти",
+                    "Аттила Йожеф",
+                    "Эндре Ади"
+                ]
             }
         }
     },
@@ -1839,12 +2237,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is Sándor Márai\u0027s creation?",
-                "answer": "[EN] "
+                "question": "Which work is Sándor Márai's creation?",
+                "answer": "Confessions of a Bourgeois",
+                "options": [
+                    "Confessions of a Bourgeois",
+                    "With a Pure Heart",
+                    "Relatives"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Шандору Мараи?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Шандору Мараи?",
+                "answer": "Исповедь буржуа",
+                "options": [
+                    "Исповедь буржуа",
+                    "С чистым сердцем",
+                    "Родственники"
+                ]
             }
         }
     },
@@ -1911,12 +2319,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who wrote the work Romeo and Juliet?",
-                "answer": "[EN] "
+                "question": "Who wrote the work Romeo and Juliet?",
+                "answer": "William Shakespeare",
+                "options": [
+                    "William Shakespeare",
+                    "Voltaire",
+                    "Goethe"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто написал произведение Ромео и Джульетта?",
-                "answer": "[RU] "
+                "question": "Кто написал произведение Ромео и Джульетта?",
+                "answer": "Уильям Шекспир",
+                "options": [
+                    "Уильям Шекспир",
+                    "Вольтер",
+                    "Гёте"
+                ]
             }
         }
     },
@@ -1966,12 +2384,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is Voltaire\u0027s creation?",
-                "answer": "[EN] "
+                "question": "Which work is Voltaire's creation?",
+                "answer": "Candide",
+                "options": [
+                    "Candide",
+                    "Faust",
+                    "Romeo and Juliet"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Вольтеру?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Вольтеру?",
+                "answer": "Кандид",
+                "options": [
+                    "Кандид",
+                    "Фауст",
+                    "Ромео и Джульетта"
+                ]
             }
         }
     },
@@ -2021,12 +2449,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who wrote the work Faust?",
-                "answer": "[EN] "
+                "question": "Who wrote the work Faust?",
+                "answer": "Johann Wolfgang von Goethe",
+                "options": [
+                    "Johann Wolfgang von Goethe",
+                    "Voltaire",
+                    "Shakespeare"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто написал произведение Фауст?",
-                "answer": "[RU] "
+                "question": "Кто написал произведение Фауст?",
+                "answer": "Иоганн Вольфганг фон Гёте",
+                "options": [
+                    "Иоганн Вольфганг фон Гёте",
+                    "Вольтер",
+                    "Шекспир"
+                ]
             }
         }
     },
@@ -2093,12 +2531,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is by Beethoven?",
-                "answer": "[EN] "
+                "question": "Which work is by Beethoven?",
+                "answer": "9th Symphony",
+                "options": [
+                    "9th Symphony",
+                    "The Magic Flute",
+                    "Swan Lake"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Бетховену?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Бетховену?",
+                "answer": "9-я симфония",
+                "options": [
+                    "9-я симфония",
+                    "Волшебная флейта",
+                    "Лебединое озеро"
+                ]
             }
         }
     },
@@ -2164,12 +2612,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which work is by Mozart?",
-                "answer": "[EN] "
+                "question": "Which work is by Mozart?",
+                "answer": "The Magic Flute",
+                "options": [
+                    "The Magic Flute",
+                    "9th Symphony",
+                    "Swan Lake"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое произведение принадлежит Моцарту?",
-                "answer": "[RU] "
+                "question": "Какое произведение принадлежит Моцарту?",
+                "answer": "Волшебная флейта",
+                "options": [
+                    "Волшебная флейта",
+                    "9-я симфония",
+                    "Лебединое озеро"
+                ]
             }
         }
     },
@@ -2219,12 +2677,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who composed the ballet Swan Lake?",
-                "answer": "[EN] "
+                "question": "Who composed the ballet Swan Lake?",
+                "answer": "Pyotr Ilyich Tchaikovsky",
+                "options": [
+                    "Pyotr Ilyich Tchaikovsky",
+                    "Mozart",
+                    "Beethoven"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто сочинил балет Лебединое озеро?",
-                "answer": "[RU] "
+                "question": "Кто сочинил балет Лебединое озеро?",
+                "answer": "Пётр Ильич Чайковский",
+                "options": [
+                    "Пётр Ильич Чайковский",
+                    "Моцарт",
+                    "Бетховен"
+                ]
             }
         }
     },
@@ -2258,12 +2726,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] In which year was the 9th Symphony premiered?",
-                "answer": "[EN] "
+                "question": "In which year was the 9th Symphony premiered?",
+                "answer": "1824",
+                "options": [
+                    "in 1824",
+                    "in 1785",
+                    "in 1900"
+                ]
             },
             "ru": {
-                "question": "[RU] В каком году состоялась премьера 9-й симфонии?",
-                "answer": "[RU] "
+                "question": "В каком году состоялась премьера 9-й симфонии?",
+                "answer": "1824",
+                "options": [
+                    "в 1824 году",
+                    "в 1785 году",
+                    "в 1900 году"
+                ]
             }
         }
     },
@@ -2313,12 +2791,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which Schiller poem did Beethoven use in the 9th Symphony?",
-                "answer": "[EN] "
+                "question": "Which Schiller poem did Beethoven use in the 9th Symphony?",
+                "answer": "Ode to Joy",
+                "options": [
+                    "Ode to Joy",
+                    "Candide",
+                    "Faust"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое стихотворение Шиллера использовал Бетховен в 9-й симфонии?",
-                "answer": "[RU] "
+                "question": "Какое стихотворение Шиллера использовал Бетховен в 9-й симфонии?",
+                "answer": "Ода к радости",
+                "options": [
+                    "Ода к радости",
+                    "Кандид",
+                    "Фауст"
+                ]
             }
         }
     },
@@ -2336,12 +2824,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What has become the symbol of the European Union?",
-                "answer": "[EN] "
+                "question": "What has become the symbol of the European Union?",
+                "answer": "The fourth movement of Beethoven's 9th Symphony",
+                "options": [
+                    "The fourth movement of Beethoven's 9th Symphony",
+                    "Mozart's The Magic Flute",
+                    "The Hungarian Hymn"
+                ]
             },
             "ru": {
-                "question": "[RU] Что стало символом Европейского Союза?",
-                "answer": "[RU] "
+                "question": "Что стало символом Европейского Союза?",
+                "answer": "Четвертая часть 9-й симфонии Бетховена",
+                "options": [
+                    "Четвертая часть 9-й симфонии Бетховена",
+                    "Волшебная флейта Моцарта",
+                    "Венгерский гимн"
+                ]
             }
         }
     }

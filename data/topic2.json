@@ -45,12 +45,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did the Hungarians occupy the Carpathian Basin?",
-                "answer": "[EN] "
+                "question": "When did the Hungarians occupy the Carpathian Basin?",
+                "answer": "895-896",
+                "options": [
+                    "In 895-896",
+                    "In 1000",
+                    "In 800"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда венгры заняли Карпатский бассейн?",
-                "answer": "[RU] "
+                "question": "Когда венгры заняли Карпатский бассейн?",
+                "answer": "895-896",
+                "options": [
+                    "В 895-896",
+                    "В 1000",
+                    "В 800"
+                ]
             }
         }
     },
@@ -100,12 +110,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who was the leader of the Conquest?",
-                "answer": "[EN] "
+                "question": "Who was the leader of the Conquest?",
+                "answer": "Árpád",
+                "options": [
+                    "Árpád",
+                    "St. Stephen",
+                    "Prince Géza"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто был лидером обретения родины?",
-                "answer": "[RU] "
+                "question": "Кто был лидером обретения родины?",
+                "answer": "Арпад",
+                "options": [
+                    "Арпад",
+                    "Святой Иштван",
+                    "Князь Геза"
+                ]
             }
         }
     },
@@ -123,12 +143,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] How many tribes occupied the Carpathian Basin?",
-                "answer": "[EN] "
+                "question": "How many tribes occupied the Carpathian Basin?",
+                "answer": "7 tribes",
+                "options": [
+                    "7 tribes",
+                    "5 tribes",
+                    "10 tribes"
+                ]
             },
             "ru": {
-                "question": "[RU] Сколько племен заняли Карпатский бассейн?",
-                "answer": "[RU] "
+                "question": "Сколько племен заняли Карпатский бассейн?",
+                "answer": "7 племен",
+                "options": [
+                    "7 племен",
+                    "5 племен",
+                    "10 племен"
+                ]
             }
         }
     },
@@ -162,12 +192,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What lifestyle did the Hungarians lead before the Conquest?",
-                "answer": "[EN] "
+                "question": "What lifestyle did the Hungarians lead before the Conquest?",
+                "answer": "Steppe nomadic lifestyle",
+                "options": [
+                    "Steppe nomadic lifestyle",
+                    "Settled lifestyle",
+                    "Seafaring lifestyle"
+                ]
             },
             "ru": {
-                "question": "[RU] Какой образ жизни вели венгры до обретения родины?",
-                "answer": "[RU] "
+                "question": "Какой образ жизни вели венгры до обретения родины?",
+                "answer": "Степной кочевой образ жизни",
+                "options": [
+                    "Степной кочевой образ жизни",
+                    "Оседлый образ жизни",
+                    "Морской образ жизни"
+                ]
             }
         }
     },
@@ -219,12 +259,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who was St. Stephen?",
-                "answer": "[EN] "
+                "question": "Who was St. Stephen?",
+                "answer": "The first Christian Hungarian king, State founder",
+                "options": [
+                    "The first Christian Hungarian king",
+                    "State founder",
+                    "The second state founder",
+                    "Leader of Reform Era"
+                ]
             },
             "ru": {
-                "question": "[RU] Кем был Святой Иштван?",
-                "answer": "[RU] "
+                "question": "Кем был Святой Иштван?",
+                "answer": "Первый христианский венгерский король, Основатель государства",
+                "options": [
+                    "Первый христианский венгерский король",
+                    "Основатель государства",
+                    "Второй основатель государства",
+                    "Лидер эпохи реформ"
+                ]
             }
         }
     },
@@ -242,12 +294,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What culture did Hungary adopt under St. Stephen?",
-                "answer": "[EN] "
+                "question": "What culture did Hungary adopt under St. Stephen?",
+                "answer": "Western Christian culture",
+                "options": [
+                    "Western Christian culture",
+                    "Eastern Christian culture",
+                    "Byzantine culture"
+                ]
             },
             "ru": {
-                "question": "[RU] Какую культуру приняла Венгрия при Святом Иштване?",
-                "answer": "[RU] "
+                "question": "Какую культуру приняла Венгрия при Святом Иштване?",
+                "answer": "Западную христианскую культуру",
+                "options": [
+                    "Западную христианскую культуру",
+                    "Восточную христианскую культуру",
+                    "Византийскую культуру"
+                ]
             }
         }
     },
@@ -281,12 +343,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What religion did Hungary adopt in the time of St. Stephen?",
-                "answer": "[EN] "
+                "question": "What religion did Hungary adopt in the time of St. Stephen?",
+                "answer": "Roman Catholic religion",
+                "options": [
+                    "Roman Catholic religion",
+                    "Orthodox religion",
+                    "Protestant religion"
+                ]
             },
             "ru": {
-                "question": "[RU] Какую религию приняла Венгрия во времена Святого Иштвана?",
-                "answer": "[RU] "
+                "question": "Какую религию приняла Венгрия во времена Святого Иштвана?",
+                "answer": "Римско-католическую религию",
+                "options": [
+                    "Римско-католическую религию",
+                    "Православную религию",
+                    "Протестантскую религию"
+                ]
             }
         }
     },
@@ -324,12 +396,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What did St. Stephen organize?",
-                "answer": "[EN] "
+                "question": "What did St. Stephen organize?",
+                "answer": "County system, Dioceses, Bishoprics",
+                "options": [
+                    "County system",
+                    "Dioceses",
+                    "Bishoprics",
+                    "Factories",
+                    "Railways"
+                ]
             },
             "ru": {
-                "question": "[RU] Что организовал Святой Иштван?",
-                "answer": "[RU] "
+                "question": "Что организовал Святой Иштван?",
+                "answer": "Систему комитатов, Епархии, Епископства",
+                "options": [
+                    "Систему комитатов",
+                    "Епархии",
+                    "Епископства",
+                    "Заводы",
+                    "Железные дороги"
+                ]
             }
         }
     },
@@ -347,12 +433,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was the role of the Kingdom of Hungary in medieval Europe?",
-                "answer": "[EN] "
+                "question": "What was the role of the Kingdom of Hungary in medieval Europe?",
+                "answer": "It was a strong, defining state",
+                "options": [
+                    "It was a strong, defining state",
+                    "It was a weak, insignificant state",
+                    "It did not exist yet"
+                ]
             },
             "ru": {
-                "question": "[RU] Какова была роль Венгерского королевства в средневековой Европе?",
-                "answer": "[RU] "
+                "question": "Какова была роль Венгерского королевства в средневековой Европе?",
+                "answer": "Это было сильное, определяющее государство",
+                "options": [
+                    "Это было сильное, определяющее государство",
+                    "Это было слабое, незначительное государство",
+                    "Его еще не существовало"
+                ]
             }
         }
     },
@@ -370,12 +466,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What characterized the period after St. Stephen\u0027s death?",
-                "answer": "[EN] "
+                "question": "What characterized the period after St. Stephen\u0027s death?",
+                "answer": "Throne disputes",
+                "options": [
+                    "Throne disputes",
+                    "Peace and development",
+                    "Great economic boom"
+                ]
             },
             "ru": {
-                "question": "[RU] Что характеризовало период после смерти Святого Иштвана?",
-                "answer": "[RU] "
+                "question": "Что характеризовало период после смерти Святого Иштвана?",
+                "answer": "Борьба за престол",
+                "options": [
+                    "Борьба за престол",
+                    "Мир и развитие",
+                    "Большой экономический подъём"
+                ]
             }
         }
     },
@@ -457,12 +563,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When was the Golden Bull made?",
-                "answer": "[EN] "
+                "question": "When was the Golden Bull made?",
+                "answer": "In 1222",
+                "options": [
+                    "In 1222",
+                    "In 1215",
+                    "In 1301"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда была создана Золотая булла?",
-                "answer": "[RU] "
+                "question": "Когда была создана Золотая булла?",
+                "answer": "В 1222",
+                "options": [
+                    "В 1222",
+                    "В 1215",
+                    "В 1301"
+                ]
             }
         }
     },
@@ -496,12 +612,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What did the Golden Bull contain?",
-                "answer": "[EN] "
+                "question": "What did the Golden Bull contain?",
+                "answer": "The rights of the nobles",
+                "options": [
+                    "The rights of the nobles",
+                    "The rights of the peasants",
+                    "The duties of the king"
+                ]
             },
             "ru": {
-                "question": "[RU] Что содержала Золотая булла?",
-                "answer": "[RU] "
+                "question": "Что содержала Золотая булла?",
+                "answer": "Права дворян",
+                "options": [
+                    "Права дворян",
+                    "Права крестьян",
+                    "Обязанности короля"
+                ]
             }
         }
     },
@@ -537,12 +663,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was the consequence of the Mongol invasion?",
-                "answer": "[EN] "
+                "question": "What was the consequence of the Mongol invasion?",
+                "answer": "Large areas of the Carpathian Basin became depopulated, The country was shaken",
+                "options": [
+                    "Large areas of the Carpathian Basin became depopulated",
+                    "The country was shaken",
+                    "The country strengthened",
+                    "New cities were built"
+                ]
             },
             "ru": {
-                "question": "[RU] Каковы были последствия татаро-монгольского нашествия?",
-                "answer": "[RU] "
+                "question": "Каковы были последствия татаро-монгольского нашествия?",
+                "answer": "Большие территории Карпатского бассейна обезлюдели, Страна пошатнулась",
+                "options": [
+                    "Большие территории Карпатского бассейна обезлюдели",
+                    "Страна пошатнулась",
+                    "Страна укрепилась",
+                    "Были построены новые города"
+                ]
             }
         }
     },
@@ -576,12 +714,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who restored the country after the Mongol invasion?",
-                "answer": "[EN] "
+                "question": "Who restored the country after the Mongol invasion?",
+                "answer": "Béla IV",
+                "options": [
+                    "Béla IV",
+                    "St. Stephen",
+                    "St. Ladislaus"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто восстановил страну после татаро-монгольского нашествия?",
-                "answer": "[RU] "
+                "question": "Кто восстановил страну после татаро-монгольского нашествия?",
+                "answer": "Бела IV",
+                "options": [
+                    "Бела IV",
+                    "Святой Иштван",
+                    "Святой Ласло"
+                ]
             }
         }
     },
@@ -633,12 +781,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Where did the kings come from after the extinction of the Árpád dynasty?",
-                "answer": "[EN] "
+                "question": "Where did the kings come from after the extinction of the Árpád dynasty?",
+                "answer": "From the House of Anjou, From the House of Luxembourg",
+                "options": [
+                    "From the House of Anjou",
+                    "From the House of Luxembourg",
+                    "From the House of Habsburg",
+                    "From the House of Tudor"
+                ]
             },
             "ru": {
-                "question": "[RU] Откуда происходили короли после вымирания династии Арпадов?",
-                "answer": "[RU] "
+                "question": "Откуда происходили короли после вымирания династии Арпадов?",
+                "answer": "Из Анжуйской династии, Из Люксембургской династии",
+                "options": [
+                    "Из Анжуйской династии",
+                    "Из Люксембургской династии",
+                    "Из династии Габсбургов",
+                    "Из династии Тюдоров"
+                ]
             }
         }
     },
@@ -720,12 +880,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who led the Christian army at Nándorfehérvár?",
-                "answer": "[EN] "
+                "question": "Who led the Christian army at Nándorfehérvár?",
+                "answer": "János Hunyadi",
+                "options": [
+                    "János Hunyadi",
+                    "Mátyás Hunyadi",
+                    "István Széchenyi"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто возглавлял христианскую армию при Нандорфехерваре?",
-                "answer": "[RU] "
+                "question": "Кто возглавлял христианскую армию при Нандорфехерваре?",
+                "answer": "Янош Хуньяди",
+                "options": [
+                    "Янош Хуньяди",
+                    "Матьяш Хуньяди",
+                    "Иштван Сеченьи"
+                ]
             }
         }
     },
@@ -759,12 +929,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What does the noon bell commemorate?",
-                "answer": "[EN] "
+                "question": "What does the noon bell commemorate?",
+                "answer": "The triumph at Nándorfehérvár in 1456",
+                "options": [
+                    "The triumph at Nándorfehérvár in 1456",
+                    "The Battle of Mohács",
+                    "The state foundation"
+                ]
             },
             "ru": {
-                "question": "[RU] О чем напоминает полуденный звон колоколов?",
-                "answer": "[RU] "
+                "question": "О чем напоминает полуденный звон колоколов?",
+                "answer": "О победе при Нандорфехерваре в 1456 году",
+                "options": [
+                    "О победе при Нандорфехерваре в 1456 году",
+                    "О битве при Мохаче",
+                    "Об основании государства"
+                ]
             }
         }
     },
@@ -814,12 +994,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Under the reign of which king did Renaissance Hungary experience its golden age?",
-                "answer": "[EN] "
+                "question": "Under the reign of which king did Renaissance Hungary experience its golden age?",
+                "answer": "Matthias Hunyadi",
+                "options": [
+                    "Matthias Hunyadi",
+                    "St. Stephen",
+                    "Béla IV"
+                ]
             },
             "ru": {
-                "question": "[RU] Во время правления какого короля ренессансная Венгрия переживала свой золотой век?",
-                "answer": "[RU] "
+                "question": "Во время правления какого короля ренессансная Венгрия переживала свой золотой век?",
+                "answer": "Матьяша Хуньяди",
+                "options": [
+                    "Матьяша Хуньяди",
+                    "Святого Иштвана",
+                    "Белы IV"
+                ]
             }
         }
     },
@@ -837,12 +1027,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did Matthias Hunyadi reign?",
-                "answer": "[EN] "
+                "question": "When did Matthias Hunyadi reign?",
+                "answer": "Between 1458-1490",
+                "options": [
+                    "Between 1458-1490",
+                    "Between 1001-1038",
+                    "Between 1848-1849"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда правил Матьяш Хуньяди?",
-                "answer": "[RU] "
+                "question": "Когда правил Матьяш Хуньяди?",
+                "answer": "Между 1458-1490 годами",
+                "options": [
+                    "Между 1458-1490 годами",
+                    "Между 1001-1038 годами",
+                    "Между 1848-1849 годами"
+                ]
             }
         }
     },
@@ -892,12 +1092,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was the result of the Battle of Mohács?",
-                "answer": "[EN] "
+                "question": "What was the result of the Battle of Mohács?",
+                "answer": "The Hungarian armies suffered a heavy defeat",
+                "options": [
+                    "The Hungarian armies suffered a heavy defeat",
+                    "The Hungarians won",
+                    "It was a draw"
+                ]
             },
             "ru": {
-                "question": "[RU] Каков был результат битвы при Мохаче?",
-                "answer": "[RU] "
+                "question": "Каков был результат битвы при Мохаче?",
+                "answer": "Венгерские войска потерпели тяжелое поражение",
+                "options": [
+                    "Венгерские войска потерпели тяжелое поражение",
+                    "Венгры победили",
+                    "Была ничья"
+                ]
             }
         }
     },
@@ -995,12 +1205,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] The siege of which castle was a famous event in 1552?",
-                "answer": "[EN] "
+                "question": "The siege of which castle was a famous event in 1552?",
+                "answer": "Eger",
+                "options": [
+                    "Eger",
+                    "Buda",
+                    "Székesfehérvár"
+                ]
             },
             "ru": {
-                "question": "[RU] Осада какой крепости была знаменитым событием в 1552 году?",
-                "answer": "[RU] "
+                "question": "Осада какой крепости была знаменитым событием в 1552 году?",
+                "answer": "Эгер",
+                "options": [
+                    "Эгер",
+                    "Буда",
+                    "Секешфехервар"
+                ]
             }
         }
     },
@@ -1050,12 +1270,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When was Buda recaptured from the Turks?",
-                "answer": "[EN] "
+                "question": "When was Buda recaptured from the Turks?",
+                "answer": "On September 2, 1686",
+                "options": [
+                    "On September 2, 1686",
+                    "In 1541",
+                    "In 1526"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда Буда была отвоевана у турок?",
-                "answer": "[RU] "
+                "question": "Когда Буда была отвоевана у турок?",
+                "answer": "2 сентября 1686 г.",
+                "options": [
+                    "2 сентября 1686 г.",
+                    "В 1541 г.",
+                    "В 1526 г."
+                ]
             }
         }
     },
@@ -1075,12 +1305,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What did the Habsburg ruler do after the Turkish occupation?",
-                "answer": "[EN] "
+                "question": "What did the Habsburg ruler do after the Turkish occupation?",
+                "answer": "Rebuilt the country, Populated the uninhabited areas",
+                "options": [
+                    "Rebuilt the country",
+                    "Populated the uninhabited areas",
+                    "Expelled the Hungarians",
+                    "Closed the churches"
+                ]
             },
             "ru": {
-                "question": "[RU] Что сделал правитель Габсбург после турецкой оккупации?",
-                "answer": "[RU] "
+                "question": "Что сделал правитель Габсбург после турецкой оккупации?",
+                "answer": "Отстроил страну, Заселил необитаемые территории",
+                "options": [
+                    "Отстроил страну",
+                    "Заселил необитаемые территории",
+                    "Изгнал венгров",
+                    "Закрыл церкви"
+                ]
             }
         }
     },
@@ -1099,12 +1341,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did the country become multi-ethnic?",
-                "answer": "[EN] "
+                "question": "When did the country become multi-ethnic?",
+                "answer": "After the Turkish occupation, During the population",
+                "options": [
+                    "After the Turkish occupation",
+                    "During the population",
+                    "In the time of St. Stephen",
+                    "At the Conquest"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда страна стала многонациональной?",
-                "answer": "[RU] "
+                "question": "Когда страна стала многонациональной?",
+                "answer": "После турецкой оккупации, В ходе заселения",
+                "options": [
+                    "После турецкой оккупации",
+                    "В ходе заселения",
+                    "Во времена Святого Иштвана",
+                    "При обретении родины"
+                ]
             }
         }
     },
@@ -1154,12 +1408,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who led the national uprising between 1703-1711?",
-                "answer": "[EN] "
+                "question": "Who led the national uprising between 1703-1711?",
+                "answer": "Francis II Rákóczi",
+                "options": [
+                    "Francis II Rákóczi",
+                    "George I Rákóczi",
+                    "Lajos Kossuth"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто возглавлял национальное восстание между 1703-1711 годами?",
-                "answer": "[RU] "
+                "question": "Кто возглавлял национальное восстание между 1703-1711 годами?",
+                "answer": "Ференц Ракоци II",
+                "options": [
+                    "Ференц Ракоци II",
+                    "Дьёрдь Ракоци I",
+                    "Лайош Кошут"
+                ]
             }
         }
     },
@@ -1177,12 +1441,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When was Francis II Rákóczi\u0027s uprising?",
-                "answer": "[EN] "
+                "question": "When was Francis II Rákóczi\u0027s uprising?",
+                "answer": "Between 1703-1711",
+                "options": [
+                    "Between 1703-1711",
+                    "Between 1848-1849",
+                    "In 1956"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда было восстание Ференца Ракоци II?",
-                "answer": "[RU] "
+                "question": "Когда было восстание Ференца Ракоци II?",
+                "answer": "Между 1703-1711 годами",
+                "options": [
+                    "Между 1703-1711 годами",
+                    "Между 1848-1849 годами",
+                    "В 1956 году"
+                ]
             }
         }
     },
@@ -1216,12 +1490,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When was the Reform Era in Hungary?",
-                "answer": "[EN] "
+                "question": "When was the Reform Era in Hungary?",
+                "answer": "Between 1825-1848",
+                "options": [
+                    "Between 1825-1848",
+                    "Between 1703-1711",
+                    "Between 1867-1918"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда была Эпоха реформ в Венгрии?",
-                "answer": "[RU] "
+                "question": "Когда была Эпоха реформ в Венгрии?",
+                "answer": "Между 1825-1848 годами",
+                "options": [
+                    "Между 1825-1848 годами",
+                    "Между 1703-1711 годами",
+                    "Между 1867-1918 годами"
+                ]
             }
         }
     },
@@ -1243,12 +1527,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What characterized the Reform Era?",
-                "answer": "[EN] "
+                "question": "What characterized the Reform Era?",
+                "answer": "The birth of the modern Hungarian nation, Strengthening of Hungarian language and culture, Founding of the first national institutions",
+                "options": [
+                    "The birth of the modern Hungarian nation",
+                    "Strengthening of Hungarian language and culture",
+                    "Founding of the first national institutions",
+                    "Expulsion of the Turks",
+                    "The Mongol invasion"
+                ]
             },
             "ru": {
-                "question": "[RU] Что характеризовало Эпоху реформ?",
-                "answer": "[RU] "
+                "question": "Что характеризовало Эпоху реформ?",
+                "answer": "Рождение современной венгерской нации, Укрепление венгерского языка и культуры, Основание первых национальных учреждений",
+                "options": [
+                    "Рождение современной венгерской нации",
+                    "Укрепление венгерского языка и культуры",
+                    "Основание первых национальных учреждений",
+                    "Изгнание турок",
+                    "Татаро-монгольское нашествие"
+                ]
             }
         }
     },
@@ -1284,12 +1582,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What happened in the Reform Era?",
-                "answer": "[EN] "
+                "question": "What happened in the Reform Era?",
+                "answer": "Significant socio-economic changes, Founding of national institutions",
+                "options": [
+                    "Significant socio-economic changes",
+                    "Founding of national institutions",
+                    "Wars",
+                    "Epidemics"
+                ]
             },
             "ru": {
-                "question": "[RU] Что происходило в Эпоху реформ?",
-                "answer": "[RU] "
+                "question": "Что происходило в Эпоху реформ?",
+                "answer": "Значительные социально-экономические изменения, Основание национальных учреждений",
+                "options": [
+                    "Значительные социально-экономические изменения",
+                    "Основание национальных учреждений",
+                    "Войны",
+                    "Эпидемии"
+                ]
             }
         }
     },
@@ -1328,12 +1638,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was the main goal of the Reform Era?",
-                "answer": "[EN] "
+                "question": "What was the main goal of the Reform Era?",
+                "answer": "Making Hungarian the official language, Dismantling feudal relations, Starting urbanization",
+                "options": [
+                    "Making Hungarian the official language",
+                    "Dismantling feudal relations",
+                    "Starting urbanization",
+                    "Winning the war",
+                    "Dethroning the king"
+                ]
             },
             "ru": {
-                "question": "[RU] Какова была главная цель Эпохи реформ?",
-                "answer": "[RU] "
+                "question": "Какова была главная цель Эпохи реформ?",
+                "answer": "Сделать венгерский официальным языком, Ликвидация феодальных отношений, Начало урбанизации",
+                "options": [
+                    "Сделать венгерский официальным языком",
+                    "Ликвидация феодальных отношений",
+                    "Начало урбанизации",
+                    "Выигрыш войны",
+                    "Свержение короля"
+                ]
             }
         }
     },
@@ -1351,12 +1675,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What did they want to protect in the Reform Era?",
-                "answer": "[EN] "
+                "question": "What did they want to protect in the Reform Era?",
+                "answer": "The Hungarian constitutional institutions",
+                "options": [
+                    "The Hungarian constitutional institutions",
+                    "The feudal relations",
+                    "The Habsburg rule"
+                ]
             },
             "ru": {
-                "question": "[RU] Что хотели защитить в Эпоху реформ?",
-                "answer": "[RU] "
+                "question": "Что хотели защитить в Эпоху реформ?",
+                "answer": "Венгерские конституционные институты",
+                "options": [
+                    "Венгерские конституционные институты",
+                    "Феодальные отношения",
+                    "Габсбургское правление"
+                ]
             }
         }
     },
@@ -1374,12 +1708,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What social process started in the Reform Era?",
-                "answer": "[EN] "
+                "question": "What social process started in the Reform Era?",
+                "answer": "Urbanization",
+                "options": [
+                    "Urbanization",
+                    "Strengthening of feudalism",
+                    "Industrial revolution"
+                ]
             },
             "ru": {
-                "question": "[RU] Какой социальный процесс начался в Эпоху реформ?",
-                "answer": "[RU] "
+                "question": "Какой социальный процесс начался в Эпоху реформ?",
+                "answer": "Урбанизация",
+                "options": [
+                    "Урбанизация",
+                    "Укрепление феодализма",
+                    "Промышленная революция"
+                ]
             }
         }
     },
@@ -1413,12 +1757,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did István Széchenyi live?",
-                "answer": "[EN] "
+                "question": "When did István Széchenyi live?",
+                "answer": "1791-1860",
+                "options": [
+                    "1791-1860",
+                    "1803-1876",
+                    "1802-1849"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда жил Иштван Сечени?",
-                "answer": "[RU] "
+                "question": "Когда жил Иштван Сечени?",
+                "answer": "1791-1860",
+                "options": [
+                    "1791-1860",
+                    "1803-1876",
+                    "1802-1849"
+                ]
             }
         }
     },
@@ -1452,12 +1806,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What did István Széchenyi establish?",
-                "answer": "[EN] "
+                "question": "What did István Széchenyi establish?",
+                "answer": "The Hungarian Academy of Sciences",
+                "options": [
+                    "The Hungarian Academy of Sciences",
+                    "The Parliament",
+                    "The National Museum"
+                ]
             },
             "ru": {
-                "question": "[RU] Что основал Иштван Сечени?",
-                "answer": "[RU] "
+                "question": "Что основал Иштван Сечени?",
+                "answer": "Венгерскую академию наук",
+                "options": [
+                    "Венгерскую академию наук",
+                    "Парламент",
+                    "Национальный музей"
+                ]
             }
         }
     },
@@ -1479,12 +1843,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] In which areas did István Széchenyi work?",
-                "answer": "[EN] "
+                "question": "In which areas did István Széchenyi work?",
+                "answer": "Agriculture, Transportation, Shipping",
+                "options": [
+                    "Agriculture",
+                    "Transportation",
+                    "Shipping",
+                    "Military affairs",
+                    "Religious affairs"
+                ]
             },
             "ru": {
-                "question": "[RU] В каких областях работал Иштван Сечени?",
-                "answer": "[RU] "
+                "question": "В каких областях работал Иштван Сечени?",
+                "answer": "Сельское хозяйство, Транспорт, Судоходство",
+                "options": [
+                    "Сельское хозяйство",
+                    "Транспорт",
+                    "Судоходство",
+                    "Военное дело",
+                    "Религия"
+                ]
             }
         }
     },
@@ -1534,12 +1912,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] The building of which bridge is linked to István Széchenyi\u0027s name?",
-                "answer": "[EN] "
+                "question": "The building of which bridge is linked to István Széchenyi\u0027s name?",
+                "answer": "Chain Bridge",
+                "options": [
+                    "Chain Bridge",
+                    "Elizabeth Bridge",
+                    "Margaret Bridge"
+                ]
             },
             "ru": {
-                "question": "[RU] Строительство какого моста связано с именем Иштвана Сечени?",
-                "answer": "[RU] "
+                "question": "Строительство какого моста связано с именем Иштвана Сечени?",
+                "answer": "Цепной мост",
+                "options": [
+                    "Цепной мост",
+                    "Мост Эржебет",
+                    "Мост Маргит"
+                ]
             }
         }
     },
@@ -1575,12 +1963,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was István Széchenyi\u0027s role?",
-                "answer": "[EN] "
+                "question": "What was István Széchenyi\u0027s role?",
+                "answer": "He initiated significant developments, The construction of the Chain Bridge is linked to his name",
+                "options": [
+                    "He initiated significant developments",
+                    "The construction of the Chain Bridge is linked to his name",
+                    "He was crowned king",
+                    "He was executed"
+                ]
             },
             "ru": {
-                "question": "[RU] Какова была роль Иштвана Сечени?",
-                "answer": "[RU] "
+                "question": "Какова была роль Иштвана Сечени?",
+                "answer": "Он инициировал значительные события, Строительство Цепного моста связано с его именем",
+                "options": [
+                    "Он инициировал значительные события",
+                    "Строительство Цепного моста связано с его именем",
+                    "Он был коронован",
+                    "Он был казнен"
+                ]
             }
         }
     },
@@ -1619,12 +2019,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who else was significant in the Reform Era besides Széchenyi?",
-                "answer": "[EN] "
+                "question": "Who else was significant in the Reform Era besides Széchenyi?",
+                "answer": "Lajos Kossuth, Lajos Batthyány, Ferenc Deák",
+                "options": [
+                    "Lajos Kossuth",
+                    "Lajos Batthyány",
+                    "Ferenc Deák",
+                    "Francis Rákóczi",
+                    "St. Stephen"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто еще был значителен в Эпоху реформ кроме Сечени?",
-                "answer": "[RU] "
+                "question": "Кто еще был значителен в Эпоху реформ кроме Сечени?",
+                "answer": "Лайош Кошут, Лайош Баттьяни, Ференц Деак",
+                "options": [
+                    "Лайош Кошут",
+                    "Лайош Баттьяни",
+                    "Ференц Деак",
+                    "Ференц Ракоци",
+                    "Святой Иштван"
+                ]
             }
         }
     },
@@ -1642,12 +2056,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was the Habsburg Empire like before 1848?",
-                "answer": "[EN] "
+                "question": "What was the Habsburg Empire like before 1848?",
+                "answer": "Absolutist",
+                "options": [
+                    "Absolutist",
+                    "Democratic",
+                    "Constitutional"
+                ]
             },
             "ru": {
-                "question": "[RU] Какой была Габсбургская империя до 1848 года?",
-                "answer": "[RU] "
+                "question": "Какой была Габсбургская империя до 1848 года?",
+                "answer": "Абсолютистской",
+                "options": [
+                    "Абсолютистской",
+                    "Демократической",
+                    "Конституционной"
+                ]
             }
         }
     },
@@ -1681,12 +2105,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did the Vienna revolution break out?",
-                "answer": "[EN] "
+                "question": "When did the Vienna revolution break out?",
+                "answer": "On March 13, 1848",
+                "options": [
+                    "On March 13, 1848",
+                    "On March 15, 1848",
+                    "On March 17, 1848"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда вспыхнула венская революция?",
-                "answer": "[RU] "
+                "question": "Когда вспыхнула венская революция?",
+                "answer": "13 марта 1848 г.",
+                "options": [
+                    "13 марта 1848 г.",
+                    "15 марта 1848 г.",
+                    "17 марта 1848 г."
+                ]
             }
         }
     },
@@ -1722,12 +2156,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] To which cities did the news of the Vienna revolution arrive on March 14?",
-                "answer": "[EN] "
+                "question": "To which cities did the news of the Vienna revolution arrive on March 14?",
+                "answer": "To Pozsony, To Pest-Buda",
+                "options": [
+                    "To Pozsony",
+                    "To Pest-Buda",
+                    "To Debrecen",
+                    "To Szeged"
+                ]
             },
             "ru": {
-                "question": "[RU] В какие города 14 марта пришла весть о венской революции?",
-                "answer": "[RU] "
+                "question": "В какие города 14 марта пришла весть о венской революции?",
+                "answer": "В Пожонь, В Пешт-Буду",
+                "options": [
+                    "В Пожонь",
+                    "В Пешт-Буду",
+                    "В Дебрецен",
+                    "В Сегед"
+                ]
             }
         }
     },
@@ -1777,12 +2223,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Where did the Youth of March meet?",
-                "answer": "[EN] "
+                "question": "Where did the Youth of March meet?",
+                "answer": "At the Pilvax Café",
+                "options": [
+                    "At the Pilvax Café",
+                    "In the Parliament",
+                    "In the National Museum"
+                ]
             },
             "ru": {
-                "question": "[RU] Где встречалась Мартовская молодежь?",
-                "answer": "[RU] "
+                "question": "Где встречалась Мартовская молодежь?",
+                "answer": "В кафе Пильвакс",
+                "options": [
+                    "В кафе Пильвакс",
+                    "В парламенте",
+                    "В Национальном музее"
+                ]
             }
         }
     },
@@ -1817,12 +2273,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was printed in Landerer\u0027s printing press?",
-                "answer": "[EN] "
+                "question": "What was printed in Landerer\u0027s printing press?",
+                "answer": "The 12 points",
+                "options": [
+                    "The 12 points",
+                    "The Anthem",
+                    "The newspaper"
+                ]
             },
             "ru": {
-                "question": "[RU] Что напечатали в типографии Ландерера?",
-                "answer": "[RU] "
+                "question": "Что напечатали в типографии Ландерера?",
+                "answer": "12 пунктов",
+                "options": [
+                    "12 пунктов",
+                    "Гимн",
+                    "Газету"
+                ]
             }
         }
     },
@@ -1888,12 +2354,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Where did they hold a grand assembly on March 15?",
-                "answer": "[EN] "
+                "question": "Where did they hold a grand assembly on March 15?",
+                "answer": "In front of the National Museum",
+                "options": [
+                    "In front of the National Museum",
+                    "At the Pilvax Café",
+                    "In front of the Parliament"
+                ]
             },
             "ru": {
-                "question": "[RU] Где провели большой митинг 15 марта?",
-                "answer": "[RU] "
+                "question": "Где провели большой митинг 15 марта?",
+                "answer": "Перед Национальным музеем",
+                "options": [
+                    "Перед Национальным музеем",
+                    "В кафе Пильвакс",
+                    "Перед парламентом"
+                ]
             }
         }
     },
@@ -1927,12 +2403,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who became the first Hungarian Prime Minister in 1848?",
-                "answer": "[EN] "
+                "question": "Who became the first Hungarian Prime Minister in 1848?",
+                "answer": "Lajos Batthyány",
+                "options": [
+                    "Lajos Batthyány",
+                    "Lajos Kossuth",
+                    "István Széchenyi"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто стал первым венгерским премьер-министром в 1848 году?",
-                "answer": "[RU] "
+                "question": "Кто стал первым венгерским премьер-министром в 1848 году?",
+                "answer": "Лайош Баттьяни",
+                "options": [
+                    "Лайош Баттьяни",
+                    "Лайош Кошут",
+                    "Иштван Сечени"
+                ]
             }
         }
     },
@@ -1983,12 +2469,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was one of the main symbols of the revolution?",
-                "answer": "[EN] "
+                "question": "What was one of the main symbols of the revolution?",
+                "answer": "The red-white-green cockade",
+                "options": [
+                    "The red-white-green cockade",
+                    "The holey flag",
+                    "The Chain Bridge"
+                ]
             },
             "ru": {
-                "question": "[RU] Что было одним из главных символов революции?",
-                "answer": "[RU] "
+                "question": "Что было одним из главных символов революции?",
+                "answer": "Красно-бело-зеленая кокарда",
+                "options": [
+                    "Красно-бело-зеленая кокарда",
+                    "Дырявый флаг",
+                    "Цепной мост"
+                ]
             }
         }
     },
@@ -2022,12 +2518,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When was the first responsible Hungarian government formed?",
-                "answer": "[EN] "
+                "question": "When was the first responsible Hungarian government formed?",
+                "answer": "On April 11, 1848",
+                "options": [
+                    "On April 11, 1848",
+                    "On March 15, 1848",
+                    "On April 11, 1849"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда сформировалось первое ответственное венгерское правительство?",
-                "answer": "[RU] "
+                "question": "Когда сформировалось первое ответственное венгерское правительство?",
+                "answer": "11 апреля 1848 г.",
+                "options": [
+                    "11 апреля 1848 г.",
+                    "15 марта 1848 г.",
+                    "11 апреля 1849 г."
+                ]
             }
         }
     },
@@ -2141,12 +2647,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who was the Minister of Justice in 1848?",
-                "answer": "[EN] "
+                "question": "Who was the Minister of Justice in 1848?",
+                "answer": "Ferenc Deák",
+                "options": [
+                    "Ferenc Deák",
+                    "Lajos Kossuth",
+                    "József Eötvös"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто был министром юстиции в 1848 году?",
-                "answer": "[RU] "
+                "question": "Кто был министром юстиции в 1848 году?",
+                "answer": "Ференц Деак",
+                "options": [
+                    "Ференц Деак",
+                    "Лайош Кошут",
+                    "Йожеф Этвеш"
+                ]
             }
         }
     },
@@ -2212,12 +2728,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] How many members did the first responsible Hungarian government have?",
-                "answer": "[EN] "
+                "question": "How many members did the first responsible Hungarian government have?",
+                "answer": "9 members",
+                "options": [
+                    "9 members",
+                    "7 members",
+                    "12 members"
+                ]
             },
             "ru": {
-                "question": "[RU] Сколько членов было в первом ответственном венгерском правительстве?",
-                "answer": "[RU] "
+                "question": "Сколько членов было в первом ответственном венгерском правительстве?",
+                "answer": "9 членов",
+                "options": [
+                    "9 членов",
+                    "7 членов",
+                    "12 членов"
+                ]
             }
         }
     },
@@ -2235,12 +2761,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who helped the Habsburgs in suppressing the Hungarian War of Independence?",
-                "answer": "[EN] "
+                "question": "Who helped the Habsburgs in suppressing the Hungarian War of Independence?",
+                "answer": "The Russian Tsarist Army",
+                "options": [
+                    "The Russian Tsarist Army",
+                    "The French Army",
+                    "The English Army"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто помог Габсбургам в подавлении венгерской освободительной войны?",
-                "answer": "[RU] "
+                "question": "Кто помог Габсбургам в подавлении венгерской освободительной войны?",
+                "answer": "Русская царская армия",
+                "options": [
+                    "Русская царская армия",
+                    "Французская армия",
+                    "Английская армия"
+                ]
             }
         }
     },
@@ -2290,12 +2826,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When was the surrender at Világos?",
-                "answer": "[EN] "
+                "question": "When was the surrender at Világos?",
+                "answer": "On August 13, 1849",
+                "options": [
+                    "On August 13, 1849",
+                    "On August 13, 1848",
+                    "On October 6, 1849"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда была капитуляция при Вилагоше?",
-                "answer": "[RU] "
+                "question": "Когда была капитуляция при Вилагоше?",
+                "answer": "13 августа 1849 г.",
+                "options": [
+                    "13 августа 1849 г.",
+                    "13 августа 1848 г.",
+                    "6 октября 1849 г."
+                ]
             }
         }
     },
@@ -2313,12 +2859,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who laid down arms at Világos?",
-                "answer": "[EN] "
+                "question": "Who laid down arms at Világos?",
+                "answer": "General Artúr Görgei",
+                "options": [
+                    "General Artúr Görgei",
+                    "Lajos Kossuth",
+                    "Lajos Batthyány"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто сложил оружие при Вилагоше?",
-                "answer": "[RU] "
+                "question": "Кто сложил оружие при Вилагоше?",
+                "answer": "Генерал Артур Гёргей",
+                "options": [
+                    "Генерал Артур Гёргей",
+                    "Лайош Кошут",
+                    "Лайош Баттьяни"
+                ]
             }
         }
     },
@@ -2368,12 +2924,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] How many Arad Martyrs were there?",
-                "answer": "[EN] "
+                "question": "How many Arad Martyrs were there?",
+                "answer": "13",
+                "options": [
+                    "13",
+                    "12",
+                    "10"
+                ]
             },
             "ru": {
-                "question": "[RU] Сколько было арадских мучеников?",
-                "answer": "[RU] "
+                "question": "Сколько было арадских мучеников?",
+                "answer": "13",
+                "options": [
+                    "13",
+                    "12",
+                    "10"
+                ]
             }
         }
     },
@@ -2423,12 +2989,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who was executed in Pest on October 6, 1849?",
-                "answer": "[EN] "
+                "question": "Who was executed in Pest on October 6, 1849?",
+                "answer": "Lajos Batthyány",
+                "options": [
+                    "Lajos Batthyány",
+                    "Lajos Kossuth",
+                    "Ferenc Deák"
+                ]
             },
             "ru": {
-                "question": "[RU] Кого казнили в Пеште 6 октября 1849 года?",
-                "answer": "[RU] "
+                "question": "Кого казнили в Пеште 6 октября 1849 года?",
+                "answer": "Лайош Баттьяни",
+                "options": [
+                    "Лайош Баттьяни",
+                    "Лайош Кошут",
+                    "Ференц Деак"
+                ]
             }
         }
     },
@@ -2465,12 +3041,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was reorganized after the defeat of 1848-1849?",
-                "answer": "[EN] "
+                "question": "What was reorganized after the defeat of 1848-1849?",
+                "answer": "The country's territorial unity, Public administration",
+                "options": [
+                    "The country's territorial unity",
+                    "Public administration",
+                    "Education system",
+                    "Healthcare"
+                ]
             },
             "ru": {
-                "question": "[RU] Что реорганизовали после поражения 1848-1849 годов?",
-                "answer": "[RU] "
+                "question": "Что реорганизовали после поражения 1848-1849 годов?",
+                "answer": "Территориальное единство страны, Государственное управление",
+                "options": [
+                    "Территориальное единство страны",
+                    "Государственное управление",
+                    "Систему образования",
+                    "Здравоохранение"
+                ]
             }
         }
     },
@@ -2536,12 +3124,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What did they call Ferenc Deák?",
-                "answer": "[EN] "
+                "question": "What did they call Ferenc Deák?",
+                "answer": "The Wise Man of the Nation",
+                "options": [
+                    "The Wise Man of the Nation",
+                    "The Greatest Hungarian",
+                    "The Second Founder of the State"
+                ]
             },
             "ru": {
-                "question": "[RU] Как звали Ференца Деака?",
-                "answer": "[RU] "
+                "question": "Как звали Ференца Деака?",
+                "answer": "Мудрец нации",
+                "options": [
+                    "Мудрец нации",
+                    "Величайший венгр",
+                    "Второй основатель государства"
+                ]
             }
         }
     },
@@ -2559,12 +3157,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] The constitutional system of which period did Ferenc Deák create?",
-                "answer": "[EN] "
+                "question": "The constitutional system of which period did Ferenc Deák create?",
+                "answer": "Between 1867-1918",
+                "options": [
+                    "Between 1867-1918",
+                    "Between 1848-1849",
+                    "Between 1703-1711"
+                ]
             },
             "ru": {
-                "question": "[RU] Конституционную систему какого периода создал Ференц Деак?",
-                "answer": "[RU] "
+                "question": "Конституционную систему какого периода создал Ференц Деак?",
+                "answer": "Между 1867-1918 годами",
+                "options": [
+                    "Между 1867-1918 годами",
+                    "Между 1848-1849 годами",
+                    "Между 1703-1711 годами"
+                ]
             }
         }
     },
@@ -2598,12 +3206,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What did Deák lead after the revolution was crushed?",
-                "answer": "[EN] "
+                "question": "What did Deák lead after the revolution was crushed?",
+                "answer": "Passive resistance",
+                "options": [
+                    "Passive resistance",
+                    "Armed resistance",
+                    "Fleeing abroad"
+                ]
             },
             "ru": {
-                "question": "[RU] Что возглавлял Деак после подавления революции?",
-                "answer": "[RU] "
+                "question": "Что возглавлял Деак после подавления революции?",
+                "answer": "Пассивное сопротивление",
+                "options": [
+                    "Пассивное сопротивление",
+                    "Вооруженное сопротивление",
+                    "Бегство за границу"
+                ]
             }
         }
     },
@@ -2637,12 +3255,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When was the Compromise?",
-                "answer": "[EN] "
+                "question": "When was the Compromise?",
+                "answer": "In 1867",
+                "options": [
+                    "In 1867",
+                    "In 1848",
+                    "In 1849"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда было Соглашение?",
-                "answer": "[RU] "
+                "question": "Когда было Соглашение?",
+                "answer": "В 1867 году",
+                "options": [
+                    "В 1867 году",
+                    "В 1848 году",
+                    "В 1849 году"
+                ]
             }
         }
     },
@@ -2692,12 +3320,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What kind of period was between 1867-1914?",
-                "answer": "[EN] "
+                "question": "What kind of period was between 1867-1914?",
+                "answer": "Golden Age",
+                "options": [
+                    "Golden Age",
+                    "War period",
+                    "Period of decline"
+                ]
             },
             "ru": {
-                "question": "[RU] Какой период был между 1867-1914 годами?",
-                "answer": "[RU] "
+                "question": "Какой период был между 1867-1914 годами?",
+                "answer": "Золотой век",
+                "options": [
+                    "Золотой век",
+                    "Военный период",
+                    "Период упадка"
+                ]
             }
         }
     },
@@ -2717,12 +3355,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What characterized the period between 1867-1914?",
-                "answer": "[EN] "
+                "question": "What characterized the period between 1867-1914?",
+                "answer": "Significant economic development, Social transformation",
+                "options": [
+                    "Significant economic development",
+                    "Social transformation",
+                    "Wars",
+                    "Economic crisis"
+                ]
             },
             "ru": {
-                "question": "[RU] Что характеризовало период между 1867-1914 годами?",
-                "answer": "[RU] "
+                "question": "Что характеризовало период между 1867-1914 годами?",
+                "answer": "Значительное экономическое развитие, Социальная трансформация",
+                "options": [
+                    "Значительное экономическое развитие",
+                    "Социальная трансформация",
+                    "Войны",
+                    "Экономический кризис"
+                ]
             }
         }
     },
@@ -2788,12 +3438,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When was Franz Ferdinand killed?",
-                "answer": "[EN] "
+                "question": "When was Franz Ferdinand killed?",
+                "answer": "On June 28, 1914",
+                "options": [
+                    "On June 28, 1914",
+                    "On July 28, 1914",
+                    "On November 11, 1918"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда убили Франца Фердинанда?",
-                "answer": "[RU] "
+                "question": "Когда убили Франца Фердинанда?",
+                "answer": "28 июня 1914 г.",
+                "options": [
+                    "28 июня 1914 г.",
+                    "28 июля 1914 г.",
+                    "11 ноября 1918 г."
+                ]
             }
         }
     },
@@ -2843,12 +3503,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Where did the assassination attempt against Franz Ferdinand happen?",
-                "answer": "[EN] "
+                "question": "Where did the assassination attempt against Franz Ferdinand happen?",
+                "answer": "In Sarajevo",
+                "options": [
+                    "In Sarajevo",
+                    "In Vienna",
+                    "In Budapest"
+                ]
             },
             "ru": {
-                "question": "[RU] Где произошло покушение на Франца Фердинанда?",
-                "answer": "[RU] "
+                "question": "Где произошло покушение на Франца Фердинанда?",
+                "answer": "В Сараево",
+                "options": [
+                    "В Сараево",
+                    "В Вене",
+                    "В Будапеште"
+                ]
             }
         }
     },
@@ -2882,12 +3552,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did the First World War break out?",
-                "answer": "[EN] "
+                "question": "When did the First World War break out?",
+                "answer": "On July 28, 1914",
+                "options": [
+                    "On July 28, 1914",
+                    "On June 28, 1914",
+                    "On September 1, 1939"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда вспыхнула Первая мировая война?",
-                "answer": "[RU] "
+                "question": "Когда вспыхнула Первая мировая война?",
+                "answer": "28 июля 1914 г.",
+                "options": [
+                    "28 июля 1914 г.",
+                    "28 июня 1914 г.",
+                    "1 сентября 1939 г."
+                ]
             }
         }
     },
@@ -2926,12 +3606,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which country belonged to the Entente?",
-                "answer": "[EN] "
+                "question": "Which country belonged to the Entente?",
+                "answer": "France, Russia, Great Britain",
+                "options": [
+                    "France",
+                    "Russia",
+                    "Great Britain",
+                    "Germany",
+                    "Austro-Hungarian Monarchy"
+                ]
             },
             "ru": {
-                "question": "[RU] Какая страна принадлежала к Антанте?",
-                "answer": "[RU] "
+                "question": "Какая страна принадлежала к Антанте?",
+                "answer": "Франция, Россия, Великобритания",
+                "options": [
+                    "Франция",
+                    "Россия",
+                    "Великобритания",
+                    "Германия",
+                    "Австро-Венгерская монархия"
+                ]
             }
         }
     },
@@ -2970,12 +3664,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which country was a Central Power?",
-                "answer": "[EN] "
+                "question": "Which country was a Central Power?",
+                "answer": "Germany, Austro-Hungarian Monarchy, Ottoman Empire",
+                "options": [
+                    "Germany",
+                    "Austro-Hungarian Monarchy",
+                    "Ottoman Empire",
+                    "France",
+                    "Russia"
+                ]
             },
             "ru": {
-                "question": "[RU] Какая страна была Центральной державой?",
-                "answer": "[RU] "
+                "question": "Какая страна была Центральной державой?",
+                "answer": "Германия, Австро-Венгерская монархия, Османская империя",
+                "options": [
+                    "Германия",
+                    "Австро-Венгерская монархия",
+                    "Османская империя",
+                    "Франция",
+                    "Россия"
+                ]
             }
         }
     },
@@ -3009,12 +3717,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] In which alliance did the Austro-Hungarian Monarchy fight?",
-                "answer": "[EN] "
+                "question": "In which alliance did the Austro-Hungarian Monarchy fight?",
+                "answer": "Central Powers",
+                "options": [
+                    "Central Powers",
+                    "Entente",
+                    "Was neutral"
+                ]
             },
             "ru": {
-                "question": "[RU] В каком союзе воевала Австро-Венгерская монархия?",
-                "answer": "[RU] "
+                "question": "В каком союзе воевала Австро-Венгерская монархия?",
+                "answer": "Центральные державы",
+                "options": [
+                    "Центральные державы",
+                    "Антанта",
+                    "Была нейтральной"
+                ]
             }
         }
     },
@@ -3032,12 +3750,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who won the First World War?",
-                "answer": "[EN] "
+                "question": "Who won the First World War?",
+                "answer": "The Entente Powers",
+                "options": [
+                    "The Entente Powers",
+                    "The Central Powers",
+                    "It was a draw"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто выиграл Первую мировую войну?",
-                "answer": "[RU] "
+                "question": "Кто выиграл Первую мировую войну?",
+                "answer": "Державы Антанты",
+                "options": [
+                    "Державы Антанты",
+                    "Центральные державы",
+                    "Была ничья"
+                ]
             }
         }
     },
@@ -3055,12 +3783,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did Franz Joseph reign?",
-                "answer": "[EN] "
+                "question": "When did Franz Joseph reign?",
+                "answer": "Between 1848-1916",
+                "options": [
+                    "Between 1848-1916",
+                    "Between 1867-1918",
+                    "Between 1914-1918"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда правил Франц Иосиф?",
-                "answer": "[RU] "
+                "question": "Когда правил Франц Иосиф?",
+                "answer": "Между 1848-1916 годами",
+                "options": [
+                    "Между 1848-1916 годами",
+                    "Между 1867-1918 годами",
+                    "Между 1914-1918 годами"
+                ]
             }
         }
     },
@@ -3110,12 +3848,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When was the peace treaty signed in Trianon?",
-                "answer": "[EN] "
+                "question": "When was the peace treaty signed in Trianon?",
+                "answer": "On June 4, 1920",
+                "options": [
+                    "On June 4, 1920",
+                    "On November 11, 1918",
+                    "On June 28, 1919"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда был подписан мирный договор в Трианоне?",
-                "answer": "[RU] "
+                "question": "Когда был подписан мирный договор в Трианоне?",
+                "answer": "4 июня 1920 г.",
+                "options": [
+                    "4 июня 1920 г.",
+                    "11 ноября 1918 г.",
+                    "28 июня 1919 г."
+                ]
             }
         }
     },
@@ -3133,12 +3881,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was signed on June 4, 1920?",
-                "answer": "[EN] "
+                "question": "What was signed on June 4, 1920?",
+                "answer": "The Treaty of Trianon",
+                "options": [
+                    "The Treaty of Trianon",
+                    "The Compromise",
+                    "The Surrender at Világos"
+                ]
             },
             "ru": {
-                "question": "[RU] Что подписали 4 июня 1920 года?",
-                "answer": "[RU] "
+                "question": "Что подписали 4 июня 1920 года?",
+                "answer": "Трианонский мирный договор",
+                "options": [
+                    "Трианонский мирный договор",
+                    "Соглашение",
+                    "Капитуляцию при Вилагоше"
+                ]
             }
         }
     },
@@ -3172,12 +3930,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] How much territory did Hungary lose in the Trianon peace?",
-                "answer": "[EN] "
+                "question": "How much territory did Hungary lose in the Trianon peace?",
+                "answer": "About two-thirds",
+                "options": [
+                    "About two-thirds",
+                    "Half",
+                    "One-third"
+                ]
             },
             "ru": {
-                "question": "[RU] Сколько территории потеряла Венгрия в Трианонском мире?",
-                "answer": "[RU] "
+                "question": "Сколько территории потеряла Венгрия в Трианонском мире?",
+                "answer": "Около двух третей",
+                "options": [
+                    "Около двух третей",
+                    "Половину",
+                    "Одну треть"
+                ]
             }
         }
     },
@@ -3195,12 +3963,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was Hungary\u0027s population after Trianon?",
-                "answer": "[EN] "
+                "question": "What was Hungary's population after Trianon?",
+                "answer": "7.6 million people",
+                "options": [
+                    "7.6 million people",
+                    "18.2 million people",
+                    "10 million people"
+                ]
             },
             "ru": {
-                "question": "[RU] Каково было население Венгрии после Трианона?",
-                "answer": "[RU] "
+                "question": "Каково было население Венгрии после Трианона?",
+                "answer": "7,6 миллиона человек",
+                "options": [
+                    "7,6 миллиона человек",
+                    "18,2 миллиона человек",
+                    "10 миллионов человек"
+                ]
             }
         }
     },
@@ -3250,12 +4028,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] How many Hungarians ended up outside the borders after Trianon?",
-                "answer": "[EN] "
+                "question": "How many Hungarians ended up outside the borders after Trianon?",
+                "answer": "3.3 million",
+                "options": [
+                    "3.3 million",
+                    "1 million",
+                    "5 million"
+                ]
             },
             "ru": {
-                "question": "[RU] Сколько венгров оказалось за границей после Трианона?",
-                "answer": "[RU] "
+                "question": "Сколько венгров оказалось за границей после Трианона?",
+                "answer": "3,3 миллиона",
+                "options": [
+                    "3,3 миллиона",
+                    "1 миллион",
+                    "5 миллионов"
+                ]
             }
         }
     },
@@ -3273,12 +4061,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was the goal after 1920?",
-                "answer": "[EN] "
+                "question": "What was the goal after 1920?",
+                "answer": "Revision, review of unjust borders",
+                "options": [
+                    "Revision, review of unjust borders",
+                    "Starting a new war",
+                    "Total independence"
+                ]
             },
             "ru": {
-                "question": "[RU] Какова была цель после 1920 года?",
-                "answer": "[RU] "
+                "question": "Какова была цель после 1920 года?",
+                "answer": "Ревизия, пересмотр несправедливых границ",
+                "options": [
+                    "Ревизия, пересмотр несправедливых границ",
+                    "Начало новой войны",
+                    "Полная независимость"
+                ]
             }
         }
     },
@@ -3315,12 +4113,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who was a defining politician in the 20s and 30s?",
-                "answer": "[EN] "
+                "question": "Who was a defining politician in the 20s and 30s?",
+                "answer": "Governor Miklós Horthy, István Bethlen",
+                "options": [
+                    "Governor Miklós Horthy",
+                    "István Bethlen",
+                    "Lajos Kossuth",
+                    "Lajos Batthyány"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто был определяющим политиком в 20-е и 30-е годы?",
-                "answer": "[RU] "
+                "question": "Кто был определяющим политиком в 20-е и 30-е годы?",
+                "answer": "Губернатор Миклош Хорти, Иштван Бетлен",
+                "options": [
+                    "Губернатор Миклош Хорти",
+                    "Иштван Бетлен",
+                    "Лайош Кошут",
+                    "Лайош Баттьяни"
+                ]
             }
         }
     },
@@ -3407,12 +4217,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which country was an ally in the Second World War?",
-                "answer": "[EN] "
+                "question": "Which country was an ally in the Second World War?",
+                "answer": "United Kingdom, United States, Soviet Union",
+                "options": [
+                    "United Kingdom",
+                    "United States",
+                    "Soviet Union",
+                    "Germany",
+                    "Japan"
+                ]
             },
             "ru": {
-                "question": "[RU] Какая страна была союзником во Второй мировой войне?",
-                "answer": "[RU] "
+                "question": "Какая страна была союзником во Второй мировой войне?",
+                "answer": "Великобритания, США, Советский Союз",
+                "options": [
+                    "Великобритания",
+                    "США",
+                    "Советский Союз",
+                    "Германия",
+                    "Япония"
+                ]
             }
         }
     },
@@ -3451,12 +4275,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which country was an Axis power?",
-                "answer": "[EN] "
+                "question": "Which country was an Axis power?",
+                "answer": "Germany, Italy, Japan",
+                "options": [
+                    "Germany",
+                    "Italy",
+                    "Japan",
+                    "United States",
+                    "Soviet Union"
+                ]
             },
             "ru": {
-                "question": "[RU] Какая страна была державой Оси?",
-                "answer": "[RU] "
+                "question": "Какая страна была державой Оси?",
+                "answer": "Германия, Италия, Япония",
+                "options": [
+                    "Германия",
+                    "Италия",
+                    "Япония",
+                    "США",
+                    "Советский Союз"
+                ]
             }
         }
     },
@@ -3506,12 +4344,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did Hungary enter the Second World War?",
-                "answer": "[EN] "
+                "question": "When did Hungary enter the Second World War?",
+                "answer": "In 1941",
+                "options": [
+                    "In 1941",
+                    "In 1939",
+                    "In 1944"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда Венгрия вступила во Вторую мировую войну?",
-                "answer": "[RU] "
+                "question": "Когда Венгрия вступила во Вторую мировую войну?",
+                "answer": "В 1941 году",
+                "options": [
+                    "В 1941 году",
+                    "В 1939 году",
+                    "В 1944 году"
+                ]
             }
         }
     },
@@ -3529,12 +4377,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] On which front did the Hungarian troops fight?",
-                "answer": "[EN] "
+                "question": "On which front did the Hungarian troops fight?",
+                "answer": "On the Eastern Front",
+                "options": [
+                    "On the Eastern Front",
+                    "On the Western Front",
+                    "On the African Front"
+                ]
             },
             "ru": {
-                "question": "[RU] На каком фронте воевали венгерские войска?",
-                "answer": "[RU] "
+                "question": "На каком фронте воевали венгерские войска?",
+                "answer": "На Восточном фронте",
+                "options": [
+                    "На Восточном фронте",
+                    "На Западном фронте",
+                    "На Африканском фронте"
+                ]
             }
         }
     },
@@ -3600,12 +4458,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did Germany occupy Hungary?",
-                "answer": "[EN] "
+                "question": "When did Germany occupy Hungary?",
+                "answer": "On March 19, 1944",
+                "options": [
+                    "On March 19, 1944",
+                    "In 1941",
+                    "In 1945"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда Германия оккупировала Венгрию?",
-                "answer": "[RU] "
+                "question": "Когда Германия оккупировала Венгрию?",
+                "answer": "19 марта 1944 г.",
+                "options": [
+                    "19 марта 1944 г.",
+                    "В 1941 году",
+                    "В 1945 году"
+                ]
             }
         }
     },
@@ -3655,12 +4523,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What happened after Miklós Horthy\u0027s resignation in the autumn of 1944?",
-                "answer": "[EN] "
+                "question": "What happened after Miklós Horthy's resignation in the autumn of 1944?",
+                "answer": "The country became a German puppet state",
+                "options": [
+                    "The country became a German puppet state",
+                    "Hungary exited the war",
+                    "Peace was restored"
+                ]
             },
             "ru": {
-                "question": "[RU] Что произошло после отречения Миклоша Хорти осенью 1944 года?",
-                "answer": "[RU] "
+                "question": "Что произошло после отречения Миклоша Хорти осенью 1944 года?",
+                "answer": "Страна стала марионеточным государством немцев",
+                "options": [
+                    "Страна стала марионеточным государством немцев",
+                    "Венгрия вышла из войны",
+                    "Наступил мир"
+                ]
             }
         }
     },
@@ -3678,12 +4556,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What happened after the German occupation?",
-                "answer": "[EN] "
+                "question": "What happened after the German occupation?",
+                "answer": "Systematic deportation of Jews began",
+                "options": [
+                    "Systematic deportation of Jews began",
+                    "The war ended",
+                    "Hungary regained its independence"
+                ]
             },
             "ru": {
-                "question": "[RU] Что произошло после немецкой оккупации?",
-                "answer": "[RU] "
+                "question": "Что произошло после немецкой оккупации?",
+                "answer": "Началась систематическая депортация евреев",
+                "options": [
+                    "Началась систематическая депортация евреев",
+                    "Война закончилась",
+                    "Венгрия восстановила свою независимость"
+                ]
             }
         }
     },
@@ -3718,12 +4606,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was the number of Holocaust victims in Hungary?",
-                "answer": "[EN] "
+                "question": "What was the number of Holocaust victims in Hungary?",
+                "answer": "500-600 thousand people",
+                "options": [
+                    "500-600 thousand people",
+                    "100 thousand people",
+                    "1 million people"
+                ]
             },
             "ru": {
-                "question": "[RU] Каково было число жертв Холокоста в Венгрии?",
-                "answer": "[RU] "
+                "question": "Каково было число жертв Холокоста в Венгрии?",
+                "answer": "500-600 тысяч человек",
+                "options": [
+                    "500-600 тысяч человек",
+                    "100 тысяч человек",
+                    "1 миллион человек"
+                ]
             }
         }
     },
@@ -3757,12 +4655,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What happened in the Siege of Budapest?",
-                "answer": "[EN] "
+                "question": "What happened in the Siege of Budapest?",
+                "answer": "Buda Castle and downtown areas were almost completely destroyed",
+                "options": [
+                    "Buda Castle and downtown areas were almost completely destroyed",
+                    "The city was not damaged",
+                    "Only the suburbs were damaged"
+                ]
             },
             "ru": {
-                "question": "[RU] Что произошло при осаде Будапешта?",
-                "answer": "[RU] "
+                "question": "Что произошло при осаде Будапешта?",
+                "answer": "Будайская крепость и центральные районы были почти полностью разрушены",
+                "options": [
+                    "Будайская крепость и центральные районы были почти полностью разрушены",
+                    "Город не пострадал",
+                    "Пострадали только пригороды"
+                ]
             }
         }
     },
@@ -3796,12 +4704,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Where did the Soviet troops deport the Hungarians?",
-                "answer": "[EN] "
+                "question": "Where did the Soviet troops deport the Hungarians?",
+                "answer": "To the Gulag in the Soviet Union",
+                "options": [
+                    "To the Gulag in the Soviet Union",
+                    "To Germany",
+                    "To France"
+                ]
             },
             "ru": {
-                "question": "[RU] Куда советские войска депортировали венгров?",
-                "answer": "[RU] "
+                "question": "Куда советские войска депортировали венгров?",
+                "answer": "В ГУЛАГ в Советском Союзе",
+                "options": [
+                    "В ГУЛАГ в Советском Союзе",
+                    "В Германию",
+                    "Во Францию"
+                ]
             }
         }
     },
@@ -3835,12 +4753,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did the Germans lay down their arms?",
-                "answer": "[EN] "
+                "question": "When did the Germans lay down their arms?",
+                "answer": "In the spring of 1945",
+                "options": [
+                    "In the spring of 1945",
+                    "In 1944",
+                    "In 1943"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда немцы сложили оружие?",
-                "answer": "[RU] "
+                "question": "Когда немцы сложили оружие?",
+                "answer": "Весной 1945 года",
+                "options": [
+                    "Весной 1945 года",
+                    "В 1944 году",
+                    "В 1943 году"
+                ]
             }
         }
     },
@@ -3858,12 +4786,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What did Hungary lose again after the war?",
-                "answer": "[EN] "
+                "question": "What did Hungary lose again after the war?",
+                "answer": "Territories regained in the First and Second Vienna Awards",
+                "options": [
+                    "Territories regained in the First and Second Vienna Awards",
+                    "Pre-Trianon territories",
+                    "Did not lose territory"
+                ]
             },
             "ru": {
-                "question": "[RU] Что снова потеряла Венгрия после войны?",
-                "answer": "[RU] "
+                "question": "Что снова потеряла Венгрия после войны?",
+                "answer": "Территории, возвращенные по Первому и Второму Венским арбитражам",
+                "options": [
+                    "Территории, возвращенные по Первому и Второму Венским арбитражам",
+                    "Дотрианонские территории",
+                    "Не потеряла территории"
+                ]
             }
         }
     },
@@ -3897,12 +4835,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was Hungary obliged to do after the war?",
-                "answer": "[EN] "
+                "question": "What was Hungary obliged to do after the war?",
+                "answer": "To pay war reparations",
+                "options": [
+                    "To pay war reparations",
+                    "To military service",
+                    "To start a new war"
+                ]
             },
             "ru": {
-                "question": "[RU] К чему обязали Венгрию после войны?",
-                "answer": "[RU] "
+                "question": "К чему обязали Венгрию после войны?",
+                "answer": "Выплатить военные репарации",
+                "options": [
+                    "Выплатить военные репарации",
+                    "К военной службе",
+                    "Начать новую войну"
+                ]
             }
         }
     },
@@ -3937,12 +4885,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who were deported after the war?",
-                "answer": "[EN] "
+                "question": "Who were deported after the war?",
+                "answer": "The Germans in Hungary (Swabians)",
+                "options": [
+                    "The Germans in Hungary (Swabians)",
+                    "The Slovaks",
+                    "The Romanians"
+                ]
             },
             "ru": {
-                "question": "[RU] Кого депортировали после войны?",
-                "answer": "[RU] "
+                "question": "Кого депортировали после войны?",
+                "answer": "Немцев Венгрии (швабов)",
+                "options": [
+                    "Немцев Венгрии (швабов)",
+                    "Словаков",
+                    "Румын"
+                ]
             }
         }
     },
@@ -3976,12 +4934,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What happened to the Soviet army after the war?",
-                "answer": "[EN] "
+                "question": "What happened to the Soviet army after the war?",
+                "answer": "Did not withdraw from the country's territory",
+                "options": [
+                    "Did not withdraw from the country's territory",
+                    "Withdrew immediately",
+                    "Withdrew in 1946"
+                ]
             },
             "ru": {
-                "question": "[RU] Что случилось с советской армией после войны?",
-                "answer": "[RU] "
+                "question": "Что случилось с советской армией после войны?",
+                "answer": "Не вышла с территории страны",
+                "options": [
+                    "Не вышла с территории страны",
+                    "Сразу вышла",
+                    "Вышла в 1946 году"
+                ]
             }
         }
     },
@@ -3999,12 +4967,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who took over power after a few years?",
-                "answer": "[EN] "
+                "question": "Who took over power after a few years?",
+                "answer": "Communists supported by the Soviet Union",
+                "options": [
+                    "Communists supported by the Soviet Union",
+                    "The democratic parties",
+                    "The military"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто захватил власть через несколько лет?",
-                "answer": "[RU] "
+                "question": "Кто захватил власть через несколько лет?",
+                "answer": "Коммунисты, поддерживаемые Советским Союзом",
+                "options": [
+                    "Коммунисты, поддерживаемые Советским Союзом",
+                    "Демократические партии",
+                    "Военные"
+                ]
             }
         }
     },
@@ -4042,12 +5020,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who was persecuted in the communist system?",
-                "answer": "[EN] "
+                "question": "Who was persecuted in the communist system?",
+                "answer": "Those with different political views, Churches, Intellectuals",
+                "options": [
+                    "Those with different political views",
+                    "Churches",
+                    "Intellectuals",
+                    "Peasants",
+                    "Workers"
+                ]
             },
             "ru": {
-                "question": "[RU] Кого преследовали в коммунистической системе?",
-                "answer": "[RU] "
+                "question": "Кого преследовали в коммунистической системе?",
+                "answer": "Людей с иными политическими взглядами, Церкви, Интеллигенцию",
+                "options": [
+                    "Людей с иными политическими взглядами",
+                    "Церкви",
+                    "Интеллигенцию",
+                    "Крестьян",
+                    "Рабочих"
+                ]
             }
         }
     },
@@ -4097,12 +5089,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did the 1956 revolution break out?",
-                "answer": "[EN] "
+                "question": "When did the 1956 revolution break out?",
+                "answer": "On October 23, 1956",
+                "options": [
+                    "On October 23, 1956",
+                    "On November 4, 1956",
+                    "On October 6, 1956"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда вспыхнула революция 1956 года?",
-                "answer": "[RU] "
+                "question": "Когда вспыхнула революция 1956 года?",
+                "answer": "23 октября 1956 года",
+                "options": [
+                    "23 октября 1956 года",
+                    "4 ноября 1956 года",
+                    "6 октября 1956 года"
+                ]
             }
         }
     },
@@ -4152,12 +5154,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Where did the armed clash begin in 1956?",
-                "answer": "[EN] "
+                "question": "Where did the armed clash begin in 1956?",
+                "answer": "At the Hungarian Radio building",
+                "options": [
+                    "At the Hungarian Radio building",
+                    "At the Parliament",
+                    "In the Castle"
+                ]
             },
             "ru": {
-                "question": "[RU] Где началось вооруженное столкновение в 1956 году?",
-                "answer": "[RU] "
+                "question": "Где началось вооруженное столкновение в 1956 году?",
+                "answer": "У здания Венгерского радио",
+                "options": [
+                    "У здания Венгерского радио",
+                    "У Парламента",
+                    "В Крепости"
+                ]
             }
         }
     },
@@ -4191,12 +5203,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was the center of the 1956 armed resistance?",
-                "answer": "[EN] "
+                "question": "What was the center of the 1956 armed resistance?",
+                "answer": "Budapest",
+                "options": [
+                    "Budapest",
+                    "Debrecen",
+                    "Szeged"
+                ]
             },
             "ru": {
-                "question": "[RU] Что было центром вооруженного сопротивления 1956 года?",
-                "answer": "[RU] "
+                "question": "Что было центром вооруженного сопротивления 1956 года?",
+                "answer": "Будапешт",
+                "options": [
+                    "Будапешт",
+                    "Дебрецен",
+                    "Сегед"
+                ]
             }
         }
     },
@@ -4230,12 +5252,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who became the leader of the 1956 revolutionary government?",
-                "answer": "[EN] "
+                "question": "Who became the leader of the 1956 revolutionary government?",
+                "answer": "Imre Nagy",
+                "options": [
+                    "Imre Nagy",
+                    "János Kádár",
+                    "Mátyás Rákosi"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто стал лидером революционного правительства 1956 года?",
-                "answer": "[RU] "
+                "question": "Кто стал лидером революционного правительства 1956 года?",
+                "answer": "Имре Надь",
+                "options": [
+                    "Имре Надь",
+                    "Янош Кадар",
+                    "Матьяш Ракоши"
+                ]
             }
         }
     },
@@ -4272,12 +5304,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was the emblematic site of the 1956 resistance?",
-                "answer": "[EN] "
+                "question": "What was the emblematic site of the 1956 resistance?",
+                "answer": "Corvin Alley, Széna Square",
+                "options": [
+                    "Corvin Alley",
+                    "Széna Square",
+                    "Heroes' Square",
+                    "Margaret Island"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое было знаковое место сопротивления 1956 года?",
-                "answer": "[RU] "
+                "question": "Какое было знаковое место сопротивления 1956 года?",
+                "answer": "Переулок Корвин, Площадь Сена",
+                "options": [
+                    "Переулок Корвин",
+                    "Площадь Сена",
+                    "Площадь Героев",
+                    "Остров Маргит"
+                ]
             }
         }
     },
@@ -4327,12 +5371,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was the symbol of the 1956 revolution?",
-                "answer": "[EN] "
+                "question": "What was the symbol of the 1956 revolution?",
+                "answer": "The flag with the hole",
+                "options": [
+                    "The flag with the hole",
+                    "The red-white-green cockade",
+                    "The Holy Crown"
+                ]
             },
             "ru": {
-                "question": "[RU] Что было символом революции 1956 года?",
-                "answer": "[RU] "
+                "question": "Что было символом революции 1956 года?",
+                "answer": "Флаг с дыркой",
+                "options": [
+                    "Флаг с дыркой",
+                    "Красно-бело-зеленая кокарда",
+                    "Святая Корона"
+                ]
             }
         }
     },
@@ -4366,12 +5420,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did the Soviet troops attack again?",
-                "answer": "[EN] "
+                "question": "When did the Soviet troops attack again?",
+                "answer": "On November 4",
+                "options": [
+                    "On November 4",
+                    "On October 23",
+                    "On December 1"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда советские войска снова атаковали?",
-                "answer": "[RU] "
+                "question": "Когда советские войска снова атаковали?",
+                "answer": "4 ноября",
+                "options": [
+                    "4 ноября",
+                    "23 октября",
+                    "1 декабря"
+                ]
             }
         }
     },
@@ -4389,12 +5453,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What did the Soviets do on November 4?",
-                "answer": "[EN] "
+                "question": "What did the Soviets do on November 4?",
+                "answer": "They began to eliminate the Hungarian resistance despite their promises",
+                "options": [
+                    "They began to eliminate the Hungarian resistance despite their promises",
+                    "They left the country",
+                    "They started negotiations"
+                ]
             },
             "ru": {
-                "question": "[RU] Что сделали Советы 4 ноября?",
-                "answer": "[RU] "
+                "question": "Что сделали Советы 4 ноября?",
+                "answer": "Они начали ликвидацию венгерского сопротивления вопреки своим обещаниям",
+                "options": [
+                    "Они начали ликвидацию венгерского сопротивления вопреки своим обещаниям",
+                    "Они покинули страну",
+                    "Они начали переговоры"
+                ]
             }
         }
     },
@@ -4412,12 +5486,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What happened after the 1956 revolution was crushed?",
-                "answer": "[EN] "
+                "question": "What happened after the 1956 revolution was crushed?",
+                "answer": "The one-party communist system was restored",
+                "options": [
+                    "The one-party communist system was restored",
+                    "Democracy was established",
+                    "A monarchy was formed"
+                ]
             },
             "ru": {
-                "question": "[RU] Что произошло после подавления революции 1956 года?",
-                "answer": "[RU] "
+                "question": "Что произошло после подавления революции 1956 года?",
+                "answer": "Была восстановлена однопартийная коммунистическая система",
+                "options": [
+                    "Была восстановлена однопартийная коммунистическая система",
+                    "Была установлена демократия",
+                    "Была образована монархия"
+                ]
             }
         }
     },
@@ -4467,12 +5551,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who became Hungary\u0027s leader after the 1956 revolution?",
-                "answer": "[EN] "
+                "question": "Who became Hungary's leader after the 1956 revolution?",
+                "answer": "János Kádár",
+                "options": [
+                    "János Kádár",
+                    "Imre Nagy",
+                    "Mátyás Rákosi"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто стал лидером Венгрии после революции 1956 года?",
-                "answer": "[RU] "
+                "question": "Кто стал лидером Венгрии после революции 1956 года?",
+                "answer": "Янош Кадар",
+                "options": [
+                    "Янош Кадар",
+                    "Имре Надь",
+                    "Матьяш Ракоши"
+                ]
             }
         }
     },
@@ -4522,12 +5616,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] How long did the era marked by János Kádár\u0027s name last?",
-                "answer": "[EN] "
+                "question": "How long did the era marked by János Kádár's name last?",
+                "answer": "From 1956 to 1989",
+                "options": [
+                    "From 1956 to 1989",
+                    "From 1956 to 1990",
+                    "From 1945 to 1989"
+                ]
             },
             "ru": {
-                "question": "[RU] Как долго длилась эпоха, отмеченная именем Яноша Кадара?",
-                "answer": "[RU] "
+                "question": "Как долго длилась эпоха, отмеченная именем Яноша Кадара?",
+                "answer": "С 1956 по 1989 год",
+                "options": [
+                    "С 1956 по 1989 год",
+                    "С 1956 по 1990 год",
+                    "С 1945 по 1989 год"
+                ]
             }
         }
     },
@@ -4545,12 +5649,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What does the concept of regime change mean?",
-                "answer": "[EN] "
+                "question": "What does the concept of regime change mean?",
+                "answer": "The transformation of a state's political, economic, and social system",
+                "options": [
+                    "The transformation of a state's political, economic, and social system",
+                    "Only the change of government",
+                    "Only economic changes"
+                ]
             },
             "ru": {
-                "question": "[RU] Что означает понятие смены режима?",
-                "answer": "[RU] "
+                "question": "Что означает понятие смены режима?",
+                "answer": "Преобразование политической, экономической и социальной системы государства",
+                "options": [
+                    "Преобразование политической, экономической и социальной системы государства",
+                    "Только смена правительства",
+                    "Только экономические изменения"
+                ]
             }
         }
     },
@@ -4584,12 +5698,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] In what way did the regime change take place in Hungary?",
-                "answer": "[EN] "
+                "question": "In what way did the regime change take place in Hungary?",
+                "answer": "Peacefully",
+                "options": [
+                    "Peacefully",
+                    "With armed struggles",
+                    "Through revolution"
+                ]
             },
             "ru": {
-                "question": "[RU] Каким образом произошла смена режима в Венгрии?",
-                "answer": "[RU] "
+                "question": "Каким образом произошла смена режима в Венгрии?",
+                "answer": "Мирно",
+                "options": [
+                    "Мирно",
+                    "Через вооруженную борьбу",
+                    "Путем революции"
+                ]
             }
         }
     },
@@ -4607,12 +5731,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was established after the regime change?",
-                "answer": "[EN] "
+                "question": "What was established after the regime change?",
+                "answer": "Multiparty parliamentary democracy",
+                "options": [
+                    "Multiparty parliamentary democracy",
+                    "New one-party system",
+                    "Monarchy"
+                ]
             },
             "ru": {
-                "question": "[RU] Что было создано после смены режима?",
-                "answer": "[RU] "
+                "question": "Что было создано после смены режима?",
+                "answer": "Многопартийная парламентская демократия",
+                "options": [
+                    "Многопартийная парламентская демократия",
+                    "Новая однопартийная система",
+                    "Монархия"
+                ]
             }
         }
     },
@@ -4646,12 +5780,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When were the first free elections?",
-                "answer": "[EN] "
+                "question": "When were the first free elections?",
+                "answer": "In the spring of 1990",
+                "options": [
+                    "In the spring of 1990",
+                    "In the autumn of 1989",
+                    "In the spring of 1991"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда были первые свободные выборы?",
-                "answer": "[RU] "
+                "question": "Когда были первые свободные выборы?",
+                "answer": "Весной 1990 года",
+                "options": [
+                    "Весной 1990 года",
+                    "Осенью 1989 года",
+                    "Весной 1991 года"
+                ]
             }
         }
     },
@@ -4685,12 +5829,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who became the Prime Minister in 1990?",
-                "answer": "[EN] "
+                "question": "Who became the Prime Minister in 1990?",
+                "answer": "József Antall",
+                "options": [
+                    "József Antall",
+                    "Árpád Göncz",
+                    "János Kádár"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто стал премьер-министром в 1990 году?",
-                "answer": "[RU] "
+                "question": "Кто стал премьер-министром в 1990 году?",
+                "answer": "Йожеф Анталл",
+                "options": [
+                    "Йожеф Анталл",
+                    "Арпад Гёнц",
+                    "Янош Кадар"
+                ]
             }
         }
     },
@@ -4724,12 +5878,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who elected Árpád Göncz as President of the Republic?",
-                "answer": "[EN] "
+                "question": "Who elected Árpád Göncz as President of the Republic?",
+                "answer": "The Parliament",
+                "options": [
+                    "The Parliament",
+                    "The people",
+                    "The government"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто избрал Арпада Гёнца президентом республики?",
-                "answer": "[RU] "
+                "question": "Кто избрал Арпада Гёнца президентом республики?",
+                "answer": "Парламент",
+                "options": [
+                    "Парламент",
+                    "Лидеры партии",
+                    "Правительство"
+                ]
             }
         }
     },
@@ -4763,12 +5927,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did the Soviet troops withdraw for good?",
-                "answer": "[EN] "
+                "question": "When did the Soviet troops withdraw for good?",
+                "answer": "In 1991",
+                "options": [
+                    "In 1991",
+                    "In 1990",
+                    "In 1989"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда окончательно вышли советские войска?",
-                "answer": "[RU] "
+                "question": "Когда окончательно вышли советские войска?",
+                "answer": "В 1991 году",
+                "options": [
+                    "В 1991 году",
+                    "В 1990 году",
+                    "В 1989 году"
+                ]
             }
         }
     },
@@ -4802,12 +5976,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What happened on June 16, 1989?",
-                "answer": "[EN] "
+                "question": "What happened on June 16, 1989?",
+                "answer": "Ceremonial reburial of Imre Nagy and his fellow martyrs",
+                "options": [
+                    "Ceremonial reburial of Imre Nagy and his fellow martyrs",
+                    "The first free elections",
+                    "Soviet withdrawal"
+                ]
             },
             "ru": {
-                "question": "[RU] Что произошло 16 июня 1989 года?",
-                "answer": "[RU] "
+                "question": "Что произошло 16 июня 1989 года?",
+                "answer": "Торжественное перезахоронение Имре Надя и его товарищей-мучеников",
+                "options": [
+                    "Торжественное перезахоронение Имре Надя и его товарищей-мучеников",
+                    "Первые свободные выборы",
+                    "Вывод советских войск"
+                ]
             }
         }
     }

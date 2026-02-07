@@ -35,12 +35,28 @@
         ],
         "translations": {
             "en": {
-                "question": "Which belongs to Hungary\u0027s national symbols?",
-                "answer": "Flag, Holy Crown, Anthem, Dunakanyar"
+                "question": "Which belongs to Hungary's national symbols?",
+                "answer": "Flag, Holy Crown, Anthem, Dunakanyar",
+                "options": [
+                    "Flag",
+                    "Holy Crown",
+                    "Anthem",
+                    "Danube Bend",
+                    "Coronation Mantle",
+                    "Globus Cruciger (Orb)"
+                ]
             },
             "ru": {
                 "question": "Который принадлежит национальным символам Венгрии?",
-                "answer": "Флаг, Святая Корона, Гимн, Излучина Дуная"
+                "answer": "Флаг, Святая Корона, Гимн, Излучина Дуная",
+                "options": [
+                    "Флаг",
+                    "Святая Корона",
+                    "Гимн",
+                    "Излучина Дуная",
+                    "Коронационная мантия",
+                    "Держава"
+                ]
             }
         }
     },
@@ -62,11 +78,25 @@
         "translations": {
             "en": {
                 "question": "Which does NOT belong to Hungary\u0027s national symbols?",
-                "answer": "Buda Castle"
+                "answer": "Buda Castle",
+                "options": [
+                    "Buda Castle",
+                    "Coronation Mantle",
+                    "Flag",
+                    "Holy Crown",
+                    "Anthem"
+                ]
             },
             "ru": {
                 "question": "Который НЕ принадлежит национальным символам Венгрии?",
-                "answer": "Будайский дворец"
+                "answer": "Будайский дворец",
+                "options": [
+                    "Будайская крепость (дворец)",
+                    "Коронационная мантия",
+                    "Флаг",
+                    "Святая Корона",
+                    "Гимн"
+                ]
             }
         }
     },
@@ -103,11 +133,23 @@
         "translations": {
             "en": {
                 "question": "Which object counts as Hungary\u0027s national symbol?",
-                "answer": "Holy Crown, Coat of arms of Hungary"
+                "answer": "Holy Crown, Coat of arms of Hungary",
+                "options": [
+                    "Holy Crown",
+                    "Coat of arms of Hungary",
+                    "Royal Palace",
+                    "Parliament Building"
+                ]
             },
             "ru": {
                 "question": "Какой предмет считается национальным символом Венгрии?",
-                "answer": "Святая Корона, Герб Венгрии"
+                "answer": "Святая Корона, Герб Венгрии",
+                "options": [
+                    "Святая Корона",
+                    "Герб Венгрии",
+                    "Королевский дворец",
+                    "Здание Парламента"
+                ]
             }
         }
     },
@@ -190,11 +232,21 @@
         "translations": {
             "en": {
                 "question": "What kind of cross is on the Hungarian coat of arms?",
-                "answer": "Double cross"
+                "answer": "Double cross",
+                "options": [
+                    "Double cross",
+                    "Simple cross",
+                    "Triple cross"
+                ]
             },
             "ru": {
                 "question": "Какой крест на венгерском гербе?",
-                "answer": "Двойной крест"
+                "answer": "Двойной крест",
+                "options": [
+                    "Двойной крест",
+                    "Простой крест",
+                    "Тройной крест"
+                ]
             }
         }
     },
@@ -217,11 +269,25 @@
         "translations": {
             "en": {
                 "question": "What does the Hungarian coat of arms contain?",
-                "answer": "Field cut seven times with red and silver, Double cross, Triple hill with crown"
+                "answer": "Field cut seven times with red and silver, Double cross, Triple hill with crown",
+                "options": [
+                    "Field cut seven times with red and silver",
+                    "Double cross",
+                    "Triple hill with crown",
+                    "Sword",
+                    "Lion"
+                ]
             },
             "ru": {
                 "question": "Что содержит венгерский герб?",
-                "answer": "Поле, рассеченное семь раз красным и серебром, Двойной крест, Тройной холм с короной"
+                "answer": "Поле, рассеченное семь раз красным и серебром, Двойной крест, Тройной холм с короной",
+                "options": [
+                    "Поле, рассеченное семь раз красным и серебром",
+                    "Двойной крест",
+                    "Тройной холм с короной",
+                    "Меч",
+                    "Лев"
+                ]
             }
         }
     },
@@ -241,11 +307,21 @@
         "translations": {
             "en": {
                 "question": "What is found on the triple hill of the Hungarian coat of arms?",
-                "answer": "Crown"
+                "answer": "Crown",
+                "options": [
+                    "Crown",
+                    "Cross",
+                    "Sword"
+                ]
             },
             "ru": {
                 "question": "Что находится на тройном холме венгерского герба?",
-                "answer": "Корона"
+                "answer": "Корона",
+                "options": [
+                    "Корона",
+                    "Крест",
+                    "Меч"
+                ]
             }
         }
     },
@@ -300,11 +376,25 @@
         "translations": {
             "en": {
                 "question": "What colors does the Hungarian flag consist of?",
-                "answer": "Red, White, Green"
+                "answer": "Red, White, Green",
+                "options": [
+                    "Red",
+                    "White",
+                    "Green",
+                    "Blue",
+                    "Yellow"
+                ]
             },
             "ru": {
                 "question": "Из каких цветов состоит венгерский флаг?",
-                "answer": "Красный, Белый, Зеленый"
+                "answer": "Красный, Белый, Зеленый",
+                "options": [
+                    "Красный",
+                    "Белый",
+                    "Зеленый",
+                    "Синий",
+                    "Желтый"
+                ]
             }
         }
     },
@@ -355,11 +445,21 @@
         "translations": {
             "en": {
                 "question": "What does the red color symbolize on the Hungarian flag?",
-                "answer": "Strength"
+                "answer": "Strength",
+                "options": [
+                    "Strength",
+                    "Loyalty",
+                    "Hope"
+                ]
             },
             "ru": {
                 "question": "Что символизирует красный цвет на венгерском флаге?",
-                "answer": "Силу"
+                "answer": "Силу",
+                "options": [
+                    "Силу",
+                    "Верность",
+                    "Надежду"
+                ]
             }
         }
     },
@@ -394,11 +494,21 @@
         "translations": {
             "en": {
                 "question": "What does the white color symbolize on the Hungarian flag?",
-                "answer": "Loyalty"
+                "answer": "Loyalty",
+                "options": [
+                    "Loyalty",
+                    "Strength",
+                    "Hope"
+                ]
             },
             "ru": {
                 "question": "Что символизирует белый цвет на венгерском флаге?",
-                "answer": "Верность"
+                "answer": "Верность",
+                "options": [
+                    "Верность",
+                    "Силу",
+                    "Надежду"
+                ]
             }
         }
     },
@@ -449,11 +559,21 @@
         "translations": {
             "en": {
                 "question": "What was the original role of the coronation insignia?",
-                "answer": "Symbols of the former royal power"
+                "answer": "Symbols of the former royal power",
+                "options": [
+                    "Symbols of the former royal power",
+                    "Props for religious ceremonies",
+                    "Army flags"
+                ]
             },
             "ru": {
                 "question": "Какова была первоначальная роль коронационных регалий?",
-                "answer": "Символы прежней королевской власти"
+                "answer": "Символы прежней королевской власти",
+                "options": [
+                    "Символы прежней королевской власти",
+                    "Реквизит для религиозных церемоний",
+                    "Флаги армии"
+                ]
             }
         }
     },
@@ -493,11 +613,25 @@
         "translations": {
             "en": {
                 "question": "Which belongs to the coronation insignia?",
-                "answer": "Holy Crown, Coronation scepter, Orb"
+                "answer": "Holy Crown, Coronation scepter, Orb",
+                "options": [
+                    "Holy Crown",
+                    "Coronation scepter",
+                    "Orb",
+                    "Coat of arms",
+                    "Flag"
+                ]
             },
             "ru": {
                 "question": "Что относится к коронационным регалиям?",
-                "answer": "Святая Корона, Коронационный скипетр, Держава"
+                "answer": "Святая Корона, Коронационный скипетр, Держава",
+                "options": [
+                    "Святая Корона",
+                    "Коронационный скипетр",
+                    "Держава",
+                    "Герб",
+                    "Флаг"
+                ]
             }
         }
     },
@@ -533,11 +667,23 @@
         "translations": {
             "en": {
                 "question": "Which is NOT a coronation insignia?",
-                "answer": "Hungarian coat of arms"
+                "answer": "Hungarian coat of arms",
+                "options": [
+                    "Hungarian coat of arms",
+                    "Coronation sword",
+                    "Orb",
+                    "Coronation mantle"
+                ]
             },
             "ru": {
                 "question": "Что НЕ является коронационной регалией?",
-                "answer": "Венгерский герб"
+                "answer": "Венгерский герб",
+                "options": [
+                    "Венгерский герб",
+                    "Коронационный меч",
+                    "Держава",
+                    "Коронационная мантия"
+                ]
             }
         }
     },
@@ -572,11 +718,21 @@
         "translations": {
             "en": {
                 "question": "Where is the Holy Crown currently located?",
-                "answer": "In the Parliament"
+                "answer": "In the Parliament",
+                "options": [
+                    "In the Parliament",
+                    "In the National Museum",
+                    "In the Buda Castle"
+                ]
             },
             "ru": {
                 "question": "Где находится Святая Корона в настоящее время?",
-                "answer": "В Парламенте"
+                "answer": "В Парламенте",
+                "options": [
+                    "В Парламенте",
+                    "В Национальном музее",
+                    "В Будайском дворце"
+                ]
             }
         }
     },
@@ -595,11 +751,21 @@
         "translations": {
             "en": {
                 "question": "Can the Holy Crown be visited?",
-                "answer": "Yes, in the Parliament"
+                "answer": "Yes, in the Parliament",
+                "options": [
+                    "Yes",
+                    "No",
+                    "Yes, but only once a year"
+                ]
             },
             "ru": {
                 "question": "Можно ли посетить Святую Корону?",
-                "answer": "Да, в Парламенте"
+                "answer": "Да, в Парламенте",
+                "options": [
+                    "Да",
+                    "Нет",
+                    "Да, но только раз в год"
+                ]
             }
         }
     },
@@ -639,11 +805,25 @@
         "translations": {
             "en": {
                 "question": "Which was a Hungarian coronation city?",
-                "answer": "Székesfehérvár, Esztergom, Pozsony"
+                "answer": "Székesfehérvár, Esztergom, Pozsony",
+                "options": [
+                    "Székesfehérvár",
+                    "Esztergom",
+                    "Pozsony",
+                    "Debrecen",
+                    "Szeged"
+                ]
             },
             "ru": {
                 "question": "Какой был венгерским городом коронации?",
-                "answer": "Секешфехервар, Эстергом, Пожонь"
+                "answer": "Секешфехервар, Эстергом, Пожонь",
+                "options": [
+                    "Секешфехервар",
+                    "Эстергом",
+                    "Пожонь",
+                    "Дебрецен",
+                    "Сегед"
+                ]
             }
         }
     },
@@ -679,11 +859,23 @@
         "translations": {
             "en": {
                 "question": "Which was NOT a coronation city?",
-                "answer": "Pécs"
+                "answer": "Pécs",
+                "options": [
+                    "Pécs",
+                    "Sopron",
+                    "Buda",
+                    "Székesfehérvár"
+                ]
             },
             "ru": {
                 "question": "Какой НЕ был городом коронации?",
-                "answer": "Печ"
+                "answer": "Печ",
+                "options": [
+                    "Печ",
+                    "Шопрон",
+                    "Буда",
+                    "Секешфехервар"
+                ]
             }
         }
     },
@@ -704,11 +896,23 @@
         "translations": {
             "en": {
                 "question": "What does the Holy Crown embody according to the Basic Law?",
-                "answer": "Hungary\u0027s constitutional state continuity, The unity of the nation"
+                "answer": "Hungary\u0027s constitutional state continuity, The unity of the nation",
+                "options": [
+                    "Hungary\u0027s constitutional state continuity",
+                    "The unity of the nation",
+                    "The power of the king",
+                    "The power of the church"
+                ]
             },
             "ru": {
                 "question": "Что воплощает Святая Корона согласно Основному закону?",
-                "answer": "Конституционную государственную непрерывность Венгрии, Единство нации"
+                "answer": "Конституционную государственную непрерывность Венгрии, Единство нации",
+                "options": [
+                    "Конституционную государственную непрерывность Венгрии",
+                    "Единство нации",
+                    "Власть короля",
+                    "Силу церкви"
+                ]
             }
         }
     },
@@ -729,11 +933,23 @@
         "translations": {
             "en": {
                 "question": "What do we respect according to the Basic Law?",
-                "answer": "The achievements of our historical constitution, The Holy Crown"
+                "answer": "The achievements of our historical constitution, The Holy Crown",
+                "options": [
+                    "The achievements of our historical constitution",
+                    "The Holy Crown",
+                    "The coronation insignia",
+                    "All castles"
+                ]
             },
             "ru": {
                 "question": "Что мы уважаем согласно Основному закону?",
-                "answer": "Достижения нашей исторической конституции, Святую Корону"
+                "answer": "Достижения нашей исторической конституции, Святую Корону",
+                "options": [
+                    "Достижения нашей исторической конституции",
+                    "Святую Корону",
+                    "Коронационные регалии",
+                    "Все замки"
+                ]
             }
         }
     },
@@ -784,11 +1000,21 @@
         "translations": {
             "en": {
                 "question": "In which year was the Hungarian anthem text born?",
-                "answer": "In 1823"
+                "answer": "In 1823",
+                "options": [
+                    "In 1823",
+                    "In 1848",
+                    "In 1867"
+                ]
             },
             "ru": {
                 "question": "В каком году родился текст венгерского гимна?",
-                "answer": "В 1823"
+                "answer": "В 1823",
+                "options": [
+                    "В 1823",
+                    "В 1848",
+                    "В 1867"
+                ]
             }
         }
     },
@@ -887,11 +1113,21 @@
         "translations": {
             "en": {
                 "question": "What do we often sing next to the anthem on national holidays?",
-                "answer": "Szózat"
+                "answer": "Szózat",
+                "options": [
+                    "Szózat",
+                    "National Song",
+                    "Spring Wind"
+                ]
             },
             "ru": {
                 "question": "Что мы часто поём рядом с гимном в национальные праздники?",
-                "answer": "Сёжат"
+                "answer": "Сёжат",
+                "options": [
+                    "Сёжат",
+                    "Национальная песня",
+                    "Весенний ветер"
+                ]
             }
         }
     },
@@ -958,11 +1194,21 @@
         "translations": {
             "en": {
                 "question": "\"Your cradle and later your grave\" - from which poem is this?",
-                "answer": "Szózat"
+                "answer": "Szózat",
+                "options": [
+                    "Szózat",
+                    "Flag",
+                    "National Song"
+                ]
             },
             "ru": {
                 "question": "\"Твоя колыбель и позже твоя могила\" - из какого стихотворения это?",
-                "answer": "Сёжат"
+                "answer": "Сёжат",
+                "options": [
+                    "Сёжат",
+                    "Гимн",
+                    "Национальная песня"
+                ]
             }
         }
     },
@@ -1056,11 +1302,25 @@
         "translations": {
             "en": {
                 "question": "Which is Hungary\u0027s national holiday?",
-                "answer": "March 15, August 20, October 23"
+                "answer": "March 15, August 20, October 23",
+                "options": [
+                    "March 15",
+                    "August 20",
+                    "October 23",
+                    "May 1",
+                    "December 25"
+                ]
             },
             "ru": {
                 "question": "Какой национальный праздник Венгрии?",
-                "answer": "15 марта, 20 августа, 23 октября"
+                "answer": "15 марта, 20 августа, 23 октября",
+                "options": [
+                    "15 марта",
+                    "20 августа",
+                    "23 октября",
+                    "1 мая",
+                    "25 декабря"
+                ]
             }
         }
     },
@@ -1111,11 +1371,21 @@
         "translations": {
             "en": {
                 "question": "What is March 15 the memorial day of?",
-                "answer": "The 1848-49 revolution and freedom fight"
+                "answer": "The 1848-49 revolution and freedom fight",
+                "options": [
+                    "The 1848-49 revolution and freedom fight",
+                    "The 1956 revolution",
+                    "The state foundation"
+                ]
             },
             "ru": {
                 "question": "Чей день памяти 15 марта?",
-                "answer": "Революции и борьбы за свободу 1848-49 годов"
+                "answer": "Революции и борьбы за свободу 1848-49 годов",
+                "options": [
+                    "Революции и борьбы за свободу 1848-49 годов",
+                    "Революции 1956 года",
+                    "Основания государства"
+                ]
             }
         }
     },
@@ -1168,11 +1438,23 @@
         "translations": {
             "en": {
                 "question": "What is August 20 the memorial day of?",
-                "answer": "The state foundation, St. István king"
+                "answer": "The state foundation, St. István king",
+                "options": [
+                    "The state foundation",
+                    "St. István king",
+                    "The 1848 revolution",
+                    "The Trianon peace"
+                ]
             },
             "ru": {
                 "question": "Чей день памяти 20 августа?",
-                "answer": "Основания государства, короля Иштвана"
+                "answer": "Основания государства, короля Иштвана",
+                "options": [
+                    "Основания государства",
+                    "Короля Святого Иштвана",
+                    "Революции 1848 года",
+                    "Трианонского мира"
+                ]
             }
         }
     },
@@ -1207,11 +1489,21 @@
         "translations": {
             "en": {
                 "question": "In memory of which king is there a national holiday on August 20?",
-                "answer": "St. István king"
+                "answer": "St. István king",
+                "options": [
+                    "St. István king",
+                    "St. László",
+                    "King Mátyás"
+                ]
             },
             "ru": {
                 "question": "В память о каком короле 20 августа национальный праздник?",
-                "answer": "Король Иштван"
+                "answer": "Король Иштван",
+                "options": [
+                    "Король Святой Иштван",
+                    "Святой Ласло",
+                    "Король Матьяш"
+                ]
             }
         }
     },

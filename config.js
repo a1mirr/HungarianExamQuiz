@@ -39,7 +39,8 @@ const translations = {
         enterDateInterval: 'Enter year range (e.g., 1241-1242)',
         enterName: 'Enter name',
         official: 'Official',
-        approximateHint: 'Approximate value accepted (±10%)'
+        approximateHint: 'Approximate value accepted (±10%)',
+        translateAnswer: 'Translate Answer'
     },
     ru: {
         subtitle: 'Изучайте венгерскую культуру и историю',
@@ -76,7 +77,8 @@ const translations = {
         enterDateInterval: 'Введите диапазон лет (например, 1241-1242)',
         enterName: 'Введите имя',
         official: 'Официальное значение',
-        approximateHint: 'Принимается приблизительное значение (±10%)'
+        approximateHint: 'Принимается приблизительное значение (±10%)',
+        translateAnswer: 'Перевести ответ'
     },
     hu: {
         subtitle: 'Magyar kultúra és történelem mesterei',
@@ -113,7 +115,8 @@ const translations = {
         enterDateInterval: 'Írja be az évtartományt (pl. 1241-1242)',
         enterName: 'Írj be egy nevet',
         official: 'Hivatalos',
-        approximateHint: 'Elfogadható közelítő érték (±10%)'
+        approximateHint: 'Elfogadható közelítő érték (±10%)',
+        translateAnswer: 'Válasz fordítása'
     }
 };
 

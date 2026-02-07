@@ -29,12 +29,22 @@
         ],
         "translations": {
             "en": {
-                "question": "What is Hungary\u0027s form of government?",
-                "answer": "Republic"
+                "question": "What is Hungary's form of government?",
+                "answer": "Republic",
+                "options": [
+                    "Republic",
+                    "Monarchy",
+                    "Dictatorship"
+                ]
             },
             "ru": {
                 "question": "Какая форма правления в Венгрии?",
-                "answer": "Республика"
+                "answer": "Республика",
+                "options": [
+                    "Республика",
+                    "Монархия",
+                    "Диктатура"
+                ]
             }
         }
     },
@@ -154,11 +164,25 @@
         "translations": {
             "en": {
                 "question": "Which one is a Hungarian landscape?",
-                "answer": "Great Hungarian Plain, Transdanubian Central Range, Northern Central Range"
+                "answer": "Great Hungarian Plain, Transdanubian Central Range, Northern Central Range",
+                "options": [
+                    "Great Hungarian Plain",
+                    "Transdanubian Central Range",
+                    "Northern Central Range",
+                    "Alps",
+                    "Carpathians"
+                ]
             },
             "ru": {
                 "question": "Какая является венгерской природной зоной?",
-                "answer": "Великая Венгерская равнина, Среднегорье Трансдунубии, Северное среднегорье"
+                "answer": "Великая Венгерская равнина, Среднегорье Трансдунубии, Северное среднегорье",
+                "options": [
+                    "Великая Венгерская равнина",
+                    "Среднегорье Трансдунубии",
+                    "Северное среднегорье",
+                    "Альпы",
+                    "Карпаты"
+                ]
             }
         }
     },
@@ -249,11 +273,27 @@
         "translations": {
             "en": {
                 "question": "Which one is a river in Hungary?",
-                "answer": "Danube, Tisza, Drava, Rába"
+                "answer": "Danube, Tisza, Drava, Rába",
+                "options": [
+                    "Danube",
+                    "Tisza",
+                    "Drava",
+                    "Rába",
+                    "Vistula",
+                    "Oder"
+                ]
             },
             "ru": {
                 "question": "Какая является рекой Венгрии?",
-                "answer": "Дунай, Тиса, Драва, Раба"
+                "answer": "Дунай, Тиса, Драва, Раба",
+                "options": [
+                    "Дунай",
+                    "Тиса",
+                    "Драва",
+                    "Раба",
+                    "Висла",
+                    "Одер"
+                ]
             }
         }
     },
@@ -312,11 +352,29 @@
         "translations": {
             "en": {
                 "question": "Which one is a neighbor of Hungary?",
-                "answer": "Slovakia, Romania, Serbia, Austria"
+                "answer": "Slovakia, Romania, Serbia, Austria",
+                "options": [
+                    "Slovakia",
+                    "Romania",
+                    "Serbia",
+                    "Austria",
+                    "Poland",
+                    "Italy",
+                    "Germany"
+                ]
             },
             "ru": {
                 "question": "Какая является соседом Венгрии?",
-                "answer": "Словакия, Румыния, Сербия, Австрия"
+                "answer": "Словакия, Румыния, Сербия, Австрия",
+                "options": [
+                    "Словакия",
+                    "Румыния",
+                    "Сербия",
+                    "Австрия",
+                    "Польша",
+                    "Италия",
+                    "Германия"
+                ]
             }
         }
     },
@@ -360,12 +418,32 @@
         ],
         "translations": {
             "en": {
-                "question": "Which one is an EU member state?",
-                "answer": "Germany, France, Italy, Spain, Poland"
+                "question": "Which nationality lives in Hungary?",
+                "answer": "Roma, German, Croatian, Serbian, Slovak",
+                "options": [
+                    "Roma",
+                    "German",
+                    "Croatian",
+                    "Serbian",
+                    "Slovak",
+                    "French",
+                    "Italian",
+                    "Spanish"
+                ]
             },
             "ru": {
-                "question": "Какая является государством-членом ЕС?",
-                "answer": "Германия, Франция, Италия, Испания, Польша"
+                "question": "Какая национальность проживает в Венгрии?",
+                "answer": "Цыгане, Немцы, Хорваты, Сербы, Словаки",
+                "options": [
+                    "Цыгане",
+                    "Немцы",
+                    "Хорваты",
+                    "Сербы",
+                    "Словаки",
+                    "Французы",
+                    "Итальянцы",
+                    "Испанцы"
+                ]
             }
         }
     },
@@ -385,11 +463,23 @@
         "translations": {
             "en": {
                 "question": "Which one is NOT an EU member state?",
-                "answer": "Switzerland"
+                "answer": "Switzerland",
+                "options": [
+                    "Switzerland",
+                    "Germany",
+                    "France",
+                    "Italy"
+                ]
             },
             "ru": {
                 "question": "Какая НЕ является государством-членом ЕС?",
-                "answer": "Швейцария"
+                "answer": "Швейцария",
+                "options": [
+                    "Швейцария",
+                    "Германия",
+                    "Франция",
+                    "Италия"
+                ]
             }
         }
     },
@@ -414,11 +504,27 @@
         "translations": {
             "en": {
                 "question": "Which country is a member of the EU?",
-                "answer": "Austria, Belgium, Netherlands, Denmark"
+                "answer": "Austria, Belgium, Netherlands, Denmark",
+                "options": [
+                    "Austria",
+                    "Belgium",
+                    "Netherlands",
+                    "Denmark",
+                    "Norway",
+                    "Switzerland"
+                ]
             },
             "ru": {
                 "question": "Какая страна является членом ЕС?",
-                "answer": "Австрия, Бельгия, Нидерланды, Дания"
+                "answer": "Австрия, Бельгия, Нидерланды, Дания",
+                "options": [
+                    "Австрия",
+                    "Бельгия",
+                    "Нидерланды",
+                    "Дания",
+                    "Норвегия",
+                    "Швейцария"
+                ]
             }
         }
     },
@@ -479,11 +585,31 @@
         "translations": {
             "en": {
                 "question": "Which one is a county in Hungary?",
-                "answer": "Pest, Baranya, Hajdú-Bihar, Somogy, Tolna"
+                "answer": "Pest, Baranya, Hajdú-Bihar, Somogy, Tolna",
+                "options": [
+                    "Pest",
+                    "Baranya",
+                    "Hajdú-Bihar",
+                    "Somogy",
+                    "Tolna",
+                    "Transylvania",
+                    "Upper Hungary",
+                    "Southern Hungary"
+                ]
             },
             "ru": {
                 "question": "Какая является областью Венгрии?",
-                "answer": "Пешт, Барань, Хайду-Бихар, Шомодь, Толна"
+                "answer": "Пешт, Барань, Хайду-Бихар, Шомодь, Толна",
+                "options": [
+                    "Пешт",
+                    "Барань",
+                    "Хайду-Бихар",
+                    "Шомодь",
+                    "Толна",
+                    "Трансильвания",
+                    "Верхняя Венгрия",
+                    "Южная Венгрия"
+                ]
             }
         }
     },
@@ -538,11 +664,25 @@
         "translations": {
             "en": {
                 "question": "Which cities united in 1873?",
-                "answer": "Pest, Buda, Óbuda"
+                "answer": "Pest, Buda, Óbuda",
+                "options": [
+                    "Pest",
+                    "Buda",
+                    "Óbuda",
+                    "Kőbánya",
+                    "Lipótváros"
+                ]
             },
             "ru": {
                 "question": "Какие города объединились в 1873 году?",
-                "answer": "Пешт, Буда, Обуда"
+                "answer": "Пешт, Буда, Обуда",
+                "options": [
+                    "Пешт",
+                    "Буда",
+                    "Обуда",
+                    "Кёбанья",
+                    "Липотварош"
+                ]
             }
         }
     },
@@ -561,11 +701,21 @@
         "translations": {
             "en": {
                 "question": "Which river separates Pest and Buda?",
-                "answer": "Danube"
+                "answer": "Danube",
+                "options": [
+                    "Danube",
+                    "Tisza",
+                    "Drava"
+                ]
             },
             "ru": {
                 "question": "Какая река разделяет Пешт и Буду?",
-                "answer": "Дунай"
+                "answer": "Дунай",
+                "options": [
+                    "Дунай",
+                    "Тиса",
+                    "Драва"
+                ]
             }
         }
     },
@@ -641,11 +791,29 @@
         "translations": {
             "en": {
                 "question": "Which one is a landmark in Budapest?",
-                "answer": "Parliament, Buda Castle, Fisherman\u0027s Bastion, St. Stephen\u0027s Basilica, Opera House"
+                "answer": "Parliament, Buda Castle, Fisherman's Bastion, St. Stephen's Basilica, Opera House",
+                "options": [
+                    "Parliament",
+                    "Buda Castle",
+                    "Fisherman's Bastion",
+                    "St. Stephen's Basilica",
+                    "Turul",
+                    "Esztergom Basilica",
+                    "Acropolis"
+                ]
             },
             "ru": {
                 "question": "Какая является достопримечательностью Будапешта?",
-                "answer": "Парламент, Будайский замок, Рыбацкий бастион, Базилика Святого Иштвана, Оперный театр"
+                "answer": "Парламент, Будайский замок, Рыбацкий бастион, Базилика Святого Иштвана, Оперный театр",
+                "options": [
+                    "Парламент",
+                    "Будайский замок",
+                    "Рыбацкий бастион",
+                    "Базилика Святого Иштвана",
+                    "Турул",
+                    "Эстергомская базилика",
+                    "Акрополь"
+                ]
             }
         }
     },
@@ -685,11 +853,25 @@
         "translations": {
             "en": {
                 "question": "Which one is a Hungarian food?",
-                "answer": "Goulash soup, Fisherman\u0027s soup, Dobos cake"
+                "answer": "Goulash soup, Fisherman's soup, Dobos cake",
+                "options": [
+                    "Goulash soup",
+                    "Fisherman's soup",
+                    "Dobos cake",
+                    "Paprika chicken",
+                    "Wiener schnitzel"
+                ]
             },
             "ru": {
                 "question": "Какая является венгерской едой?",
-                "answer": "Гуляш, Рыбацкая уха, Торт Добош"
+                "answer": "Гуляш, Рыбацкая уха, Торт Добош",
+                "options": [
+                    "Гуляш",
+                    "Рыбацкая уха",
+                    "Торт Добош",
+                    "Паприкаш с курицей",
+                    "Венский шницель"
+                ]
             }
         }
     },
@@ -727,11 +909,23 @@
         "translations": {
             "en": {
                 "question": "Which city is famous for its paprika?",
-                "answer": "Kalocsa, Szeged"
+                "answer": "Kalocsa, Szeged",
+                "options": [
+                    "Kalocsa",
+                    "Szeged",
+                    "Budapest",
+                    "Debrecen"
+                ]
             },
             "ru": {
                 "question": "Какой город знаменит своим перцем?",
-                "answer": "Калоч, Сегед"
+                "answer": "Калоча, Сегед",
+                "options": [
+                    "Калоча",
+                    "Сегед",
+                    "Будапешт",
+                    "Дебрецен"
+                ]
             }
         }
     },
@@ -769,11 +963,23 @@
         "translations": {
             "en": {
                 "question": "Which one is a Hungarian drink?",
-                "answer": "Tokaji Aszú, Pálinka"
+                "answer": "Tokaji Aszú, Pálinka",
+                "options": [
+                    "Tokaji Aszú",
+                    "Pálinka",
+                    "Unicum",
+                    "Italian Riesling"
+                ]
             },
             "ru": {
                 "question": "Какой является венгерским напитком?",
-                "answer": "Токайское асу, Палинка"
+                "answer": "Токайское асу, Палинка",
+                "options": [
+                    "Токайское асу",
+                    "Палинка",
+                    "Уникум",
+                    "Оласрислинг"
+                ]
             }
         }
     },
@@ -794,11 +1000,23 @@
         "translations": {
             "en": {
                 "question": "Which Hungarian wine is a cultural heritage?",
-                "answer": "Tokaji Aszú, Egri Bikavér"
+                "answer": "Tokaji Aszú, Egri Bikavér",
+                "options": [
+                    "Tokaji Aszú",
+                    "Egri Bikavér",
+                    "Bordeaux",
+                    "Chianti"
+                ]
             },
             "ru": {
                 "question": "Какое венгерское вино является культурным наследием?",
-                "answer": "Токайское асу, Эгри бикавер"
+                "answer": "Токайское асу, Эгри бикавер",
+                "options": [
+                    "Токайское асу",
+                    "Эгри бикавер",
+                    "Бордо",
+                    "Кьянти"
+                ]
             }
         }
     },
@@ -838,11 +1056,25 @@
         "translations": {
             "en": {
                 "question": "Which one is a Hungarian cultural heritage?",
-                "answer": "Mohács Busó Festival, Pannonhalma Archabbey, Hollókő"
+                "answer": "Mohács Busó Festival, Pannonhalma Archabbey, Hollókő",
+                "options": [
+                    "Mohács Busó Festival",
+                    "Pannonhalma Archabbey",
+                    "Hollókő",
+                    "Buda Castle District",
+                    "Visegrád Citadel"
+                ]
             },
             "ru": {
                 "question": "Какая является венгерским культурным наследием?",
-                "answer": "Мохачский карнавал бусо, Паннонхалмское аббатство, Холлокё"
+                "answer": "Мохачский карнавал бусо, Паннонхалмское аббатство, Холлокё",
+                "options": [
+                    "Мохачский карнавал бусо",
+                    "Паннонхалмское аббатство",
+                    "Холлокё",
+                    "Квартал Будайской крепости",
+                    "Вишеградская крепость"
+                ]
             }
         }
     },
@@ -882,11 +1114,25 @@
         "translations": {
             "en": {
                 "question": "Which one is a Hungarian animal?",
-                "answer": "Gray cattle, Puli, Hungarian Vizsla"
+                "answer": "Gray cattle, Puli, Hungarian Vizsla",
+                "options": [
+                    "Gray cattle",
+                    "Puli",
+                    "Hungarian Vizsla",
+                    "German Shepherd",
+                    "Labrador"
+                ]
             },
             "ru": {
                 "question": "Какое является венгерским животным?",
-                "answer": "Серая корова, Пули, Венгерская выжла"
+                "answer": "Серая корова, Пули, Венгерская выжла",
+                "options": [
+                    "Серая корова",
+                    "Пули",
+                    "Венгерская выжла",
+                    "Немецкая овчарка",
+                    "Лабрадор"
+                ]
             }
         }
     },
@@ -926,11 +1172,25 @@
         "translations": {
             "en": {
                 "question": "Which one is a Hungarian shepherd dog?",
-                "answer": "Puli, Komondor, Kuvasz"
+                "answer": "Puli, Komondor, Kuvasz",
+                "options": [
+                    "Puli",
+                    "Komondor",
+                    "Kuvasz",
+                    "Collie",
+                    "Gray cattle"
+                ]
             },
             "ru": {
                 "question": "Какая является венгерской пастушьей собакой?",
-                "answer": "Пули, Комондор, Кувас"
+                "answer": "Пули, Комондор, Кувас",
+                "options": [
+                    "Пули",
+                    "Комондор",
+                    "Кувас",
+                    "Колли",
+                    "Серая корова"
+                ]
             }
         }
     },
@@ -987,11 +1247,25 @@
         "translations": {
             "en": {
                 "question": "Which one is a Hungarian folk art?",
-                "answer": "Halas lace, Matyó folk art, Zsolnay porcelain"
+                "answer": "Halas lace, Matyó folk art, Zsolnay porcelain",
+                "options": [
+                    "Halas lace",
+                    "Matyó folk art",
+                    "Zsolnay porcelain",
+                    "Korond pottery",
+                    "Székely gate"
+                ]
             },
             "ru": {
                 "question": "Какое является венгерским народным и прикладным искусством?",
-                "answer": "Халашское кружево, Матьёское народное искусство, Порцелан Золнай"
+                "answer": "Халашское кружево, Матьёское народное искусство, Порцелан Золнай",
+                "options": [
+                    "Халашское кружево",
+                    "Матьёское народное искусство",
+                    "Фарфор Жолнай",
+                    "Корондская керамика",
+                    "Секлерские ворота"
+                ]
             }
         }
     },
@@ -1012,11 +1286,23 @@
         "translations": {
             "en": {
                 "question": "Which porcelain is a Hungarian cultural heritage?",
-                "answer": "Hollóház porcelain, Zsolnay porcelain"
+                "answer": "Hollóház porcelain, Zsolnay porcelain",
+                "options": [
+                    "Hollóház porcelain",
+                    "Zsolnay porcelain",
+                    "Meissen porcelain",
+                    "Limoges porcelain"
+                ]
             },
             "ru": {
                 "question": "Какой фарфор является венгерским культурным наследием?",
-                "answer": "Порцелан Холлохаз, Порцелан Золнай"
+                "answer": "Фарфор Холлохаз, Фарфор Жолнай",
+                "options": [
+                    "Фарфор Холлохаз",
+                    "Фарфор Жолнай",
+                    "Мейсенский фарфор",
+                    "Лиможский фарфор"
+                ]
             }
         }
     },
@@ -1056,11 +1342,25 @@
         "translations": {
             "en": {
                 "question": "Which one is a significant denomination in Hungary?",
-                "answer": "Hungarian Catholic Church, Hungarian Reformed Church, Hungarian Evangelical Church"
+                "answer": "Hungarian Catholic Church, Hungarian Reformed Church, Hungarian Evangelical Church",
+                "options": [
+                    "Hungarian Catholic Church",
+                    "Hungarian Reformed Church",
+                    "Hungarian Evangelical Church",
+                    "Anglican",
+                    "Buddhism"
+                ]
             },
             "ru": {
                 "question": "Какая является значительной конфессией в Венгрии?",
-                "answer": "Венгерская католическая церковь, Венгерская реформатская церковь, Венгерская евангелическая церковь"
+                "answer": "Венгерская католическая церковь, Венгерская реформатская церковь, Венгерская евангелическая церковь",
+                "options": [
+                    "Венгерская католическая церковь",
+                    "Венгерская реформатская церковь",
+                    "Венгерская евангелическая церковь",
+                    "Англиканство",
+                    "Буддизм"
+                ]
             }
         }
     },
@@ -1111,11 +1411,21 @@
         "translations": {
             "en": {
                 "question": "Who is celebrated at Christmas?",
-                "answer": "Jesus\u0027 birth"
+                "answer": "Jesus' birth",
+                "options": [
+                    "Jesus' birth",
+                    "Jesus' resurrection",
+                    "Saint Stephen's birth"
+                ]
             },
             "ru": {
                 "question": "Кого празднуют на Рождество?",
-                "answer": "Рождение Иисуса"
+                "answer": "Рождение Иисуса",
+                "options": [
+                    "Рождение Иисуса",
+                    "Воскресение Иисуса",
+                    "Рождение Святого Иштвана"
+                ]
             }
         }
     },
@@ -1136,11 +1446,23 @@
         "translations": {
             "en": {
                 "question": "What is celebrated at Easter?",
-                "answer": "We remember Jesus\u0027 crucifixion, We celebrate Jesus\u0027 resurrection"
+                "answer": "We remember Jesus' crucifixion, We celebrate Jesus' resurrection",
+                "options": [
+                    "We remember Jesus' crucifixion",
+                    "We celebrate Jesus' resurrection",
+                    "Jesus' birth",
+                    "Saint Stephen's birth"
+                ]
             },
             "ru": {
                 "question": "Что празднуют на Пасху?",
-                "answer": "Мы помним распятие Иисуса, Мы празднуем воскресение Иисуса"
+                "answer": "Мы помним распятие Иисуса, Мы празднуем воскресение Иисуса",
+                "options": [
+                    "Мы помним распятие Иисуса",
+                    "Мы празднуем воскресение Иисуса",
+                    "Рождение Иисуса",
+                    "Рождение Святого Иштвана"
+                ]
             }
         }
     },
@@ -1192,12 +1514,24 @@
         ],
         "translations": {
             "en": {
-                "question": "What is held on St. Stephen\u0027s Day?",
-                "answer": "Holy Right Procession, Fireworks"
+                "question": "What is held on St. Stephen's Day?",
+                "answer": "Holy Right Procession, Fireworks",
+                "options": [
+                    "Holy Right Procession",
+                    "Fireworks",
+                    "Christmas celebration",
+                    "Easter ceremony"
+                ]
             },
             "ru": {
                 "question": "Что проводят в день Святого Иштвана?",
-                "answer": "Процессия со Святой Десницей, Фейерверк"
+                "answer": "Процессия со Святой Десницей, Фейерверк",
+                "options": [
+                    "Процессия со Святой Десницей",
+                    "Фейерверк",
+                    "Рождественское празднование",
+                    "Пасхальная церемония"
+                ]
             }
         }
     },
@@ -1239,11 +1573,27 @@
         "translations": {
             "en": {
                 "question": "Who is a Hungarian saint?",
-                "answer": "Saint Stephen, Saint Ladislaus, Saint Emeric, Saint Gerard"
+                "answer": "Saint Stephen, Saint Ladislaus, Saint Emeric, Saint Gerard",
+                "options": [
+                    "Saint Stephen",
+                    "Saint Ladislaus",
+                    "Saint Emeric",
+                    "Saint Gerard",
+                    "Saint Peter",
+                    "Saint Paul"
+                ]
             },
             "ru": {
                 "question": "Кто является венгерским святым?",
-                "answer": "Святой Иштван, Святой Ласло, Святой Имре, Святой Геллерт"
+                "answer": "Святой Иштван, Святой Ласло, Святой Имре, Святой Геллерт",
+                "options": [
+                    "Святой Иштван",
+                    "Святой Ласло",
+                    "Святой Имре",
+                    "Святой Геллерт",
+                    "Святой Петр",
+                    "Святой Павел"
+                ]
             }
         }
     },
@@ -1370,11 +1720,25 @@
         "translations": {
             "en": {
                 "question": "Which one is an EU institution?",
-                "answer": "European Commission, European Parliament, European Council"
+                "answer": "European Commission, European Parliament, European Council",
+                "options": [
+                    "European Commission",
+                    "European Parliament",
+                    "European Council",
+                    "UN",
+                    "NATO"
+                ]
             },
             "ru": {
                 "question": "Какая является институтом ЕС?",
-                "answer": "Европейская комиссия, Европейский парламент, Европейский совет"
+                "answer": "Европейская комиссия, Европейский парламент, Европейский совет",
+                "options": [
+                    "Европейская комиссия",
+                    "Европейский парламент",
+                    "Европейский совет",
+                    "ООН",
+                    "НАТО"
+                ]
             }
         }
     },

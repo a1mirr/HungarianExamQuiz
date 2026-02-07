@@ -31,12 +31,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What is the Fundamental Law?",
-                "answer": "[EN] "
+                "question": "What is the Fundamental Law?",
+                "answer": "Hungary's constitution, The highest legal norm standing above all other laws",
+                "options": [
+                    "Hungary's constitution",
+                    "The highest legal norm standing above all other laws",
+                    "A ministry",
+                    "A city"
+                ]
             },
             "ru": {
-                "question": "[RU] Что такое Основной закон?",
-                "answer": "[RU] "
+                "question": "Что такое Основной закон?",
+                "answer": "Конституция Венгрии, Высшая правовая норма, стоящая над всеми другими законами",
+                "options": [
+                    "Конституция Венгрии",
+                    "Высшая правовая норма, стоящая над всеми другими законами",
+                    "Министерство",
+                    "Город"
+                ]
             }
         }
     },
@@ -70,12 +82,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What stands at the top of Hungary\u0027s legal system?",
-                "answer": "[EN] "
+                "question": "What stands at the top of Hungary's legal system?",
+                "answer": "The Fundamental Law",
+                "options": [
+                    "The Fundamental Law",
+                    "The Criminal Code",
+                    "The Civil Code"
+                ]
             },
             "ru": {
-                "question": "[RU] Что стоит на вершине правовой системы Венгрии?",
-                "answer": "[RU] "
+                "question": "Что стоит на вершине правовой системы Венгрии?",
+                "answer": "Основной закон",
+                "options": [
+                    "Основной закон",
+                    "Уголовный кодекс",
+                    "Гражданский кодекс"
+                ]
             }
         }
     },
@@ -125,12 +147,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did the National Assembly adopt the Fundamental Law?",
-                "answer": "[EN] "
+                "question": "When did the National Assembly adopt the Fundamental Law?",
+                "answer": "On April 18, 2011",
+                "options": [
+                    "On April 18, 2011",
+                    "On January 1, 2012",
+                    "In 2010"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда Государственное собрание приняло Основной закон?",
-                "answer": "[RU] "
+                "question": "Когда Государственное собрание приняло Основной закон?",
+                "answer": "18 апреля 2011 года",
+                "options": [
+                    "18 апреля 2011 года",
+                    "1 января 2012 года",
+                    "В 2010 году"
+                ]
             }
         }
     },
@@ -180,12 +212,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When did Hungary\u0027s new Fundamental Law enter into force?",
-                "answer": "[EN] "
+                "question": "When did Hungary's new Fundamental Law enter into force?",
+                "answer": "On January 1, 2012",
+                "options": [
+                    "On January 1, 2012",
+                    "On April 18, 2011",
+                    "In 2013"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда вступил в силу новый Основной закон Венгрии?",
-                "answer": "[RU] "
+                "question": "Когда вступил в силу новый Основной закон Венгрии?",
+                "answer": "1 января 2012 года",
+                "options": [
+                    "1 января 2012 года",
+                    "18 апреля 2011 года",
+                    "В 2013 году"
+                ]
             }
         }
     },
@@ -219,12 +261,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which body adopted the Fundamental Law?",
-                "answer": "[EN] "
+                "question": "Which body adopted the Fundamental Law?",
+                "answer": "The National Assembly",
+                "options": [
+                    "The National Assembly",
+                    "The Government",
+                    "The President of the Republic"
+                ]
             },
             "ru": {
-                "question": "[RU] Какой орган принял Основной закон?",
-                "answer": "[RU] "
+                "question": "Какой орган принял Основной закон?",
+                "answer": "Государственное собрание",
+                "options": [
+                    "Государственное собрание",
+                    "Правительство",
+                    "Президент республики"
+                ]
             }
         }
     },
@@ -242,12 +294,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What was respected during the creation of the Fundamental Law?",
-                "answer": "[EN] "
+                "question": "What was respected during the creation of the Fundamental Law?",
+                "answer": "Hungary's constitutional traditions",
+                "options": [
+                    "Hungary's constitutional traditions",
+                    "Foreign examples",
+                    "The Soviet model"
+                ]
             },
             "ru": {
-                "question": "[RU] Что уважалось при создании Основного закона?",
-                "answer": "[RU] "
+                "question": "Что уважалось при создании Основного закона?",
+                "answer": "Конституционные традиции Венгрии",
+                "options": [
+                    "Конституционные традиции Венгрии",
+                    "Иностранные примеры",
+                    "Советская модель"
+                ]
             }
         }
     },
@@ -267,12 +329,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What does the Fundamental Law aim for?",
-                "answer": "[EN] "
+                "question": "What does the Fundamental Law aim for?",
+                "answer": "Stable and democratic institutional system, Democratic government",
+                "options": [
+                    "Stable and democratic institutional system",
+                    "Democratic government",
+                    "Dictatorship",
+                    "Monarchy"
+                ]
             },
             "ru": {
-                "question": "[RU] На что направлен Основной закон?",
-                "answer": "[RU] "
+                "question": "На что направлен Основной закон?",
+                "answer": "Стабильная и демократическая институциональная система, Демократическое правление",
+                "options": [
+                    "Стабильная и демократическая институциональная система",
+                    "Демократическое правление",
+                    "Диктатура",
+                    "Монархия"
+                ]
             }
         }
     },
@@ -294,12 +368,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What does the Fundamental Law preserve?",
-                "answer": "[EN] "
+                "question": "What does the Fundamental Law preserve?",
+                "answer": "National independence, Christian values, European culture",
+                "options": [
+                    "National independence",
+                    "Christian values",
+                    "European culture",
+                    "Communist values",
+                    "Feudal traditions"
+                ]
             },
             "ru": {
-                "question": "[RU] Что сохраняет Основной закон?",
-                "answer": "[RU] "
+                "question": "Что сохраняет Основной закон?",
+                "answer": "Национальная независимость, Христианские ценности, Европейская культура",
+                "options": [
+                    "Национальная независимость",
+                    "Христианские ценности",
+                    "Европейская культура",
+                    "Коммунистические ценности",
+                    "Феодальные традиции"
+                ]
             }
         }
     },
@@ -319,12 +407,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who does the Fundamental Law protect?",
-                "answer": "[EN] "
+                "question": "Who does the Fundamental Law protect?",
+                "answer": "Families, Hungarian communities abroad",
+                "options": [
+                    "Families",
+                    "Hungarian communities abroad",
+                    "Only Budapest residents",
+                    "Only men"
+                ]
             },
             "ru": {
-                "question": "[RU] Кого защищает Основной закон?",
-                "answer": "[RU] "
+                "question": "Кого защищает Основной закон?",
+                "answer": "Семьи, Венгерские общины за рубежом",
+                "options": [
+                    "Семьи",
+                    "Венгерские общины за рубежом",
+                    "Только жителей Будапешта",
+                    "Только мужчин"
+                ]
             }
         }
     },
@@ -358,12 +458,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What is Hungary\u0027s supreme representative body?",
-                "answer": "[EN] "
+                "question": "What is Hungary's supreme representative body?",
+                "answer": "The National Assembly",
+                "options": [
+                    "The National Assembly",
+                    "The Government",
+                    "The President of the Republic"
+                ]
             },
             "ru": {
-                "question": "[RU] Что является высшим представительным органом Венгрии?",
-                "answer": "[RU] "
+                "question": "Что является высшим представительным органом Венгрии?",
+                "answer": "Государственное собрание",
+                "options": [
+                    "Государственное собрание",
+                    "Правительство",
+                    "Президент республики"
+                ]
             }
         }
     },
@@ -397,12 +507,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] For how many years are parliamentary deputies elected?",
-                "answer": "[EN] "
+                "question": "For how many years are parliamentary deputies elected?",
+                "answer": "For 4 years",
+                "options": [
+                    "For 4 years",
+                    "For 5 years",
+                    "For 6 years"
+                ]
             },
             "ru": {
-                "question": "[RU] На сколько лет избираются депутаты парламента?",
-                "answer": "[RU] "
+                "question": "На сколько лет избираются депутаты парламента?",
+                "answer": "На 4 года",
+                "options": [
+                    "На 4 года",
+                    "На 5 лет",
+                    "На 6 лет"
+                ]
             }
         }
     },
@@ -456,12 +576,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What is the task of the National Assembly?",
-                "answer": "[EN] "
+                "question": "What is the task of the National Assembly?",
+                "answer": "Creates and amends the Fundamental Law, Creates laws, Adopts the budget",
+                "options": [
+                    "Creates and amends the Fundamental Law",
+                    "Creates laws",
+                    "Adopts the budget",
+                    "Appoints ministers",
+                    "Adjudicates"
+                ]
             },
             "ru": {
-                "question": "[RU] Какова задача Государственного собрания?",
-                "answer": "[RU] "
+                "question": "Какова задача Государственного собрания?",
+                "answer": "Создает и изменяет Основной закон, Создает законы, Принимает бюджет",
+                "options": [
+                    "Создает и изменяет Основной закон",
+                    "Создает законы",
+                    "Принимает бюджет",
+                    "Назначает министров",
+                    "Осуществляет правосудие"
+                ]
             }
         }
     },
@@ -495,12 +629,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who is entitled to amend the Fundamental Law?",
-                "answer": "[EN] "
+                "question": "Who is entitled to amend the Fundamental Law?",
+                "answer": "The National Assembly",
+                "options": [
+                    "The National Assembly",
+                    "The Government",
+                    "The President of the Republic"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто имеет право изменять Основной закон?",
-                "answer": "[RU] "
+                "question": "Кто имеет право изменять Основной закон?",
+                "answer": "Государственное собрание",
+                "options": [
+                    "Государственное собрание",
+                    "Правительство",
+                    "Президент республики"
+                ]
             }
         }
     },
@@ -550,12 +694,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which body creates laws?",
-                "answer": "[EN] "
+                "question": "Which body creates laws?",
+                "answer": "The National Assembly",
+                "options": [
+                    "The National Assembly",
+                    "The Government",
+                    "The ministries"
+                ]
             },
             "ru": {
-                "question": "[RU] Какой орган создает законы?",
-                "answer": "[RU] "
+                "question": "Какой орган создает законы?",
+                "answer": "Государственное собрание",
+                "options": [
+                    "Государственное собрание",
+                    "Правительство",
+                    "Министерства"
+                ]
             }
         }
     },
@@ -605,12 +759,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who elects the Prime Minister?",
-                "answer": "[EN] "
+                "question": "Who elects the Prime Minister?",
+                "answer": "The National Assembly",
+                "options": [
+                    "The National Assembly",
+                    "The President of the Republic",
+                    "The people directly"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто избирает премьер-министра?",
-                "answer": "[RU] "
+                "question": "Кто избирает премьер-министра?",
+                "answer": "Государственное собрание",
+                "options": [
+                    "Государственное собрание",
+                    "Президент республики",
+                    "Народ напрямую"
+                ]
             }
         }
     },
@@ -630,12 +794,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What constitutes the executive power?",
-                "answer": "[EN] "
+                "question": "What constitutes the executive power?",
+                "answer": "The Government, The public administration",
+                "options": [
+                    "The Government",
+                    "The public administration",
+                    "The National Assembly",
+                    "The courts"
+                ]
             },
             "ru": {
-                "question": "[RU] Что составляет исполнительную власть?",
-                "answer": "[RU] "
+                "question": "Что составляет исполнительную власть?",
+                "answer": "Правительство, Государственная администрация",
+                "options": [
+                    "Правительство",
+                    "Государственная администрация",
+                    "Государственное собрание",
+                    "Суды"
+                ]
             }
         }
     },
@@ -687,12 +863,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who are members of the Government?",
-                "answer": "[EN] "
+                "question": "Who are members of the Government?",
+                "answer": "The Prime Minister, The ministers",
+                "options": [
+                    "The Prime Minister",
+                    "The ministers",
+                    "Parliamentary deputies",
+                    "Judges"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто члены Правительства?",
-                "answer": "[RU] "
+                "question": "Кто члены Правительства?",
+                "answer": "Премьер-министр, Министры",
+                "options": [
+                    "Премьер-министр",
+                    "Министры",
+                    "Депутаты парламента",
+                    "Судьи"
+                ]
             }
         }
     },
@@ -726,12 +914,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who is Hungary\u0027s current Prime Minister?",
-                "answer": "[EN] "
+                "question": "Who is Hungary's current Prime Minister?",
+                "answer": "Viktor Orbán",
+                "options": [
+                    "Viktor Orbán",
+                    "József Antall",
+                    "János Kádár"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто нынешний премьер-министр Венгрии?",
-                "answer": "[RU] "
+                "question": "Кто нынешний премьер-министр Венгрии?",
+                "answer": "Виктор Орбан",
+                "options": [
+                    "Виктор Орбан",
+                    "Йожеф Анталл",
+                    "Янош Кадар"
+                ]
             }
         }
     },
@@ -765,12 +963,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who elects Hungary\u0027s Prime Minister?",
-                "answer": "[EN] "
+                "question": "Who elects Hungary's Prime Minister?",
+                "answer": "The National Assembly",
+                "options": [
+                    "The National Assembly",
+                    "The people directly",
+                    "The President of the Republic"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто избирает премьер-министра Венгрии?",
-                "answer": "[RU] "
+                "question": "Кто избирает премьер-министра Венгрии?",
+                "answer": "Государственное собрание",
+                "options": [
+                    "Государственное собрание",
+                    "Народ напрямую",
+                    "Президент республики"
+                ]
             }
         }
     },
@@ -820,12 +1028,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] In which EU institution does the Prime Minister represent Hungary?",
-                "answer": "[EN] "
+                "question": "In which EU institution does the Prime Minister represent Hungary?",
+                "answer": "In the European Council",
+                "options": [
+                    "In the European Council",
+                    "In the European Parliament",
+                    "In the European Commission"
+                ]
             },
             "ru": {
-                "question": "[RU] В каком учреждении ЕС премьер-министр представляет Венгрию?",
-                "answer": "[RU] "
+                "question": "В каком учреждении ЕС премьер-министр представляет Венгрию?",
+                "answer": "В Европейском совете",
+                "options": [
+                    "В Европейском совете",
+                    "В Европейском парламенте",
+                    "В Европейской комиссии"
+                ]
             }
         }
     },
@@ -847,12 +1065,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What is the task of the Government?",
-                "answer": "[EN] "
+                "question": "What is the task of the Government?",
+                "answer": "Directs the public administration, Creates regulations, Operates state supply systems",
+                "options": [
+                    "Directs the public administration",
+                    "Creates regulations",
+                    "Operates state supply systems",
+                    "Creates laws",
+                    "Elects the President"
+                ]
             },
             "ru": {
-                "question": "[RU] Какова задача Правительства?",
-                "answer": "[RU] "
+                "question": "Какова задача Правительства?",
+                "answer": "Руководит государственной администрацией, Создает постановления, Управляет государственными системами обеспечения",
+                "options": [
+                    "Руководит государственной администрацией",
+                    "Создает постановления",
+                    "Управляет государственными системами обеспечения",
+                    "Создает законы",
+                    "Избирает Президента"
+                ]
             }
         }
     },
@@ -870,12 +1102,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What does the Government direct?",
-                "answer": "[EN] "
+                "question": "What does the Government direct?",
+                "answer": "The public administration",
+                "options": [
+                    "The public administration",
+                    "The National Assembly",
+                    "The courts"
+                ]
             },
             "ru": {
-                "question": "[RU] Чем руководит Правительство?",
-                "answer": "[RU] "
+                "question": "Чем руководит Правительство?",
+                "answer": "Государственной администрацией",
+                "options": [
+                    "Государственной администрацией",
+                    "Государственным собранием",
+                    "Судами"
+                ]
             }
         }
     },
@@ -914,12 +1156,26 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which areas does the Government operate?",
-                "answer": "[EN] "
+                "question": "Which areas does the Government operate?",
+                "answer": "National defense, Education, Healthcare",
+                "options": [
+                    "National defense",
+                    "Education",
+                    "Healthcare",
+                    "Legislation",
+                    "Judiciary"
+                ]
             },
             "ru": {
-                "question": "[RU] Какими сферами управляет Правительство?",
-                "answer": "[RU] "
+                "question": "Какими сферами управляет Правительство?",
+                "answer": "Национальная оборона, Образование, Здравоохранение",
+                "options": [
+                    "Национальная оборона",
+                    "Образование",
+                    "Здравоохранение",
+                    "Законодательство",
+                    "Судопроизводство"
+                ]
             }
         }
     },
@@ -963,12 +1219,32 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which is an existing ministry?",
-                "answer": "[EN] "
+                "question": "Which is an existing ministry?",
+                "answer": "Ministry of Interior, Ministry of Defence, Ministry of Foreign Affairs and Trade, Ministry of Justice, Ministry of Agriculture",
+                "options": [
+                    "Ministry of Interior",
+                    "Ministry of Defence",
+                    "Ministry of Foreign Affairs and Trade",
+                    "Ministry of Justice",
+                    "Ministry of Agriculture",
+                    "Ministry of Space Affairs",
+                    "Royal Ministry",
+                    "Ministry of Religious Affairs"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое министерство существует?",
-                "answer": "[RU] "
+                "question": "Какое министерство существует?",
+                "answer": "Министерство внутренних дел, Министерство обороны, Министерство внешнеэкономических связей и иностранных дел, Министерство юстиции, Министерство сельского хозяйства",
+                "options": [
+                    "Министерство внутренних дел",
+                    "Министерство обороны",
+                    "Министерство внешнеэкономических связей и иностранных дел",
+                    "Министерство юстиции",
+                    "Министерство сельского хозяйства",
+                    "Министерство по делам космоса",
+                    "Королевское министерство",
+                    "Министерство по делам религий"
+                ]
             }
         }
     },
@@ -987,12 +1263,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which is NOT a real ministry name?",
-                "answer": "[EN] "
+                "question": "Which is NOT a real ministry name?",
+                "answer": "Royal Ministry",
+                "options": [
+                    "Royal Ministry",
+                    "Ministry of Interior",
+                    "Ministry of Defence",
+                    "Ministry of Justice"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое название министерства НЕ является настоящим?",
-                "answer": "[RU] "
+                "question": "Какое название министерства НЕ является настоящим?",
+                "answer": "Королевское министерство",
+                "options": [
+                    "Королевское министерство",
+                    "Министерство внутренних дел",
+                    "Министерство обороны",
+                    "Министерство юстиции"
+                ]
             }
         }
     },
@@ -1060,12 +1348,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What is the role of the President of the Republic?",
-                "answer": "[EN] "
+                "question": "What is the role of the President of the Republic?",
+                "answer": "Expresses the unity of the nation, Guards the democratic operation of the state organization",
+                "options": [
+                    "Expresses the unity of the nation",
+                    "Guards the democratic operation of the state organization",
+                    "Creates laws",
+                    "Governs"
+                ]
             },
             "ru": {
-                "question": "[RU] Какова роль Президента республики?",
-                "answer": "[RU] "
+                "question": "Какова роль Президента республики?",
+                "answer": "Выражает единство нации, Охраняет демократическое функционирование государственной организации",
+                "options": [
+                    "Выражает единство нации",
+                    "Охраняет демократическое функционирование государственной организации",
+                    "Создает законы",
+                    "Управляет"
+                ]
             }
         }
     },
@@ -1099,12 +1399,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who is Hungary\u0027s current President of the Republic?",
-                "answer": "[EN] "
+                "question": "Who is Hungary's current President of the Republic?",
+                "answer": "Dr. Tamás Sulyok",
+                "options": [
+                    "Dr. Tamás Sulyok",
+                    "Viktor Orbán",
+                    "Árpád Göncz"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто нынешний Президент республики Венгрии?",
-                "answer": "[RU] "
+                "question": "Кто нынешний Президент республики Венгрии?",
+                "answer": "Д-р Тамаш Шуйок",
+                "options": [
+                    "Д-р Тамаш Шуйок",
+                    "Виктор Орбан",
+                    "Арпад Гёнц"
+                ]
             }
         }
     },
@@ -1154,12 +1464,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who elects the President of the Republic?",
-                "answer": "[EN] "
+                "question": "Who elects the President of the Republic?",
+                "answer": "The National Assembly",
+                "options": [
+                    "The National Assembly",
+                    "The people directly",
+                    "The Government"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто избирает Президента республики?",
-                "answer": "[RU] "
+                "question": "Кто избирает Президента республики?",
+                "answer": "Государственное собрание",
+                "options": [
+                    "Государственное собрание",
+                    "Народ напрямую",
+                    "Правительство"
+                ]
             }
         }
     },
@@ -1193,12 +1513,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] For how many years is the President of the Republic elected?",
-                "answer": "[EN] "
+                "question": "For how many years is the President of the Republic elected?",
+                "answer": "For 5 years",
+                "options": [
+                    "For 5 years",
+                    "For 4 years",
+                    "For 6 years"
+                ]
             },
             "ru": {
-                "question": "[RU] На сколько лет избирается Президент республики?",
-                "answer": "[RU] "
+                "question": "На сколько лет избирается Президент республики?",
+                "answer": "На 5 лет",
+                "options": [
+                    "На 5 лет",
+                    "На 4 года",
+                    "На 6 лет"
+                ]
             }
         }
     },
@@ -1248,12 +1578,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] How many times can the President of the Republic be re-elected?",
-                "answer": "[EN] "
+                "question": "How many times can the President of the Republic be re-elected?",
+                "answer": "Once",
+                "options": [
+                    "Once",
+                    "Twice",
+                    "Three times"
+                ]
             },
             "ru": {
-                "question": "[RU] Сколько раз может быть переизбран Президент республики?",
-                "answer": "[RU] "
+                "question": "Сколько раз может быть переизбран Президент республики?",
+                "answer": "Один раз",
+                "options": [
+                    "Один раз",
+                    "Дважды",
+                    "Трижды"
+                ]
             }
         }
     },
@@ -1271,12 +1611,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] How is the President of the Republic elected?",
-                "answer": "[EN] "
+                "question": "How is the President of the Republic elected?",
+                "answer": "By secret ballot",
+                "options": [
+                    "By secret ballot",
+                    "By open ballot",
+                    "By referendum"
+                ]
             },
             "ru": {
-                "question": "[RU] Как избирается Президент республики?",
-                "answer": "[RU] "
+                "question": "Как избирается Президент республики?",
+                "answer": "Тайным голосованием",
+                "options": [
+                    "Тайным голосованием",
+                    "Открытым голосованием",
+                    "Референдумом"
+                ]
             }
         }
     },
@@ -1310,12 +1660,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Who is the Commander-in-Chief of the Hungarian Defence Forces?",
-                "answer": "[EN] "
+                "question": "Who is the Commander-in-Chief of the Hungarian Defence Forces?",
+                "answer": "The President of the Republic",
+                "options": [
+                    "The President of the Republic",
+                    "The Prime Minister",
+                    "The Minister of Defence"
+                ]
             },
             "ru": {
-                "question": "[RU] Кто Главнокомандующий Силами обороны Венгрии?",
-                "answer": "[RU] "
+                "question": "Кто Главнокомандующий Силами обороны Венгрии?",
+                "answer": "Президент республики",
+                "options": [
+                    "Президент республики",
+                    "Премьер-министр",
+                    "Министр обороны"
+                ]
             }
         }
     },
@@ -1333,12 +1693,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] What does the President of the Republic convene?",
-                "answer": "[EN] "
+                "question": "What does the President of the Republic convene?",
+                "answer": "The inaugural session of the National Assembly",
+                "options": [
+                    "The inaugural session of the National Assembly",
+                    "Sessions of the Government",
+                    "Ministerial meetings"
+                ]
             },
             "ru": {
-                "question": "[RU] Что созывает Президент республики?",
-                "answer": "[RU] "
+                "question": "Что созывает Президент республики?",
+                "answer": "Учредительное заседание Государственного собрания",
+                "options": [
+                    "Учредительное заседание Государственного собрания",
+                    "Заседания Правительства",
+                    "Министерские встречи"
+                ]
             }
         }
     },
@@ -1356,12 +1726,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Can the President dissolve the National Assembly?",
-                "answer": "[EN] "
+                "question": "Can the President dissolve the National Assembly?",
+                "answer": "Yes, in specific cases",
+                "options": [
+                    "Yes, in specific cases",
+                    "Yes, at any time",
+                    "No"
+                ]
             },
             "ru": {
-                "question": "[RU] Может ли Президент распустить Государственное собрание?",
-                "answer": "[RU] "
+                "question": "Может ли Президент распустить Государственное собрание?",
+                "answer": "Да, в определенных случаях",
+                "options": [
+                    "Да, в определенных случаях",
+                    "Да, в любое время",
+                    "Нет"
+                ]
             }
         }
     },
@@ -1379,12 +1759,22 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] When can the President dissolve the National Assembly?",
-                "answer": "[EN] "
+                "question": "When can the President dissolve the National Assembly?",
+                "answer": "In cases defined by the Fundamental Law",
+                "options": [
+                    "In cases defined by the Fundamental Law",
+                    "At any time, if they want",
+                    "Never"
+                ]
             },
             "ru": {
-                "question": "[RU] Когда Президент может распустить Государственное собрание?",
-                "answer": "[RU] "
+                "question": "Когда Президент может распустить Государственное собрание?",
+                "answer": "В случаях, определенных Основным законом",
+                "options": [
+                    "В случаях, определенных Основным законом",
+                    "В любое время, если захочет",
+                    "Никогда"
+                ]
             }
         }
     },
@@ -1421,12 +1811,24 @@
         ],
         "translations": {
             "en": {
-                "question": "[EN] Which is a power of the President of the Republic?",
-                "answer": "[EN] "
+                "question": "Which is a power of the President of the Republic?",
+                "answer": "Commander-in-Chief of the Hungarian Defence Forces, Convenes the inaugural session of the National Assembly",
+                "options": [
+                    "Commander-in-Chief of the Hungarian Defence Forces",
+                    "Convenes the inaugural session of the National Assembly",
+                    "Creates laws",
+                    "Appoints ministers"
+                ]
             },
             "ru": {
-                "question": "[RU] Какое является полномочием Президента республики?",
-                "answer": "[RU] "
+                "question": "Какое является полномочием Президента республики?",
+                "answer": "Главнокомандующий Силами обороны Венгрии, Созывает учредительное заседание Государственного собрания",
+                "options": [
+                    "Главнокомандующий Силами обороны Венгрии",
+                    "Созывает учредительное заседание Государственного собрания",
+                    "Создает законы",
+                    "Назначает министров"
+                ]
             }
         }
     }

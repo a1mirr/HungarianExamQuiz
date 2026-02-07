@@ -176,33 +176,81 @@ function validateNumber(userAnswer, correctAnswer) {
  * @param {string} correctAnswer - Pipe-separated list of valid concepts (e.g. "USA|America ÷ UK|Britain")
  * @param {number} requiredCount - Number of correct answers required
  */
+/**
+ * List validator - checks if user provided enough unique correct answers
+ * Returns detailed validation results for feedback
+ * @param {string[]} userAnswers - Array of user input strings
+ * @param {string} correctAnswer - Pipe-separated list of valid concepts
+ * @param {number} requiredCount - Number of correct answers required
+ * @returns {object} { passed: boolean, validIndices: number[] } - validIndices corresponds to userAnswers array
+ */
 function validateList(userAnswers, correctAnswer, requiredCount) {
-    if (!Array.isArray(userAnswers) || userAnswers.length === 0) return false;
+    if (!Array.isArray(userAnswers) || userAnswers.length === 0) {
+        return { passed: false, validIndices: [] };
+    }
 
     // Parse valid concepts
-    // "USA|America ÷ UK|Britain" -> [['usa', 'america'], ['uk', 'britain']]
-    // Split by ÷ for concepts, then by | for synonyms
     const validConcepts = correctAnswer.split('÷').map(concept =>
         concept.split('|').map(variant => normalizeText(variant))
     );
 
-    let matchedConcepts = new Set();
+    let matchedConcepts = new Set(); // Stores indices of matched validConcepts
+    let validIndices = []; // Stores indices of correct userAnswers
 
-    for (const answer of userAnswers) {
+    for (let j = 0; j < userAnswers.length; j++) {
+        const answer = userAnswers[j];
         const normAnswer = normalizeText(answer);
         if (!normAnswer) continue;
 
+        let matched = false;
         // Check against all concepts
         for (let i = 0; i < validConcepts.length; i++) {
-            // Check if this answer matches any variant of concept i
-            if (validConcepts[i].some(variant => variant === normAnswer)) {
-                matchedConcepts.add(i); // Mark concept index i as found
-                break; // Stop checking other concepts for this answer
+            // Avoid matching the same concept twice with different answers (optional, but good for "List X unique things")
+            // Strictness: if we want to enforce unique concepts, check matchedConcepts.has(i).
+            // But if user types "A" and "B" which are synonym for same concept, maybe we should count only 1?
+            // Yes, let's allow "re-matching" for feedback purposes (mark as correct), 
+            // but ONLY count unique concepts for the final pass.
+
+            const isMatch = validConcepts[i].some(variant => {
+                // Exact match (normalized)
+                if (variant === normAnswer) return true;
+
+                // Partial match setup
+                // Allow user input to be a substring of variant if distinct enough
+                // e.g. "Pannonhalmi" matches "Pannonhalmi Bencés Főapátság"
+                if (variant.length > 5 && normAnswer.length > 4 && variant.includes(normAnswer)) return true;
+
+                // Allow variant to be substring of user input? (Less likely)
+                return false;
+            });
+
+            if (isMatch) {
+                // If this concept hasn't been used yet for scoring, add it
+                if (!matchedConcepts.has(i)) {
+                    matchedConcepts.add(i);
+                    matched = true;
+                    // We only "consume" the concept for scoring if it wasn't matched before.
+                    // But for visual feedback, this answer is valid.
+                } else {
+                    // Concept already matched by another answer.
+                    // Should we mark this as correct? Yes, it's a correct *fact*.
+                    // But maybe warn "Duplicate"?
+                    // For now, mark as correct.
+                    matched = true;
+                }
+                break;
             }
+        }
+
+        if (matched) {
+            validIndices.push(j);
         }
     }
 
-    return matchedConcepts.size >= requiredCount;
+    return {
+        passed: matchedConcepts.size >= requiredCount,
+        validIndices: validIndices
+    };
 }
 
 /**
