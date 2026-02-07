@@ -669,7 +669,19 @@ function navigateQuestion(direction) {
 
 function updateNavigationButtons() {
     elements.prevBtn.disabled = state.currentQuestionIndex === 0;
-    elements.nextBtn.disabled = state.currentQuestionIndex === state.currentQuestions.length - 1;
+
+    const isLastQuestion = state.currentQuestionIndex === state.currentQuestions.length - 1;
+    const nextBtnText = elements.nextBtn.querySelector('span');
+
+    if (isLastQuestion) {
+        nextBtnText.textContent = translations[state.currentLang].finish || 'Finish';
+        elements.nextBtn.classList.add('finish-btn');
+    } else {
+        nextBtnText.textContent = translations[state.currentLang].next || 'Next';
+        elements.nextBtn.classList.remove('finish-btn');
+    }
+    // Always enable next button to allow finishing
+    elements.nextBtn.disabled = false;
 }
 
 // == Progress ==

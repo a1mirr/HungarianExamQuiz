@@ -792,13 +792,12 @@ h3 {
     margin: var(--spacing-lg) auto;
 }
 
-.nav-top {
+.nav-bottom {
+    margin-top: var(--spacing-xl);
     margin-bottom: var(--spacing-xl);
-    position: sticky;
-    top: var(--spacing-sm);
-    z-index: 100;
-    background: var(--bg-gradient);
-    padding: var(--spacing-sm) 0;
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-md);
 }
 
 .nav-btn {

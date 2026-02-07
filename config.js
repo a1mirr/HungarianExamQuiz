@@ -40,7 +40,8 @@ const translations = {
         enterName: 'Enter name',
         official: 'Official',
         approximateHint: 'Approximate value accepted (±10%)',
-        translateAnswer: 'Translate Answer'
+        translateAnswer: 'Translate Answer',
+        finish: 'Finish'
     },
     ru: {
         subtitle: 'Изучайте венгерскую культуру и историю',
@@ -78,7 +79,8 @@ const translations = {
         enterName: 'Введите имя',
         official: 'Официальное значение',
         approximateHint: 'Принимается приблизительное значение (±10%)',
-        translateAnswer: 'Перевести ответ'
+        translateAnswer: 'Перевести ответ',
+        finish: 'Завершить'
     },
     hu: {
         subtitle: 'Magyar kultúra és történelem mesterei',
@@ -116,7 +118,8 @@ const translations = {
         enterName: 'Írj be egy nevet',
         official: 'Hivatalos',
         approximateHint: 'Elfogadható közelítő érték (±10%)',
-        translateAnswer: 'Válasz fordítása'
+        translateAnswer: 'Válasz fordítása',
+        finish: 'Befejezés'
     }
 };
 
