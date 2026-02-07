@@ -12,6 +12,18 @@ function normalizeAccents(text) {
 }
 
 /**
+ * Shared normalization logic
+ * - Handles accents
+ * - Lowercase & trim
+ * - Removes leading articles (a, az, the)
+ */
+function normalizeText(text) {
+    let norm = normalizeAccents(text).toLowerCase().trim();
+    // Remove leading articles (a, az, the) followed by space
+    return norm.replace(/^(a|az|the)\s+/i, '');
+}
+
+/**
  * Approximate number validator - accepts values within tolerance range
  * Used for population, area, casualties, economic figures, etc.
  * @param {string} userAnswer - User's input
@@ -43,12 +55,6 @@ function validateApproximate(userAnswer, correctAnswer, tolerance = 0.1) {
  * Features: case-insensitive, accent-insensitive, order-agnostic
  */
 function validatePerson(userAnswer, correctAnswer) {
-    const normalize = (text) => {
-        let norm = normalizeAccents(text).toLowerCase().trim();
-        // Remove leading articles (a, az, the) followed by space
-        return norm.replace(/^(a|az|the)\s+/i, '');
-    };
-
     // Filter out Roman numerals (I., II., III., etc.)
     const filterRomanNumerals = (parts) => {
         return parts.filter(part => !/^[IVX]+\.?$/i.test(part));
@@ -58,8 +64,8 @@ function validatePerson(userAnswer, correctAnswer) {
     const alternatives = correctAnswer.split('÷').map(a => a.trim());
 
     for (const correct of alternatives) {
-        const userParts = normalize(userAnswer).split(/\s+/).filter(p => p);
-        const correctParts = normalize(correct).split(/\s+/).filter(p => p);
+        const userParts = normalizeText(userAnswer).split(/\s+/).filter(p => p);
+        const correctParts = normalizeText(correct).split(/\s+/).filter(p => p);
 
         // Filter Roman numerals
         const userSignificant = filterRomanNumerals(userParts);
@@ -165,18 +171,48 @@ function validateNumber(userAnswer, correctAnswer) {
 }
 
 /**
+ * List validator - checks if user provided enough unique correct answers
+ * @param {string[]} userAnswers - Array of user input strings
+ * @param {string} correctAnswer - Pipe-separated list of valid concepts (e.g. "USA|America ÷ UK|Britain")
+ * @param {number} requiredCount - Number of correct answers required
+ */
+function validateList(userAnswers, correctAnswer, requiredCount) {
+    if (!Array.isArray(userAnswers) || userAnswers.length === 0) return false;
+
+    // Parse valid concepts
+    // "USA|America ÷ UK|Britain" -> [['usa', 'america'], ['uk', 'britain']]
+    // Split by ÷ for concepts, then by | for synonyms
+    const validConcepts = correctAnswer.split('÷').map(concept =>
+        concept.split('|').map(variant => normalizeText(variant))
+    );
+
+    let matchedConcepts = new Set();
+
+    for (const answer of userAnswers) {
+        const normAnswer = normalizeText(answer);
+        if (!normAnswer) continue;
+
+        // Check against all concepts
+        for (let i = 0; i < validConcepts.length; i++) {
+            // Check if this answer matches any variant of concept i
+            if (validConcepts[i].some(variant => variant === normAnswer)) {
+                matchedConcepts.add(i); // Mark concept index i as found
+                break; // Stop checking other concepts for this answer
+            }
+        }
+    }
+
+    return matchedConcepts.size >= requiredCount;
+}
+
+/**
  * Default validator - basic text matching
  */
 function checkAnswer(userAnswer, correctAnswer) {
-    const normalize = (text) => {
-        let norm = normalizeAccents(text).toLowerCase().trim();
-        // Remove leading articles (a, az, the) followed by space
-        return norm.replace(/^(a|az|the)\s+/i, '');
-    };
-    const userNorm = normalize(userAnswer);
+    const userNorm = normalizeText(userAnswer);
 
     // Check against all acceptable answers (÷ separator)
-    const acceptableAnswers = correctAnswer.split('÷').map(a => normalize(a));
+    const acceptableAnswers = correctAnswer.split('÷').map(a => normalizeText(a));
     return acceptableAnswers.includes(userNorm);
 }
 
@@ -186,11 +222,13 @@ function checkAnswer(userAnswer, correctAnswer) {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = {
         normalizeAccents,
+        normalizeText,
         validateApproximate,
         validatePerson,
         validateDate,
         validateDateInterval,
         validateNumber,
+        validateList,
         checkAnswer
     };
 }

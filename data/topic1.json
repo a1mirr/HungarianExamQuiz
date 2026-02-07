@@ -2,7 +2,7 @@
     {
         "type": "Open",
         "question": "Soroljon fel négy nemzeti jelképet",
-        "answer": "Zászló",
+        "answer": "Zászló|Magyar zászló ÷ Szent Korona|Korona ÷ Himnusz ÷ Címer|Magyar címer",
         "translations": {
             "en": {
                 "question": "List four national symbols!",
@@ -13,7 +13,8 @@
                 "answer": "Флаг ÷ Святая Корона ÷ Гимн ÷ Герб Венгрии"
             }
         },
-        "inputType": "text"
+        "inputType": "list",
+        "inputCount": 4
     },
     {
         "type": "Multiple",
@@ -459,7 +460,7 @@
     {
         "type": "Open",
         "question": "Soroljon fel három koronázási jelvényt",
-        "answer": "Szent Korona",
+        "answer": "Szent Korona|Korona ÷ Koronázási jogar|Jogar ÷ Országalma ÷ Koronázási kard|Kard ÷ Koronázási palást|Palást",
         "translations": {
             "en": {
                 "question": "List three coronation insignia",
@@ -470,7 +471,8 @@
                 "answer": "Святая Корона ÷ коронационный скипетр ÷ держава ÷ коронационный меч ÷ коронационная мантия"
             }
         },
-        "inputType": "text"
+        "inputType": "list",
+        "inputCount": 3
     },
     {
         "type": "Multiple",
@@ -604,7 +606,7 @@
     {
         "type": "Open",
         "question": "Soroljon fel három egykori magyar koronázó várost",
-        "answer": "Buda",
+        "answer": "Buda ÷ Esztergom ÷ Pozsony ÷ Sopron ÷ Székesfehérvár",
         "translations": {
             "en": {
                 "question": "List three former Hungarian coronation cities!",
@@ -615,7 +617,8 @@
                 "answer": "Буда ÷ Эстергом ÷ Пожонь ÷ Шопрон ÷ Секешфехервар"
             }
         },
-        "inputType": "text"
+        "inputType": "list",
+        "inputCount": 3
     },
     {
         "type": "Multiple",

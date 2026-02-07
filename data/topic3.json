@@ -1,2341 +1,2348 @@
 ﻿[
     {
-        "type":  "Open",
-        "inputType":  "year",
-        "question":  "Mikor kezdték gyűjteni a népdalokat?",
-        "answer":  "1800 ÷ Az 1800-as",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] When did folk song collection begin?",
-                                        "answer":  "[EN] From the 1800s ÷ 1800s"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Когда начали собирать народные песни?",
-                                        "answer":  "[RU] С 1800-х годов ÷ 1800-х"
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mettől kezdték gyűjteni a népdalokat?",
-        "correctCount":  1,
-        "options":  [
-                        "Az 1800-as évektől",
-                        "A 1700-as évektől",
-                        "A 1900-as évektől"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] From when did they start collecting folk songs?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] С какого времени начали собирать народные песни?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "text",
-        "question":  "Ki volt a magyar népzenekutatás két leghíresebb képviselője?",
-        "answer":  "Bartók Béla és Kodály Zoltán",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who were the two most famous representatives of Hungarian folk music research?",
-                                        "answer":  "[EN] Béla Bartók and Zoltán Kodály"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто был двумя самыми известными представителями венгерского исследования народной музыки?",
-                                        "answer":  "[RU] Бела Барток и Золтан Кодай"
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Kik voltak a magyar népzenekutatás leghíresebb képviselői?",
-        "correctCount":  2,
-        "options":  [
-                        "Bartók Béla",
-                        "Kodály Zoltán",
-                        "Liszt Ferenc",
-                        "Erkel Ferenc"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who were the most famous representatives of Hungarian folk music research?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто были самыми известными представителями венгерского исследования народной музыки?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "person",
-        "question":  "Ki komponálta a Bánk bán operát?",
-        "answer":  "Erkel Ferenc",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who composed the opera Bánk bán?",
-                                        "answer":  "[EN] Ferenc Erkel"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто сочинил оперу Банк бан?",
-                                        "answer":  "[RU] Ференц Эркель"
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "text",
-        "question":  "Mi Erkel Ferenc leghíresebb műve?",
-        "answer":  "Bánk bán",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is Ferenc Erkel\u0027s most famous work?",
-                                        "answer":  "[EN] Bánk bán opera"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое самое известное произведение Ференца Эркеля?",
-                                        "answer":  "[RU] Опера Банк бан"
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki szerezte a Bánk bán operát?",
-        "correctCount":  1,
-        "options":  [
-                        "Erkel Ferenc",
-                        "Liszt Ferenc",
-                        "Bartók Béla"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who composed the opera Bánk bán?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто сочинил оперу Банк бан?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "person",
-        "question":  "Ki komponálta a Magyar rapszódiákat?",
-        "answer":  "Liszt Ferenc",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who composed the Hungarian Rhapsodies?",
-                                        "answer":  "[EN] Franz Liszt"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто сочинил Венгерские рапсодии?",
-                                        "answer":  "[RU] Ференц Лист"
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "text",
-        "question":  "Mi Liszt Ferenc egyik leghíresebb műve?",
-        "answer":  "Magyar rapszódiák",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Franz Liszt\u0027s most famous works?",
-                                        "answer":  "[EN] Hungarian Rhapsodies"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из самых известных произведений Ференца Листа?",
-                                        "answer":  "[RU] Венгерские рапсодии"
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Liszt Ferenctől származik?",
-        "correctCount":  1,
-        "options":  [
-                        "Magyar rapszódiák",
-                        "Bánk bán",
-                        "Háry János"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is by Franz Liszt?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Ференцу Листу?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "person",
-        "question":  "Ki komponálta A kékszakállú herceg vára című operát?",
-        "answer":  "Bartók Béla",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who composed the opera Bluebeard\u0027s Castle?",
-                                        "answer":  "[EN] Béla Bartók"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто сочинил оперу Замок герцога Синяя Борода?",
-                                        "answer":  "[RU] Бела Барток"
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "text",
-        "question":  "Mi Bartók Béla egyik leghíresebb műve?",
-        "answer":  "A kékszakállú herceg vára",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Béla Bartók\u0027s most famous works?",
-                                        "answer":  "[EN] Bluebeard\u0027s Castle"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из самых известных произведений Белы Бартока?",
-                                        "answer":  "[RU] Замок герцога Синяя Борода"
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki szerezte A kékszakállú herceg vára operát?",
-        "correctCount":  1,
-        "options":  [
-                        "Bartók Béla",
-                        "Kodály Zoltán",
-                        "Erkel Ferenc"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who composed the opera Bluebeard\u0027s Castle?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто сочинил оперу Замок герцога Синяя Борода?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "person",
-        "question":  "Ki komponálta a Háry János című művet?",
-        "answer":  "Kodály Zoltán",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who composed the work Háry János?",
-                                        "answer":  "[EN] Zoltán Kodály"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто сочинил произведение Хари Янош?",
-                                        "answer":  "[RU] Золтан Кодай"
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "text",
-        "question":  "Mi Kodály Zoltán egyik leghíresebb műve?",
-        "answer":  "Háry János",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Zoltán Kodály\u0027s most famous works?",
-                                        "answer":  "[EN] Háry János"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из самых известных произведений Золтана Кодая?",
-                                        "answer":  "[RU] Хари Янош"
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Kodály Zoltántól származik?",
-        "correctCount":  1,
-        "options":  [
-                        "Háry János",
-                        "A kékszakállú herceg vára",
-                        "Bánk bán"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is by Zoltán Kodály?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Золтану Кодаю?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki volt egyszerre népzenekutató és zeneszerző?",
-        "correctCount":  2,
-        "options":  [
-                        "Bartók Béla",
-                        "Kodály Zoltán",
-                        "Liszt Ferenc",
-                        "Petőfi Sándor"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who was both a folk music researcher and a composer?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто был одновременно исследователем народной музыки и композитором?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "text",
-        "question":  "Soroljon fel két reneszánsz költőt",
-        "answer":  "Janus Pannonius ÷ Balassi Bálint",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] List two Renaissance poets!",
-                                        "answer":  "[EN] Janus Pannonius ÷ Bálint Balassi"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Перечислите двух поэтов эпохи Возрождения!",
-                                        "answer":  "[RU] Янус Паннониус ÷ Балинт Балашши"
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki volt reneszánsz költő?",
-        "correctCount":  2,
-        "options":  [
-                        "Janus Pannonius",
-                        "Balassi Bálint",
-                        "Petőfi Sándor",
-                        "Arany János"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who was a Renaissance poet?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто был поэтом эпохи Возрождения?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "person",
-        "question":  "Ki írta a Pannónia dicsérete című művet?",
-        "answer":  "Janus Pannonius",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work In Praise of Pannonia?",
-                                        "answer":  "[EN] Janus Pannonius"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Похвала Паннонии?",
-                                        "answer":  "[RU] Янус Паннониус"
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "text",
-        "question":  "Mi Janus Pannonius egyik jelentős műve?",
-        "answer":  "Pannónia dicsérete",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Janus Pannonius\u0027s significant works?",
-                                        "answer":  "[EN] In Praise of Pannonia"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Януса Паннониуса?",
-                                        "answer":  "[RU] Похвала Паннонии"
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki írta a Pannónia dicsérete című művet?",
-        "correctCount":  1,
-        "options":  [
-                        "Janus Pannonius",
-                        "Balassi Bálint",
-                        "Zrínyi Miklós"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work In Praise of Pannonia?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Похвала Паннонии?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "person",
-        "question":  "Ki írta a \"Hogy Júliára talála, így köszöne néki\" című verset?",
-        "answer":  "Balassi Bálint",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the poem \"Upon Finding Julia, He Greeted Her Thus\"?",
-                                        "answer":  "[EN] Bálint Balassi"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал стихотворение \"Как он встретил Юлию и приветствовал её\"?",
-                                        "answer":  "[RU] Балинт Балашши"
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "text",
-        "question":  "Mi Balassi Bálint egyik jelentős műve?",
-        "answer":  "Hogy Júliára talála, így köszöne néki",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Bálint Balassi\u0027s significant works?",
-                                        "answer":  "[EN] Upon Finding Julia, He Greeted Her Thus"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Балинта Балашши?",
-                                        "answer":  "[RU] Как он встретил Юлию и приветствовал её"
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik költő művéből való a \"Hogy Júliára talála\" cím?",
-        "correctCount":  1,
-        "options":  [
-                        "Balassi Bálint",
-                        "Janus Pannonius",
-                        "Csokonai Vitéz Mihály"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] From which poet\u0027s work does the title \"Upon Finding Julia\" come?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Из произведения какого поэта взято название \"Как он встретил Юлию\"?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "inputType":  "person",
-        "question":  "Ki volt a barokk irodalom kiemelkedő alakja?",
-        "answer":  "Zrínyi Miklós",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who was a prominent figure of Baroque literature?",
-                                        "answer":  "[EN] Miklós Zrínyi"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто был выдающейся фигурой литературы барокко?",
-                                        "answer":  "[RU] Миклош Зриньи"
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki képviselte a barokk irodalmat?",
-        "correctCount":  1,
-        "options":  [
-                        "Zrínyi Miklós",
-                        "Balassi Bálint",
-                        "Kazinczy Ferenc"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who represented Baroque literature?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто представлял литературу барокко?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta a Szigeti veszedelem című művet?",
-        "answer":  "Zrínyi Miklós",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work The Siege of Sziget?",
-                                        "answer":  "[EN] Miklós Zrínyi"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Осада Сигета?",
-                                        "answer":  "[RU] Миклош Зриньи"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Zrínyi Miklós kiemelkedő műve?",
-        "answer":  "Szigeti veszedelem",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is Miklós Zrínyi\u0027s prominent work?",
-                                        "answer":  "[EN] The Siege of Sziget"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое выдающееся произведение Миклоша Зриньи?",
-                                        "answer":  "[RU] Осада Сигета"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Zrínyi Miklós alkotása?",
-        "correctCount":  1,
-        "options":  [
-                        "Szigeti veszedelem",
-                        "Bánk bán",
-                        "Toldi"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is Miklós Zrínyi\u0027s creation?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Миклошу Зриньи?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Soroljon fel két felvilágosodás kori költőt!",
-        "answer":  "Csokonai Vitéz Mihály ÷ Batsányi János",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] List two poets of the Enlightenment era!",
-                                        "answer":  "[EN] Mihály Csokonai Vitéz ÷ János Batsányi"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Перечислите двух поэтов эпохи Просвещения!",
-                                        "answer":  "[RU] Михай Чоконаи Витез ÷ Янош Бачаньи"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki volt felvilágosodás kori költő?",
-        "correctCount":  2,
-        "options":  [
-                        "Csokonai Vitéz Mihály",
-                        "Batsányi János",
-                        "Vörösmarty Mihály",
-                        "Petőfi Sándor"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who was a poet of the Enlightenment era?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто был поэтом эпохи Просвещения?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta A reményhez című verset?",
-        "answer":  "Csokonai Vitéz Mihály",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the poem To Hope?",
-                                        "answer":  "[EN] Mihály Csokonai Vitéz"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал стихотворение К Надежде?",
-                                        "answer":  "[RU] Михай Чоконаи Витез"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Csokonai Vitéz Mihály egyik kiemelkedő műve?",
-        "answer":  "A reményhez",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Mihály Csokonai Vitéz\u0027s prominent works?",
-                                        "answer":  "[EN] To Hope"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из выдающихся произведений Михая Чоконаи Витеза?",
-                                        "answer":  "[RU] К Надежде"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Csokonai Vitéz Mihálytól való?",
-        "correctCount":  1,
-        "options":  [
-                        "A reményhez",
-                        "A franciaországi változásokra",
-                        "Szózat"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is by Mihály Csokonai Vitéz?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Михаю Чоконаи Витезу?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta A franciaországi változásokra című verset?",
-        "answer":  "Batsányi János",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the poem On the Changes in France?",
-                                        "answer":  "[EN] János Batsányi"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал стихотворение На изменения во Франции?",
-                                        "answer":  "[RU] Янош Бачаньи"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Batsányi János egyik kiemelkedő műve?",
-        "answer":  "A franciaországi változásokra",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of János Batsányi\u0027s prominent works?",
-                                        "answer":  "[EN] On the Changes in France"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из выдающихся произведений Яноша Бачаньи?",
-                                        "answer":  "[RU] На изменения во Франции"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki írta A franciaországi változásokra című művet?",
-        "correctCount":  1,
-        "options":  [
-                        "Batsányi János",
-                        "Csokonai Vitéz Mihály",
-                        "Kazinczy Ferenc"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work On the Changes in France?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение На изменения во Франции?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Soroljon fel két klasszicista költőt!",
-        "answer":  "Kazinczy Ferenc ÷ Berzsenyi Dániel",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] List two Classicist poets!",
-                                        "answer":  "[EN] Ferenc Kazinczy ÷ Dániel Berzsenyi"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Перечислите двух поэтов классицизма!",
-                                        "answer":  "[RU] Ференц Казинци ÷ Даниэль Бержени"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki volt klasszicista költő?",
-        "correctCount":  2,
-        "options":  [
-                        "Kazinczy Ferenc",
-                        "Berzsenyi Dániel",
-                        "Petőfi Sándor",
-                        "József Attila"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who was a Classicist poet?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто был поэтом классицизма?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki volt a hazai nyelvújítás vezéralakja?",
-        "answer":  "Kazinczy Ferenc",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who was the leading figure of the domestic language reform?",
-                                        "answer":  "[EN] Ferenc Kazinczy"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто был ведущей фигурой отечественной языковой реформы?",
-                                        "answer":  "[RU] Ференц Казинци"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki vezette a magyar nyelvújítást?",
-        "correctCount":  1,
-        "options":  [
-                        "Kazinczy Ferenc",
-                        "Berzsenyi Dániel",
-                        "Kölcsey Ferenc"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who led the Hungarian language reform?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто руководил венгерской языковой реформой?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta Az első szerelem című verset?",
-        "answer":  "Berzsenyi Dániel",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the poem The First Love?",
-                                        "answer":  "[EN] Dániel Berzsenyi"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал стихотворение Первая любовь?",
-                                        "answer":  "[RU] Даниэль Бержени"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Berzsenyi Dániel egyik kiemelkedő műve?",
-        "answer":  "Az első szerelem",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Dániel Berzsenyi\u0027s prominent works?",
-                                        "answer":  "[EN] The First Love"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из выдающихся произведений Даниэля Бержени?",
-                                        "answer":  "[RU] Первая любовь"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Berzsenyi Dánieltől való?",
-        "correctCount":  1,
-        "options":  [
-                        "Az első szerelem",
-                        "A reményhez",
-                        "Himnusz"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is by Dániel Berzsenyi?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Даниэлю Бержени?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mi jellemezte az 1820-as éveket?",
-        "correctCount":  1,
-        "options":  [
-                        "A politikai és az irodalom szoros összefonódása",
-                        "A háborúk",
-                        "A gazdasági válság"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What characterized the 1820s?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что характеризовало 1820-е годы?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Melyik város vált az ország irodalmi középpontjává az 1820-as években?",
-        "answer":  "Pest-Buda",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which city became the literary center of the country in the 1820s?",
-                                        "answer":  "[EN] Pest-Buda"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какой город стал литературным центром страны в 1820-х годах?",
-                                        "answer":  "[RU] Пешт-Буда"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik város lett az irodalmi központ a romantika idején?",
-        "correctCount":  1,
-        "options":  [
-                        "Pest-Buda",
-                        "Debrecen",
-                        "Szeged"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which city became the literary center during the Romantic period?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какой город стал литературным центром в эпоху романтизма?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mi kezdett megjelenni az 1820-as években?",
-        "correctCount":  2,
-        "options":  [
-                        "Újságok",
-                        "Folyóiratok",
-                        "Filmek",
-                        "Rádiók"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What started to appear in the 1820s?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что начало появляться в 1820-х годах?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik intézmény alakult a romantika korában?",
-        "correctCount":  1,
-        "options":  [
-                        "Magyar Tudományos Akadémia",
-                        "Magyar Nemzeti Múzeum",
-                        "Országgyűlés"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which institution was founded in the Romantic era?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое учреждение было основано в эпоху романтизма?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Mikor nyitotta meg kapuit a Pesti Magyar Színház?",
-        "answer":  "1837",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] When did the Pest Hungarian Theatre open its doors?",
-                                        "answer":  "[EN] 1837"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Когда открылся Пештский венгерский театр?",
-                                        "answer":  "[RU] 1837"
-                                    }
-                         },
-        "inputType":  "year"
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta a Himnuszt?",
-        "answer":  "Kölcsey Ferenc",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the Hymn?",
-                                        "answer":  "[EN] Ferenc Kölcsey"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал Гимн?",
-                                        "answer":  "[RU] Ференц Кёльчеи"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Kölcsey Ferenc egyik legjelentősebb műve?",
-        "answer":  "Himnusz",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Ferenc Kölcsey\u0027s most significant works?",
-                                        "answer":  "[EN] Hymn"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из самых значительных произведений Ференца Кёльчеи?",
-                                        "answer":  "[RU] Гимн"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik romantikus költő írta a Himnuszt?",
-        "correctCount":  1,
-        "options":  [
-                        "Kölcsey Ferenc",
-                        "Vörösmarty Mihály",
-                        "Petőfi Sándor"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which Romantic poet wrote the Hymn?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какой поэт-романтик написал Гимн?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta a Szózatot?",
-        "answer":  "Vörösmarty Mihály",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the Szózat (Appeal)?",
-                                        "answer":  "[EN] Mihály Vörösmarty"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал Призыв (Szózat)?",
-                                        "answer":  "[RU] Михай Вёрёшмарти"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Vörösmarty Mihály egyik legjelentősebb műve?",
-        "answer":  "Szózat",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Mihály Vörösmarty\u0027s most significant works?",
-                                        "answer":  "[EN] Szózat"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из самых значительных произведений Михая Вёрёшмарти?",
-                                        "answer":  "[RU] Призыв"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki a Szózat szerzője?",
-        "correctCount":  1,
-        "options":  [
-                        "Vörösmarty Mihály",
-                        "Kölcsey Ferenc",
-                        "Arany János"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who is the author of the Szózat?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто автор Призыва?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta a Nemzeti dalt?",
-        "answer":  "Petőfi Sándor",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the National Song?",
-                                        "answer":  "[EN] Sándor Petőfi"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал Национальную песню?",
-                                        "answer":  "[RU] Шандор Петёфи"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Petőfi Sándor egyik legjelentősebb műve?",
-        "answer":  "Nemzeti dal",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Sándor Petőfi\u0027s most significant works?",
-                                        "answer":  "[EN] National Song"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из самых значительных произведений Шандора Петёфи?",
-                                        "answer":  "[RU] Национальная песня"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Petőfi Sándortól származik?",
-        "correctCount":  1,
-        "options":  [
-                        "Nemzeti dal",
-                        "Himnusz",
-                        "Szózat"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is by Sándor Petőfi?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Шандору Петёфи?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta A kőszívű ember fiai című regényt?",
-        "answer":  "Jókai Mór",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the novel The Baron\u0027s Sons?",
-                                        "answer":  "[EN] Mór Jókai"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал роман Сыновья человека с каменным сердцем?",
-                                        "answer":  "[RU] Мор Йокаи"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Jókai Mór egyik jelentős műve?",
-        "answer":  "A kőszívű ember fiai",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Mór Jókai\u0027s significant works?",
-                                        "answer":  "[EN] The Baron\u0027s Sons"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Мора Йокаи?",
-                                        "answer":  "[RU] Сыновья человека с каменным сердцем"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki írta A kőszívű ember fiai című regényt?",
-        "correctCount":  1,
-        "options":  [
-                        "Jókai Mór",
-                        "Petőfi Sándor",
-                        "Arany János"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the novel The Baron\u0027s Sons?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал роман Сыновья человека с каменным сердцем?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta A walesi bárdok című művet?",
-        "answer":  "Arany János",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work The Bards of Wales?",
-                                        "answer":  "[EN] János Arany"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Валлийские барды?",
-                                        "answer":  "[RU] Янош Арань"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Arany János egyik jelentős műve?",
-        "answer":  "A walesi bárdok",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of János Arany\u0027s significant works?",
-                                        "answer":  "[EN] The Bards of Wales"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Яноша Араня?",
-                                        "answer":  "[RU] Валлийские барды"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Arany Jánostól való?",
-        "correctCount":  1,
-        "options":  [
-                        "A walesi bárdok",
-                        "Nemzeti dal",
-                        "Bánk bán"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is by János Arany?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Яношу Араню?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta a Bánk bán című drámát?",
-        "answer":  "Katona József",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the drama Bánk bán?",
-                                        "answer":  "[EN] József Katona"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал драму Банк бан?",
-                                        "answer":  "[RU] Йожеф Катона"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Katona József legjelentősebb műve?",
-        "answer":  "Bánk bán",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is József Katona\u0027s most significant work?",
-                                        "answer":  "[EN] Bánk bán"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое самое значительное произведение Йожефа Катоны?",
-                                        "answer":  "[RU] Банк бан"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki írta a Bánk bán drámát?",
-        "correctCount":  1,
-        "options":  [
-                        "Katona József",
-                        "Madách Imre",
-                        "Petőfi Sándor"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the drama Bánk bán?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал драму Банк бан?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta Az ember tragédiája című művet?",
-        "answer":  "Madách Imre",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work The Tragedy of Man?",
-                                        "answer":  "[EN] Imre Madách"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Трагедия человека?",
-                                        "answer":  "[RU] Имре Мадач"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Madách Imre legjelentősebb műve?",
-        "answer":  "Az ember tragédiája",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is Imre Madách\u0027s most significant work?",
-                                        "answer":  "[EN] The Tragedy of Man"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое самое значительное произведение Имре Мадача?",
-                                        "answer":  "[RU] Трагедия человека"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Madách Imre alkotása?",
-        "correctCount":  1,
-        "options":  [
-                        "Az ember tragédiája",
-                        "Bánk bán",
-                        "A kőszívű ember fiai"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is Imre Madách\u0027s creation?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Имре Мадачу?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Soroljon fel öt romantikus költőt vagy írót!",
-        "answer":  "Kölcsey Ferenc ÷ Vörösmarty Mihály ÷ Petőfi Sándor ÷ Jókai Mór ÷ Arany János ÷ Katona József ÷ Madách Imre",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] List five Romantic poets or writers!",
-                                        "answer":  "[EN] Ferenc Kölcsey ÷ Mihály Vörösmarty ÷ Sándor Petőfi ÷ Mór Jókai ÷ János Arany ÷ József Katona ÷ Imre Madách"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Перечислите пять поэтов или писателей эпохи романтизма!",
-                                        "answer":  "[RU] Ференц Кёльчеи ÷ Михай Вёрёшмарти ÷ Шандор Петёфи ÷ Мор Йокаи ÷ Янош Арань ÷ Йожеф Катона ÷ Имре Мадач"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki volt romantikus költő vagy író?",
-        "correctCount":  4,
-        "options":  [
-                        "Petőfi Sándor",
-                        "Arany János",
-                        "Vörösmarty Mihály",
-                        "Jókai Mór",
-                        "Bartók Béla",
-                        "Liszt Ferenc",
-                        "Orbán Viktor"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1,
-                               2,
-                               3
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who was a Romantic poet or writer?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто был поэтом или писателем эпохи романтизма?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Soroljon fel öt 20. századi költőt vagy írót!",
-        "answer":  "Ady Endre ÷ Móricz Zsigmond ÷ Kosztolányi Dezső ÷ Karinthy Frigyes ÷ József Attila ÷ Radnóti Miklós ÷ Márai Sándor",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] List five 20th-century poets or writers!",
-                                        "answer":  "[EN] Endre Ady ÷ Zsigmond Móricz ÷ Dezső Kosztolányi ÷ Frigyes Karinthy ÷ Attila József ÷ Miklós Radnóti ÷ Sándor Márai"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Перечислите пять поэтов или писателей 20-го века!",
-                                        "answer":  "[RU] Эндре Ади ÷ Жигмонд Мориц ÷ Дежё Костолани ÷ Фридьеш Каринти ÷ Аттила Йожеф ÷ Миклош Радноти ÷ Шандор Мараи"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki volt 20. századi magyar költő vagy író?",
-        "correctCount":  4,
-        "options":  [
-                        "Ady Endre",
-                        "József Attila",
-                        "Móricz Zsigmond",
-                        "Márai Sándor",
-                        "Petőfi Sándor",
-                        "Arany János",
-                        "Balassi Bálint"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1,
-                               2,
-                               3
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who was a 20th-century Hungarian poet or writer?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто был венгерским поэтом или писателем 20-го века?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta az Elbocsátó, szép üzenet című verset?",
-        "answer":  "Ady Endre",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the poem The Dismissing Beautiful Message?",
-                                        "answer":  "[EN] Endre Ady"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал стихотворение Прощальное прекрасное послание?",
-                                        "answer":  "[RU] Эндре Ади"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Ady Endre egyik jelentős műve?",
-        "answer":  "Elbocsátó, szép üzenet",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Endre Ady\u0027s significant works?",
-                                        "answer":  "[EN] The Dismissing Beautiful Message"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Эндре Ади?",
-                                        "answer":  "[RU] Прощальное прекрасное послание"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Ady Endrétől származik?",
-        "correctCount":  1,
-        "options":  [
-                        "Elbocsátó, szép üzenet",
-                        "Rokonok",
-                        "Tiszta szívvel"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is by Endre Ady?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Эндре Ади?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta a Rokonok című regényt?",
-        "answer":  "Móricz Zsigmond",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the novel Relatives?",
-                                        "answer":  "[EN] Zsigmond Móricz"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал роман Родственники?",
-                                        "answer":  "[RU] Жигмонд Мориц"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Móricz Zsigmond egyik jelentős műve?",
-        "answer":  "Rokonok",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Zsigmond Móricz\u0027s significant works?",
-                                        "answer":  "[EN] Relatives"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Жигмонда Морица?",
-                                        "answer":  "[RU] Родственники"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki írta a Rokonok című művet?",
-        "correctCount":  1,
-        "options":  [
-                        "Móricz Zsigmond",
-                        "Kosztolányi Dezső",
-                        "Ady Endre"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work Relatives?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Родственники?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta az Édes Anna című regényt?",
-        "answer":  "Kosztolányi Dezső",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the novel Anna Édes?",
-                                        "answer":  "[EN] Dezső Kosztolányi"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал роман Анна Эдеш?",
-                                        "answer":  "[RU] Дежё Костолани"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Kosztolányi Dezső egyik jelentős műve?",
-        "answer":  "Édes Anna",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Dezső Kosztolányi\u0027s significant works?",
-                                        "answer":  "[EN] Anna Édes"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Дежё Костолани?",
-                                        "answer":  "[RU] Анна Эдеш"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Kosztolányi Dezsőtől való?",
-        "correctCount":  1,
-        "options":  [
-                        "Édes Anna",
-                        "Így írtok ti",
-                        "Rokonok"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is by Dezső Kosztolányi?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Дежё Костолани?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta az Így írtok ti című művet?",
-        "answer":  "Karinthy Frigyes",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work That\u0027s How You Write?",
-                                        "answer":  "[EN] Frigyes Karinthy"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Так пишете вы?",
-                                        "answer":  "[RU] Фридьеш Каринти"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Karinthy Frigyes egyik jelentős műve?",
-        "answer":  "Így írtok ti",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Frigyes Karinthy\u0027s significant works?",
-                                        "answer":  "[EN] That\u0027s How You Write"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Фридьеша Каринти?",
-                                        "answer":  "[RU] Так пишете вы"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki írta az Így írtok ti című művet?",
-        "correctCount":  1,
-        "options":  [
-                        "Karinthy Frigyes",
-                        "Kosztolányi Dezső",
-                        "József Attila"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work That\u0027s How You Write?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Так пишете вы?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta a Tiszta szívvel című verset?",
-        "answer":  "József Attila",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the poem With a Pure Heart?",
-                                        "answer":  "[EN] Attila József"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал стихотворение С чистым сердцем?",
-                                        "answer":  "[RU] Аттила Йожеф"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi József Attila egyik jelentős műve?",
-        "answer":  "Tiszta szívvel",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Attila József\u0027s significant works?",
-                                        "answer":  "[EN] With a Pure Heart"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Аттилы Йожефа?",
-                                        "answer":  "[RU] С чистым сердцем"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű József Attilától származik?",
-        "correctCount":  1,
-        "options":  [
-                        "Tiszta szívvel",
-                        "Nem tudhatom",
-                        "Édes Anna"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is by Attila József?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Аттиле Йожефу?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta a Nem tudhatom című verset?",
-        "answer":  "Radnóti Miklós",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the poem I Cannot Know?",
-                                        "answer":  "[EN] Miklós Radnóti"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал стихотворение Я не могу знать?",
-                                        "answer":  "[RU] Миклош Радноти"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Radnóti Miklós egyik jelentős műve?",
-        "answer":  "Nem tudhatom",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Miklós Radnóti\u0027s significant works?",
-                                        "answer":  "[EN] I Cannot Know"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Миклоша Радноти?",
-                                        "answer":  "[RU] Я не могу знать"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki írta a Nem tudhatom című verset?",
-        "correctCount":  1,
-        "options":  [
-                        "Radnóti Miklós",
-                        "József Attila",
-                        "Ady Endre"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the poem I Cannot Know?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал стихотворение Я не могу знать?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta az Egy polgár vallomása című művet?",
-        "answer":  "Márai Sándor",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work Confessions of a Bourgeois?",
-                                        "answer":  "[EN] Sándor Márai"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Исповедь буржуа?",
-                                        "answer":  "[RU] Шандор Мараи"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Márai Sándor egyik jelentős műve?",
-        "answer":  "Egy polgár vallomása",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Sándor Márai\u0027s significant works?",
-                                        "answer":  "[EN] Confessions of a Bourgeois"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Шандора Мараи?",
-                                        "answer":  "[RU] Исповедь буржуа"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Márai Sándor alkotása?",
-        "correctCount":  1,
-        "options":  [
-                        "Egy polgár vallomása",
-                        "Tiszta szívvel",
-                        "Rokonok"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is Sándor Márai\u0027s creation?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Шандору Мараи?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Soroljon fel három európai írót",
-        "answer":  "William Shakespeare ÷ Voltaire ÷ Johann Wolfgang von Goethe ÷ Goethe ÷ Shakespeare",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] List three European writers!",
-                                        "answer":  "[EN] William Shakespeare ÷ Voltaire ÷ Johann Wolfgang von Goethe ÷ Goethe ÷ Shakespeare"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Перечислите трех европейских писателей!",
-                                        "answer":  "[RU] Уильям Шекспир ÷ Вольтер ÷ Иоганн Вольфганг фон Гёте ÷ Гёте ÷ Шекспир"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta a Rómeó és Júlia című drámát?",
-        "answer":  "William Shakespeare",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the drama Romeo and Juliet?",
-                                        "answer":  "[EN] William Shakespeare"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал драму Ромео и Джульетта?",
-                                        "answer":  "[RU] Уильям Шекспир"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi William Shakespeare egyik jelentős műve?",
-        "answer":  "Rómeó és Júlia",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of William Shakespeare\u0027s significant works?",
-                                        "answer":  "[EN] Romeo and Juliet"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Уильяма Шекспира?",
-                                        "answer":  "[RU] Ромео и Джульетта"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki írta a Rómeó és Júlia című művet?",
-        "correctCount":  1,
-        "options":  [
-                        "William Shakespeare",
-                        "Voltaire",
-                        "Goethe"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work Romeo and Juliet?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Ромео и Джульетта?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta a Candide című művet?",
-        "answer":  "Voltaire",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work Candide?",
-                                        "answer":  "[EN] Voltaire"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Кандид?",
-                                        "answer":  "[RU] Вольтер"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Voltaire egyik jelentős műve?",
-        "answer":  "Candide",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Voltaire\u0027s significant works?",
-                                        "answer":  "[EN] Candide"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Вольтера?",
-                                        "answer":  "[RU] Кандид"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Voltaire alkotása?",
-        "correctCount":  1,
-        "options":  [
-                        "Candide",
-                        "Faust",
-                        "Rómeó és Júlia"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is Voltaire\u0027s creation?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Вольтеру?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki írta a Faust című művet?",
-        "answer":  "Johann Wolfgang von Goethe",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work Faust?",
-                                        "answer":  "[EN] Johann Wolfgang von Goethe"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Фауст?",
-                                        "answer":  "[RU] Иоганн Вольфганг фон Гёте"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Goethe egyik legjelentősebb műve?",
-        "answer":  "Faust",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Goethe\u0027s most significant works?",
-                                        "answer":  "[EN] Faust"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из самых значительных произведений Гёте?",
-                                        "answer":  "[RU] Фауст"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki írta a Faust című művet?",
-        "correctCount":  1,
-        "options":  [
-                        "Johann Wolfgang von Goethe",
-                        "Voltaire",
-                        "Shakespeare"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who wrote the work Faust?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто написал произведение Фауст?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Soroljon fel három európai zeneszerzőt!",
-        "answer":  "Ludwig van Beethoven ÷ Wolfgang Amadeus Mozart ÷ Pjotr Iljics Csajkovszkij",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] List three European composers!",
-                                        "answer":  "[EN] Ludwig van Beethoven ÷ Wolfgang Amadeus Mozart ÷ Pyotr Ilyich Tchaikovsky"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Перечислите трех европейских композиторов!",
-                                        "answer":  "[RU] Людвиг ван Бетховен ÷ Вольфганг Амадей Моцарт ÷ Пётр Ильич Чайковский"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki komponálta a IX. szimfóniát?",
-        "answer":  "Ludwig van Beethoven",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who composed the 9th Symphony?",
-                                        "answer":  "[EN] Ludwig van Beethoven"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто сочинил 9-ю симфонию?",
-                                        "answer":  "[RU] Людвиг ван Бетховен"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Ludwig van Beethoven egyik jelentős műve?",
-        "answer":  "IX. szimfónia",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Ludwig van Beethoven\u0027s significant works?",
-                                        "answer":  "[EN] 9th Symphony"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Людвига ван Бетховена?",
-                                        "answer":  "[RU] 9-я симфония"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Beethoventől származik?",
-        "correctCount":  1,
-        "options":  [
-                        "IX. szimfónia",
-                        "A varázsfuvola",
-                        "A hattyúk tava"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is by Beethoven?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Бетховену?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Melyik zeneszerző művéből származik az EU himnusza?",
-        "answer":  "Ludwig van Beethoven",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] From which composer\u0027s work does the EU anthem come?",
-                                        "answer":  "[EN] Ludwig van Beethoven"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Из произведения какого композитора взят гимн ЕС?",
-                                        "answer":  "[RU] Людвиг ван Бетховен"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki komponálta A varázsfuvola című operát?",
-        "answer":  "Wolfgang Amadeus Mozart ÷ Mozart",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who composed the opera The Magic Flute?",
-                                        "answer":  "[EN] Wolfgang Amadeus Mozart ÷ Mozart"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто сочинил оперу Волшебная флейта?",
-                                        "answer":  "[RU] Вольфганг Амадей Моцарт ÷ Моцарт"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Mozart egyik jelentős műve?",
-        "answer":  "A varázsfuvola",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Mozart\u0027s significant works?",
-                                        "answer":  "[EN] The Magic Flute"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Моцарта?",
-                                        "answer":  "[RU] Волшебная флейта"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik mű Mozarttól való?",
-        "correctCount":  1,
-        "options":  [
-                        "A varázsfuvola",
-                        "IX. szimfónia",
-                        "A hattyúk tava"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which work is by Mozart?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое произведение принадлежит Моцарту?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki komponálta A hattyúk tava című balettet?",
-        "answer":  "Pjotr Iljics Csajkovszkij ÷ Csajkovszkij",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who composed the ballet Swan Lake?",
-                                        "answer":  "[EN] Pyotr Ilyich Tchaikovsky ÷ Tchaikovsky"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто сочинил балет Лебединое озеро?",
-                                        "answer":  "[RU] Пётр Ильич Чайковский ÷ Чайковский"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Csajkovszkij egyik jelentős műve?",
-        "answer":  "A hattyúk tava",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is one of Tchaikovsky\u0027s significant works?",
-                                        "answer":  "[EN] Swan Lake"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое одно из значительных произведений Чайковского?",
-                                        "answer":  "[RU] Лебединое озеро"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki szerezte A hattyúk tava című balettet?",
-        "correctCount":  1,
-        "options":  [
-                        "Pjotr Iljics Csajkovszkij",
-                        "Mozart",
-                        "Beethoven"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who composed the ballet Swan Lake?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто сочинил балет Лебединое озеро?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Mikor mutatták be Beethoven IX. szimfóniáját?",
-        "answer":  "1824",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] When was Beethoven\u0027s 9th Symphony premiered?",
-                                        "answer":  "[EN] 1824"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Когда состоялась премьера 9-й симфонии Бетховена?",
-                                        "answer":  "[RU] 1824"
-                                    }
-                         },
-        "inputType":  "year"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik évben mutatták be a IX. szimfóniát?",
-        "correctCount":  1,
-        "options":  [
-                        "1824-ben",
-                        "1785-ben",
-                        "1900-ban"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] In which year was the 9th Symphony premiered?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] В каком году состоялась премьера 9-й симфонии?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Melyik Friedrich von Schiller költeményt zenésítette meg Beethoven?",
-        "answer":  "Az Örömódát",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which Friedrich von Schiller poem did Beethoven set to music?",
-                                        "answer":  "[EN] Ode to Joy"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое стихотворение Фридриха Шиллера положил на музыку Бетховен?",
-                                        "answer":  "[RU] Ода к радости"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mikor írta Schiller az Örömóda költeményt?",
-        "answer":  "1785",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] When did Schiller write the poem Ode to Joy?",
-                                        "answer":  "[EN] 1785"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Когда Шиллер написал стихотворение Ода к радости?",
-                                        "answer":  "[RU] 1785"
-                                    }
-                         },
-        "inputType":  "year"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik Schiller költeményt használta fel Beethoven a IX. szimfóniában?",
-        "correctCount":  1,
-        "options":  [
-                        "Örömóda",
-                        "Candide",
-                        "Faust"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which Schiller poem did Beethoven use in the 9th Symphony?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое стихотворение Шиллера использовал Бетховен в 9-й симфонии?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mi vált az Európai Unió jelképévé?",
-        "correctCount":  1,
-        "options":  [
-                        "Beethoven IX. szimfóniájának negyedik tétele",
-                        "Mozart A varázsfuvolája",
-                        "A magyar Himnusz"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What has become the symbol of the European Union?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что стало символом Европейского Союза?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
+        "type": "Open",
+        "inputType": "year",
+        "question": "Mikor kezdték gyűjteni a népdalokat?",
+        "answer": "1800 ÷ Az 1800-as",
+        "translations": {
+            "en": {
+                "question": "[EN] When did folk song collection begin?",
+                "answer": "[EN] From the 1800s ÷ 1800s"
+            },
+            "ru": {
+                "question": "[RU] Когда начали собирать народные песни?",
+                "answer": "[RU] С 1800-х годов ÷ 1800-х"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Mettől kezdték gyűjteni a népdalokat?",
+        "correctCount": 1,
+        "options": [
+            "Az 1800-as évektől",
+            "A 1700-as évektől",
+            "A 1900-as évektől"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] From when did they start collecting folk songs?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] С какого времени начали собирать народные песни?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "text",
+        "question": "Ki volt a magyar népzenekutatás két leghíresebb képviselője?",
+        "answer": "Bartók Béla és Kodály Zoltán",
+        "translations": {
+            "en": {
+                "question": "[EN] Who were the two most famous representatives of Hungarian folk music research?",
+                "answer": "[EN] Béla Bartók and Zoltán Kodály"
+            },
+            "ru": {
+                "question": "[RU] Кто был двумя самыми известными представителями венгерского исследования народной музыки?",
+                "answer": "[RU] Бела Барток и Золтан Кодай"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Kik voltak a magyar népzenekutatás leghíresebb képviselői?",
+        "correctCount": 2,
+        "options": [
+            "Bartók Béla",
+            "Kodály Zoltán",
+            "Liszt Ferenc",
+            "Erkel Ferenc"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who were the most famous representatives of Hungarian folk music research?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто были самыми известными представителями венгерского исследования народной музыки?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki komponálta a Bánk bán operát?",
+        "answer": "Erkel Ferenc",
+        "translations": {
+            "en": {
+                "question": "[EN] Who composed the opera Bánk bán?",
+                "answer": "[EN] Ferenc Erkel"
+            },
+            "ru": {
+                "question": "[RU] Кто сочинил оперу Банк бан?",
+                "answer": "[RU] Ференц Эркель"
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "text",
+        "question": "Mi Erkel Ferenc leghíresebb műve?",
+        "answer": "Bánk bán",
+        "translations": {
+            "en": {
+                "question": "[EN] What is Ferenc Erkel\u0027s most famous work?",
+                "answer": "[EN] Bánk bán opera"
+            },
+            "ru": {
+                "question": "[RU] Какое самое известное произведение Ференца Эркеля?",
+                "answer": "[RU] Опера Банк бан"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki szerezte a Bánk bán operát?",
+        "correctCount": 1,
+        "options": [
+            "Erkel Ferenc",
+            "Liszt Ferenc",
+            "Bartók Béla"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who composed the opera Bánk bán?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто сочинил оперу Банк бан?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki komponálta a Magyar rapszódiákat?",
+        "answer": "Liszt Ferenc",
+        "translations": {
+            "en": {
+                "question": "[EN] Who composed the Hungarian Rhapsodies?",
+                "answer": "[EN] Franz Liszt"
+            },
+            "ru": {
+                "question": "[RU] Кто сочинил Венгерские рапсодии?",
+                "answer": "[RU] Ференц Лист"
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "text",
+        "question": "Mi Liszt Ferenc egyik leghíresebb műve?",
+        "answer": "Magyar rapszódiák",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Franz Liszt\u0027s most famous works?",
+                "answer": "[EN] Hungarian Rhapsodies"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из самых известных произведений Ференца Листа?",
+                "answer": "[RU] Венгерские рапсодии"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Liszt Ferenctől származik?",
+        "correctCount": 1,
+        "options": [
+            "Magyar rapszódiák",
+            "Bánk bán",
+            "Háry János"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is by Franz Liszt?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Ференцу Листу?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki komponálta A kékszakállú herceg vára című operát?",
+        "answer": "Bartók Béla",
+        "translations": {
+            "en": {
+                "question": "[EN] Who composed the opera Bluebeard\u0027s Castle?",
+                "answer": "[EN] Béla Bartók"
+            },
+            "ru": {
+                "question": "[RU] Кто сочинил оперу Замок герцога Синяя Борода?",
+                "answer": "[RU] Бела Барток"
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "text",
+        "question": "Mi Bartók Béla egyik leghíresebb műve?",
+        "answer": "A kékszakállú herceg vára",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Béla Bartók\u0027s most famous works?",
+                "answer": "[EN] Bluebeard\u0027s Castle"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из самых известных произведений Белы Бартока?",
+                "answer": "[RU] Замок герцога Синяя Борода"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki szerezte A kékszakállú herceg vára operát?",
+        "correctCount": 1,
+        "options": [
+            "Bartók Béla",
+            "Kodály Zoltán",
+            "Erkel Ferenc"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who composed the opera Bluebeard\u0027s Castle?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто сочинил оперу Замок герцога Синяя Борода?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki komponálta a Háry János című művet?",
+        "answer": "Kodály Zoltán",
+        "translations": {
+            "en": {
+                "question": "[EN] Who composed the work Háry János?",
+                "answer": "[EN] Zoltán Kodály"
+            },
+            "ru": {
+                "question": "[RU] Кто сочинил произведение Хари Янош?",
+                "answer": "[RU] Золтан Кодай"
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "text",
+        "question": "Mi Kodály Zoltán egyik leghíresebb műve?",
+        "answer": "Háry János",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Zoltán Kodály\u0027s most famous works?",
+                "answer": "[EN] Háry János"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из самых известных произведений Золтана Кодая?",
+                "answer": "[RU] Хари Янош"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Kodály Zoltántól származik?",
+        "correctCount": 1,
+        "options": [
+            "Háry János",
+            "A kékszakállú herceg vára",
+            "Bánk bán"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is by Zoltán Kodály?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Золтану Кодаю?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki volt egyszerre népzenekutató és zeneszerző?",
+        "correctCount": 2,
+        "options": [
+            "Bartók Béla",
+            "Kodály Zoltán",
+            "Liszt Ferenc",
+            "Petőfi Sándor"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who was both a folk music researcher and a composer?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто был одновременно исследователем народной музыки и композитором?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "list",
+        "inputCount": 2,
+        "question": "Soroljon fel két reneszánsz költőt",
+        "answer": "Janus Pannonius ÷ Balassi Bálint",
+        "translations": {
+            "en": {
+                "question": "[EN] List two Renaissance poets!",
+                "answer": "[EN] Janus Pannonius ÷ Bálint Balassi"
+            },
+            "ru": {
+                "question": "[RU] Перечислите двух поэтов эпохи Возрождения!",
+                "answer": "[RU] Янус Паннониус ÷ Балинт Балашши"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki volt reneszánsz költő?",
+        "correctCount": 2,
+        "options": [
+            "Janus Pannonius",
+            "Balassi Bálint",
+            "Petőfi Sándor",
+            "Arany János"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who was a Renaissance poet?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто был поэтом эпохи Возрождения?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki írta a Pannónia dicsérete című művet?",
+        "answer": "Janus Pannonius",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work In Praise of Pannonia?",
+                "answer": "[EN] Janus Pannonius"
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Похвала Паннонии?",
+                "answer": "[RU] Янус Паннониус"
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "text",
+        "question": "Mi Janus Pannonius egyik jelentős műve?",
+        "answer": "Pannónia dicsérete",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Janus Pannonius\u0027s significant works?",
+                "answer": "[EN] In Praise of Pannonia"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Януса Паннониуса?",
+                "answer": "[RU] Похвала Паннонии"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki írta a Pannónia dicsérete című művet?",
+        "correctCount": 1,
+        "options": [
+            "Janus Pannonius",
+            "Balassi Bálint",
+            "Zrínyi Miklós"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work In Praise of Pannonia?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Похвала Паннонии?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki írta a \"Hogy Júliára talála, így köszöne néki\" című verset?",
+        "answer": "Balassi Bálint",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the poem \"Upon Finding Julia, He Greeted Her Thus\"?",
+                "answer": "[EN] Bálint Balassi"
+            },
+            "ru": {
+                "question": "[RU] Кто написал стихотворение \"Как он встретил Юлию и приветствовал её\"?",
+                "answer": "[RU] Балинт Балашши"
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "text",
+        "question": "Mi Balassi Bálint egyik jelentős műve?",
+        "answer": "Hogy Júliára talála, így köszöne néki",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Bálint Balassi\u0027s significant works?",
+                "answer": "[EN] Upon Finding Julia, He Greeted Her Thus"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Балинта Балашши?",
+                "answer": "[RU] Как он встретил Юлию и приветствовал её"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik költő művéből való a \"Hogy Júliára talála\" cím?",
+        "correctCount": 1,
+        "options": [
+            "Balassi Bálint",
+            "Janus Pannonius",
+            "Csokonai Vitéz Mihály"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] From which poet\u0027s work does the title \"Upon Finding Julia\" come?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Из произведения какого поэта взято название \"Как он встретил Юлию\"?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki volt a barokk irodalom kiemelkedő alakja?",
+        "answer": "Zrínyi Miklós",
+        "translations": {
+            "en": {
+                "question": "[EN] Who was a prominent figure of Baroque literature?",
+                "answer": "[EN] Miklós Zrínyi"
+            },
+            "ru": {
+                "question": "[RU] Кто был выдающейся фигурой литературы барокко?",
+                "answer": "[RU] Миклош Зриньи"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki képviselte a barokk irodalmat?",
+        "correctCount": 1,
+        "options": [
+            "Zrínyi Miklós",
+            "Balassi Bálint",
+            "Kazinczy Ferenc"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who represented Baroque literature?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто представлял литературу барокко?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta a Szigeti veszedelem című művet?",
+        "answer": "Zrínyi Miklós",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work The Siege of Sziget?",
+                "answer": "[EN] Miklós Zrínyi"
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Осада Сигета?",
+                "answer": "[RU] Миклош Зриньи"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Zrínyi Miklós kiemelkedő műve?",
+        "answer": "Szigeti veszedelem",
+        "translations": {
+            "en": {
+                "question": "[EN] What is Miklós Zrínyi\u0027s prominent work?",
+                "answer": "[EN] The Siege of Sziget"
+            },
+            "ru": {
+                "question": "[RU] Какое выдающееся произведение Миклоша Зриньи?",
+                "answer": "[RU] Осада Сигета"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Zrínyi Miklós alkotása?",
+        "correctCount": 1,
+        "options": [
+            "Szigeti veszedelem",
+            "Bánk bán",
+            "Toldi"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is Miklós Zrínyi\u0027s creation?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Миклошу Зриньи?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "list",
+        "inputCount": 2,
+        "question": "Soroljon fel két felvilágosodás kori költőt!",
+        "answer": "Csokonai Vitéz Mihály ÷ Batsányi János",
+        "translations": {
+            "en": {
+                "question": "[EN] List two poets of the Enlightenment era!",
+                "answer": "[EN] Mihály Csokonai Vitéz ÷ János Batsányi"
+            },
+            "ru": {
+                "question": "[RU] Перечислите двух поэтов эпохи Просвещения!",
+                "answer": "[RU] Михай Чоконаи Витез ÷ Янош Бачаньи"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki volt felvilágosodás kori költő?",
+        "correctCount": 2,
+        "options": [
+            "Csokonai Vitéz Mihály",
+            "Batsányi János",
+            "Vörösmarty Mihály",
+            "Petőfi Sándor"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who was a poet of the Enlightenment era?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто был поэтом эпохи Просвещения?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta A reményhez című verset?",
+        "answer": "Csokonai Vitéz Mihály",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the poem To Hope?",
+                "answer": "[EN] Mihály Csokonai Vitéz"
+            },
+            "ru": {
+                "question": "[RU] Кто написал стихотворение К Надежде?",
+                "answer": "[RU] Михай Чоконаи Витез"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Csokonai Vitéz Mihály egyik kiemelkedő műve?",
+        "answer": "A reményhez",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Mihály Csokonai Vitéz\u0027s prominent works?",
+                "answer": "[EN] To Hope"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из выдающихся произведений Михая Чоконаи Витеза?",
+                "answer": "[RU] К Надежде"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Csokonai Vitéz Mihálytól való?",
+        "correctCount": 1,
+        "options": [
+            "A reményhez",
+            "A franciaországi változásokra",
+            "Szózat"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is by Mihály Csokonai Vitéz?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Михаю Чоконаи Витезу?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta A franciaországi változásokra című verset?",
+        "answer": "Batsányi János",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the poem On the Changes in France?",
+                "answer": "[EN] János Batsányi"
+            },
+            "ru": {
+                "question": "[RU] Кто написал стихотворение На изменения во Франции?",
+                "answer": "[RU] Янош Бачаньи"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Batsányi János egyik kiemelkedő műve?",
+        "answer": "A franciaországi változásokra",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of János Batsányi\u0027s prominent works?",
+                "answer": "[EN] On the Changes in France"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из выдающихся произведений Яноша Бачаньи?",
+                "answer": "[RU] На изменения во Франции"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki írta A franciaországi változásokra című művet?",
+        "correctCount": 1,
+        "options": [
+            "Batsányi János",
+            "Csokonai Vitéz Mihály",
+            "Kazinczy Ferenc"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work On the Changes in France?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение На изменения во Франции?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "list",
+        "inputCount": 2,
+        "question": "Soroljon fel két klasszicista költőt!",
+        "answer": "Kazinczy Ferenc ÷ Berzsenyi Dániel",
+        "translations": {
+            "en": {
+                "question": "[EN] List two Classicist poets!",
+                "answer": "[EN] Ferenc Kazinczy ÷ Dániel Berzsenyi"
+            },
+            "ru": {
+                "question": "[RU] Перечислите двух поэтов классицизма!",
+                "answer": "[RU] Ференц Казинци ÷ Даниэль Бержени"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki volt klasszicista költő?",
+        "correctCount": 2,
+        "options": [
+            "Kazinczy Ferenc",
+            "Berzsenyi Dániel",
+            "Petőfi Sándor",
+            "József Attila"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who was a Classicist poet?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто был поэтом классицизма?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki volt a hazai nyelvújítás vezéralakja?",
+        "answer": "Kazinczy Ferenc",
+        "translations": {
+            "en": {
+                "question": "[EN] Who was the leading figure of the domestic language reform?",
+                "answer": "[EN] Ferenc Kazinczy"
+            },
+            "ru": {
+                "question": "[RU] Кто был ведущей фигурой отечественной языковой реформы?",
+                "answer": "[RU] Ференц Казинци"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki vezette a magyar nyelvújítást?",
+        "correctCount": 1,
+        "options": [
+            "Kazinczy Ferenc",
+            "Berzsenyi Dániel",
+            "Kölcsey Ferenc"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who led the Hungarian language reform?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто руководил венгерской языковой реформой?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta Az első szerelem című verset?",
+        "answer": "Berzsenyi Dániel",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the poem The First Love?",
+                "answer": "[EN] Dániel Berzsenyi"
+            },
+            "ru": {
+                "question": "[RU] Кто написал стихотворение Первая любовь?",
+                "answer": "[RU] Даниэль Бержени"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Berzsenyi Dániel egyik kiemelkedő műve?",
+        "answer": "Az első szerelem",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Dániel Berzsenyi\u0027s prominent works?",
+                "answer": "[EN] The First Love"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из выдающихся произведений Даниэля Бержени?",
+                "answer": "[RU] Первая любовь"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Berzsenyi Dánieltől való?",
+        "correctCount": 1,
+        "options": [
+            "Az első szerelem",
+            "A reményhez",
+            "Himnusz"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is by Dániel Berzsenyi?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Даниэлю Бержени?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Mi jellemezte az 1820-as éveket?",
+        "correctCount": 1,
+        "options": [
+            "A politikai és az irodalom szoros összefonódása",
+            "A háborúk",
+            "A gazdasági válság"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What characterized the 1820s?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Что характеризовало 1820-е годы?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Melyik város vált az ország irodalmi középpontjává az 1820-as években?",
+        "answer": "Pest-Buda",
+        "translations": {
+            "en": {
+                "question": "[EN] Which city became the literary center of the country in the 1820s?",
+                "answer": "[EN] Pest-Buda"
+            },
+            "ru": {
+                "question": "[RU] Какой город стал литературным центром страны в 1820-х годах?",
+                "answer": "[RU] Пешт-Буда"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik város lett az irodalmi központ a romantika idején?",
+        "correctCount": 1,
+        "options": [
+            "Pest-Buda",
+            "Debrecen",
+            "Szeged"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which city became the literary center during the Romantic period?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какой город стал литературным центром в эпоху романтизма?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Mi kezdett megjelenni az 1820-as években?",
+        "correctCount": 2,
+        "options": [
+            "Újságok",
+            "Folyóiratok",
+            "Filmek",
+            "Rádiók"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What started to appear in the 1820s?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Что начало появляться в 1820-х годах?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik intézmény alakult a romantika korában?",
+        "correctCount": 1,
+        "options": [
+            "Magyar Tudományos Akadémia",
+            "Magyar Nemzeti Múzeum",
+            "Országgyűlés"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which institution was founded in the Romantic era?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое учреждение было основано в эпоху романтизма?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Mikor nyitotta meg kapuit a Pesti Magyar Színház?",
+        "answer": "1837",
+        "translations": {
+            "en": {
+                "question": "[EN] When did the Pest Hungarian Theatre open its doors?",
+                "answer": "[EN] 1837"
+            },
+            "ru": {
+                "question": "[RU] Когда открылся Пештский венгерский театр?",
+                "answer": "[RU] 1837"
+            }
+        },
+        "inputType": "year"
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta a Himnuszt?",
+        "answer": "Kölcsey Ferenc",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the Hymn?",
+                "answer": "[EN] Ferenc Kölcsey"
+            },
+            "ru": {
+                "question": "[RU] Кто написал Гимн?",
+                "answer": "[RU] Ференц Кёльчеи"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Kölcsey Ferenc egyik legjelentősebb műve?",
+        "answer": "Himnusz",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Ferenc Kölcsey\u0027s most significant works?",
+                "answer": "[EN] Hymn"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из самых значительных произведений Ференца Кёльчеи?",
+                "answer": "[RU] Гимн"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik romantikus költő írta a Himnuszt?",
+        "correctCount": 1,
+        "options": [
+            "Kölcsey Ferenc",
+            "Vörösmarty Mihály",
+            "Petőfi Sándor"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which Romantic poet wrote the Hymn?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какой поэт-романтик написал Гимн?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta a Szózatot?",
+        "answer": "Vörösmarty Mihály",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the Szózat (Appeal)?",
+                "answer": "[EN] Mihály Vörösmarty"
+            },
+            "ru": {
+                "question": "[RU] Кто написал Призыв (Szózat)?",
+                "answer": "[RU] Михай Вёрёшмарти"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Vörösmarty Mihály egyik legjelentősebb műve?",
+        "answer": "Szózat",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Mihály Vörösmarty\u0027s most significant works?",
+                "answer": "[EN] Szózat"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из самых значительных произведений Михая Вёрёшмарти?",
+                "answer": "[RU] Призыв"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki a Szózat szerzője?",
+        "correctCount": 1,
+        "options": [
+            "Vörösmarty Mihály",
+            "Kölcsey Ferenc",
+            "Arany János"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who is the author of the Szózat?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто автор Призыва?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta a Nemzeti dalt?",
+        "answer": "Petőfi Sándor",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the National Song?",
+                "answer": "[EN] Sándor Petőfi"
+            },
+            "ru": {
+                "question": "[RU] Кто написал Национальную песню?",
+                "answer": "[RU] Шандор Петёфи"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Petőfi Sándor egyik legjelentősebb műve?",
+        "answer": "Nemzeti dal",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Sándor Petőfi\u0027s most significant works?",
+                "answer": "[EN] National Song"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из самых значительных произведений Шандора Петёфи?",
+                "answer": "[RU] Национальная песня"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Petőfi Sándortól származik?",
+        "correctCount": 1,
+        "options": [
+            "Nemzeti dal",
+            "Himnusz",
+            "Szózat"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is by Sándor Petőfi?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Шандору Петёфи?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta A kőszívű ember fiai című regényt?",
+        "answer": "Jókai Mór",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the novel The Baron\u0027s Sons?",
+                "answer": "[EN] Mór Jókai"
+            },
+            "ru": {
+                "question": "[RU] Кто написал роман Сыновья человека с каменным сердцем?",
+                "answer": "[RU] Мор Йокаи"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Jókai Mór egyik jelentős műve?",
+        "answer": "A kőszívű ember fiai",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Mór Jókai\u0027s significant works?",
+                "answer": "[EN] The Baron\u0027s Sons"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Мора Йокаи?",
+                "answer": "[RU] Сыновья человека с каменным сердцем"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki írta A kőszívű ember fiai című regényt?",
+        "correctCount": 1,
+        "options": [
+            "Jókai Mór",
+            "Petőfi Sándor",
+            "Arany János"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the novel The Baron\u0027s Sons?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто написал роман Сыновья человека с каменным сердцем?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta A walesi bárdok című művet?",
+        "answer": "Arany János",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work The Bards of Wales?",
+                "answer": "[EN] János Arany"
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Валлийские барды?",
+                "answer": "[RU] Янош Арань"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Arany János egyik jelentős műve?",
+        "answer": "A walesi bárdok",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of János Arany\u0027s significant works?",
+                "answer": "[EN] The Bards of Wales"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Яноша Араня?",
+                "answer": "[RU] Валлийские барды"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Arany Jánostól való?",
+        "correctCount": 1,
+        "options": [
+            "A walesi bárdok",
+            "Nemzeti dal",
+            "Bánk bán"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is by János Arany?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Яношу Араню?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta a Bánk bán című drámát?",
+        "answer": "Katona József",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the drama Bánk bán?",
+                "answer": "[EN] József Katona"
+            },
+            "ru": {
+                "question": "[RU] Кто написал драму Банк бан?",
+                "answer": "[RU] Йожеф Катона"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Katona József legjelentősebb műve?",
+        "answer": "Bánk bán",
+        "translations": {
+            "en": {
+                "question": "[EN] What is József Katona\u0027s most significant work?",
+                "answer": "[EN] Bánk bán"
+            },
+            "ru": {
+                "question": "[RU] Какое самое значительное произведение Йожефа Катоны?",
+                "answer": "[RU] Банк бан"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki írta a Bánk bán drámát?",
+        "correctCount": 1,
+        "options": [
+            "Katona József",
+            "Madách Imre",
+            "Petőfi Sándor"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the drama Bánk bán?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто написал драму Банк бан?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta Az ember tragédiája című művet?",
+        "answer": "Madách Imre",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work The Tragedy of Man?",
+                "answer": "[EN] Imre Madách"
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Трагедия человека?",
+                "answer": "[RU] Имре Мадач"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Madách Imre legjelentősebb műve?",
+        "answer": "Az ember tragédiája",
+        "translations": {
+            "en": {
+                "question": "[EN] What is Imre Madách\u0027s most significant work?",
+                "answer": "[EN] The Tragedy of Man"
+            },
+            "ru": {
+                "question": "[RU] Какое самое значительное произведение Имре Мадача?",
+                "answer": "[RU] Трагедия человека"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Madách Imre alkotása?",
+        "correctCount": 1,
+        "options": [
+            "Az ember tragédiája",
+            "Bánk bán",
+            "A kőszívű ember fiai"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is Imre Madách\u0027s creation?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Имре Мадачу?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "list",
+        "inputCount": 5,
+        "question": "Soroljon fel öt romantikus költőt vagy írót!",
+        "answer": "Kölcsey Ferenc ÷ Vörösmarty Mihály ÷ Petőfi Sándor ÷ Jókai Mór ÷ Arany János ÷ Katona József ÷ Madách Imre",
+        "translations": {
+            "en": {
+                "question": "[EN] List five Romantic poets or writers!",
+                "answer": "[EN] Ferenc Kölcsey ÷ Mihály Vörösmarty ÷ Sándor Petőfi ÷ Mór Jókai ÷ János Arany ÷ József Katona ÷ Imre Madách"
+            },
+            "ru": {
+                "question": "[RU] Перечислите пять поэтов или писателей эпохи романтизма!",
+                "answer": "[RU] Ференц Кёльчеи ÷ Михай Вёрёшмарти ÷ Шандор Петёфи ÷ Мор Йокаи ÷ Янош Арань ÷ Йожеф Катона ÷ Имре Мадач"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki volt romantikus költő vagy író?",
+        "correctCount": 4,
+        "options": [
+            "Petőfi Sándor",
+            "Arany János",
+            "Vörösmarty Mihály",
+            "Jókai Mór",
+            "Bartók Béla",
+            "Liszt Ferenc",
+            "Orbán Viktor"
+        ],
+        "correctIndices": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who was a Romantic poet or writer?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто был поэтом или писателем эпохи романтизма?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "list",
+        "inputCount": 5,
+        "question": "Soroljon fel öt 20. századi költőt vagy írót!",
+        "answer": "Ady Endre ÷ Móricz Zsigmond ÷ Kosztolányi Dezső ÷ Karinthy Frigyes ÷ József Attila ÷ Radnóti Miklós ÷ Márai Sándor",
+        "translations": {
+            "en": {
+                "question": "[EN] List five 20th-century poets or writers!",
+                "answer": "[EN] Endre Ady ÷ Zsigmond Móricz ÷ Dezső Kosztolányi ÷ Frigyes Karinthy ÷ Attila József ÷ Miklós Radnóti ÷ Sándor Márai"
+            },
+            "ru": {
+                "question": "[RU] Перечислите пять поэтов или писателей 20-го века!",
+                "answer": "[RU] Эндре Ади ÷ Жигмонд Мориц ÷ Дежё Костолани ÷ Фридьеш Каринти ÷ Аттила Йожеф ÷ Миклош Радноти ÷ Шандор Мараи"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki volt 20. századi magyar költő vagy író?",
+        "correctCount": 4,
+        "options": [
+            "Ady Endre",
+            "József Attila",
+            "Móricz Zsigmond",
+            "Márai Sándor",
+            "Petőfi Sándor",
+            "Arany János",
+            "Balassi Bálint"
+        ],
+        "correctIndices": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who was a 20th-century Hungarian poet or writer?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто был венгерским поэтом или писателем 20-го века?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta az Elbocsátó, szép üzenet című verset?",
+        "answer": "Ady Endre",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the poem The Dismissing Beautiful Message?",
+                "answer": "[EN] Endre Ady"
+            },
+            "ru": {
+                "question": "[RU] Кто написал стихотворение Прощальное прекрасное послание?",
+                "answer": "[RU] Эндре Ади"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Ady Endre egyik jelentős műve?",
+        "answer": "Elbocsátó, szép üzenet",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Endre Ady\u0027s significant works?",
+                "answer": "[EN] The Dismissing Beautiful Message"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Эндре Ади?",
+                "answer": "[RU] Прощальное прекрасное послание"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Ady Endrétől származik?",
+        "correctCount": 1,
+        "options": [
+            "Elbocsátó, szép üzenet",
+            "Rokonok",
+            "Tiszta szívvel"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is by Endre Ady?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Эндре Ади?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta a Rokonok című regényt?",
+        "answer": "Móricz Zsigmond",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the novel Relatives?",
+                "answer": "[EN] Zsigmond Móricz"
+            },
+            "ru": {
+                "question": "[RU] Кто написал роман Родственники?",
+                "answer": "[RU] Жигмонд Мориц"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Móricz Zsigmond egyik jelentős műve?",
+        "answer": "Rokonok",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Zsigmond Móricz\u0027s significant works?",
+                "answer": "[EN] Relatives"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Жигмонда Морица?",
+                "answer": "[RU] Родственники"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki írta a Rokonok című művet?",
+        "correctCount": 1,
+        "options": [
+            "Móricz Zsigmond",
+            "Kosztolányi Dezső",
+            "Ady Endre"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work Relatives?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Родственники?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta az Édes Anna című regényt?",
+        "answer": "Kosztolányi Dezső",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the novel Anna Édes?",
+                "answer": "[EN] Dezső Kosztolányi"
+            },
+            "ru": {
+                "question": "[RU] Кто написал роман Анна Эдеш?",
+                "answer": "[RU] Дежё Костолани"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Kosztolányi Dezső egyik jelentős műve?",
+        "answer": "Édes Anna",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Dezső Kosztolányi\u0027s significant works?",
+                "answer": "[EN] Anna Édes"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Дежё Костолани?",
+                "answer": "[RU] Анна Эдеш"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Kosztolányi Dezsőtől való?",
+        "correctCount": 1,
+        "options": [
+            "Édes Anna",
+            "Így írtok ti",
+            "Rokonok"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is by Dezső Kosztolányi?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Дежё Костолани?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta az Így írtok ti című művet?",
+        "answer": "Karinthy Frigyes",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work That\u0027s How You Write?",
+                "answer": "[EN] Frigyes Karinthy"
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Так пишете вы?",
+                "answer": "[RU] Фридьеш Каринти"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Karinthy Frigyes egyik jelentős műve?",
+        "answer": "Így írtok ti",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Frigyes Karinthy\u0027s significant works?",
+                "answer": "[EN] That\u0027s How You Write"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Фридьеша Каринти?",
+                "answer": "[RU] Так пишете вы"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki írta az Így írtok ti című művet?",
+        "correctCount": 1,
+        "options": [
+            "Karinthy Frigyes",
+            "Kosztolányi Dezső",
+            "József Attila"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work That\u0027s How You Write?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Так пишете вы?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta a Tiszta szívvel című verset?",
+        "answer": "József Attila",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the poem With a Pure Heart?",
+                "answer": "[EN] Attila József"
+            },
+            "ru": {
+                "question": "[RU] Кто написал стихотворение С чистым сердцем?",
+                "answer": "[RU] Аттила Йожеф"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi József Attila egyik jelentős műve?",
+        "answer": "Tiszta szívvel",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Attila József\u0027s significant works?",
+                "answer": "[EN] With a Pure Heart"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Аттилы Йожефа?",
+                "answer": "[RU] С чистым сердцем"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű József Attilától származik?",
+        "correctCount": 1,
+        "options": [
+            "Tiszta szívvel",
+            "Nem tudhatom",
+            "Édes Anna"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is by Attila József?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Аттиле Йожефу?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta a Nem tudhatom című verset?",
+        "answer": "Radnóti Miklós",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the poem I Cannot Know?",
+                "answer": "[EN] Miklós Radnóti"
+            },
+            "ru": {
+                "question": "[RU] Кто написал стихотворение Я не могу знать?",
+                "answer": "[RU] Миклош Радноти"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Radnóti Miklós egyik jelentős műve?",
+        "answer": "Nem tudhatom",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Miklós Radnóti\u0027s significant works?",
+                "answer": "[EN] I Cannot Know"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Миклоша Радноти?",
+                "answer": "[RU] Я не могу знать"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki írta a Nem tudhatom című verset?",
+        "correctCount": 1,
+        "options": [
+            "Radnóti Miklós",
+            "József Attila",
+            "Ady Endre"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the poem I Cannot Know?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто написал стихотворение Я не могу знать?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta az Egy polgár vallomása című művet?",
+        "answer": "Márai Sándor",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work Confessions of a Bourgeois?",
+                "answer": "[EN] Sándor Márai"
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Исповедь буржуа?",
+                "answer": "[RU] Шандор Мараи"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Márai Sándor egyik jelentős műve?",
+        "answer": "Egy polgár vallomása",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Sándor Márai\u0027s significant works?",
+                "answer": "[EN] Confessions of a Bourgeois"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Шандора Мараи?",
+                "answer": "[RU] Исповедь буржуа"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Márai Sándor alkotása?",
+        "correctCount": 1,
+        "options": [
+            "Egy polgár vallomása",
+            "Tiszta szívvel",
+            "Rokonok"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is Sándor Márai\u0027s creation?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Шандору Мараи?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "list",
+        "inputCount": 3,
+        "question": "Soroljon fel három európai írót",
+        "answer": "William Shakespeare ÷ Voltaire ÷ Johann Wolfgang von Goethe ÷ Goethe ÷ Shakespeare",
+        "translations": {
+            "en": {
+                "question": "[EN] List three European writers!",
+                "answer": "[EN] William Shakespeare ÷ Voltaire ÷ Johann Wolfgang von Goethe ÷ Goethe ÷ Shakespeare"
+            },
+            "ru": {
+                "question": "[RU] Перечислите трех европейских писателей!",
+                "answer": "[RU] Уильям Шекспир ÷ Вольтер ÷ Иоганн Вольфганг фон Гёте ÷ Гёте ÷ Шекспир"
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta a Rómeó és Júlia című drámát?",
+        "answer": "William Shakespeare",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the drama Romeo and Juliet?",
+                "answer": "[EN] William Shakespeare"
+            },
+            "ru": {
+                "question": "[RU] Кто написал драму Ромео и Джульетта?",
+                "answer": "[RU] Уильям Шекспир"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi William Shakespeare egyik jelentős műve?",
+        "answer": "Rómeó és Júlia",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of William Shakespeare\u0027s significant works?",
+                "answer": "[EN] Romeo and Juliet"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Уильяма Шекспира?",
+                "answer": "[RU] Ромео и Джульетта"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki írta a Rómeó és Júlia című művet?",
+        "correctCount": 1,
+        "options": [
+            "William Shakespeare",
+            "Voltaire",
+            "Goethe"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work Romeo and Juliet?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Ромео и Джульетта?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta a Candide című művet?",
+        "answer": "Voltaire",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work Candide?",
+                "answer": "[EN] Voltaire"
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Кандид?",
+                "answer": "[RU] Вольтер"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Voltaire egyik jelentős műve?",
+        "answer": "Candide",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Voltaire\u0027s significant works?",
+                "answer": "[EN] Candide"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Вольтера?",
+                "answer": "[RU] Кандид"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Voltaire alkotása?",
+        "correctCount": 1,
+        "options": [
+            "Candide",
+            "Faust",
+            "Rómeó és Júlia"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is Voltaire\u0027s creation?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Вольтеру?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki írta a Faust című művet?",
+        "answer": "Johann Wolfgang von Goethe",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work Faust?",
+                "answer": "[EN] Johann Wolfgang von Goethe"
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Фауст?",
+                "answer": "[RU] Иоганн Вольфганг фон Гёте"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Goethe egyik legjelentősebb műve?",
+        "answer": "Faust",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Goethe\u0027s most significant works?",
+                "answer": "[EN] Faust"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из самых значительных произведений Гёте?",
+                "answer": "[RU] Фауст"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki írta a Faust című művet?",
+        "correctCount": 1,
+        "options": [
+            "Johann Wolfgang von Goethe",
+            "Voltaire",
+            "Shakespeare"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work Faust?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Фауст?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "list",
+        "inputCount": 3,
+        "question": "Soroljon fel három európai zeneszerzőt!",
+        "answer": "Ludwig van Beethoven ÷ Wolfgang Amadeus Mozart ÷ Pjotr Iljics Csajkovszkij",
+        "translations": {
+            "en": {
+                "question": "[EN] List three European composers!",
+                "answer": "[EN] Ludwig van Beethoven ÷ Wolfgang Amadeus Mozart ÷ Pyotr Ilyich Tchaikovsky"
+            },
+            "ru": {
+                "question": "[RU] Перечислите трех европейских композиторов!",
+                "answer": "[RU] Людвиг ван Бетховен ÷ Вольфганг Амадей Моцарт ÷ Пётр Ильич Чайковский"
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki komponálta a IX. szimfóniát?",
+        "answer": "Ludwig van Beethoven",
+        "translations": {
+            "en": {
+                "question": "[EN] Who composed the 9th Symphony?",
+                "answer": "[EN] Ludwig van Beethoven"
+            },
+            "ru": {
+                "question": "[RU] Кто сочинил 9-ю симфонию?",
+                "answer": "[RU] Людвиг ван Бетховен"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Ludwig van Beethoven egyik jelentős műve?",
+        "answer": "IX. szimfónia",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Ludwig van Beethoven\u0027s significant works?",
+                "answer": "[EN] 9th Symphony"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Людвига ван Бетховена?",
+                "answer": "[RU] 9-я симфония"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Beethoventől származik?",
+        "correctCount": 1,
+        "options": [
+            "IX. szimfónia",
+            "A varázsfuvola",
+            "A hattyúk tava"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is by Beethoven?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Бетховену?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Melyik zeneszerző művéből származik az EU himnusza?",
+        "answer": "Ludwig van Beethoven",
+        "translations": {
+            "en": {
+                "question": "[EN] From which composer\u0027s work does the EU anthem come?",
+                "answer": "[EN] Ludwig van Beethoven"
+            },
+            "ru": {
+                "question": "[RU] Из произведения какого композитора взят гимн ЕС?",
+                "answer": "[RU] Людвиг ван Бетховен"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Open",
+        "question": "Ki komponálta A varázsfuvola című operát?",
+        "answer": "Wolfgang Amadeus Mozart ÷ Mozart",
+        "translations": {
+            "en": {
+                "question": "[EN] Who composed the opera The Magic Flute?",
+                "answer": "[EN] Wolfgang Amadeus Mozart ÷ Mozart"
+            },
+            "ru": {
+                "question": "[RU] Кто сочинил оперу Волшебная флейта?",
+                "answer": "[RU] Вольфганг Амадей Моцарт ÷ Моцарт"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Mozart egyik jelentős műve?",
+        "answer": "A varázsfuvola",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Mozart\u0027s significant works?",
+                "answer": "[EN] The Magic Flute"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Моцарта?",
+                "answer": "[RU] Волшебная флейта"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Mozarttól való?",
+        "correctCount": 1,
+        "options": [
+            "A varázsfuvola",
+            "IX. szimfónia",
+            "A hattyúk tava"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which work is by Mozart?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое произведение принадлежит Моцарту?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki komponálta A hattyúk tava című balettet?",
+        "answer": "Pjotr Iljics Csajkovszkij ÷ Csajkovszkij",
+        "translations": {
+            "en": {
+                "question": "[EN] Who composed the ballet Swan Lake?",
+                "answer": "[EN] Pyotr Ilyich Tchaikovsky ÷ Tchaikovsky"
+            },
+            "ru": {
+                "question": "[RU] Кто сочинил балет Лебединое озеро?",
+                "answer": "[RU] Пётр Ильич Чайковский ÷ Чайковский"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Open",
+        "question": "Mi Csajkovszkij egyik jelentős műve?",
+        "answer": "A hattyúk tava",
+        "translations": {
+            "en": {
+                "question": "[EN] What is one of Tchaikovsky\u0027s significant works?",
+                "answer": "[EN] Swan Lake"
+            },
+            "ru": {
+                "question": "[RU] Какое одно из значительных произведений Чайковского?",
+                "answer": "[RU] Лебединое озеро"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki szerezte A hattyúk tava című balettet?",
+        "correctCount": 1,
+        "options": [
+            "Pjotr Iljics Csajkovszkij",
+            "Mozart",
+            "Beethoven"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who composed the ballet Swan Lake?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто сочинил балет Лебединое озеро?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Mikor mutatták be Beethoven IX. szimfóniáját?",
+        "answer": "1824",
+        "translations": {
+            "en": {
+                "question": "[EN] When was Beethoven\u0027s 9th Symphony premiered?",
+                "answer": "[EN] 1824"
+            },
+            "ru": {
+                "question": "[RU] Когда состоялась премьера 9-й симфонии Бетховена?",
+                "answer": "[RU] 1824"
+            }
+        },
+        "inputType": "year"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik évben mutatták be a IX. szimfóniát?",
+        "correctCount": 1,
+        "options": [
+            "1824-ben",
+            "1785-ben",
+            "1900-ban"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] In which year was the 9th Symphony premiered?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] В каком году состоялась премьера 9-й симфонии?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Melyik Friedrich von Schiller költeményt zenésítette meg Beethoven?",
+        "answer": "Az Örömódát",
+        "translations": {
+            "en": {
+                "question": "[EN] Which Friedrich von Schiller poem did Beethoven set to music?",
+                "answer": "[EN] Ode to Joy"
+            },
+            "ru": {
+                "question": "[RU] Какое стихотворение Фридриха Шиллера положил на музыку Бетховен?",
+                "answer": "[RU] Ода к радости"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Open",
+        "question": "Mikor írta Schiller az Örömóda költeményt?",
+        "answer": "1785",
+        "translations": {
+            "en": {
+                "question": "[EN] When did Schiller write the poem Ode to Joy?",
+                "answer": "[EN] 1785"
+            },
+            "ru": {
+                "question": "[RU] Когда Шиллер написал стихотворение Ода к радости?",
+                "answer": "[RU] 1785"
+            }
+        },
+        "inputType": "year"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik Schiller költeményt használta fel Beethoven a IX. szimfóniában?",
+        "correctCount": 1,
+        "options": [
+            "Örömóda",
+            "Candide",
+            "Faust"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which Schiller poem did Beethoven use in the 9th Symphony?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое стихотворение Шиллера использовал Бетховен в 9-й симфонии?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Mi vált az Európai Unió jelképévé?",
+        "correctCount": 1,
+        "options": [
+            "Beethoven IX. szimfóniájának negyedik tétele",
+            "Mozart A varázsfuvolája",
+            "A magyar Himnusz"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What has become the symbol of the European Union?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Что стало символом Европейского Союза?",
+                "answer": "[RU] "
+            }
+        }
     }
 ]

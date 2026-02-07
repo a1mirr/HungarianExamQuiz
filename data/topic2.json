@@ -1295,17 +1295,18 @@
     },
     {
         "type": "Open",
-        "inputType": "text",
+        "inputType": "list",
+        "inputCount": 3,
         "question": "Soroljon fel három reformkori politikai célt",
-        "answer": "A magyar nyelv hivatalossá tétele",
+        "answer": "A magyar nyelv hivatalossá tétele|Magyar államnyelv ÷ A feudális viszonyok lebontása|Jobbágyfelszabadítás|Közteherviselés ÷ A polgárosodás megindulása|Polgárosodás ÷ Unió Erdéllyel",
         "translations": {
             "en": {
                 "question": "[EN] List three political goals of the Reform Era",
-                "answer": "[EN] Making Hungarian the official language ÷ protecting Hungarian constitutional institutions ÷ establishing frameworks for national development ÷ dismantling feudal relations ÷ starting urbanization"
+                "answer": "[EN] Making Hungarian the official language ÷ Dismantling feudal relations ÷ Starting urbanization ÷ Union with Transylvania"
             },
             "ru": {
                 "question": "[RU] Перечислите три политические цели Эпохи реформ",
-                "answer": "[RU] Сделать венгерский официальным языком ÷ защита венгерских конституционных учреждений ÷ создание рамок для национального развития ÷ демонтаж феодальных отношений ÷ начало урбанизации"
+                "answer": "[RU] Сделать венгерский официальным языком ÷ Ликвидация феодальных отношений ÷ Начало урбанизации ÷ Уния с Трансильванией"
             }
         }
     },
@@ -1585,17 +1586,18 @@
     },
     {
         "type": "Open",
-        "inputType": "text",
+        "inputType": "list",
+        "inputCount": 3,
         "question": "Soroljon fel három további jelentős reformkori személyiséget Széchenyim mellett",
-        "answer": "Kossuth Lajos",
+        "answer": "Kossuth Lajos ÷ Batthyány Lajos ÷ Deák Ferenc ÷ Kölcsey Ferenc ÷ Wesselényi Miklós",
         "translations": {
             "en": {
                 "question": "[EN] List three other significant Reform Era personalities besides Széchenyi",
-                "answer": "[EN] Lajos Kossuth ÷ Lajos Batthyány ÷ Miklós Wesselényi ÷ Ferenc Deák ÷ Ferenc Kölcsey"
+                "answer": "[EN] Lajos Kossuth ÷ Lajos Batthyány ÷ Ferenc Deák ÷ Ferenc Kölcsey ÷ Miklós Wesselényi"
             },
             "ru": {
                 "question": "[RU] Перечислите трех других значительных личностей Эпохи реформ помимо Сечени",
-                "answer": "[RU] Лайош Кошут ÷ Лайош Баттьяни ÷ Миклош Вешшеленьи ÷ Ференц Деак ÷ Ференц Кёльчеи"
+                "answer": "[RU] Лайош Кошут ÷ Лайош Баттьяни ÷ Ференц Деак ÷ Ференц Кёльчеи ÷ Миклош Вешшеленьи"
             }
         }
     },
@@ -1936,17 +1938,18 @@
     },
     {
         "type": "Open",
-        "inputType": "text",
+        "inputType": "list",
+        "inputCount": 3,
         "question": "Soroljon fel három szereplőt a márciusi eseményekből",
-        "answer": "Petőfi Sándor",
+        "answer": "Petőfi Sándor ÷ Jókai Mór ÷ Vasvári Pál ÷ Irinyi József ÷ Bulyovszky Gyula ÷ Táncsics Mihály",
         "translations": {
             "en": {
                 "question": "[EN] List three figures from the March events",
-                "answer": "[EN] Sándor Petőfi ÷ Mór Jókai ÷ Pál Vasvári"
+                "answer": "[EN] Sándor Petőfi ÷ Mór Jókai ÷ Pál Vasvári ÷ József Irinyi ÷ Gyula Bulyovszky"
             },
             "ru": {
                 "question": "[RU] Перечислите трех участников мартовских событий",
-                "answer": "[RU] Шандор Петефи ÷ Мор Йокаи ÷ Пал Вашвари"
+                "answer": "[RU] Шандор Петефи ÷ Мор Йокаи ÷ Пал Вашвари ÷ Йожеф Ирини ÷ Дьюла Буёвски"
             }
         }
     },
@@ -2890,17 +2893,18 @@
     },
     {
         "type": "Open",
-        "inputType": "text",
+        "inputType": "list",
+        "inputCount": 3,
         "question": "Soroljon fel három antanthatalom országot",
-        "answer": "Franciaország",
+        "answer": "Franciaország ÷ Oroszország|Orosz Birodalom ÷ Nagy-Britannia|Egyesült Királyság|Anglia ÷ Olaszország ÷ Japán ÷ USA|Amerikai Egyesült Államok ÷ Szerbia|Szerb Királyság ÷ Románia",
         "translations": {
             "en": {
                 "question": "[EN] List three Entente power countries",
-                "answer": "[EN] France ÷ Russia ÷ Great Britain ÷ Italy ÷ Japan ÷ United States of America ÷ Kingdom of Serbia ÷ Kingdom of Romania"
+                "answer": "[EN] France ÷ Russia ÷ Great Britain ÷ Italy ÷ Japan ÷ USA ÷ Serbia ÷ Romania"
             },
             "ru": {
                 "question": "[RU] Перечислите три страны Антанты",
-                "answer": "[RU] Франция ÷ Россия ÷ Великобритания ÷ Италия ÷ Япония ÷ Соединенные Штаты Америки ÷ Королевство Сербия ÷ Королевство Румыния"
+                "answer": "[RU] Франция ÷ Россия ÷ Великобритания ÷ Италия ÷ Япония ÷ США ÷ Сербия ÷ Румыния"
             }
         }
     },
@@ -2933,9 +2937,10 @@
     },
     {
         "type": "Open",
-        "inputType": "text",
+        "inputType": "list",
+        "inputCount": 3,
         "question": "Soroljon fel három központi hatalmat",
-        "answer": "Németország",
+        "answer": "Németország|Német Császárság ÷ Osztrák-Magyar Monarchia|Monarchia ÷ Törökország|Oszmán Birodalom ÷ Bulgária",
         "translations": {
             "en": {
                 "question": "[EN] List three Central Powers",
@@ -3279,17 +3284,18 @@
     },
     {
         "type": "Open",
-        "inputType": "text",
-        "question": "Soroljon fel két meghatározó politikust a \u002720-as és \u002730-as években",
-        "answer": "Horthy Miklós kormányzó",
+        "inputType": "list",
+        "inputCount": 2,
+        "question": "Soroljon fel két meghatározó politikust a '20-as és '30-as években",
+        "answer": "Horthy Miklós kormányzó|Horthy Miklós|Horthy ÷ Bethlen István|Bethlen ÷ Teleki Pál|Teleki ÷ Gömbös Gyula|Gömbös",
         "translations": {
             "en": {
                 "question": "[EN] List two defining politicians in the 20s and 30s",
-                "answer": "[EN] Governor Miklós Horthy ÷ István Bethlen ÷ Pál Teleki"
+                "answer": "[EN] Governor Miklós Horthy ÷ István Bethlen ÷ Pál Teleki ÷ Gyula Gömbös"
             },
             "ru": {
                 "question": "[RU] Перечислите двух определяющих политиков в 20-е и 30-е годы",
-                "answer": "[RU] Губернатор Миклош Хорти ÷ Иштван Бетлен ÷ Пал Телеки"
+                "answer": "[RU] Губернатор Миклош Хорти ÷ Иштван Бетлен ÷ Пал Телеки ÷ Дьюла Гёмбёш"
             }
         }
     },
@@ -3368,17 +3374,18 @@
     },
     {
         "type": "Open",
-        "inputType": "text",
+        "inputType": "list",
+        "inputCount": 3,
         "question": "Soroljon fel három szövetséges országot a második világháborúban!",
-        "answer": "Egyesült Királyság",
+        "answer": "Egyesült Királyság|Nagy-Britannia|Anglia ÷ Amerikai Egyesült Államok|USA|Amerika ÷ Szovjetunió|Oroszország ÷ Franciaország ÷ Kína",
         "translations": {
             "en": {
                 "question": "[EN] List three allied countries in the Second World War!",
-                "answer": "[EN] United Kingdom ÷ United States ÷ Soviet Union"
+                "answer": "[EN] United Kingdom ÷ USA ÷ Soviet Union ÷ France ÷ China"
             },
             "ru": {
                 "question": "[RU] Перечислите три страны-союзника во Второй мировой войне!",
-                "answer": "[RU] Великобритания ÷ Соединенные Штаты ÷ Советский Союз"
+                "answer": "[RU] Великобритания ÷ США ÷ Советский Союз ÷ Франция ÷ Китай"
             }
         }
     },
@@ -3411,17 +3418,18 @@
     },
     {
         "type": "Open",
-        "inputType": "text",
+        "inputType": "list",
+        "inputCount": 3,
         "question": "Soroljon fel három tengelyhatalom országot",
-        "answer": "Németország",
+        "answer": "Németország ÷ Olaszország ÷ Japán ÷ Magyarország ÷ Románia ÷ Bulgária",
         "translations": {
             "en": {
-                "question": "[EN] Soroljon fel három tengelyhatalom országot!",
-                "answer": "[EN] Németország ÷ Olaszország ÷ Japán"
+                "question": "[EN] List three Axis power countries",
+                "answer": "[EN] Germany ÷ Italy ÷ Japan ÷ Hungary ÷ Romania ÷ Bulgaria"
             },
             "ru": {
-                "question": "[RU] Soroljon fel három tengelyhatalom országot!",
-                "answer": "[RU] Németország ÷ Olaszország ÷ Japán"
+                "question": "[RU] Перечислите три страны Оси",
+                "answer": "[RU] Германия ÷ Италия ÷ Япония ÷ Венгрия ÷ Румыния ÷ Болгария"
             }
         }
     },
@@ -4233,17 +4241,18 @@
     },
     {
         "type": "Open",
-        "inputType": "text",
-        "question": "Soroljon fel két emblematikus helyszínt az 1956-os forradalom ból",
-        "answer": "Corvin köz",
+        "inputType": "list",
+        "inputCount": 2,
+        "question": "Soroljon fel két emblematikus helyszínt az 1956-os forradalomból",
+        "answer": "Corvin köz ÷ Széna tér ÷ Magyar Rádió ÷ Parlament ÷ Bem tér ÷ Kilian laktanya",
         "translations": {
             "en": {
-                "question": "[EN] Soroljon fel két emblematikus helyszínt az 1956-os forradalomból!",
-                "answer": "[EN] Corvin köz ÷ Széna tér"
+                "question": "[EN] List two emblematic sites of the 1956 revolution",
+                "answer": "[EN] Corvin Alley ÷ Széna Square ÷ Hungarian Radio ÷ Parliament"
             },
             "ru": {
-                "question": "[RU] Soroljon fel két emblematikus helyszínt az 1956-os forradalomból!",
-                "answer": "[RU] Corvin köz ÷ Széna tér"
+                "question": "[RU] Перечислите два знаковых места революции 1956 года",
+                "answer": "[RU] Переулок Корвин ÷ Площадь Сена ÷ Венгерское радио ÷ Парламент"
             }
         }
     },

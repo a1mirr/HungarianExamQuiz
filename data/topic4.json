@@ -1,1430 +1,1433 @@
 ﻿[
     {
-        "type":  "Open",
-        "question":  "Mi az Alaptörvény?",
-        "answer":  "Magyarország alkotmánya ÷ a többi törvény felett álló, legmagasabb jogi erővel bíró norma",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is the Fundamental Law?",
-                                        "answer":  "[EN] Hungary\u0027s constitution ÷ the highest legal norm standing above all other laws"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что такое Основной закон?",
-                                        "answer":  "[RU] Конституция Венгрии ÷ высшая правовая норма, стоящая над всеми другими законами"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mi az Alaptörvény?",
-        "correctCount":  2,
-        "options":  [
-                        "Magyarország alkotmánya",
-                        "A legmagasabb jogi erővel bíró norma",
-                        "Egy minisztérium",
-                        "Egy város"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is the Fundamental Law?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что такое Основной закон?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Magyarország jogrendjének alapja?",
-        "answer":  "Az Alaptörvény ÷ Magyarország Alaptörvénye",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is the basis of Hungary\u0027s legal system?",
-                                        "answer":  "[EN] The Fundamental Law ÷ Hungary\u0027s Fundamental Law"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что является основой правовой системы Венгрии?",
-                                        "answer":  "[RU] Основной закон ÷ Основной закон Венгрии"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mi áll Magyarország jogrendjének csúcsán?",
-        "correctCount":  1,
-        "options":  [
-                        "Az Alaptörvény",
-                        "A Büntető Törvénykönyv",
-                        "A Polgári Törvénykönyv"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What stands at the top of Hungary\u0027s legal system?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что стоит на вершине правовой системы Венгрии?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Mikor fogadta el az Országgyűlés az új Alaptörvényt?",
-        "answer":  "2011.04.18 ÷ 2021.04.18",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] When did the National Assembly adopt the new Fundamental Law?",
-                                        "answer":  "[EN] 2011.04.18"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Когда Государственное собрание приняло новый Основной закон?",
-                                        "answer":  "[RU] 2011.04.18"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Open",
-        "question":  "Melyik évben fogadták el Magyarország új Alaptörvényét?",
-        "answer":  "2011",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] In which year was Hungary\u0027s new Fundamental Law adopted?",
-                                        "answer":  "[EN] 2011"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] В каком году был принят новый Основной закон Венгрии?",
-                                        "answer":  "[RU] 2011"
-                                    }
-                         },
-        "inputType":  "year"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mikor fogadta el az Országgyűlés az Alaptörvényt?",
-        "correctCount":  1,
-        "options":  [
-                        "2011. április 18-án",
-                        "2012. január 1-jén",
-                        "2010-ben"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] When did the National Assembly adopt the Fundamental Law?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Когда Государственное собрание приняло Основной закон?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Mikor lépett hatályba az Alaptörvény?",
-        "answer":  "2012.01.01",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] When did the Fundamental Law enter into force?",
-                                        "answer":  "[EN] 2012.01.01"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Когда вступил в силу Основной закон?",
-                                        "answer":  "[RU] 2012.01.01"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Open",
-        "question":  "Melyik évben lépett hatályba az új Alaptörvény?",
-        "answer":  "2012",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] In which year did the new Fundamental Law enter into force?",
-                                        "answer":  "[EN] 2012"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] В каком году вступил в силу новый Основной закон?",
-                                        "answer":  "[RU] 2012"
-                                    }
-                         },
-        "inputType":  "year"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mikor lépett hatályba Magyarország új Alaptörvénye?",
-        "correctCount":  1,
-        "options":  [
-                        "2012. január 1-jén",
-                        "2011. április 18-án",
-                        "2013-ban"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] When did Hungary\u0027s new Fundamental Law enter into force?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Когда вступил в силу новый Основной закон Венгрии?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki fogadta el Magyarország Alaptörvényét?",
-        "answer":  "Az Országgyűlés",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who adopted Hungary\u0027s Fundamental Law?",
-                                        "answer":  "[EN] The National Assembly"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто принял Основной закон Венгрии?",
-                                        "answer":  "[RU] Государственное собрание"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik szerv fogadta el az Alaptörvényt?",
-        "correctCount":  1,
-        "options":  [
-                        "Az Országgyűlés",
-                        "A Kormány",
-                        "A köztársasági elnök"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which body adopted the Fundamental Law?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какой орган принял Основной закон?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mit tartott tiszteletben az Alaptörvény megalkotásakor?",
-        "correctCount":  1,
-        "options":  [
-                        "Magyarország alkotmányos hagyományait",
-                        "A külföldi példákat",
-                        "A szovjet modellt"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What was respected during the creation of the Fundamental Law?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что уважалось при создании Основного закона?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mit céloz az Alaptörvény?",
-        "correctCount":  2,
-        "options":  [
-                        "Stabil és demokratikus intézményrendszert",
-                        "Demokratikus kormányzást",
-                        "Diktatúrát",
-                        "Monarchiát"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What does the Fundamental Law aim for?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] На что направлен Основной закон?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mit őriz meg az Alaptörvény?",
-        "correctCount":  3,
-        "options":  [
-                        "Nemzeti függetlenséget",
-                        "Keresztény értékeket",
-                        "Európai kultúrát",
-                        "Kommunista értékeket",
-                        "Feudális hagyományokat"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1,
-                               2
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What does the Fundamental Law preserve?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что сохраняет Основной закон?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Kit véd az Alaptörvény?",
-        "correctCount":  2,
-        "options":  [
-                        "A családokat",
-                        "A határon túli magyar közösségeket",
-                        "Csak a budapestieket",
-                        "Csak a férfiakat"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who does the Fundamental Law protect?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кого защищает Основной закон?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Magyarország legfőbb népképviseleti szerve?",
-        "answer":  "Az Országgyűlés",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is Hungary\u0027s supreme representative body?",
-                                        "answer":  "[EN] The National Assembly"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что является высшим представительным органом Венгрии?",
-                                        "answer":  "[RU] Государственное собрание"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mi Magyarország legfőbb népképviseleti szerve?",
-        "correctCount":  1,
-        "options":  [
-                        "Az Országgyűlés",
-                        "A Kormány",
-                        "A köztársasági elnök"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is Hungary\u0027s supreme representative body?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что является высшим представительным органом Венгрии?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Hány évre választják az Országgyűlés tagjait?",
-        "answer":  "4 évre ÷ négy évre",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] For how many years are members of the National Assembly elected?",
-                                        "answer":  "[EN] For 4 years"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] На сколько лет избираются члены Государственного собрания?",
-                                        "answer":  "[RU] На 4 года"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Hány évre választják az országgyűlési képviselőket?",
-        "correctCount":  1,
-        "options":  [
-                        "4 évre",
-                        "5 évre",
-                        "6 évre"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] For how many years are parliamentary deputies elected?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] На сколько лет избираются депутаты парламента?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Hány országgyűlési képviselő van?",
-        "answer":  "199 fő ÷ 199",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] How many parliamentary deputies are there?",
-                                        "answer":  "[EN] 199 members"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Сколько депутатов в парламенте?",
-                                        "answer":  "[RU] 199 человек"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mennyi az országgyűlési képviselők száma?",
-        "answer":  "199",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is the number of parliamentary deputies?",
-                                        "answer":  "[EN] 199"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Каково количество депутатов парламента?",
-                                        "answer":  "[RU] 199"
-                                    }
-                         },
-        "inputType":  "number"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik az Országgyűlés feladata?",
-        "correctCount":  3,
-        "options":  [
-                        "Megalkotja és módosítja az Alaptörvényt",
-                        "Törvényeket alkot",
-                        "Elfogadja a költségvetést",
-                        "Kinevezi a minisztereket",
-                        "Ítélkezik"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1,
-                               2
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is the task of the National Assembly?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какова задача Государственного собрания?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki alkotja és módosítja Magyarország Alaptörvényét?",
-        "answer":  "Az Országgyűlés",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who creates and amends Hungary\u0027s Fundamental Law?",
-                                        "answer":  "[EN] The National Assembly"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто создает и изменяет Основной закон Венгрии?",
-                                        "answer":  "[RU] Государственное собрание"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki jogosult az Alaptörvény módosítására?",
-        "correctCount":  1,
-        "options":  [
-                        "Az Országgyűlés",
-                        "A Kormány",
-                        "A köztársasági elnök"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who is entitled to amend the Fundamental Law?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто имеет право изменять Основной закон?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki alkot törvényeket Magyarországon?",
-        "answer":  "Az Országgyűlés",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who creates laws in Hungary?",
-                                        "answer":  "[EN] The National Assembly"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто создает законы в Венгрии?",
-                                        "answer":  "[RU] Государственное собрание"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki fogadja el a központi költségvetést?",
-        "answer":  "Az Országgyűlés",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who adopts the central budget?",
-                                        "answer":  "[EN] The National Assembly"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто принимает центральный бюджет?",
-                                        "answer":  "[RU] Государственное собрание"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik szerv alkot törvényeket?",
-        "correctCount":  1,
-        "options":  [
-                        "Az Országgyűlés",
-                        "A Kormány",
-                        "A minisztériumok"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which body creates laws?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какой орган создает законы?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki választja meg a miniszterelnököt?",
-        "answer":  "Az Országgyűlés",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who elects the Prime Minister?",
-                                        "answer":  "[EN] The National Assembly"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто избирает премьер-министра?",
-                                        "answer":  "[RU] Государственное собрание"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki dönt a Kormánnyal kapcsolatos bizalmi kérdésekről?",
-        "answer":  "Az Országgyűlés",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who decides on confidence questions regarding the Government?",
-                                        "answer":  "[EN] The National Assembly"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто решает вопросы доверия к Правительству?",
-                                        "answer":  "[RU] Государственное собрание"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki választja meg a miniszterelnököt?",
-        "correctCount":  1,
-        "options":  [
-                        "Az Országgyűlés",
-                        "A köztársasági elnök",
-                        "A nép közvetlenül"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who elects the Prime Minister?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто избирает премьер-министра?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mi alkotja a végrehajtó hatalmat?",
-        "correctCount":  2,
-        "options":  [
-                        "A Kormány",
-                        "A közigazgatás",
-                        "Az Országgyűlés",
-                        "A bíróságok"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What constitutes the executive power?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что составляет исполнительную власть?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Kik a Kormány tagjai?",
-        "answer":  "A kormányfő, a miniszterek",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who are the members of the Government?",
-                                        "answer":  "[EN] The Head of Government (Prime Minister) and the Ministers"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто является членами Правительства?",
-                                        "answer":  "[RU] Глава правительства (премьер-министр) и министры"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki a Kormány feje?",
-        "answer":  "A miniszterelnök ÷ a kormányfő",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who is the head of the Government?",
-                                        "answer":  "[EN] The Prime Minister ÷ the Head of Government"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто является главой Правительства?",
-                                        "answer":  "[RU] Премьер-министр ÷ глава правительства"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Kik tagjai a Kormánynak?",
-        "correctCount":  2,
-        "options":  [
-                        "A miniszterelnök",
-                        "A miniszterek",
-                        "Az országgyűlési képviselők",
-                        "A bírák"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who are members of the Government?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто члены Правительства?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki Magyarország miniszterelnöke?",
-        "answer":  "Orbán Viktor",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who is Hungary\u0027s Prime Minister?",
-                                        "answer":  "[EN] Viktor Orbán"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто премьер-министр Венгрии?",
-                                        "answer":  "[RU] Виктор Орбан"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki Magyarország jelenlegi miniszterelnöke?",
-        "correctCount":  1,
-        "options":  [
-                        "Orbán Viktor",
-                        "Antall József",
-                        "Kádár János"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who is Hungary\u0027s current Prime Minister?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто нынешний премьер-министр Венгрии?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki választja meg a miniszterelnököt?",
-        "answer":  "Az Országgyűlés",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who elects the Prime Minister?",
-                                        "answer":  "[EN] The National Assembly"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто избирает премьер-министра?",
-                                        "answer":  "[RU] Государственное собрание"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki választja meg Magyarország miniszterelnökét?",
-        "correctCount":  1,
-        "options":  [
-                        "Az Országgyűlés",
-                        "A nép közvetlenül",
-                        "A köztársasági elnök"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who elects Hungary\u0027s Prime Minister?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто избирает премьер-министра Венгрии?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki a Kormány feje?",
-        "answer":  "A miniszterelnök",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who is the head of the Government?",
-                                        "answer":  "[EN] The Prime Minister ÷ the Head of Government"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто является главой Правительства?",
-                                        "answer":  "[RU] Премьер-министр ÷ глава правительства"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Hol képviseli a miniszterelnök Magyarországot?",
-        "answer":  "Az Európai Tanácsban",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Where does the Prime Minister represent Hungary?",
-                                        "answer":  "[EN] In the European Council"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Где премьер-министр представляет Венгрию?",
-                                        "answer":  "[RU] В Европейском совете"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik EU-s intézményben képviseli a miniszterelnök Magyarországot?",
-        "correctCount":  1,
-        "options":  [
-                        "Az Európai Tanácsban",
-                        "Az Európai Parlamentben",
-                        "Az Európai Bizottságban"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] In which EU institution does the Prime Minister represent Hungary?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] В каком учреждении ЕС премьер-министр представляет Венгрию?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik a Kormány feladata?",
-        "correctCount":  3,
-        "options":  [
-                        "Irányítja a közigazgatást",
-                        "Jogszabályokat alkot",
-                        "Működteti az állami ellátórendszereket",
-                        "Törvényeket alkot",
-                        "Megválasztja az elnököt"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1,
-                               2
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is the task of the Government?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какова задача Правительства?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mit irányít a Kormány?",
-        "correctCount":  1,
-        "options":  [
-                        "A közigazgatást",
-                        "Az Országgyűlést",
-                        "A bíróságokat"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What does the Government direct?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Чем руководит Правительство?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Soroljon fel két állami ellátórendszert",
-        "answer":  "Honvédelem ÷ rendvédelem ÷ oktatás ÷ egészségügy",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] List two state supply systems!",
-                                        "answer":  "[EN] National defense ÷ law enforcement ÷ education ÷ healthcare"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Перечислите две государственные системы обеспечения!",
-                                        "answer":  "[RU] Национальная оборона ÷ правоохранительные органы ÷ образование ÷ здравоохранение"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mely területeket működteti a Kormány?",
-        "correctCount":  3,
-        "options":  [
-                        "Honvédelem",
-                        "Oktatás",
-                        "Egészségügy",
-                        "Törvényhozás",
-                        "Bíráskodás"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1,
-                               2
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which areas does the Government operate?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какими сферами управляет Правительство?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Soroljon fel öt minisztériumot!",
-        "answer":  "Agrárminisztérium ÷ Belügyminisztérium ÷ Energiaügyi Minisztérium ÷ Építési és Közlekedési Minisztérium ÷ Európai Uniós Ügyek Minisztériuma ÷ Honvédelmi Minisztérium ÷ Igazságügyi Minisztérium ÷ Közigazgatási és Területfejlesztési Minisztérium ÷ Kulturális és Innovációs Minisztérium ÷ Külgazdasági és Külügyminisztérium ÷ Miniszterelnöki Kabinetiroda ÷ Miniszterelnökség ÷ Nemzetgazdasági Minisztérium",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] List five ministries!",
-                                        "answer":  "[EN] Ministry of Agriculture ÷ Ministry of Interior ÷ Ministry of Energy ÷ Ministry of Construction and Transport ÷ Ministry of European Union Affairs ÷ Ministry of Defence ÷ Ministry of Justice ÷ Ministry of Public Administration and Regional Development ÷ Ministry of Culture and Innovation ÷ Ministry of Foreign Affairs and Trade ÷ Cabinet Office of the Prime Minister ÷ Prime Minister\u0027s Office ÷ Ministry for National Economy"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Перечислите пять министерств!",
-                                        "answer":  "[RU] Министерство сельского хозяйства ÷ Министерство внутренних дел ÷ Министерство энергетики ÷ Министерство строительства и транспорта ÷ Министерство по делам Европейского Союза ÷ Министерство обороны ÷ Министерство юстиции ÷ Министерство государственного управления и регионального развития ÷ Министерство культуры и инноваций ÷ Министерство внешнеэкономических связей и иностранных дел ÷ Кабинет премьер-министра ÷ Канцелярия премьер-министра ÷ Министерство национальной экономики"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik létező minisztérium?",
-        "correctCount":  5,
-        "options":  [
-                        "Belügyminisztérium",
-                        "Honvédelmi Minisztérium",
-                        "Külgazdasági és Külügyminisztérium",
-                        "Igazságügyi Minisztérium",
-                        "Agrárminisztérium",
-                        "Űrügyi Minisztérium",
-                        "Királyi Minisztérium",
-                        "Vallásügyi Minisztérium"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1,
-                               2,
-                               3,
-                               4
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which is an existing ministry?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое министерство существует?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik NEM valódi minisztérium neve?",
-        "correctCount":  1,
-        "options":  [
-                        "Királyi Minisztérium",
-                        "Belügyminisztérium",
-                        "Honvédelmi Minisztérium",
-                        "Igazságügyi Minisztérium"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which is NOT a real ministry name?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое название министерства НЕ является настоящим?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Mi Magyarország államfője?",
-        "answer":  "A köztársasági elnök",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is Hungary\u0027s head of state?",
-                                        "answer":  "[EN] The President of the Republic"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто глава государства Венгрии?",
-                                        "answer":  "[RU] Президент республики"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki Magyarország államfője?",
-        "answer":  "A köztársasági elnök",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who is Hungary\u0027s head of state?",
-                                        "answer":  "[EN] The President of the Republic"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто глава государства Венгрии?",
-                                        "answer":  "[RU] Президент республики"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Mit fejez ki a köztársasági elnök?",
-        "answer":  "A nemzet egységét",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What does the President of the Republic express?",
-                                        "answer":  "[EN] The unity of the nation"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что выражает Президент республики?",
-                                        "answer":  "[RU] Единство нации"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mi a köztársasági elnök szerepe?",
-        "correctCount":  2,
-        "options":  [
-                        "Kifejezi a nemzet egységét",
-                        "Őrködik az államszervezet demokratikus működése felett",
-                        "Törvényeket alkot",
-                        "Kormányoz"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What is the role of the President of the Republic?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какова роль Президента республики?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki Magyarország köztársasági elnöke?",
-        "answer":  "Dr. Sulyok Tamás",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who is Hungary\u0027s President of the Republic?",
-                                        "answer":  "[EN] Dr. Tamás Sulyok"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто Президент республики Венгрии?",
-                                        "answer":  "[RU] Д-р Тамаш Шуйок"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki Magyarország jelenlegi köztársasági elnöke?",
-        "correctCount":  1,
-        "options":  [
-                        "Dr. Sulyok Tamás",
-                        "Orbán Viktor",
-                        "Göncz Árpád"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who is Hungary\u0027s current President of the Republic?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто нынешний Президент республики Венгрии?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki választja a köztársasági elnököt?",
-        "answer":  "Az Országgyűlés",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who elects the President of the Republic?",
-                                        "answer":  "[EN] The National Assembly"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто избирает Президента республики?",
-                                        "answer":  "[RU] Государственное собрание"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Open",
-        "question":  "Hogyan választják a köztársasági elnököt?",
-        "answer":  "Titkos szavazással",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] How is the President of the Republic elected?",
-                                        "answer":  "[EN] By secret ballot"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Как избирается Президент республики?",
-                                        "answer":  "[RU] Тайным голосованием"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki választja meg a köztársasági elnököt?",
-        "correctCount":  1,
-        "options":  [
-                        "Az Országgyűlés",
-                        "A nép közvetlenül",
-                        "A Kormány"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who elects the President of the Republic?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто избирает Президента республики?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Hány évre választják a köztársasági elnököt?",
-        "answer":  "5 évre ÷ öt évre ÷ 5",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] For how many years is the President of the Republic elected?",
-                                        "answer":  "[EN] For 5 years"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] На сколько лет избирается Президент республики?",
-                                        "answer":  "[RU] На 5 лет"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Hány évre választják a köztársasági elnököt?",
-        "correctCount":  1,
-        "options":  [
-                        "5 évre",
-                        "4 évre",
-                        "6 évre"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] For how many years is the President of the Republic elected?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] На сколько лет избирается Президент республики?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Hányszor választható újra a köztársasági elnök?",
-        "answer":  "1 ÷ Legfeljebb egy alkalommal ÷ egy",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] How many times can the President of the Republic be re-elected?",
-                                        "answer":  "[EN] At most once ÷ 1"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Сколько раз может быть переизбран Президент республики?",
-                                        "answer":  "[RU] Максимум один раз ÷ 1"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Open",
-        "question":  "Hány ciklust tölthet egy személy köztársasági elnökként?",
-        "answer":  "2 ÷ Legfeljebb kettőt ÷ kettő",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] How many terms can a person serve as President of the Republic?",
-                                        "answer":  "[EN] At most two ÷ 2"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Сколько сроков может занимать один человек пост Президента республики?",
-                                        "answer":  "[RU] Максимум два ÷ 2"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Hányszor választható újra a köztársasági elnök?",
-        "correctCount":  1,
-        "options":  [
-                        "Egyszer",
-                        "Kétszer",
-                        "Háromszor"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] How many times can the President of the Republic be re-elected?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Сколько раз может быть переизбран Президент республики?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Hogyan választják a köztársasági elnököt?",
-        "correctCount":  1,
-        "options":  [
-                        "Titkos szavazással",
-                        "Nyílt szavazással",
-                        "Népszavazással"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] How is the President of the Republic elected?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Как избирается Президент республики?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Ki a Magyar Honvédség főparancsnoka?",
-        "answer":  "A köztársasági elnök",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who is the Commander-in-Chief of the Hungarian Defence Forces?",
-                                        "answer":  "[EN] The President of the Republic"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто Главнокомандующий Силами обороны Венгрии?",
-                                        "answer":  "[RU] Президент республики"
-                                    }
-                         },
-        "inputType":  "person"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Ki a Magyar Honvédség főparancsnoka?",
-        "correctCount":  1,
-        "options":  [
-                        "A köztársasági elnök",
-                        "A miniszterelnök",
-                        "A honvédelmi miniszter"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Who is the Commander-in-Chief of the Hungarian Defence Forces?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Кто Главнокомандующий Силами обороны Венгрии?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mit hív össze a köztársasági elnök?",
-        "correctCount":  1,
-        "options":  [
-                        "Az Országgyűlés alakuló ülését",
-                        "A Kormány üléseit",
-                        "A miniszteri értekezleteket"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] What does the President of the Republic convene?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Что созывает Президент республики?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Feloszlathatja-e az elnök az Országgyűlést?",
-        "correctCount":  1,
-        "options":  [
-                        "Igen, meghatározott esetekben",
-                        "Igen, bármikor",
-                        "Nem"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Can the President dissolve the National Assembly?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Может ли Президент распустить Государственное собрание?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Mikor oszlathatja fel az elnök az Országgyűlést?",
-        "correctCount":  1,
-        "options":  [
-                        "Alaptörvényben meghatározott esetekben",
-                        "Bármikor, ha akarja",
-                        "Soha"
-                    ],
-        "correctIndices":  [
-                               0
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] When can the President dissolve the National Assembly?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Когда Президент может распустить Государственное собрание?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
-    },
-    {
-        "type":  "Open",
-        "question":  "Soroljon fel két jogkört a köztársasági elnök jogkörei közül",
-        "answer":  "A Magyar Honvédség főparancsnoka ÷ összehívja az Országgyűlés alakuló ülését ÷ feloszlathatja az Országgyűlést meghatározott esetekben",
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] List two powers of the President of the Republic!",
-                                        "answer":  "[EN] Commander-in-Chief of the Hungarian Defence Forces ÷ convenes the inaugural session of the National Assembly ÷ may dissolve the National Assembly in specific cases"
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Перечислите два полномочия Президента республики!",
-                                        "answer":  "[RU] Главнокомандующий Силами обороны Венгрии ÷ созывает учредительное заседание Государственного собрания ÷ может распустить Государственное собрание в определенных случаях"
-                                    }
-                         },
-        "inputType":  "text"
-    },
-    {
-        "type":  "Multiple",
-        "question":  "Melyik a köztársasági elnök jogköre?",
-        "correctCount":  2,
-        "options":  [
-                        "A Magyar Honvédség főparancsnoka",
-                        "Összehívja az Országgyűlés alakuló ülését",
-                        "Törvényeket alkot",
-                        "Kinevezi a minisztereket"
-                    ],
-        "correctIndices":  [
-                               0,
-                               1
-                           ],
-        "translations":  {
-                             "en":  {
-                                        "question":  "[EN] Which is a power of the President of the Republic?",
-                                        "answer":  "[EN] "
-                                    },
-                             "ru":  {
-                                        "question":  "[RU] Какое является полномочием Президента республики?",
-                                        "answer":  "[RU] "
-                                    }
-                         }
+        "type": "Open",
+        "question": "Mi az Alaptörvény?",
+        "answer": "Magyarország alkotmánya ÷ a többi törvény felett álló, legmagasabb jogi erővel bíró norma",
+        "translations": {
+            "en": {
+                "question": "[EN] What is the Fundamental Law?",
+                "answer": "[EN] Hungary\u0027s constitution ÷ the highest legal norm standing above all other laws"
+            },
+            "ru": {
+                "question": "[RU] Что такое Основной закон?",
+                "answer": "[RU] Конституция Венгрии ÷ высшая правовая норма, стоящая над всеми другими законами"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Mi az Alaptörvény?",
+        "correctCount": 2,
+        "options": [
+            "Magyarország alkotmánya",
+            "A legmagasabb jogi erővel bíró norma",
+            "Egy minisztérium",
+            "Egy város"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What is the Fundamental Law?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Что такое Основной закон?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Mi Magyarország jogrendjének alapja?",
+        "answer": "Az Alaptörvény ÷ Magyarország Alaptörvénye",
+        "translations": {
+            "en": {
+                "question": "[EN] What is the basis of Hungary\u0027s legal system?",
+                "answer": "[EN] The Fundamental Law ÷ Hungary\u0027s Fundamental Law"
+            },
+            "ru": {
+                "question": "[RU] Что является основой правовой системы Венгрии?",
+                "answer": "[RU] Основной закон ÷ Основной закон Венгрии"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Mi áll Magyarország jogrendjének csúcsán?",
+        "correctCount": 1,
+        "options": [
+            "Az Alaptörvény",
+            "A Büntető Törvénykönyv",
+            "A Polgári Törvénykönyv"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What stands at the top of Hungary\u0027s legal system?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Что стоит на вершине правовой системы Венгрии?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Mikor fogadta el az Országgyűlés az új Alaptörvényt?",
+        "answer": "2011.04.18 ÷ 2021.04.18",
+        "translations": {
+            "en": {
+                "question": "[EN] When did the National Assembly adopt the new Fundamental Law?",
+                "answer": "[EN] 2011.04.18"
+            },
+            "ru": {
+                "question": "[RU] Когда Государственное собрание приняло новый Основной закон?",
+                "answer": "[RU] 2011.04.18"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Open",
+        "question": "Melyik évben fogadták el Magyarország új Alaptörvényét?",
+        "answer": "2011",
+        "translations": {
+            "en": {
+                "question": "[EN] In which year was Hungary\u0027s new Fundamental Law adopted?",
+                "answer": "[EN] 2011"
+            },
+            "ru": {
+                "question": "[RU] В каком году был принят новый Основной закон Венгрии?",
+                "answer": "[RU] 2011"
+            }
+        },
+        "inputType": "year"
+    },
+    {
+        "type": "Multiple",
+        "question": "Mikor fogadta el az Országgyűlés az Alaptörvényt?",
+        "correctCount": 1,
+        "options": [
+            "2011. április 18-án",
+            "2012. január 1-jén",
+            "2010-ben"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] When did the National Assembly adopt the Fundamental Law?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Когда Государственное собрание приняло Основной закон?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Mikor lépett hatályba az Alaptörvény?",
+        "answer": "2012.01.01",
+        "translations": {
+            "en": {
+                "question": "[EN] When did the Fundamental Law enter into force?",
+                "answer": "[EN] 2012.01.01"
+            },
+            "ru": {
+                "question": "[RU] Когда вступил в силу Основной закон?",
+                "answer": "[RU] 2012.01.01"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Open",
+        "question": "Melyik évben lépett hatályba az új Alaptörvény?",
+        "answer": "2012",
+        "translations": {
+            "en": {
+                "question": "[EN] In which year did the new Fundamental Law enter into force?",
+                "answer": "[EN] 2012"
+            },
+            "ru": {
+                "question": "[RU] В каком году вступил в силу новый Основной закон?",
+                "answer": "[RU] 2012"
+            }
+        },
+        "inputType": "year"
+    },
+    {
+        "type": "Multiple",
+        "question": "Mikor lépett hatályba Magyarország új Alaptörvénye?",
+        "correctCount": 1,
+        "options": [
+            "2012. január 1-jén",
+            "2011. április 18-án",
+            "2013-ban"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] When did Hungary\u0027s new Fundamental Law enter into force?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Когда вступил в силу новый Основной закон Венгрии?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki fogadta el Magyarország Alaptörvényét?",
+        "answer": "Az Országgyűlés",
+        "translations": {
+            "en": {
+                "question": "[EN] Who adopted Hungary\u0027s Fundamental Law?",
+                "answer": "[EN] The National Assembly"
+            },
+            "ru": {
+                "question": "[RU] Кто принял Основной закон Венгрии?",
+                "answer": "[RU] Государственное собрание"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik szerv fogadta el az Alaptörvényt?",
+        "correctCount": 1,
+        "options": [
+            "Az Országgyűlés",
+            "A Kormány",
+            "A köztársasági elnök"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which body adopted the Fundamental Law?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какой орган принял Основной закон?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Mit tartott tiszteletben az Alaptörvény megalkotásakor?",
+        "correctCount": 1,
+        "options": [
+            "Magyarország alkotmányos hagyományait",
+            "A külföldi példákat",
+            "A szovjet modellt"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What was respected during the creation of the Fundamental Law?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Что уважалось при создании Основного закона?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Mit céloz az Alaptörvény?",
+        "correctCount": 2,
+        "options": [
+            "Stabil és demokratikus intézményrendszert",
+            "Demokratikus kormányzást",
+            "Diktatúrát",
+            "Monarchiát"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What does the Fundamental Law aim for?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] На что направлен Основной закон?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Mit őriz meg az Alaptörvény?",
+        "correctCount": 3,
+        "options": [
+            "Nemzeti függetlenséget",
+            "Keresztény értékeket",
+            "Európai kultúrát",
+            "Kommunista értékeket",
+            "Feudális hagyományokat"
+        ],
+        "correctIndices": [
+            0,
+            1,
+            2
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What does the Fundamental Law preserve?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Что сохраняет Основной закон?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Kit véd az Alaptörvény?",
+        "correctCount": 2,
+        "options": [
+            "A családokat",
+            "A határon túli magyar közösségeket",
+            "Csak a budapestieket",
+            "Csak a férfiakat"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who does the Fundamental Law protect?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кого защищает Основной закон?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Mi Magyarország legfőbb népképviseleti szerve?",
+        "answer": "Az Országgyűlés",
+        "translations": {
+            "en": {
+                "question": "[EN] What is Hungary\u0027s supreme representative body?",
+                "answer": "[EN] The National Assembly"
+            },
+            "ru": {
+                "question": "[RU] Что является высшим представительным органом Венгрии?",
+                "answer": "[RU] Государственное собрание"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Mi Magyarország legfőbb népképviseleti szerve?",
+        "correctCount": 1,
+        "options": [
+            "Az Országgyűlés",
+            "A Kormány",
+            "A köztársasági elnök"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What is Hungary\u0027s supreme representative body?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Что является высшим представительным органом Венгрии?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Hány évre választják az Országgyűlés tagjait?",
+        "answer": "4 évre ÷ négy évre",
+        "translations": {
+            "en": {
+                "question": "[EN] For how many years are members of the National Assembly elected?",
+                "answer": "[EN] For 4 years"
+            },
+            "ru": {
+                "question": "[RU] На сколько лет избираются члены Государственного собрания?",
+                "answer": "[RU] На 4 года"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Hány évre választják az országgyűlési képviselőket?",
+        "correctCount": 1,
+        "options": [
+            "4 évre",
+            "5 évre",
+            "6 évre"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] For how many years are parliamentary deputies elected?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] На сколько лет избираются депутаты парламента?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Hány országgyűlési képviselő van?",
+        "answer": "199 fő ÷ 199",
+        "translations": {
+            "en": {
+                "question": "[EN] How many parliamentary deputies are there?",
+                "answer": "[EN] 199 members"
+            },
+            "ru": {
+                "question": "[RU] Сколько депутатов в парламенте?",
+                "answer": "[RU] 199 человек"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Open",
+        "question": "Mennyi az országgyűlési képviselők száma?",
+        "answer": "199",
+        "translations": {
+            "en": {
+                "question": "[EN] What is the number of parliamentary deputies?",
+                "answer": "[EN] 199"
+            },
+            "ru": {
+                "question": "[RU] Каково количество депутатов парламента?",
+                "answer": "[RU] 199"
+            }
+        },
+        "inputType": "number"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik az Országgyűlés feladata?",
+        "correctCount": 3,
+        "options": [
+            "Megalkotja és módosítja az Alaptörvényt",
+            "Törvényeket alkot",
+            "Elfogadja a költségvetést",
+            "Kinevezi a minisztereket",
+            "Ítélkezik"
+        ],
+        "correctIndices": [
+            0,
+            1,
+            2
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What is the task of the National Assembly?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какова задача Государственного собрания?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki alkotja és módosítja Magyarország Alaptörvényét?",
+        "answer": "Az Országgyűlés",
+        "translations": {
+            "en": {
+                "question": "[EN] Who creates and amends Hungary\u0027s Fundamental Law?",
+                "answer": "[EN] The National Assembly"
+            },
+            "ru": {
+                "question": "[RU] Кто создает и изменяет Основной закон Венгрии?",
+                "answer": "[RU] Государственное собрание"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki jogosult az Alaptörvény módosítására?",
+        "correctCount": 1,
+        "options": [
+            "Az Országgyűlés",
+            "A Kormány",
+            "A köztársasági elnök"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who is entitled to amend the Fundamental Law?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто имеет право изменять Основной закон?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki alkot törvényeket Magyarországon?",
+        "answer": "Az Országgyűlés",
+        "translations": {
+            "en": {
+                "question": "[EN] Who creates laws in Hungary?",
+                "answer": "[EN] The National Assembly"
+            },
+            "ru": {
+                "question": "[RU] Кто создает законы в Венгрии?",
+                "answer": "[RU] Государственное собрание"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Ki fogadja el a központi költségvetést?",
+        "answer": "Az Országgyűlés",
+        "translations": {
+            "en": {
+                "question": "[EN] Who adopts the central budget?",
+                "answer": "[EN] The National Assembly"
+            },
+            "ru": {
+                "question": "[RU] Кто принимает центральный бюджет?",
+                "answer": "[RU] Государственное собрание"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik szerv alkot törvényeket?",
+        "correctCount": 1,
+        "options": [
+            "Az Országgyűlés",
+            "A Kormány",
+            "A minisztériumok"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which body creates laws?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какой орган создает законы?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki választja meg a miniszterelnököt?",
+        "answer": "Az Országgyűlés",
+        "translations": {
+            "en": {
+                "question": "[EN] Who elects the Prime Minister?",
+                "answer": "[EN] The National Assembly"
+            },
+            "ru": {
+                "question": "[RU] Кто избирает премьер-министра?",
+                "answer": "[RU] Государственное собрание"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Ki dönt a Kormánnyal kapcsolatos bizalmi kérdésekről?",
+        "answer": "Az Országgyűlés",
+        "translations": {
+            "en": {
+                "question": "[EN] Who decides on confidence questions regarding the Government?",
+                "answer": "[EN] The National Assembly"
+            },
+            "ru": {
+                "question": "[RU] Кто решает вопросы доверия к Правительству?",
+                "answer": "[RU] Государственное собрание"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki választja meg a miniszterelnököt?",
+        "correctCount": 1,
+        "options": [
+            "Az Országgyűlés",
+            "A köztársasági elnök",
+            "A nép közvetlenül"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who elects the Prime Minister?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто избирает премьер-министра?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Mi alkotja a végrehajtó hatalmat?",
+        "correctCount": 2,
+        "options": [
+            "A Kormány",
+            "A közigazgatás",
+            "Az Országgyűlés",
+            "A bíróságok"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What constitutes the executive power?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Что составляет исполнительную власть?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Kik a Kormány tagjai?",
+        "answer": "A kormányfő, a miniszterek",
+        "translations": {
+            "en": {
+                "question": "[EN] Who are the members of the Government?",
+                "answer": "[EN] The Head of Government (Prime Minister) and the Ministers"
+            },
+            "ru": {
+                "question": "[RU] Кто является членами Правительства?",
+                "answer": "[RU] Глава правительства (премьер-министр) и министры"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Ki a Kormány feje?",
+        "answer": "A miniszterelnök ÷ a kormányfő",
+        "translations": {
+            "en": {
+                "question": "[EN] Who is the head of the Government?",
+                "answer": "[EN] The Prime Minister ÷ the Head of Government"
+            },
+            "ru": {
+                "question": "[RU] Кто является главой Правительства?",
+                "answer": "[RU] Премьер-министр ÷ глава правительства"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Kik tagjai a Kormánynak?",
+        "correctCount": 2,
+        "options": [
+            "A miniszterelnök",
+            "A miniszterek",
+            "Az országgyűlési képviselők",
+            "A bírák"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who are members of the Government?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто члены Правительства?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki Magyarország miniszterelnöke?",
+        "answer": "Orbán Viktor",
+        "translations": {
+            "en": {
+                "question": "[EN] Who is Hungary\u0027s Prime Minister?",
+                "answer": "[EN] Viktor Orbán"
+            },
+            "ru": {
+                "question": "[RU] Кто премьер-министр Венгрии?",
+                "answer": "[RU] Виктор Орбан"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki Magyarország jelenlegi miniszterelnöke?",
+        "correctCount": 1,
+        "options": [
+            "Orbán Viktor",
+            "Antall József",
+            "Kádár János"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who is Hungary\u0027s current Prime Minister?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто нынешний премьер-министр Венгрии?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki választja meg a miniszterelnököt?",
+        "answer": "Az Országgyűlés",
+        "translations": {
+            "en": {
+                "question": "[EN] Who elects the Prime Minister?",
+                "answer": "[EN] The National Assembly"
+            },
+            "ru": {
+                "question": "[RU] Кто избирает премьер-министра?",
+                "answer": "[RU] Государственное собрание"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki választja meg Magyarország miniszterelnökét?",
+        "correctCount": 1,
+        "options": [
+            "Az Országgyűlés",
+            "A nép közvetlenül",
+            "A köztársasági elnök"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who elects Hungary\u0027s Prime Minister?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто избирает премьер-министра Венгрии?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki a Kormány feje?",
+        "answer": "A miniszterelnök",
+        "translations": {
+            "en": {
+                "question": "[EN] Who is the head of the Government?",
+                "answer": "[EN] The Prime Minister ÷ the Head of Government"
+            },
+            "ru": {
+                "question": "[RU] Кто является главой Правительства?",
+                "answer": "[RU] Премьер-министр ÷ глава правительства"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Hol képviseli a miniszterelnök Magyarországot?",
+        "answer": "Az Európai Tanácsban",
+        "translations": {
+            "en": {
+                "question": "[EN] Where does the Prime Minister represent Hungary?",
+                "answer": "[EN] In the European Council"
+            },
+            "ru": {
+                "question": "[RU] Где премьер-министр представляет Венгрию?",
+                "answer": "[RU] В Европейском совете"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik EU-s intézményben képviseli a miniszterelnök Magyarországot?",
+        "correctCount": 1,
+        "options": [
+            "Az Európai Tanácsban",
+            "Az Európai Parlamentben",
+            "Az Európai Bizottságban"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] In which EU institution does the Prime Minister represent Hungary?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] В каком учреждении ЕС премьер-министр представляет Венгрию?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik a Kormány feladata?",
+        "correctCount": 3,
+        "options": [
+            "Irányítja a közigazgatást",
+            "Jogszabályokat alkot",
+            "Működteti az állami ellátórendszereket",
+            "Törvényeket alkot",
+            "Megválasztja az elnököt"
+        ],
+        "correctIndices": [
+            0,
+            1,
+            2
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What is the task of the Government?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какова задача Правительства?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Mit irányít a Kormány?",
+        "correctCount": 1,
+        "options": [
+            "A közigazgatást",
+            "Az Országgyűlést",
+            "A bíróságokat"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What does the Government direct?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Чем руководит Правительство?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "list",
+        "inputCount": 2,
+        "question": "Soroljon fel két állami ellátórendszert",
+        "answer": "Honvédelem ÷ rendvédelem ÷ oktatás ÷ egészségügy",
+        "translations": {
+            "en": {
+                "question": "[EN] List two state supply systems!",
+                "answer": "[EN] National defense ÷ law enforcement ÷ education ÷ healthcare"
+            },
+            "ru": {
+                "question": "[RU] Перечислите две государственные системы обеспечения!",
+                "answer": "[RU] Национальная оборона ÷ правоохранительные органы ÷ образование ÷ здравоохранение"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Mely területeket működteti a Kormány?",
+        "correctCount": 3,
+        "options": [
+            "Honvédelem",
+            "Oktatás",
+            "Egészségügy",
+            "Törvényhozás",
+            "Bíráskodás"
+        ],
+        "correctIndices": [
+            0,
+            1,
+            2
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which areas does the Government operate?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какими сферами управляет Правительство?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "list",
+        "inputCount": 5,
+        "question": "Soroljon fel öt minisztériumot!",
+        "answer": "Agrárminisztérium ÷ Belügyminisztérium ÷ Energiaügyi Minisztérium ÷ Építési és Közlekedési Minisztérium ÷ Európai Uniós Ügyek Minisztériuma ÷ Honvédelmi Minisztérium ÷ Igazságügyi Minisztérium ÷ Közigazgatási és Területfejlesztési Minisztérium ÷ Kulturális és Innovációs Minisztérium ÷ Külgazdasági és Külügyminisztérium ÷ Miniszterelnöki Kabinetiroda ÷ Miniszterelnökség ÷ Nemzetgazdasági Minisztérium",
+        "translations": {
+            "en": {
+                "question": "[EN] List five ministries!",
+                "answer": "[EN] Ministry of Agriculture ÷ Ministry of Interior ÷ Ministry of Energy ÷ Ministry of Construction and Transport ÷ Ministry of European Union Affairs ÷ Ministry of Defence ÷ Ministry of Justice ÷ Ministry of Public Administration and Regional Development ÷ Ministry of Culture and Innovation ÷ Ministry of Foreign Affairs and Trade ÷ Cabinet Office of the Prime Minister ÷ Prime Minister\u0027s Office ÷ Ministry for National Economy"
+            },
+            "ru": {
+                "question": "[RU] Перечислите пять министерств!",
+                "answer": "[RU] Министерство сельского хозяйства ÷ Министерство внутренних дел ÷ Министерство энергетики ÷ Министерство строительства и транспорта ÷ Министерство по делам Европейского Союза ÷ Министерство обороны ÷ Министерство юстиции ÷ Министерство государственного управления и регионального развития ÷ Министерство культуры и инноваций ÷ Министерство внешнеэкономических связей и иностранных дел ÷ Кабинет премьер-министра ÷ Канцелярия премьер-министра ÷ Министерство национальной экономики"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik létező minisztérium?",
+        "correctCount": 5,
+        "options": [
+            "Belügyminisztérium",
+            "Honvédelmi Minisztérium",
+            "Külgazdasági és Külügyminisztérium",
+            "Igazságügyi Minisztérium",
+            "Agrárminisztérium",
+            "Űrügyi Minisztérium",
+            "Királyi Minisztérium",
+            "Vallásügyi Minisztérium"
+        ],
+        "correctIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which is an existing ministry?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое министерство существует?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik NEM valódi minisztérium neve?",
+        "correctCount": 1,
+        "options": [
+            "Királyi Minisztérium",
+            "Belügyminisztérium",
+            "Honvédelmi Minisztérium",
+            "Igazságügyi Minisztérium"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which is NOT a real ministry name?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое название министерства НЕ является настоящим?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Mi Magyarország államfője?",
+        "answer": "A köztársasági elnök",
+        "translations": {
+            "en": {
+                "question": "[EN] What is Hungary\u0027s head of state?",
+                "answer": "[EN] The President of the Republic"
+            },
+            "ru": {
+                "question": "[RU] Кто глава государства Венгрии?",
+                "answer": "[RU] Президент республики"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Open",
+        "question": "Ki Magyarország államfője?",
+        "answer": "A köztársasági elnök",
+        "translations": {
+            "en": {
+                "question": "[EN] Who is Hungary\u0027s head of state?",
+                "answer": "[EN] The President of the Republic"
+            },
+            "ru": {
+                "question": "[RU] Кто глава государства Венгрии?",
+                "answer": "[RU] Президент республики"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Mit fejez ki a köztársasági elnök?",
+        "answer": "A nemzet egységét",
+        "translations": {
+            "en": {
+                "question": "[EN] What does the President of the Republic express?",
+                "answer": "[EN] The unity of the nation"
+            },
+            "ru": {
+                "question": "[RU] Что выражает Президент республики?",
+                "answer": "[RU] Единство нации"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Multiple",
+        "question": "Mi a köztársasági elnök szerepe?",
+        "correctCount": 2,
+        "options": [
+            "Kifejezi a nemzet egységét",
+            "Őrködik az államszervezet demokratikus működése felett",
+            "Törvényeket alkot",
+            "Kormányoz"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What is the role of the President of the Republic?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какова роль Президента республики?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki Magyarország köztársasági elnöke?",
+        "answer": "Dr. Sulyok Tamás",
+        "translations": {
+            "en": {
+                "question": "[EN] Who is Hungary\u0027s President of the Republic?",
+                "answer": "[EN] Dr. Tamás Sulyok"
+            },
+            "ru": {
+                "question": "[RU] Кто Президент республики Венгрии?",
+                "answer": "[RU] Д-р Тамаш Шуйок"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki Magyarország jelenlegi köztársasági elnöke?",
+        "correctCount": 1,
+        "options": [
+            "Dr. Sulyok Tamás",
+            "Orbán Viktor",
+            "Göncz Árpád"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who is Hungary\u0027s current President of the Republic?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто нынешний Президент республики Венгрии?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki választja a köztársasági elnököt?",
+        "answer": "Az Országgyűlés",
+        "translations": {
+            "en": {
+                "question": "[EN] Who elects the President of the Republic?",
+                "answer": "[EN] The National Assembly"
+            },
+            "ru": {
+                "question": "[RU] Кто избирает Президента республики?",
+                "answer": "[RU] Государственное собрание"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Open",
+        "question": "Hogyan választják a köztársasági elnököt?",
+        "answer": "Titkos szavazással",
+        "translations": {
+            "en": {
+                "question": "[EN] How is the President of the Republic elected?",
+                "answer": "[EN] By secret ballot"
+            },
+            "ru": {
+                "question": "[RU] Как избирается Президент республики?",
+                "answer": "[RU] Тайным голосованием"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki választja meg a köztársasági elnököt?",
+        "correctCount": 1,
+        "options": [
+            "Az Országgyűlés",
+            "A nép közvetlenül",
+            "A Kormány"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who elects the President of the Republic?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто избирает Президента республики?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Hány évre választják a köztársasági elnököt?",
+        "answer": "5 évre ÷ öt évre ÷ 5",
+        "translations": {
+            "en": {
+                "question": "[EN] For how many years is the President of the Republic elected?",
+                "answer": "[EN] For 5 years"
+            },
+            "ru": {
+                "question": "[RU] На сколько лет избирается Президент республики?",
+                "answer": "[RU] На 5 лет"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Hány évre választják a köztársasági elnököt?",
+        "correctCount": 1,
+        "options": [
+            "5 évre",
+            "4 évre",
+            "6 évre"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] For how many years is the President of the Republic elected?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] На сколько лет избирается Президент республики?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Hányszor választható újra a köztársasági elnök?",
+        "answer": "1 ÷ Legfeljebb egy alkalommal ÷ egy",
+        "translations": {
+            "en": {
+                "question": "[EN] How many times can the President of the Republic be re-elected?",
+                "answer": "[EN] At most once ÷ 1"
+            },
+            "ru": {
+                "question": "[RU] Сколько раз может быть переизбран Президент республики?",
+                "answer": "[RU] Максимум один раз ÷ 1"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Open",
+        "question": "Hány ciklust tölthet egy személy köztársasági elnökként?",
+        "answer": "2 ÷ Legfeljebb kettőt ÷ kettő",
+        "translations": {
+            "en": {
+                "question": "[EN] How many terms can a person serve as President of the Republic?",
+                "answer": "[EN] At most two ÷ 2"
+            },
+            "ru": {
+                "question": "[RU] Сколько сроков может занимать один человек пост Президента республики?",
+                "answer": "[RU] Максимум два ÷ 2"
+            }
+        },
+        "inputType": "text"
+    },
+    {
+        "type": "Multiple",
+        "question": "Hányszor választható újra a köztársasági elnök?",
+        "correctCount": 1,
+        "options": [
+            "Egyszer",
+            "Kétszer",
+            "Háromszor"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] How many times can the President of the Republic be re-elected?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Сколько раз может быть переизбран Президент республики?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Hogyan választják a köztársasági elnököt?",
+        "correctCount": 1,
+        "options": [
+            "Titkos szavazással",
+            "Nyílt szavazással",
+            "Népszavazással"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] How is the President of the Republic elected?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Как избирается Президент республики?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "question": "Ki a Magyar Honvédség főparancsnoka?",
+        "answer": "A köztársasági elnök",
+        "translations": {
+            "en": {
+                "question": "[EN] Who is the Commander-in-Chief of the Hungarian Defence Forces?",
+                "answer": "[EN] The President of the Republic"
+            },
+            "ru": {
+                "question": "[RU] Кто Главнокомандующий Силами обороны Венгрии?",
+                "answer": "[RU] Президент республики"
+            }
+        },
+        "inputType": "person"
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki a Magyar Honvédség főparancsnoka?",
+        "correctCount": 1,
+        "options": [
+            "A köztársasági elnök",
+            "A miniszterelnök",
+            "A honvédelmi miniszter"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Who is the Commander-in-Chief of the Hungarian Defence Forces?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Кто Главнокомандующий Силами обороны Венгрии?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Mit hív össze a köztársasági elnök?",
+        "correctCount": 1,
+        "options": [
+            "Az Országgyűlés alakuló ülését",
+            "A Kormány üléseit",
+            "A miniszteri értekezleteket"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] What does the President of the Republic convene?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Что созывает Президент республики?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Feloszlathatja-e az elnök az Országgyűlést?",
+        "correctCount": 1,
+        "options": [
+            "Igen, meghatározott esetekben",
+            "Igen, bármikor",
+            "Nem"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Can the President dissolve the National Assembly?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Может ли Президент распустить Государственное собрание?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Mikor oszlathatja fel az elnök az Országgyűlést?",
+        "correctCount": 1,
+        "options": [
+            "Alaptörvényben meghatározott esetekben",
+            "Bármikor, ha akarja",
+            "Soha"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] When can the President dissolve the National Assembly?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Когда Президент может распустить Государственное собрание?",
+                "answer": "[RU] "
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "list",
+        "inputCount": 2,
+        "question": "Soroljon fel két jogkört a köztársasági elnök jogkörei közül",
+        "answer": "A Magyar Honvédség főparancsnoka ÷ összehívja az Országgyűlés alakuló ülését ÷ feloszlathatja az Országgyűlést meghatározott esetekben",
+        "translations": {
+            "en": {
+                "question": "[EN] List two powers of the President of the Republic!",
+                "answer": "[EN] Commander-in-Chief of the Hungarian Defence Forces ÷ convenes the inaugural session of the National Assembly ÷ may dissolve the National Assembly in specific cases"
+            },
+            "ru": {
+                "question": "[RU] Перечислите два полномочия Президента республики!",
+                "answer": "[RU] Главнокомандующий Силами обороны Венгрии ÷ созывает учредительное заседание Государственного собрания ÷ может распустить Государственное собрание в определенных случаях"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik a köztársasági elnök jogköre?",
+        "correctCount": 2,
+        "options": [
+            "A Magyar Honvédség főparancsnoka",
+            "Összehívja az Országgyűlés alakuló ülését",
+            "Törvényeket alkot",
+            "Kinevezi a minisztereket"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "[EN] Which is a power of the President of the Republic?",
+                "answer": "[EN] "
+            },
+            "ru": {
+                "question": "[RU] Какое является полномочием Президента республики?",
+                "answer": "[RU] "
+            }
+        }
     }
 ]

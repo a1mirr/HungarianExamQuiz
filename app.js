@@ -31,6 +31,8 @@ const elements = {
     problemOptions: document.getElementById('problemOptions'),
     multipleChoice: document.getElementById('multipleChoice'),
     answerInput: document.getElementById('answerInput'),
+    listInputs: document.getElementById('listInputs'),
+    listInputsContainer: document.getElementById('listInputsContainer'),
     optionsList: document.getElementById('optionsList'),
     feedback: document.getElementById('feedback'),
     correctAnswer: document.getElementById('correctAnswer'),
@@ -294,57 +296,95 @@ function loadQuestion() {
     // Show appropriate input type
     if (question.type === 'Open') {
         elements.multipleChoice.classList.add('hidden');
-        elements.answerInput.classList.remove('hidden');
-        elements.userAnswer.value = '';
 
-        // Detect input type and configure input field accordingly
-        const inputType = question.inputType || 'text';
-        let htmlType = 'text';
-        let placeholder = translations[state.currentLang].yourAnswer || 'Your answer';
-        let inputMode = 'text';
+        // Check for List Input Type
+        if (question.inputType === 'list') {
+            elements.answerInput.classList.add('hidden');
+            elements.listInputs.classList.remove('hidden');
+            elements.listInputsContainer.innerHTML = '';
 
-        switch (inputType) {
-            case 'number':
-                htmlType = 'number';
-                placeholder = translations[state.currentLang].enterNumber || 'Enter number (e.g., 7)';
-                inputMode = 'numeric';
-                elements.userAnswer.setAttribute('min', '0');
-                elements.userAnswer.setAttribute('step', '1');
-                break;
-            case 'date':
-                htmlType = 'date';
-                placeholder = translations[state.currentLang].enterDate || 'Enter date';
-                break;
-            case 'date-interval':
-                htmlType = 'text';
-                placeholder = translations[state.currentLang].enterDateInterval || 'Enter year range (e.g., 1241-1242)';
-                inputMode = 'numeric';
-                break;
-            case 'person':
-                htmlType = 'text';
-                placeholder = translations[state.currentLang].enterName || 'Enter name';
-                break;
-            default:
-                htmlType = 'text';
-                placeholder = translations[state.currentLang].yourAnswer || 'Your answer';
-        }
+            const count = question.inputCount || 3;
+            for (let i = 0; i < count; i++) {
+                const wrapper = document.createElement('div');
+                wrapper.className = 'list-input-item';
 
-        elements.userAnswer.setAttribute('type', htmlType);
-        elements.userAnswer.setAttribute('placeholder', placeholder);
-        elements.userAnswer.setAttribute('inputmode', inputMode);
+                const number = document.createElement('span');
+                number.className = 'list-input-number';
+                number.textContent = (i + 1) + '.';
 
-        // Remove number-specific attributes if not number type
-        if (inputType !== 'number') {
-            elements.userAnswer.removeAttribute('min');
-            elements.userAnswer.removeAttribute('step');
+                const input = document.createElement('input');
+                input.type = 'text';
+                input.className = 'list-input-field';
+                input.placeholder = translations[state.currentLang].yourAnswer || 'Your answer';
+
+                // Enter key handler
+                input.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter' && !state.questionAnswered) {
+                        checkUserAnswer();
+                    }
+                });
+
+                wrapper.appendChild(number);
+                wrapper.appendChild(input);
+                elements.listInputsContainer.appendChild(wrapper);
+            }
+        } else {
+            // Standard Single Input
+            elements.listInputs.classList.add('hidden');
+            elements.answerInput.classList.remove('hidden');
+            elements.userAnswer.value = '';
+
+            // Detect input type and configure input field accordingly
+            const inputType = question.inputType || 'text';
+            let htmlType = 'text';
+            let placeholder = translations[state.currentLang].yourAnswer || 'Your answer';
+            let inputMode = 'text';
+
+            switch (inputType) {
+                case 'number':
+                    htmlType = 'number';
+                    placeholder = translations[state.currentLang].enterNumber || 'Enter number (e.g., 7)';
+                    inputMode = 'numeric';
+                    elements.userAnswer.setAttribute('min', '0');
+                    elements.userAnswer.setAttribute('step', '1');
+                    break;
+                case 'date':
+                    htmlType = 'date';
+                    placeholder = translations[state.currentLang].enterDate || 'Enter date';
+                    break;
+                case 'date-interval':
+                    htmlType = 'text';
+                    placeholder = translations[state.currentLang].enterDateInterval || 'Enter year range (e.g., 1241-1242)';
+                    inputMode = 'numeric';
+                    break;
+                case 'person':
+                    htmlType = 'text';
+                    placeholder = translations[state.currentLang].enterName || 'Enter name';
+                    break;
+                default:
+                    htmlType = 'text';
+                    placeholder = translations[state.currentLang].yourAnswer || 'Your answer';
+            }
+
+            elements.userAnswer.setAttribute('type', htmlType);
+            elements.userAnswer.setAttribute('placeholder', placeholder);
+            elements.userAnswer.setAttribute('inputmode', inputMode);
+
+            // Remove number-specific attributes if not number type
+            if (inputType !== 'number') {
+                elements.userAnswer.removeAttribute('min');
+                elements.userAnswer.removeAttribute('step');
+            }
         }
     } else if (question.type === 'Multiple') {
         elements.answerInput.classList.add('hidden');
+        elements.listInputs.classList.add('hidden');
         elements.multipleChoice.classList.remove('hidden');
         renderMultipleChoice(question);
     } else {
         // Default to open answer if type is unknown or not handled
         elements.multipleChoice.classList.add('hidden');
+        elements.listInputs.classList.add('hidden');
         elements.answerInput.classList.remove('hidden');
     }
 
@@ -423,8 +463,32 @@ function checkUserAnswer() {
         // Use explicit inputType if available, otherwise default to text
         const inputType = question.inputType || 'text';
 
+        // Handle List Input Validation
+        if (inputType === 'list') {
+            const inputs = Array.from(elements.listInputsContainer.querySelectorAll('.list-input-field'));
+            const userAnswers = inputs.map(input => input.value.trim()).filter(val => val);
+
+            if (userAnswers.length === 0) {
+                alert(translations[state.currentLang].checkAnswer || 'Please enter an answer');
+                return;
+            }
+
+            isCorrect = validateList(userAnswers, question.answer, question.inputCount || 3);
+
+            // Visual feedback for individual inputs could be added here
+            // For now, we apply global feedback
+            if (isCorrect) {
+                inputs.forEach(input => input.classList.add('correct'));
+            } else {
+                inputs.forEach(input => input.classList.add('incorrect'));
+            }
+
+            // Disable inputs
+            inputs.forEach(input => input.disabled = true);
+
+        }
         // Handle approximate validation (population, area, etc.)
-        if (inputType === 'approximate') {
+        else if (inputType === 'approximate') {
             const result = validateApproximate(userAnswer, question.answer, question.tolerance || 0.1);
 
             if (result.exact) {

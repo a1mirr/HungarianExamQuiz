@@ -292,19 +292,20 @@
     },
     {
         "type": "Open",
+        "inputType": "list",
+        "inputCount": 3,
         "question": "Soroljon fel három első generációs jogot",
         "answer": "Az élethez való jog ÷ a személyi szabadsághoz való jog ÷ az egyesülési és gyülekezési szabadság ÷ a lelkiismereti és vallásszabadság ÷ a szólás- és sajtószabadság",
         "translations": {
             "en": {
-                "question": "List three first generation rights!",
-                "answer": "The right to life ÷ the right to personal freedom ÷ freedom of assembly and association ÷ freedom of conscience and religion ÷ freedom of speech and press"
+                "question": "[EN] List three first generation rights!",
+                "answer": "[EN] The right to life ÷ the right to personal freedom ÷ freedom of assembly and association ÷ freedom of conscience and religion ÷ freedom of speech and press"
             },
             "ru": {
-                "question": "Перечислите три права первого поколения!",
-                "answer": "Право на жизнь ÷ право на личную свободу ÷ свобода собраний и объединений ÷ свобода совести и религии ÷ свобода слова и печати"
+                "question": "[RU] Перечислите три права первого поколения!",
+                "answer": "[RU] Право на жизнь ÷ право на личную свободу ÷ свобода собраний и объединений ÷ свобода совести и религии ÷ свобода слова и печати"
             }
-        },
-        "inputType": "text"
+        }
     },
     {
         "type": "Open",
@@ -421,19 +422,20 @@
     },
     {
         "type": "Open",
+        "inputType": "list",
+        "inputCount": 2,
         "question": "Soroljon fel két második generációs jogot!",
         "answer": "Munkához való jog ÷ sztrájkhoz való jog ÷ oktatáshoz való jog ÷ szociális biztonsághoz való jog",
         "translations": {
             "en": {
-                "question": "List two second generation rights!",
-                "answer": "The right to work ÷ the right to strike ÷ the right to education ÷ the right to social security"
+                "question": "[EN] List two second generation rights!",
+                "answer": "[EN] The right to work ÷ the right to strike ÷ the right to education ÷ the right to social security"
             },
             "ru": {
-                "question": "Перечислите два права второго поколения!",
-                "answer": "Право на труд ÷ право на забастовку ÷ право на образование ÷ право на социальное обеспечение"
+                "question": "[RU] Перечислите два права второго поколения!",
+                "answer": "[RU] Право на труд ÷ право на забастовку ÷ право на образование ÷ право на социальное обеспечение"
             }
-        },
-        "inputType": "text"
+        }
     },
     {
         "type": "Open",
@@ -550,6 +552,8 @@
     },
     {
         "type": "Open",
+        "inputType": "list",
+        "inputCount": 2,
         "question": "Soroljon fel két harmadik generációs jogot!",
         "answer": "Egészséges környezethez való jog ÷ gyermekek jogai ÷ betegjogok ÷ fogyatékkal élők jogai",
         "translations": {
@@ -561,8 +565,7 @@
                 "question": "Перечислите два права третьего поколения!",
                 "answer": "Право на здоровую окружающую среду ÷ права детей ÷ права пациентов ÷ права инвалидов"
             }
-        },
-        "inputType": "text"
+        }
     },
     {
         "type": "Open",
@@ -749,20 +752,21 @@
         }
     },
     {
-        "type": "Open",
+        "type": "list",
+        "inputType": "list",
+        "inputCount": 3,
         "question": "Írjon le legalább három, az Alaptörvényben biztosított alapvető jogot",
         "answer": "Törvény előtti egyenlőség ÷ élethez és emberi méltósághoz való jog ÷ tisztességes eljáráshoz való jog ÷ gondolat, lelkiismeret és vallásszabadság ÷ véleménynyilvánítás szabadsága ÷ gyülekezési szabadság ÷ tulajdonjog és örökléshez való jog ÷ személyes adatok védelméhez való jog",
         "translations": {
             "en": {
-                "question": "List at least three fundamental rights guaranteed in the Fundamental Law!",
-                "answer": "Equality before the law ÷ right to life and human dignity ÷ right to fair procedure ÷ freedom of thought, conscience and religion ÷ freedom of expression ÷ freedom of assembly ÷ property rights and right to inheritance ÷ right to the protection of personal data"
+                "question": "[EN] List at least three fundamental rights guaranteed in the Fundamental Law!",
+                "answer": "[EN] Equality before the law ÷ right to life and human dignity ÷ right to fair procedure ÷ freedom of thought, conscience and religion ÷ freedom of expression ÷ freedom of assembly ÷ property rights and right to inheritance ÷ right to the protection of personal data"
             },
             "ru": {
-                "question": "Перечислите по крайней мере три основных права, гарантированных Основным законом!",
-                "answer": "Равенство перед законом ÷ право на жизнь и человеческое достоинство ÷ право на справедливое разбирательство ÷ свобода мысли, совести и религии ÷ свобода выражения мнений ÷ свобода собраний ÷ право собственности и право наследования ÷ право на защиту персональных данных"
+                "question": "[RU] Перечислите по крайней мере три основных права, гарантированных Основным законом!",
+                "answer": "[RU] Равенство перед законом ÷ право на жизнь и человеческое достоинство ÷ право на справедливое разбирательство ÷ свобода мысли, совести и религии ÷ свобода выражения мнений ÷ свобода собраний ÷ право собственности и право наследования ÷ право на защиту персональных данных"
             }
-        },
-        "inputType": "text"
+        }
     },
     {
         "type": "Multiple",
