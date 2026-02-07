@@ -2,6 +2,9 @@
 // HUNGARIAN EXAM QUIZ - INTERACTIVE APPLICATION
 // ========================================
 
+// DEBUG: Verify script execution
+// alert('App script loaded');
+
 // == State Management ==
 const state = {
     currentLang: 'en',
@@ -20,6 +23,55 @@ const state = {
     currentAnswerTranslated: '',
     reportedProblems: [],
     mockExamMode: false
+};
+
+// == DOM Elements ==
+const elements = {
+    // Buttons
+    langBtns: document.querySelectorAll('.lang-btn'),
+    backBtn: document.getElementById('backBtn'),
+    checkBtn: document.getElementById('checkBtn'),
+    showAnswerBtn: document.getElementById('showAnswerBtn'),
+    prevBtn: document.getElementById('prevBtn'),
+    nextBtn: document.getElementById('nextBtn'),
+    translateQuestionBtn: document.getElementById('translateQuestionBtn'),
+    translateAnswerBtn: document.getElementById('translateAnswerBtn'),
+    problemBtn: document.getElementById('problemBtn'),
+    submitProblemBtn: document.getElementById('submitProblemBtn'),
+    exportProblemsBtn: document.getElementById('exportProblemsBtn'),
+    backToMainBtn: document.getElementById('backToMainBtn'),
+
+    // Inputs
+    userAnswer: document.getElementById('userAnswer'),
+    problemNotes: document.getElementById('problemNotes'),
+
+    // Containers & Views
+    topicView: document.getElementById('topicView'),
+    quizView: document.getElementById('quizView'),
+    resultsView: document.getElementById('resultsView'),
+    topicGrid: document.getElementById('topicGrid'),
+    mockExamCard: document.getElementById('mockExamCard'),
+    problemOptions: document.getElementById('problemOptions'),
+    multipleChoice: document.getElementById('multipleChoice'),
+    answerInput: document.getElementById('answerInput'),
+    optionsList: document.getElementById('optionsList'),
+    feedback: document.getElementById('feedback'),
+    correctAnswer: document.getElementById('correctAnswer'),
+
+    // Text Elements
+    topicTitle: document.getElementById('topicTitle'),
+    questionType: document.getElementById('questionType'),
+    questionText: document.getElementById('questionText'),
+    feedbackIcon: document.getElementById('feedbackIcon'),
+    feedbackText: document.getElementById('feedbackText'),
+    correctAnswerText: document.getElementById('correctAnswerText'),
+    progressText: document.getElementById('progressText'),
+    progressFill: document.getElementById('progressFill'),
+    finalPercentage: document.getElementById('finalPercentage'),
+    finalScore: document.getElementById('finalScore'),
+    correctCount: document.getElementById('correctCount'),
+    incorrectCount: document.getElementById('incorrectCount'),
+    problemCount: document.getElementById('problemCount')
 };
 
 
@@ -63,6 +115,7 @@ async function init() {
         setupEventListeners();
     } catch (error) {
         console.error('Failed to initialize:', error);
+        alert('Failed to initialize app: ' + error.message + '\n\nPossible reasons:\n1. Opening file directly (CORS error) - use a local server\n2. Invalid JSON data');
     }
 }
 
@@ -237,8 +290,8 @@ function loadQuestion() {
 
     // Show appropriate input type
     if (question.type === 'Open') {
-        elements.multipleChoice.classList.remove('active');
-        elements.openAnswer.classList.add('active');
+        elements.multipleChoice.classList.add('hidden');
+        elements.answerInput.classList.remove('hidden');
         elements.userAnswer.value = '';
 
         // Detect input type and configure input field accordingly
