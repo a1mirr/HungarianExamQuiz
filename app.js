@@ -22,143 +22,8 @@ const state = {
     mockExamMode: false
 };
 
-// == Translations ==
-const translations = {
-    en: {
-        subtitle: 'Master Hungarian Culture & History',
-        selectTopic: 'Select a Topic',
-        back: 'Back',
-        yourAnswer: 'Your Answer:',
-        selectOptions: 'Select the correct option(s):',
-        checkAnswer: 'Check Answer',
-        showAnswer: 'Show Answer',
-        previous: 'Previous',
-        next: 'Next',
-        questions: 'questions',
-        correct: '✓ Correct!',
-        incorrect: '✗ Incorrect',
-        correctAnswer: 'Correct Answer:',
-        score: 'Score',
-        translate: 'Translate',
-        reportProblem: 'Report Problem',
-        problemUnclear: 'Unclear question',
-        problemWrongOptions: 'Wrong options',
-        problemNoTranslation: 'No translation',
-        problemOther: 'Other issue',
-        submitProblem: 'Submit',
-        exportProblems: 'Export Problems',
-        problemReported: 'Problem reported!',
-        mockExam: 'Mock Exam',
-        mockExamDesc: '12 random questions (2 from each topic)',
-        quizComplete: 'Quiz Complete!',
-        backToMain: 'Back to Main Menu',
-        additionalNotes: 'Additional notes:'
-    },
-    ru: {
-        subtitle: 'Изучайте венгерскую культуру и историю',
-        selectTopic: 'Выберите тему',
-        back: 'Назад',
-        yourAnswer: 'Ваш ответ:',
-        selectOptions: 'Выберите правильный вариант(ы):',
-        checkAnswer: 'Проверить ответ',
-        showAnswer: 'Показать ответ',
-        previous: 'Предыдущий',
-        next: 'Следующий',
-        questions: 'вопросов',
-        correct: '✓ Правильно!',
-        incorrect: '✗ Неправильно',
-        correctAnswer: 'Правильный ответ:',
-        score: 'Счёт',
-        translate: 'Перевести',
-        reportProblem: 'Сообщить о проблеме',
-        problemUnclear: 'Неясный вопрос',
-        problemWrongOptions: 'Неправильные варианты',
-        problemNoTranslation: 'Нет перевода',
-        problemOther: 'Другая проблема',
-        submitProblem: 'Отправить',
-        exportProblems: 'Экспортировать проблемы',
-        problemReported: 'Проблема зарегистрирована!',
-        mockExam: 'Пробный экзамен',
-        mockExamDesc: '12 случайных вопросов (2 из каждой темы)',
-        quizComplete: 'Викторина завершена!',
-        backToMain: 'Вернуться в главное меню',
-        additionalNotes: 'Дополнительные заметки:'
-    },
-    hu: {
-        subtitle: 'Magyar kultúra és történelem mesterei',
-        selectTopic: 'Válasszon témát',
-        back: 'Vissza',
-        yourAnswer: 'Az Ön válasza:',
-        selectOptions: 'Válassza ki a helyes lehetőséget/lehetőségeket:',
-        checkAnswer: 'Válasz ellenőrzése',
-        showAnswer: 'Válasz megjelenítése',
-        previous: 'Előző',
-        next: 'Következő',
-        questions: 'kérdések',
-        correct: '✓ Helyes!',
-        incorrect: '✗ Helytelen',
-        correctAnswer: 'Helyes válasz:',
-        score: 'Pontszám',
-        translate: 'Fordítás',
-        reportProblem: 'Probléma jelentése',
-        problemUnclear: 'Nem egyértelmű kérdés',
-        problemWrongOptions: 'Rossz lehetőségek',
-        problemNoTranslation: 'Nincs fordítás',
-        problemOther: 'Egyéb probléma',
-        submitProblem: 'Beküldés',
-        exportProblems: 'Problémák exportálása',
-        problemReported: 'Probléma jelentve!',
-        mockExam: 'Próbavizsga',
-        mockExamDesc: '12 véletlen kérdés (2 minden témából)',
-        quizComplete: 'Kvíz kész!',
-        backToMain: 'Vissza a főmenübe',
-        additionalNotes: 'További megjegyzések:'
-    }
-};
 
-// == DOM Elements ==
-const elements = {
-    langBtns: document.querySelectorAll('.lang-btn'),
-    topicView: document.getElementById('topicView'),
-    quizView: document.getElementById('quizView'),
-    topicGrid: document.getElementById('topicGrid'),
-    backBtn: document.getElementById('backBtn'),
-    topicTitle: document.getElementById('topicTitle'),
-    progressText: document.getElementById('progressText'),
-    progressFill: document.getElementById('progressFill'),
-    questionType: document.getElementById('questionType'),
-    questionText: document.getElementById('questionText'),
-    translateQuestionBtn: document.getElementById('translateQuestionBtn'),
-    translateAnswerBtn: document.getElementById('translateAnswerBtn'),
-    answerInput: document.getElementById('answerInput'),
-    userAnswer: document.getElementById('userAnswer'),
-    multipleChoice: document.getElementById('multipleChoice'),
-    optionsList: document.getElementById('optionsList'),
-    feedback: document.getElementById('feedback'),
-    feedbackIcon: document.getElementById('feedbackIcon'),
-    feedbackText: document.getElementById('feedbackText'),
-    correctAnswer: document.getElementById('correctAnswer'),
-    correctAnswerText: document.getElementById('correctAnswerText'),
-    checkBtn: document.getElementById('checkBtn'),
-    showAnswerBtn: document.getElementById('showAnswerBtn'),
-    prevBtn: document.getElementById('prevBtn'),
-    nextBtn: document.getElementById('nextBtn'),
-    problemBtn: document.getElementById('problemBtn'),
-    problemOptions: document.getElementById('problemOptions'),
-    submitProblemBtn: document.getElementById('submitProblemBtn'),
-    exportProblemsBtn: document.getElementById('exportProblemsBtn'),
-    problemCount: document.getElementById('problemCount'),
-    mockExamCard: document.getElementById('mockExamCard'),
-    problemNotes: document.getElementById('problemNotes'),
-    resultsView: document.getElementById('resultsView'),
-    finalPercentage: document.getElementById('finalPercentage'),
-    finalScore: document.getElementById('finalScore'),
-    correctCount: document.getElementById('correctCount'),
-    incorrectCount: document.getElementById('incorrectCount'),
-    backToMainBtn: document.getElementById('backToMainBtn')
-};
-
-// == Utility Functions ==
+// == Helper Functions ==
 function shuffleArray(array) {
     const shuffled = [...array];
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -172,14 +37,9 @@ function normalizeAnswer(text) {
     return text.toLowerCase().trim().replace(/\s+/g, ' ');
 }
 
-function checkAnswer(userAnswer, correctAnswers) {
-    const normalized = normalizeAnswer(userAnswer);
-
-    // Support multiple acceptable answers separated by ÷
-    const acceptableAnswers = correctAnswers.split('÷').map(a => normalizeAnswer(a));
-
-    return acceptableAnswers.some(answer => normalized === answer);
-}
+// Note: Validators (validatePerson, validateDate, etc.) are in validators.js
+// Note: Config (translations, inputTypeConfig) are in config.js
+// Note: Input type detection (detectInputType) is in validators.js
 
 // == Initialization ==
 async function init() {
@@ -376,11 +236,58 @@ function loadQuestion() {
     }
 
     // Show appropriate input type
-    if (question.type === 'Multiple') {
+    if (question.type === 'Open') {
+        elements.multipleChoice.classList.remove('active');
+        elements.openAnswer.classList.add('active');
+        elements.userAnswer.value = '';
+
+        // Detect input type and configure input field accordingly
+        const inputType = detectInputType(question.answer);
+        let htmlType = 'text';
+        let placeholder = translations[state.currentLang].yourAnswer || 'Your answer';
+        let inputMode = 'text';
+
+        switch (inputType) {
+            case 'number':
+                htmlType = 'number';
+                placeholder = translations[state.currentLang].enterNumber || 'Enter number (e.g., 7)';
+                inputMode = 'numeric';
+                elements.userAnswer.setAttribute('min', '0');
+                elements.userAnswer.setAttribute('step', '1');
+                break;
+            case 'date':
+                htmlType = 'date';
+                placeholder = translations[state.currentLang].enterDate || 'Enter date';
+                break;
+            case 'date-interval':
+                htmlType = 'text';
+                placeholder = translations[state.currentLang].enterDateInterval || 'Enter year range (e.g., 1241-1242)';
+                inputMode = 'numeric';
+                break;
+            case 'person':
+                htmlType = 'text';
+                placeholder = translations[state.currentLang].enterName || 'Enter name';
+                break;
+            default:
+                htmlType = 'text';
+                placeholder = translations[state.currentLang].yourAnswer || 'Your answer';
+        }
+
+        elements.userAnswer.setAttribute('type', htmlType);
+        elements.userAnswer.setAttribute('placeholder', placeholder);
+        elements.userAnswer.setAttribute('inputmode', inputMode);
+
+        // Remove number-specific attributes if not number type
+        if (inputType !== 'number') {
+            elements.userAnswer.removeAttribute('min');
+            elements.userAnswer.removeAttribute('step');
+        }
+    } else if (question.type === 'Multiple') {
         elements.answerInput.classList.add('hidden');
         elements.multipleChoice.classList.remove('hidden');
         renderMultipleChoice(question);
     } else {
+        // Default to open answer if type is unknown or not handled
         elements.multipleChoice.classList.add('hidden');
         elements.answerInput.classList.remove('hidden');
     }
@@ -414,18 +321,30 @@ function checkUserAnswer() {
 
     const question = state.currentQuestions[state.currentQuestionIndex];
     let isCorrect = false;
-
+    // == Multiple Choice ==
     if (question.type === 'Multiple') {
-        // Get selected options
-        const checkboxes = elements.optionsList.querySelectorAll('.option-checkbox:checked');
-        const selectedOriginalIndices = Array.from(checkboxes).map(cb => {
-            return parseInt(cb.closest('.option-item').dataset.originalIndex);
-        });
+        const selected = Array.from(elements.optionsList.querySelectorAll('input[type="checkbox"]:checked'));
 
-        // Check if correct
-        const correctIndices = question.correctIndices || [];
-        isCorrect = selectedOriginalIndices.length === correctIndices.length &&
-            selectedOriginalIndices.every(idx => correctIndices.includes(idx));
+        if (selected.length === 0) {
+            alert(translations[state.currentLang].selectAnswer || 'Please select an answer');
+            return;
+        }
+
+        // Correct answers are always the first N options (where N = correctCount)
+        const correctCount = question.correctCount || 0;
+        const correctIndices = Array.from({ length: correctCount }, (_, i) => i);
+
+        const selectedOriginalIndices = selected.map(checkbox =>
+            parseInt(checkbox.closest('.option-item').dataset.originalIndex)
+        );
+
+        // Check if selection matches correct answers
+        if (selectedOriginalIndices.length !== correctIndices.length) {
+            isCorrect = false;
+        } else {
+            isCorrect = selectedOriginalIndices.every(idx => correctIndices.includes(idx)) &&
+                correctIndices.every(idx => selectedOriginalIndices.includes(idx));
+        }
 
         // Show correct/incorrect visually
         document.querySelectorAll('.option-item').forEach(item => {
@@ -438,16 +357,33 @@ function checkUserAnswer() {
         });
 
     } else {
-        // Open question
+        //    if (question.type !== 'Multiple') {
         const userAnswer = elements.userAnswer.value.trim();
         if (!userAnswer) {
-            alert('Please enter an answer');
+            alert(translations[state.currentLang].checkAnswer || 'Please enter an answer');
             return;
         }
 
-        isCorrect = checkAnswer(userAnswer, question.answer);
-    }
+        // Detect input type and validate accordingly
+        const inputType = detectInputType(question.answer);
 
+        switch (inputType) {
+            case 'person':
+                isCorrect = validatePerson(userAnswer, question.answer);
+                break;
+            case 'date':
+                isCorrect = validateDate(userAnswer, question.answer);
+                break;
+            case 'date-interval':
+                isCorrect = validateDateInterval(userAnswer, question.answer);
+                break;
+            case 'number':
+                isCorrect = validateNumber(userAnswer, question.answer);
+                break;
+            default:
+                isCorrect = checkAnswer(userAnswer, question.answer);
+        }
+    }
     // Update score
     if (isCorrect) {
         state.userScore++;

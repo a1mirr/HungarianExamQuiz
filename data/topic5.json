@@ -1,872 +1,872 @@
 [
-  {
-    "type": "Multiple",
-    "question": "Milyen előzményekre tekint vissza az emberi jogok eszméje Európában?",
-    "correctCount": 1,
-    "options": [
-      "Ókori előzményekre",
-      "Középkori előzményekre",
-      "Reneszánsz kori előzményekre"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "What antecedents does the idea of human rights look back to in Europe?",
-        "answer": "Ancient antecedents"
-      },
-      "ru": {
-        "question": "На какие предпосылки опирается идея прав человека в Европе?",
-        "answer": "Древние предпосылки"
-      }
+    {
+        "type":  "Multiple",
+        "question":  "Milyen előzményekre tekint vissza az emberi jogok eszméje Európában?",
+        "correctCount":  1,
+        "options":  [
+                        "Ókori előzményekre",
+                        "Középkori előzményekre",
+                        "Reneszánsz kori előzményekre"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "What antecedents does the idea of human rights look back to in Europe?",
+                                        "answer":  "Ancient antecedents"
+                                    },
+                             "ru":  {
+                                        "question":  "На какие предпосылки опирается идея прав человека в Европе?",
+                                        "answer":  "Древние предпосылки"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Mikor készült az angol Magna Charta Libertatum?",
+        "answer":  "1215",
+        "translations":  {
+                             "en":  {
+                                        "question":  "When was the English Magna Carta Libertatum created?",
+                                        "answer":  "1215"
+                                    },
+                             "ru":  {
+                                        "question":  "Когда была создана английская Magna Carta Libertatum?",
+                                        "answer":  "1215"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Mikor adták ki a magyar Aranybullát?",
+        "answer":  "1222",
+        "translations":  {
+                             "en":  {
+                                        "question":  "When was the Hungarian Golden Bull issued?",
+                                        "answer":  "1222"
+                                    },
+                             "ru":  {
+                                        "question":  "Когда была издана венгерская Золотая булла?",
+                                        "answer":  "1222"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Melyik dokumentum a legrégebbi az emberi jogok fejlődésében?",
+        "correctCount":  1,
+        "options":  [
+                        "Magna Charta Libertatum",
+                        "Aranybulla",
+                        "Francia Emberi és Polgári Jogok Nyilatkozata"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which document is the oldest in the development of human rights?",
+                                        "answer":  "Magna Charta Libertatum (1215)"
+                                    },
+                             "ru":  {
+                                        "question":  "Какой документ является самым древним в развитии прав человека?",
+                                        "answer":  "Magna Charta Libertatum (1215)"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Mikor hozták létre a francia Emberi és Polgári Jogok Nyilatkozatát?",
+        "answer":  "1789",
+        "translations":  {
+                             "en":  {
+                                        "question":  "When was the French Declaration of the Rights of Man and of the Citizen created?",
+                                        "answer":  "1789"
+                                    },
+                             "ru":  {
+                                        "question":  "Когда была создана Французская декларация прав человека и гражданина?",
+                                        "answer":  "1789"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Melyik évszám helyes a francia Emberi és Polgári Jogok Nyilatkozatához?",
+        "correctCount":  1,
+        "options":  [
+                        "1789",
+                        "1779",
+                        "1848"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which year is correct for the French Declaration of the Rights of Man and of the Citizen?",
+                                        "answer":  "1789"
+                                    },
+                             "ru":  {
+                                        "question":  "Какой год верен для Французской декларации прав человека и гражданина?",
+                                        "answer":  "1789"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Melyik században kezdték el a polgári társadalmak erőteljesebben követelni a jogegyenlőséget?",
+        "answer":  "17-18. században ÷ 17-18",
+        "translations":  {
+                             "en":  {
+                                        "question":  "In which century did civil societies begin to demand legal equality more forcefully?",
+                                        "answer":  "In the 17-18th century ÷ in the seventeenth-eighteenth century"
+                                    },
+                             "ru":  {
+                                        "question":  "В каком веке гражданское общество начало более решительно требовать равенства перед законом?",
+                                        "answer":  "В 17-18 веках ÷ в семнадцатом-восемнадцатом веках"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Mikor léptek fel a polgári társadalmak erőteljesebben a jogegyenlőség elérése érdekében?",
+        "correctCount":  1,
+        "options":  [
+                        "17-18. században",
+                        "19. században",
+                        "16-17. században"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "When did civil societies act more forcefully to achieve legal equality?",
+                                        "answer":  "In the 17-18th century"
+                                    },
+                             "ru":  {
+                                        "question":  "Когда гражданское общество выступало более решительно для достижения равенства перед законом?",
+                                        "answer":  "В 17-18 веках"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "A jogegyenlőség szerint ki előtt egyenlő minden állampolgár?",
+        "answer":  "A törvény előtt ÷ A törvény",
+        "translations":  {
+                             "en":  {
+                                        "question":  "According to legal equality, before whom is every citizen equal?",
+                                        "answer":  "Before the law"
+                                    },
+                             "ru":  {
+                                        "question":  "Согласно равенству перед законом, перед кем равны все граждане?",
+                                        "answer":  "Перед законом"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Mi a jogegyenlőség helyes definíciója?",
+        "correctCount":  2,
+        "options":  [
+                        "Az állam minden polgárát egyenlő jogok illetik meg",
+                        "A törvény előtt minden állampolgár egyenlő",
+                        "Minden állampolgárnak azonos a jövedelme",
+                        "Az állam minden polgára ugyanazt a munkát végzi"
+                    ],
+        "correctIndices":  [
+                               0,
+                               1
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "What is the correct definition of legal equality?",
+                                        "answer":  "The state grants equal rights to all its citizens, and all citizens are equal before the law"
+                                    },
+                             "ru":  {
+                                        "question":  "Каково правильное определение равенства перед законом?",
+                                        "answer":  "Государство предоставляет равные права всем своим гражданам, и все граждане равны перед законом"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Mikor készült az Emberi Jogok Európai Egyezménye?",
+        "answer":  "1950",
+        "translations":  {
+                             "en":  {
+                                        "question":  "When was the European Convention on Human Rights created?",
+                                        "answer":  "1950"
+                                    },
+                             "ru":  {
+                                        "question":  "Когда была создана Европейская конвенция о правах человека?",
+                                        "answer":  "1950"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Mi a neve az 1950-ben elfogadott dokumentumnak?",
+        "answer":  "Emberi Jogok Európai Egyezménye",
+        "translations":  {
+                             "en":  {
+                                        "question":  "What is the name of the human rights document adopted in 1950?",
+                                        "answer":  "European Convention on Human Rights"
+                                    },
+                             "ru":  {
+                                        "question":  "Как называется документ о правах человека, принятый в 1950 году?",
+                                        "answer":  "Европейская конвенция о правах человека"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Melyik évben fogadták el az Emberi Jogok Európai Egyezményét?",
+        "correctCount":  1,
+        "options":  [
+                        "1950",
+                        "1949",
+                        "1951"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "In which year was the European Convention on Human Rights adopted?",
+                                        "answer":  "1950"
+                                    },
+                             "ru":  {
+                                        "question":  "В каком году была принята Европейская конвенция о правах человека?",
+                                        "answer":  "1950"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Az Emberi Jogok Európai Egyezménye szerint az államoknak mit kell biztosítaniuk?",
+        "correctCount":  1,
+        "options":  [
+                        "A szabadságjogokat a joghatóságuk alatt élő egyének számára",
+                        "Ingyenes lakhatást minden állampolgár számára",
+                        "Azonos jövedelmet minden állampolgár számára"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "According to the European Convention on Human Rights, what must states ensure?",
+                                        "answer":  "Freedom rights for individuals under their jurisdiction"
+                                    },
+                             "ru":  {
+                                        "question":  "Согласно Европейской конвенции о правах человека, что должны обеспечивать государства?",
+                                        "answer":  "Права свободы для лиц, находящихся под их юрисдикцией"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Hány generációra osztjuk az alapjogokat kialakulásuk sorrendje szerint?",
+        "answer":  "3 ÷ Három generációra",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Into how many generations do we divide fundamental rights according to their order of development?",
+                                        "answer":  "Into three generations ÷ 3"
+                                    },
+                             "ru":  {
+                                        "question":  "На сколько поколений мы делим основные права в соответствии с порядком их развития?",
+                                        "answer":  "На три поколения ÷ 3"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Soroljon fel három első generációs jogot",
+        "answer":  "Az élethez való jog ÷ a személyi szabadsághoz való jog ÷ az egyesülési és gyülekezési szabadság ÷ a lelkiismereti és vallásszabadság ÷ a szólás- és sajtószabadság",
+        "translations":  {
+                             "en":  {
+                                        "question":  "List three first generation rights!",
+                                        "answer":  "The right to life ÷ the right to personal freedom ÷ freedom of assembly and association ÷ freedom of conscience and religion ÷ freedom of speech and press"
+                                    },
+                             "ru":  {
+                                        "question":  "Перечислите три права первого поколения!",
+                                        "answer":  "Право на жизнь ÷ право на личную свободу ÷ свобода собраний и объединений ÷ свобода совести и религии ÷ свобода слова и печати"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Melyik generációs jogok közé tartozik az élethez való jog?",
+        "answer":  "Első generációs jogok",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which generation rights does the right to life belong to?",
+                                        "answer":  "First generation rights"
+                                    },
+                             "ru":  {
+                                        "question":  "К правам какого поколения относится право на жизнь?",
+                                        "answer":  "Права первого поколения"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Melyik jog tartozik az első generációs jogok közé?",
+        "correctCount":  2,
+        "options":  [
+                        "Az élethez való jog",
+                        "A személyi szabadsághoz való jog",
+                        "Munkához való jog",
+                        "Sztrájkhoz való jog"
+                    ],
+        "correctIndices":  [
+                               0,
+                               1
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which right belongs to the first generation rights?",
+                                        "answer":  "The right to life, The right to personal freedom"
+                                    },
+                             "ru":  {
+                                        "question":  "Какое право относится к правам первого поколения?",
+                                        "answer":  "Право на жизнь, Право на личную свободу"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Melyik generációs jogok közé tartozik a szólás- és sajtószabadság?",
+        "answer":  "Első generációs jogok",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which generation rights does freedom of speech and press belong to?",
+                                        "answer":  "First generation rights"
+                                    },
+                             "ru":  {
+                                        "question":  "К правам какого поколения относится свобода слова и печати?",
+                                        "answer":  "Права первого поколения"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Melyik NEM tartozik az első generációs jogok közé?",
+        "correctCount":  1,
+        "options":  [
+                        "Munkához való jog",
+                        "Az élethez való jog",
+                        "Lelkiismereti és vallásszabadság",
+                        "Gyülekezési szabadság"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which one does NOT belong to the first generation rights?",
+                                        "answer":  "The right to work"
+                                    },
+                             "ru":  {
+                                        "question":  "Какое НЕ относится к правам первого поколения?",
+                                        "answer":  "Право на труд"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Az egyesülési szabadság melyik generációs jogokhoz tartozik?",
+        "answer":  "1 ÷ Első generációs ÷ Első",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which generation rights does freedom of association belong to?",
+                                        "answer":  "First generation rights"
+                                    },
+                             "ru":  {
+                                        "question":  "К правам какого поколения относится свобода объединений?",
+                                        "answer":  "Права первого поколения"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "A gyülekezési szabadság melyik generációs jogokhoz tartozik?",
+        "answer":  "Első generációs jogok",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which generation rights does freedom of assembly belong to?",
+                                        "answer":  "First generation rights"
+                                    },
+                             "ru":  {
+                                        "question":  "К правам какого поколения относится свобода собраний?",
+                                        "answer":  "Права первого поколения"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Soroljon fel két második generációs jogot!",
+        "answer":  "Munkához való jog ÷ sztrájkhoz való jog ÷ oktatáshoz való jog ÷ szociális biztonsághoz való jog",
+        "translations":  {
+                             "en":  {
+                                        "question":  "List two second generation rights!",
+                                        "answer":  "The right to work ÷ the right to strike ÷ the right to education ÷ the right to social security"
+                                    },
+                             "ru":  {
+                                        "question":  "Перечислите два права второго поколения!",
+                                        "answer":  "Право на труд ÷ право на забастовку ÷ право на образование ÷ право на социальное обеспечение"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Melyik generációs jogok közé tartozik a munkához való jog?",
+        "answer":  "Második generációs jogok",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which generation rights does the right to work belong to?",
+                                        "answer":  "Second generation rights"
+                                    },
+                             "ru":  {
+                                        "question":  "К правам какого поколения относится право на труд?",
+                                        "answer":  "Права второго поколения"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Melyik jog tartozik a második generációs jogok közé?",
+        "correctCount":  2,
+        "options":  [
+                        "Munkához való jog",
+                        "Oktatáshoz való jog",
+                        "Az élethez való jog",
+                        "Szólásszabadság"
+                    ],
+        "correctIndices":  [
+                               0,
+                               1
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which right belongs to the second generation rights?",
+                                        "answer":  "The right to work, The right to education"
+                                    },
+                             "ru":  {
+                                        "question":  "Какое право относится к правам второго поколения?",
+                                        "answer":  "Право на труд, Право на образование"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "A sztrájkhoz való jog melyik generációs jogokhoz tartozik?",
+        "answer":  "2 ÷ Második generációs ÷ Második",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which generation rights does the right to strike belong to?",
+                                        "answer":  "Second generation rights"
+                                    },
+                             "ru":  {
+                                        "question":  "К правам какого поколения относится право на забастовку?",
+                                        "answer":  "Права второго поколения"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Melyik NEM tartozik a második generációs jogok közé?",
+        "correctCount":  1,
+        "options":  [
+                        "Gyülekezési szabadság",
+                        "Munkához való jog",
+                        "Sztrájkhoz való jog",
+                        "Oktatáshoz való jog"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which one does NOT belong to the second generation rights?",
+                                        "answer":  "Freedom of assembly"
+                                    },
+                             "ru":  {
+                                        "question":  "Какое НЕ относится к правам второго поколения?",
+                                        "answer":  "Свобода собраний"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Melyik generációs jogok közé tartozik a szociális biztonsághoz való jog?",
+        "answer":  "2 ÷ Második generációs ÷ Második",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which generation rights does the right to social security belong to?",
+                                        "answer":  "Second generation rights"
+                                    },
+                             "ru":  {
+                                        "question":  "К правам какого поколения относится право на социальное обеспечение?",
+                                        "answer":  "Права второго поколения"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Az oktatáshoz való jog melyik generációs jogokhoz tartozik?",
+        "answer":  "2 ÷ Második generációs ÷ Második",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which generation rights does the right to education belong to?",
+                                        "answer":  "Second generation rights"
+                                    },
+                             "ru":  {
+                                        "question":  "К правам какого поколения относится право на образование?",
+                                        "answer":  "Права второго поколения"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Soroljon fel két harmadik generációs jogot!",
+        "answer":  "Egészséges környezethez való jog ÷ gyermekek jogai ÷ betegjogok ÷ fogyatékkal élők jogai",
+        "translations":  {
+                             "en":  {
+                                        "question":  "List two third generation rights!",
+                                        "answer":  "The right to a healthy environment ÷ children\u0027s rights ÷ patients\u0027 rights ÷ rights of people with disabilities"
+                                    },
+                             "ru":  {
+                                        "question":  "Перечислите два права третьего поколения!",
+                                        "answer":  "Право на здоровую окружающую среду ÷ права детей ÷ права пациентов ÷ права инвалидов"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Melyik generációs jogok közé tartoznak a gyermekek jogai?",
+        "answer":  "3 ÷ Harmadik generációs ÷ Harmadik",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which generation rights do children\u0027s rights belong to?",
+                                        "answer":  "Third generation rights"
+                                    },
+                             "ru":  {
+                                        "question":  "К правам какого поколения относятся права детей?",
+                                        "answer":  "Права третьего поколения"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Melyik jog tartozik a harmadik generációs jogok közé?",
+        "correctCount":  2,
+        "options":  [
+                        "Gyermekek jogai",
+                        "Betegjogok",
+                        "Munkához való jog",
+                        "Az élethez való jog"
+                    ],
+        "correctIndices":  [
+                               0,
+                               1
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which right belongs to the third generation rights?",
+                                        "answer":  "Children\u0027s rights, Patients\u0027 rights"
+                                    },
+                             "ru":  {
+                                        "question":  "Какое право относится к правам третьего поколения?",
+                                        "answer":  "Права детей, Права пациентов"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Az egészséges környezethez való jog melyik generációs jogokhoz tartozik?",
+        "answer":  "3 ÷ Harmadik generációs ÷ Harmadik",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which generation rights does the right to a healthy environment belong to?",
+                                        "answer":  "Third generation rights"
+                                    },
+                             "ru":  {
+                                        "question":  "К правам какого поколения относится право на здоровую окружающую среду?",
+                                        "answer":  "Права третьего поколения"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Melyik NEM tartozik a harmadik generációs jogok közé?",
+        "correctCount":  1,
+        "options":  [
+                        "Sztrájkhoz való jog",
+                        "Gyermekek jogai",
+                        "Betegjogok",
+                        "Fogyatékkal élők jogai"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which one does NOT belong to the third generation rights?",
+                                        "answer":  "The right to strike"
+                                    },
+                             "ru":  {
+                                        "question":  "Какое НЕ относится к правам третьего поколения?",
+                                        "answer":  "Право на забастовку"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Melyik generációs jogok közé tartoznak a fogyatékkal élők jogai?",
+        "answer":  "3 ÷ Harmadik generációs ÷ Harmadik",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which generation rights do the rights of people with disabilities belong to?",
+                                        "answer":  "Third generation rights"
+                                    },
+                             "ru":  {
+                                        "question":  "К правам какого поколения относятся права инвалидов?",
+                                        "answer":  "Права третьего поколения"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "A betegjogok melyik generációs jogokhoz tartoznak?",
+        "answer":  "3 ÷ Harmadik generációs ÷ Harmadik",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which generation rights do patients\u0027 rights belong to?",
+                                        "answer":  "Third generation rights"
+                                    },
+                             "ru":  {
+                                        "question":  "К правам какого поколения относятся права пациентов?",
+                                        "answer":  "Права третьего поколения"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Hogyan jellemzi az Alaptörvény az ember alapvető jogait?",
+        "correctCount":  2,
+        "options":  [
+                        "Sérthetetlen",
+                        "Elidegeníthetetlen",
+                        "Korlátozható",
+                        "Átruházható"
+                    ],
+        "correctIndices":  [
+                               0,
+                               1
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "How does the Fundamental Law characterize human fundamental rights?",
+                                        "answer":  "Inviolable, Inalienable"
+                                    },
+                             "ru":  {
+                                        "question":  "Как Основной закон характеризует основные права человека?",
+                                        "answer":  "Неприкосновенные, Неотъемлемые"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Az alapvető jogok tekintetében mi az állam elsőrendű kötelessége?",
+        "correctCount":  1,
+        "options":  [
+                        "Tiszteletben tartása és védelme",
+                        "Korlátozása",
+                        "Eltörlése"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "What is the state\u0027s primary duty regarding fundamental rights?",
+                                        "answer":  "Respect and protection"
+                                    },
+                             "ru":  {
+                                        "question":  "Какова основная обязанность государства в отношении основных прав?",
+                                        "answer":  "Уважение и защита"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Mikor lehet alapvető jogot korlátozni?",
+        "correctCount":  1,
+        "options":  [
+                        "Másik alapvető jog vagy alkotmányos érték védelme érdekében",
+                        "Bármikor, ha a kormány úgy dönt",
+                        "Soha, semmilyen esetben"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "When can a fundamental right be restricted?",
+                                        "answer":  "For the protection of another fundamental right or constitutional value"
+                                    },
+                             "ru":  {
+                                        "question":  "Когда можно ограничить основное право?",
+                                        "answer":  "Для защиты другого основного права или конституционной ценности"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Írjon le legalább három, az Alaptörvényben biztosított alapvető jogot",
+        "answer":  "Törvény előtti egyenlőség ÷ élethez és emberi méltósághoz való jog ÷ tisztességes eljáráshoz való jog ÷ gondolat, lelkiismeret és vallásszabadság ÷ véleménynyilvánítás szabadsága ÷ gyülekezési szabadság ÷ tulajdonjog és örökléshez való jog ÷ személyes adatok védelméhez való jog",
+        "translations":  {
+                             "en":  {
+                                        "question":  "List at least three fundamental rights guaranteed in the Fundamental Law!",
+                                        "answer":  "Equality before the law ÷ right to life and human dignity ÷ right to fair procedure ÷ freedom of thought, conscience and religion ÷ freedom of expression ÷ freedom of assembly ÷ property rights and right to inheritance ÷ right to the protection of personal data"
+                                    },
+                             "ru":  {
+                                        "question":  "Перечислите по крайней мере три основных права, гарантированных Основным законом!",
+                                        "answer":  "Равенство перед законом ÷ право на жизнь и человеческое достоинство ÷ право на справедливое разбирательство ÷ свобода мысли, совести и религии ÷ свобода выражения мнений ÷ свобода собраний ÷ право собственности и право наследования ÷ право на защиту персональных данных"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Melyik tartozik az Alaptörvényben biztosított alapvető jogok közé?",
+        "correctCount":  3,
+        "options":  [
+                        "Törvény előtti egyenlőség",
+                        "Élethez és emberi méltósághoz való jog",
+                        "Tisztességes eljáráshoz való jog",
+                        "Ingyenes autó",
+                        "Külföldre költözés kötelezettsége"
+                    ],
+        "correctIndices":  [
+                               0,
+                               1,
+                               2
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which one belongs to the fundamental rights guaranteed in the Fundamental Law?",
+                                        "answer":  "Equality before the law, Right to life and human dignity, Right to fair procedure"
+                                    },
+                             "ru":  {
+                                        "question":  "Какое относится к основным правам, гарантированным Основным законом?",
+                                        "answer":  "Равенство перед законом, Право на жизнь и человеческое достоинство, Право на справедливое разбирательство"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Melyik NEM tartozik az Alaptörvényben biztosított alapvető jogok közé?",
+        "correctCount":  1,
+        "options":  [
+                        "Ingyenes lakáshoz való jog",
+                        "Gondolat, lelkiismeret és vallásszabadság",
+                        "Véleménynyilvánítás szabadsága",
+                        "Gyülekezési szabadság"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which one does NOT belong to the fundamental rights guaranteed in the Fundamental Law?",
+                                        "answer":  "The right to free housing"
+                                    },
+                             "ru":  {
+                                        "question":  "Какое НЕ относится к основным правам, гарантированным Основным законом?",
+                                        "answer":  "Право на бесплатное жилье"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Mely jogok tartoznak az Alaptörvényben biztosított alapvető jogok közé?",
+        "correctCount":  2,
+        "options":  [
+                        "Tulajdonjog",
+                        "Személyes adatok védelméhez való jog",
+                        "Állami lakáshoz való jog",
+                        "Ingyen utazáshoz való jog"
+                    ],
+        "correctIndices":  [
+                               0,
+                               1
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which rights belong to the fundamental rights guaranteed in the Fundamental Law?",
+                                        "answer":  "Property rights, Right to the protection of personal data"
+                                    },
+                             "ru":  {
+                                        "question":  "Какие права относятся к основным правам, гарантированным Основным законом?",
+                                        "answer":  "Право собственности, Право на защиту персональных данных"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Mikor törölték el a halálbüntetést Magyarországon?",
+        "answer":  "1990 ÷ 1990",
+        "translations":  {
+                             "en":  {
+                                        "question":  "When was the death penalty abolished in Hungary?",
+                                        "answer":  "1990"
+                                    },
+                             "ru":  {
+                                        "question":  "Когда была отменена смертная казнь в Венгрии?",
+                                        "answer":  "1990"
+                                    }
+                         }
+    },
+    {
+        "type":  "Open",
+        "question":  "Ki nyilvánította alkotmányellenesnek a halálbüntetést Magyarországon?",
+        "answer":  "Az Alkotmánybíróság",
+        "translations":  {
+                             "en":  {
+                                        "question":  "Who declared the death penalty unconstitutional in Hungary?",
+                                        "answer":  "The Constitutional Court"
+                                    },
+                             "ru":  {
+                                        "question":  "Кто объявил смертную казнь неконституционной в Венгрии?",
+                                        "answer":  "Конституционный суд"
+                                    }
+                         }
+    },
+    {
+        "type":  "Multiple",
+        "question":  "Melyik szerv nyilvánította alkotmányellenesnek a halálbüntetést?",
+        "correctCount":  1,
+        "options":  [
+                        "Az Alkotmánybíróság",
+                        "Az Országgyűlés",
+                        "A Kormány"
+                    ],
+        "correctIndices":  [
+                               0
+                           ],
+        "translations":  {
+                             "en":  {
+                                        "question":  "Which body declared the death penalty unconstitutional?",
+                                        "answer":  "The Constitutional Court"
+                                    },
+                             "ru":  {
+                                        "question":  "Какой орган объявил смертную казнь неконституционной?",
+                                        "answer":  "Конституционный суд"
+                                    }
+                         }
     }
-  },
-  {
-    "type": "Open",
-    "question": "Mikor készült az angol Magna Charta Libertatum?",
-    "answer": "1215",
-    "translations": {
-      "en": {
-        "question": "When was the English Magna Carta Libertatum created?",
-        "answer": "1215"
-      },
-      "ru": {
-        "question": "Когда была создана английская Magna Carta Libertatum?",
-        "answer": "1215"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Mikor adták ki a magyar Aranybullát?",
-    "answer": "1222",
-    "translations": {
-      "en": {
-        "question": "When was the Hungarian Golden Bull issued?",
-        "answer": "1222"
-      },
-      "ru": {
-        "question": "Когда была издана венгерская Золотая булла?",
-        "answer": "1222"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Melyik dokumentum a legrégebbi az emberi jogok fejlődésében?",
-    "correctCount": 1,
-    "options": [
-      "Magna Charta Libertatum",
-      "Aranybulla",
-      "Francia Emberi és Polgári Jogok Nyilatkozata"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "Which document is the oldest in the development of human rights?",
-        "answer": "Magna Charta Libertatum (1215)"
-      },
-      "ru": {
-        "question": "Какой документ является самым древним в развитии прав человека?",
-        "answer": "Magna Charta Libertatum (1215)"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Mikor hozták létre a francia Emberi és Polgári Jogok Nyilatkozatát?",
-    "answer": "1789",
-    "translations": {
-      "en": {
-        "question": "When was the French Declaration of the Rights of Man and of the Citizen created?",
-        "answer": "1789"
-      },
-      "ru": {
-        "question": "Когда была создана Французская декларация прав человека и гражданина?",
-        "answer": "1789"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Melyik évszám helyes a francia Emberi és Polgári Jogok Nyilatkozatához?",
-    "correctCount": 1,
-    "options": [
-      "1789",
-      "1779",
-      "1848"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "Which year is correct for the French Declaration of the Rights of Man and of the Citizen?",
-        "answer": "1789"
-      },
-      "ru": {
-        "question": "Какой год верен для Французской декларации прав человека и гражданина?",
-        "answer": "1789"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Melyik században kezdték el a polgári társadalmak erőteljesebben követelni a jogegyenlőséget?",
-    "answer": "17-18. században ÷ 17-18",
-    "translations": {
-      "en": {
-        "question": "In which century did civil societies begin to demand legal equality more forcefully?",
-        "answer": "In the 17-18th century ÷ in the seventeenth-eighteenth century"
-      },
-      "ru": {
-        "question": "В каком веке гражданское общество начало более решительно требовать равенства перед законом?",
-        "answer": "В 17-18 веках ÷ в семнадцатом-восемнадцатом веках"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Mikor léptek fel a polgári társadalmak erőteljesebben a jogegyenlőség elérése érdekében?",
-    "correctCount": 1,
-    "options": [
-      "17-18. században",
-      "19. században",
-      "16-17. században"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "When did civil societies act more forcefully to achieve legal equality?",
-        "answer": "In the 17-18th century"
-      },
-      "ru": {
-        "question": "Когда гражданское общество выступало более решительно для достижения равенства перед законом?",
-        "answer": "В 17-18 веках"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "A jogegyenlőség szerint ki előtt egyenlő minden állampolgár?",
-    "answer": "A törvény előtt ÷ A törvény",
-    "translations": {
-      "en": {
-        "question": "According to legal equality, before whom is every citizen equal?",
-        "answer": "Before the law"
-      },
-      "ru": {
-        "question": "Согласно равенству перед законом, перед кем равны все граждане?",
-        "answer": "Перед законом"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Mi a jogegyenlőség helyes definíciója?",
-    "correctCount": 2,
-    "options": [
-      "Az állam minden polgárát egyenlő jogok illetik meg",
-      "A törvény előtt minden állampolgár egyenlő",
-      "Minden állampolgárnak azonos a jövedelme",
-      "Az állam minden polgára ugyanazt a munkát végzi"
-    ],
-    "correctIndices": [
-      0,
-      1
-    ],
-    "translations": {
-      "en": {
-        "question": "What is the correct definition of legal equality?",
-        "answer": "The state grants equal rights to all its citizens, and all citizens are equal before the law"
-      },
-      "ru": {
-        "question": "Каково правильное определение равенства перед законом?",
-        "answer": "Государство предоставляет равные права всем своим гражданам, и все граждане равны перед законом"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Mikor készült az Emberi Jogok Európai Egyezménye?",
-    "answer": "1950",
-    "translations": {
-      "en": {
-        "question": "When was the European Convention on Human Rights created?",
-        "answer": "1950"
-      },
-      "ru": {
-        "question": "Когда была создана Европейская конвенция о правах человека?",
-        "answer": "1950"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Mi a neve az 1950-ben elfogadott dokumentumnak?",
-    "answer": "Emberi Jogok Európai Egyezménye",
-    "translations": {
-      "en": {
-        "question": "What is the name of the human rights document adopted in 1950?",
-        "answer": "European Convention on Human Rights"
-      },
-      "ru": {
-        "question": "Как называется документ о правах человека, принятый в 1950 году?",
-        "answer": "Европейская конвенция о правах человека"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Melyik évben fogadták el az Emberi Jogok Európai Egyezményét?",
-    "correctCount": 1,
-    "options": [
-      "1950",
-      "1949",
-      "1951"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "In which year was the European Convention on Human Rights adopted?",
-        "answer": "1950"
-      },
-      "ru": {
-        "question": "В каком году была принята Европейская конвенция о правах человека?",
-        "answer": "1950"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Az Emberi Jogok Európai Egyezménye szerint az államoknak mit kell biztosítaniuk?",
-    "correctCount": 1,
-    "options": [
-      "A szabadságjogokat a joghatóságuk alatt élő egyének számára",
-      "Ingyenes lakhatást minden állampolgár számára",
-      "Azonos jövedelmet minden állampolgár számára"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "According to the European Convention on Human Rights, what must states ensure?",
-        "answer": "Freedom rights for individuals under their jurisdiction"
-      },
-      "ru": {
-        "question": "Согласно Европейской конвенции о правах человека, что должны обеспечивать государства?",
-        "answer": "Права свободы для лиц, находящихся под их юрисдикцией"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Hány generációra osztjuk az alapjogokat kialakulásuk sorrendje szerint?",
-    "answer": "Három generációra ÷ 3",
-    "translations": {
-      "en": {
-        "question": "Into how many generations do we divide fundamental rights according to their order of development?",
-        "answer": "Into three generations ÷ 3"
-      },
-      "ru": {
-        "question": "На сколько поколений мы делим основные права в соответствии с порядком их развития?",
-        "answer": "На три поколения ÷ 3"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Soroljon fel három első generációs jogot",
-    "answer": "Az élethez való jog ÷ a személyi szabadsághoz való jog ÷ az egyesülési és gyülekezési szabadság ÷ a lelkiismereti és vallásszabadság ÷ a szólás- és sajtószabadság",
-    "translations": {
-      "en": {
-        "question": "List three first generation rights!",
-        "answer": "The right to life ÷ the right to personal freedom ÷ freedom of assembly and association ÷ freedom of conscience and religion ÷ freedom of speech and press"
-      },
-      "ru": {
-        "question": "Перечислите три права первого поколения!",
-        "answer": "Право на жизнь ÷ право на личную свободу ÷ свобода собраний и объединений ÷ свобода совести и религии ÷ свобода слова и печати"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Melyik generációs jogok közé tartozik az élethez való jog?",
-    "answer": "Első generációs jogok",
-    "translations": {
-      "en": {
-        "question": "Which generation rights does the right to life belong to?",
-        "answer": "First generation rights"
-      },
-      "ru": {
-        "question": "К правам какого поколения относится право на жизнь?",
-        "answer": "Права первого поколения"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Melyik jog tartozik az első generációs jogok közé?",
-    "correctCount": 2,
-    "options": [
-      "Az élethez való jog",
-      "A személyi szabadsághoz való jog",
-      "Munkához való jog",
-      "Sztrájkhoz való jog"
-    ],
-    "correctIndices": [
-      0,
-      1
-    ],
-    "translations": {
-      "en": {
-        "question": "Which right belongs to the first generation rights?",
-        "answer": "The right to life, The right to personal freedom"
-      },
-      "ru": {
-        "question": "Какое право относится к правам первого поколения?",
-        "answer": "Право на жизнь, Право на личную свободу"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Melyik generációs jogok közé tartozik a szólás- és sajtószabadság?",
-    "answer": "Első generációs jogok",
-    "translations": {
-      "en": {
-        "question": "Which generation rights does freedom of speech and press belong to?",
-        "answer": "First generation rights"
-      },
-      "ru": {
-        "question": "К правам какого поколения относится свобода слова и печати?",
-        "answer": "Права первого поколения"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Melyik NEM tartozik az első generációs jogok közé?",
-    "correctCount": 1,
-    "options": [
-      "Munkához való jog",
-      "Az élethez való jog",
-      "Lelkiismereti és vallásszabadság",
-      "Gyülekezési szabadság"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "Which one does NOT belong to the first generation rights?",
-        "answer": "The right to work"
-      },
-      "ru": {
-        "question": "Какое НЕ относится к правам первого поколения?",
-        "answer": "Право на труд"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Az egyesülési szabadság melyik generációs jogokhoz tartozik?",
-    "answer": "Első generációs ÷ Első ÷ 1",
-    "translations": {
-      "en": {
-        "question": "Which generation rights does freedom of association belong to?",
-        "answer": "First generation rights"
-      },
-      "ru": {
-        "question": "К правам какого поколения относится свобода объединений?",
-        "answer": "Права первого поколения"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "A gyülekezési szabadság melyik generációs jogokhoz tartozik?",
-    "answer": "Első generációs jogok",
-    "translations": {
-      "en": {
-        "question": "Which generation rights does freedom of assembly belong to?",
-        "answer": "First generation rights"
-      },
-      "ru": {
-        "question": "К правам какого поколения относится свобода собраний?",
-        "answer": "Права первого поколения"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Soroljon fel két második generációs jogot!",
-    "answer": "Munkához való jog ÷ sztrájkhoz való jog ÷ oktatáshoz való jog ÷ szociális biztonsághoz való jog",
-    "translations": {
-      "en": {
-        "question": "List two second generation rights!",
-        "answer": "The right to work ÷ the right to strike ÷ the right to education ÷ the right to social security"
-      },
-      "ru": {
-        "question": "Перечислите два права второго поколения!",
-        "answer": "Право на труд ÷ право на забастовку ÷ право на образование ÷ право на социальное обеспечение"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Melyik generációs jogok közé tartozik a munkához való jog?",
-    "answer": "Második generációs jogok",
-    "translations": {
-      "en": {
-        "question": "Which generation rights does the right to work belong to?",
-        "answer": "Second generation rights"
-      },
-      "ru": {
-        "question": "К правам какого поколения относится право на труд?",
-        "answer": "Права второго поколения"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Melyik jog tartozik a második generációs jogok közé?",
-    "correctCount": 2,
-    "options": [
-      "Munkához való jog",
-      "Oktatáshoz való jog",
-      "Az élethez való jog",
-      "Szólásszabadság"
-    ],
-    "correctIndices": [
-      0,
-      1
-    ],
-    "translations": {
-      "en": {
-        "question": "Which right belongs to the second generation rights?",
-        "answer": "The right to work, The right to education"
-      },
-      "ru": {
-        "question": "Какое право относится к правам второго поколения?",
-        "answer": "Право на труд, Право на образование"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "A sztrájkhoz való jog melyik generációs jogokhoz tartozik?",
-    "answer": "Második generációs ÷ Második ÷ 2",
-    "translations": {
-      "en": {
-        "question": "Which generation rights does the right to strike belong to?",
-        "answer": "Second generation rights"
-      },
-      "ru": {
-        "question": "К правам какого поколения относится право на забастовку?",
-        "answer": "Права второго поколения"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Melyik NEM tartozik a második generációs jogok közé?",
-    "correctCount": 1,
-    "options": [
-      "Gyülekezési szabadság",
-      "Munkához való jog",
-      "Sztrájkhoz való jog",
-      "Oktatáshoz való jog"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "Which one does NOT belong to the second generation rights?",
-        "answer": "Freedom of assembly"
-      },
-      "ru": {
-        "question": "Какое НЕ относится к правам второго поколения?",
-        "answer": "Свобода собраний"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Melyik generációs jogok közé tartozik a szociális biztonsághoz való jog?",
-    "answer": "Második generációs ÷ Második ÷ 2",
-    "translations": {
-      "en": {
-        "question": "Which generation rights does the right to social security belong to?",
-        "answer": "Second generation rights"
-      },
-      "ru": {
-        "question": "К правам какого поколения относится право на социальное обеспечение?",
-        "answer": "Права второго поколения"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Az oktatáshoz való jog melyik generációs jogokhoz tartozik?",
-    "answer": "Második generációs ÷ Második ÷ 2",
-    "translations": {
-      "en": {
-        "question": "Which generation rights does the right to education belong to?",
-        "answer": "Second generation rights"
-      },
-      "ru": {
-        "question": "К правам какого поколения относится право на образование?",
-        "answer": "Права второго поколения"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Soroljon fel két harmadik generációs jogot!",
-    "answer": "Egészséges környezethez való jog ÷ gyermekek jogai ÷ betegjogok ÷ fogyatékkal élők jogai",
-    "translations": {
-      "en": {
-        "question": "List two third generation rights!",
-        "answer": "The right to a healthy environment ÷ children's rights ÷ patients' rights ÷ rights of people with disabilities"
-      },
-      "ru": {
-        "question": "Перечислите два права третьего поколения!",
-        "answer": "Право на здоровую окружающую среду ÷ права детей ÷ права пациентов ÷ права инвалидов"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Melyik generációs jogok közé tartoznak a gyermekek jogai?",
-    "answer": "Harmadik generációs ÷ Harmadik ÷ 3",
-    "translations": {
-      "en": {
-        "question": "Which generation rights do children's rights belong to?",
-        "answer": "Third generation rights"
-      },
-      "ru": {
-        "question": "К правам какого поколения относятся права детей?",
-        "answer": "Права третьего поколения"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Melyik jog tartozik a harmadik generációs jogok közé?",
-    "correctCount": 2,
-    "options": [
-      "Gyermekek jogai",
-      "Betegjogok",
-      "Munkához való jog",
-      "Az élethez való jog"
-    ],
-    "correctIndices": [
-      0,
-      1
-    ],
-    "translations": {
-      "en": {
-        "question": "Which right belongs to the third generation rights?",
-        "answer": "Children's rights, Patients' rights"
-      },
-      "ru": {
-        "question": "Какое право относится к правам третьего поколения?",
-        "answer": "Права детей, Права пациентов"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Az egészséges környezethez való jog melyik generációs jogokhoz tartozik?",
-    "answer": "Harmadik generációs ÷ Harmadik ÷ 3",
-    "translations": {
-      "en": {
-        "question": "Which generation rights does the right to a healthy environment belong to?",
-        "answer": "Third generation rights"
-      },
-      "ru": {
-        "question": "К правам какого поколения относится право на здоровую окружающую среду?",
-        "answer": "Права третьего поколения"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Melyik NEM tartozik a harmadik generációs jogok közé?",
-    "correctCount": 1,
-    "options": [
-      "Sztrájkhoz való jog",
-      "Gyermekek jogai",
-      "Betegjogok",
-      "Fogyatékkal élők jogai"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "Which one does NOT belong to the third generation rights?",
-        "answer": "The right to strike"
-      },
-      "ru": {
-        "question": "Какое НЕ относится к правам третьего поколения?",
-        "answer": "Право на забастовку"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Melyik generációs jogok közé tartoznak a fogyatékkal élők jogai?",
-    "answer": "Harmadik generációs ÷ Harmadik ÷ 3",
-    "translations": {
-      "en": {
-        "question": "Which generation rights do the rights of people with disabilities belong to?",
-        "answer": "Third generation rights"
-      },
-      "ru": {
-        "question": "К правам какого поколения относятся права инвалидов?",
-        "answer": "Права третьего поколения"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "A betegjogok melyik generációs jogokhoz tartoznak?",
-    "answer": "Harmadik generációs ÷ Harmadik ÷ 3",
-    "translations": {
-      "en": {
-        "question": "Which generation rights do patients' rights belong to?",
-        "answer": "Third generation rights"
-      },
-      "ru": {
-        "question": "К правам какого поколения относятся права пациентов?",
-        "answer": "Права третьего поколения"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Hogyan jellemzi az Alaptörvény az ember alapvető jogait?",
-    "correctCount": 2,
-    "options": [
-      "Sérthetetlen",
-      "Elidegeníthetetlen",
-      "Korlátozható",
-      "Átruházható"
-    ],
-    "correctIndices": [
-      0,
-      1
-    ],
-    "translations": {
-      "en": {
-        "question": "How does the Fundamental Law characterize human fundamental rights?",
-        "answer": "Inviolable, Inalienable"
-      },
-      "ru": {
-        "question": "Как Основной закон характеризует основные права человека?",
-        "answer": "Неприкосновенные, Неотъемлемые"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Az alapvető jogok tekintetében mi az állam elsőrendű kötelessége?",
-    "correctCount": 1,
-    "options": [
-      "Tiszteletben tartása és védelme",
-      "Korlátozása",
-      "Eltörlése"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "What is the state's primary duty regarding fundamental rights?",
-        "answer": "Respect and protection"
-      },
-      "ru": {
-        "question": "Какова основная обязанность государства в отношении основных прав?",
-        "answer": "Уважение и защита"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Mikor lehet alapvető jogot korlátozni?",
-    "correctCount": 1,
-    "options": [
-      "Másik alapvető jog vagy alkotmányos érték védelme érdekében",
-      "Bármikor, ha a kormány úgy dönt",
-      "Soha, semmilyen esetben"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "When can a fundamental right be restricted?",
-        "answer": "For the protection of another fundamental right or constitutional value"
-      },
-      "ru": {
-        "question": "Когда можно ограничить основное право?",
-        "answer": "Для защиты другого основного права или конституционной ценности"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Írjon le legalább három, az Alaptörvényben biztosított alapvető jogot",
-    "answer": "Törvény előtti egyenlőség ÷ élethez és emberi méltósághoz való jog ÷ tisztességes eljáráshoz való jog ÷ gondolat, lelkiismeret és vallásszabadság ÷ véleménynyilvánítás szabadsága ÷ gyülekezési szabadság ÷ tulajdonjog és örökléshez való jog ÷ személyes adatok védelméhez való jog",
-    "translations": {
-      "en": {
-        "question": "List at least three fundamental rights guaranteed in the Fundamental Law!",
-        "answer": "Equality before the law ÷ right to life and human dignity ÷ right to fair procedure ÷ freedom of thought, conscience and religion ÷ freedom of expression ÷ freedom of assembly ÷ property rights and right to inheritance ÷ right to the protection of personal data"
-      },
-      "ru": {
-        "question": "Перечислите по крайней мере три основных права, гарантированных Основным законом!",
-        "answer": "Равенство перед законом ÷ право на жизнь и человеческое достоинство ÷ право на справедливое разбирательство ÷ свобода мысли, совести и религии ÷ свобода выражения мнений ÷ свобода собраний ÷ право собственности и право наследования ÷ право на защиту персональных данных"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Melyik tartozik az Alaptörvényben biztosított alapvető jogok közé?",
-    "correctCount": 3,
-    "options": [
-      "Törvény előtti egyenlőség",
-      "Élethez és emberi méltósághoz való jog",
-      "Tisztességes eljáráshoz való jog",
-      "Ingyenes autó",
-      "Külföldre költözés kötelezettsége"
-    ],
-    "correctIndices": [
-      0,
-      1,
-      2
-    ],
-    "translations": {
-      "en": {
-        "question": "Which one belongs to the fundamental rights guaranteed in the Fundamental Law?",
-        "answer": "Equality before the law, Right to life and human dignity, Right to fair procedure"
-      },
-      "ru": {
-        "question": "Какое относится к основным правам, гарантированным Основным законом?",
-        "answer": "Равенство перед законом, Право на жизнь и человеческое достоинство, Право на справедливое разбирательство"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Melyik NEM tartozik az Alaptörvényben biztosított alapvető jogok közé?",
-    "correctCount": 1,
-    "options": [
-      "Ingyenes lakáshoz való jog",
-      "Gondolat, lelkiismeret és vallásszabadság",
-      "Véleménynyilvánítás szabadsága",
-      "Gyülekezési szabadság"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "Which one does NOT belong to the fundamental rights guaranteed in the Fundamental Law?",
-        "answer": "The right to free housing"
-      },
-      "ru": {
-        "question": "Какое НЕ относится к основным правам, гарантированным Основным законом?",
-        "answer": "Право на бесплатное жилье"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Mely jogok tartoznak az Alaptörvényben biztosított alapvető jogok közé?",
-    "correctCount": 2,
-    "options": [
-      "Tulajdonjog",
-      "Személyes adatok védelméhez való jog",
-      "Állami lakáshoz való jog",
-      "Ingyen utazáshoz való jog"
-    ],
-    "correctIndices": [
-      0,
-      1
-    ],
-    "translations": {
-      "en": {
-        "question": "Which rights belong to the fundamental rights guaranteed in the Fundamental Law?",
-        "answer": "Property rights, Right to the protection of personal data"
-      },
-      "ru": {
-        "question": "Какие права относятся к основным правам, гарантированным Основным законом?",
-        "answer": "Право собственности, Право на защиту персональных данных"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Mikor törölték el a halálbüntetést Magyarországon?",
-    "answer": "1990 ÷ 1990",
-    "translations": {
-      "en": {
-        "question": "When was the death penalty abolished in Hungary?",
-        "answer": "1990"
-      },
-      "ru": {
-        "question": "Когда была отменена смертная казнь в Венгрии?",
-        "answer": "1990"
-      }
-    }
-  },
-  {
-    "type": "Open",
-    "question": "Ki nyilvánította alkotmányellenesnek a halálbüntetést Magyarországon?",
-    "answer": "Az Alkotmánybíróság",
-    "translations": {
-      "en": {
-        "question": "Who declared the death penalty unconstitutional in Hungary?",
-        "answer": "The Constitutional Court"
-      },
-      "ru": {
-        "question": "Кто объявил смертную казнь неконституционной в Венгрии?",
-        "answer": "Конституционный суд"
-      }
-    }
-  },
-  {
-    "type": "Multiple",
-    "question": "Melyik szerv nyilvánította alkotmányellenesnek a halálbüntetést?",
-    "correctCount": 1,
-    "options": [
-      "Az Alkotmánybíróság",
-      "Az Országgyűlés",
-      "A Kormány"
-    ],
-    "correctIndices": [
-      0
-    ],
-    "translations": {
-      "en": {
-        "question": "Which body declared the death penalty unconstitutional?",
-        "answer": "The Constitutional Court"
-      },
-      "ru": {
-        "question": "Какой орган объявил смертную казнь неконституционной?",
-        "answer": "Конституционный суд"
-      }
-    }
-  }
 ]

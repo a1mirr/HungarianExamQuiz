@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validator Test Suite</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #1a1a2e;
+            color: #eee;
+        }
+
+        h1 {
+            color: #e94560;
+        }
+
+        .test-section {
+            background: #16213e;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border: 2px solid #0f3460;
+        }
+
+        .test-case {
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 4px solid #555;
+            background: #0f3460;
+        }
+
+        .test-case.pass {
+            border-left-color: #4caf50;
+        }
+
+        .test-case.fail {
+            border-left-color: #f44336;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #e94560;
+        }
+
+        .result {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 3px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .pass .result {
+            background: #4caf50;
+            color: white;
+        }
+
+        .fail .result {
+            background: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🧪 Hungarian Exam Quiz - Validator Test Suite</h1>
+    <div id="testResults"></div>
+
+    <script>
+        // Copy validation functions from app.js
+        function normalizeAccents(text) {
+            const accentMap = {
+                'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ö': 'o', 'ő': 'o', 'ú': 'u', 'ü': 'u', 'ű': 'u',
+                'Á': 'a', 'É': 'e', 'Í': 'i', 'Ó': 'o', 'Ö': 'o', 'Ő': 'o', 'Ú': 'u', 'Ü': 'u', 'Ű': 'u'
+            };
+            return text.split('').map(char => accentMap[char] || char).join('');
+        }
+
+        function detectInputType(answer) {
+            const cleanAnswer = answer.split('÷')[0].trim();
+
+            if (/^([IVXLCDM]+\\.\\s+)?[A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]+\\s+[A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]+/.test(cleanAnswer)) {
+                return 'person';
+            }
+
+            if (/\\d{3,4}-\\d{2,4}/.test(cleanAnswer)) {
+                return 'date-interval';
+            }
+
+            if (/^\\d{3,4}$/.test(cleanAnswer.replace(/[^\\d]/g, '')) ||
+                /\\d{1,2}\\.\\d{1,2}(\\.\\d{2,4})?/.test(cleanAnswer) ||
+                /\\d{4}\\.\\d{1,2}\\.\\d{1,2}/.test(cleanAnswer)) {
+                return 'date';
+            }
+
+            const numberParts = answer.split('÷').map(p => p.trim());
+            if (numberParts.length > 0 && /^\\d+$/.test(numberParts[0])) {
+                return 'number';
+            }
+
+            return 'text';
+        }
+
+        function validatePerson(userAnswer, correctAnswer) {
+            const normalize = (text) => normalizeAccents(text.toLowerCase().trim());
+            const correctOptions = correctAnswer.split('÷').map(a => normalize(a));
+            const userNorm = normalize(userAnswer);
+
+            for (const correct of correctOptions) {
+                const userParts = userNorm.split(/\\s+/).filter(p => p.length > 0);
+                const correctParts = correct.split(/\\s+/).filter(p => p.length > 0);
+                const filterRomanNumerals = (parts) => parts.filter(p => !/^[ivxlcdm]+\\.?$/.test(p));
+                const userSignificant = filterRomanNumerals(userParts);
+                const correctSignificant = filterRomanNumerals(correctParts);
+
+                if (userSignificant.length === correctSignificant.length &&
+                    userSignificant.every(part => correctSignificant.includes(part))) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        function validateDate(userAnswer, correctAnswer) {
+            const extractDigits = (text) => text.match(/\\d+/g) || [];
+            const userDigits = extractDigits(userAnswer);
+            const correctDigits = extractDigits(correctAnswer.split('÷')[0]);
+
+            if (userDigits.length === 0 || correctDigits.length === 0) return false;
+
+            if (correctDigits.length === 1 && correctDigits[0].length >= 3) {
+                const correctYear = correctDigits[0];
+                return userDigits.some(d => d === correctYear || d.includes(correctYear) || correctYear.includes(d));
+            }
+
+            return userDigits.join('.') === correctDigits.join('.');
+        }
+
+        function validateDateInterval(userAnswer, correctAnswer) {
+            const userMatch = userAnswer.match(/(\\d{3,4})-(\\d{2,4})/);
+            const correctMatch = correctAnswer.match(/(\\d{3,4})-(\\d{2,4})/);
+
+            if (!userMatch || !correctMatch) return false;
+
+            let userEnd = userMatch[2];
+            let correctEnd = correctMatch[2];
+
+            if (userEnd.length === 2) {
+                userEnd = userMatch[1].substring(0, 2) + userEnd;
+            }
+            if (correctEnd.length === 2) {
+                correctEnd = correctMatch[1].substring(0, 2) + correctEnd;
+            }
+
+            return userMatch[1] === correctMatch[1] && userEnd === correctEnd;
+        }
+
+        function validateNumber(userAnswer, correctAnswer) {
+            const userNum = userAnswer.replace(/\\D/g, '');
+            const acceptableNumbers = correctAnswer.split('÷')
+                .map(a => a.trim().replace(/\\D/g, ''))
+                .filter(n => n.length > 0);
+
+            return acceptableNumbers.includes(userNum);
+        }
+
+        // Test Suite
+        const tests = {
+            'Person Names': [
+                { user: 'Kölcsey Ferenc', correct: 'Kölcsey Ferenc', expected: true },
+                { user: 'Ferenc Kölcsey', correct: 'Kölcsey Ferenc', expected: true },
+                { user: 'kolcsey ferenc', correct: 'Kölcsey Ferenc', expected: true },
+                { user: 'Kolcsey Ferenc', correct: 'Kölcsey Ferenc', expected: true },
+                { user: 'fErEnC kÖlCsEy', correct: 'Kölcsey Ferenc', expected: true },
+                { user: 'IV. Béla', correct: 'IV. Béla', expected: true },
+                { user: 'Béla', correct: 'IV. Béla', expected: true },
+                { user: 'Bartók Béla', correct: 'Bartók Béla és Kodály Zoltán', expected: false },
+                { user: 'Erkel Ferenc', correct: 'Erkel Ferenc', expected: true },
+                { user: 'Ferenc Erkel', correct: 'Erkel Ferenc', expected: true },
+            ],
+            'Dates': [
+                { user: '1823', correct: '1823', expected: true },
+                { user: '1823-ban', correct: '1823', expected: true },
+                { user: '1823.', correct: '1823', expected: true },
+                { user: '1824', correct: '1823', expected: false },
+                { user: '23.08.1956', correct: '1956', expected: true },
+                { user: '1956.08.23', correct: '1956', expected: true },
+                { user: '1001', correct: '1001', expected: true },
+            ],
+            'Date Intervals': [
+                { user: '895-896', correct: '895-896', expected: true },
+                { user: '1241-1242', correct: '1241-1242', expected: true },
+                { user: '1241-42', correct: '1241-1242', expected: true },
+                { user: '1241-1242', correct: '1241-42', expected: true },
+                { user: '1458-1490', correct: '1458-1490', expected: true },
+                { user: '1458-90', correct: '1458-1490', expected: true },
+                { user: '1241-43', correct: '1241-1242', expected: false },
+            ],
+            'Numbers': [
+                { user: '7', correct: '7 ÷ Hét', expected: true },
+                { user: '10', correct: '10 ÷ Tízet', expected: true },
+                { user: '5', correct: '5 ÷ Öt', expected: true },
+                { user: 'seven', correct: '7 ÷ Hét', expected: false },
+                { user: 'hét', correct: '7 ÷ Hét', expected: false },
+                { user: '70', correct: '70 évre ÷ hetven évre', expected: true },
+            ]
+        };
+
+        function runTests() {
+            const resultsDiv = document.getElementById('testResults');
+            let html = '';
+
+            for (const [category, testCases] of Object.entries(tests)) {
+                html += `<div class="test-section"><h2>${category}</h2>`;
+
+                for (const test of testCases) {
+                    const inputType = detectInputType(test.correct);
+                    let result;
+
+                    switch (inputType) {
+                        case 'person':
+                            result = validatePerson(test.user, test.correct);
+                            break;
+                        case 'date':
+                            result = validateDate(test.user, test.correct);
+                            break;
+                        case 'date-interval':
+                            result = validateDateInterval(test.user, test.correct);
+                            break;
+                        case 'number':
+                            result = validateNumber(test.user, test.correct);
+                            break;
+                        default:
+                            result = false;
+                    }
+
+                    const pass = result === test.expected;
+                    const cssClass = pass ? 'pass' : 'fail';
+
+                    html += `
+                        <div class="test-case ${cssClass}">
+                            <div><span class="label">User:</span> "${test.user}"</div>
+                            <div><span class="label">Correct:</span> "${test.correct}"</div>
+                            <div><span class="label">Type:</span> ${inputType}</div>
+                            <div><span class="label">Expected:</span> ${test.expected ? '✓' : '✗'}</div>
+                            <div><span class="label">Got:</span> ${result ? '✓' : '✗'} <span class="result">${pass ? 'PASS' : 'FAIL'}</span></div>
+                        </div>
+                    `;
+                }
+
+                html += '</div>';
+            }
+
+            resultsDiv.innerHTML = html;
+
+            // Count results
+            const allTests = Object.values(tests).flat();
+            const passCount = document.querySelectorAll('.test-case.pass').length;
+            document.title = `Tests: ${passCount}/${allTests.length} passed`;
+        }
+
+        runTests();
+    </script>
+</body>
+
+</html>
