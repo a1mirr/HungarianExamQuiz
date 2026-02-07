@@ -242,7 +242,7 @@ function loadQuestion() {
         elements.userAnswer.value = '';
 
         // Detect input type and configure input field accordingly
-        const inputType = detectInputType(question.answer);
+        const inputType = question.inputType || 'text';
         let htmlType = 'text';
         let placeholder = translations[state.currentLang].yourAnswer || 'Your answer';
         let inputMode = 'text';
@@ -357,31 +357,67 @@ function checkUserAnswer() {
         });
 
     } else {
-        //    if (question.type !== 'Multiple') {
+        // == Open Answer ==
         const userAnswer = elements.userAnswer.value.trim();
         if (!userAnswer) {
             alert(translations[state.currentLang].checkAnswer || 'Please enter an answer');
             return;
         }
 
-        // Detect input type and validate accordingly
-        const inputType = detectInputType(question.answer);
+        // Use explicit inputType if available, otherwise default to text
+        const inputType = question.inputType || 'text';
 
-        switch (inputType) {
-            case 'person':
-                isCorrect = validatePerson(userAnswer, question.answer);
-                break;
-            case 'date':
-                isCorrect = validateDate(userAnswer, question.answer);
-                break;
-            case 'date-interval':
-                isCorrect = validateDateInterval(userAnswer, question.answer);
-                break;
-            case 'number':
-                isCorrect = validateNumber(userAnswer, question.answer);
-                break;
-            default:
-                isCorrect = checkAnswer(userAnswer, question.answer);
+        // Handle approximate validation (population, area, etc.)
+        if (inputType === 'approximate') {
+            const result = validateApproximate(userAnswer, question.answer, question.tolerance || 0.1);
+
+            if (result.exact) {
+                isCorrect = true;
+            } else if (result.withinTolerance) {
+                // User is within tolerance - mark correct but show official value
+                isCorrect = true;
+                state.questionAnswered = true;
+                state.answeredQuestions++;
+                state.userScore++;
+
+                // Format official value with unit
+                const formatted = result.correctValue.toLocaleString(state.currentLang === 'hu' ? 'hu-HU' : 'en-US');
+                const unit = question.unit || '';
+                const officialLabel = translations[state.currentLang].official;
+
+                elements.feedback.className = 'feedback correct';
+                elements.feedback.textContent = `${translations[state.currentLang].correct} (${officialLabel}: ${formatted} ${unit})`;
+                elements.feedback.classList.remove('hidden');
+
+                // Update UI
+                elements.userAnswer.disabled = true;
+                elements.checkBtn.classList.add('hidden');
+                elements.showAnswerBtn.classList.add('hidden');
+                updateScore();
+                return;
+            } else {
+                isCorrect = false;
+            }
+        } else {
+            // Standard validation based on inputType
+            switch (inputType) {
+                case 'person':
+                    isCorrect = validatePerson(userAnswer, question.answer);
+                    break;
+                case 'date':
+                case 'year':
+                    isCorrect = validateDate(userAnswer, question.answer);
+                    break;
+                case 'date-interval':
+                case 'year-interval':
+                    isCorrect = validateDateInterval(userAnswer, question.answer);
+                    break;
+                case 'number':
+                    isCorrect = validateNumber(userAnswer, question.answer);
+                    break;
+                default:
+                    isCorrect = checkAnswer(userAnswer, question.answer);
+            }
         }
     }
     // Update score

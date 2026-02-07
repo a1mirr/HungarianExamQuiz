@@ -1,6 +1,7 @@
-[
+﻿[
     {
         "type":  "Open",
+        "inputType":  "year",
         "question":  "Mikor kezdték gyűjteni a népdalokat?",
         "answer":  "1800 ÷ Az 1800-as",
         "translations":  {
@@ -39,6 +40,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "text",
         "question":  "Ki volt a magyar népzenekutatás két leghíresebb képviselője?",
         "answer":  "Bartók Béla és Kodály Zoltán",
         "translations":  {
@@ -79,6 +81,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "person",
         "question":  "Ki komponálta a Bánk bán operát?",
         "answer":  "Erkel Ferenc",
         "translations":  {
@@ -94,6 +97,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "text",
         "question":  "Mi Erkel Ferenc leghíresebb műve?",
         "answer":  "Bánk bán",
         "translations":  {
@@ -132,6 +136,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "person",
         "question":  "Ki komponálta a Magyar rapszódiákat?",
         "answer":  "Liszt Ferenc",
         "translations":  {
@@ -147,6 +152,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "text",
         "question":  "Mi Liszt Ferenc egyik leghíresebb műve?",
         "answer":  "Magyar rapszódiák",
         "translations":  {
@@ -185,6 +191,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "person",
         "question":  "Ki komponálta A kékszakállú herceg vára című operát?",
         "answer":  "Bartók Béla",
         "translations":  {
@@ -200,6 +207,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "text",
         "question":  "Mi Bartók Béla egyik leghíresebb műve?",
         "answer":  "A kékszakállú herceg vára",
         "translations":  {
@@ -238,6 +246,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "person",
         "question":  "Ki komponálta a Háry János című művet?",
         "answer":  "Kodály Zoltán",
         "translations":  {
@@ -253,6 +262,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "text",
         "question":  "Mi Kodály Zoltán egyik leghíresebb műve?",
         "answer":  "Háry János",
         "translations":  {
@@ -316,6 +326,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "text",
         "question":  "Soroljon fel két reneszánsz költőt",
         "answer":  "Janus Pannonius ÷ Balassi Bálint",
         "translations":  {
@@ -356,6 +367,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "person",
         "question":  "Ki írta a Pannónia dicsérete című művet?",
         "answer":  "Janus Pannonius",
         "translations":  {
@@ -371,6 +383,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "text",
         "question":  "Mi Janus Pannonius egyik jelentős műve?",
         "answer":  "Pannónia dicsérete",
         "translations":  {
@@ -409,6 +422,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "person",
         "question":  "Ki írta a \"Hogy Júliára talála, így köszöne néki\" című verset?",
         "answer":  "Balassi Bálint",
         "translations":  {
@@ -424,6 +438,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "text",
         "question":  "Mi Balassi Bálint egyik jelentős műve?",
         "answer":  "Hogy Júliára talála, így köszöne néki",
         "translations":  {
@@ -462,6 +477,7 @@
     },
     {
         "type":  "Open",
+        "inputType":  "person",
         "question":  "Ki volt a barokk irodalom kiemelkedő alakja?",
         "answer":  "Zrínyi Miklós",
         "translations":  {
@@ -511,7 +527,8 @@
                                         "question":  "[RU] Кто написал произведение Осада Сигета?",
                                         "answer":  "[RU] Миклош Зриньи"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -526,7 +543,8 @@
                                         "question":  "[RU] Какое выдающееся произведение Миклоша Зриньи?",
                                         "answer":  "[RU] Осада Сигета"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -564,7 +582,8 @@
                                         "question":  "[RU] Перечислите двух поэтов эпохи Просвещения!",
                                         "answer":  "[RU] Михай Чоконаи Витез ÷ Янош Бачаньи"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -604,7 +623,8 @@
                                         "question":  "[RU] Кто написал стихотворение К Надежде?",
                                         "answer":  "[RU] Михай Чоконаи Витез"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -619,7 +639,8 @@
                                         "question":  "[RU] Какое одно из выдающихся произведений Михая Чоконаи Витеза?",
                                         "answer":  "[RU] К Надежде"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -657,7 +678,8 @@
                                         "question":  "[RU] Кто написал стихотворение На изменения во Франции?",
                                         "answer":  "[RU] Янош Бачаньи"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -672,7 +694,8 @@
                                         "question":  "[RU] Какое одно из выдающихся произведений Яноша Бачаньи?",
                                         "answer":  "[RU] На изменения во Франции"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -710,7 +733,8 @@
                                         "question":  "[RU] Перечислите двух поэтов классицизма!",
                                         "answer":  "[RU] Ференц Казинци ÷ Даниэль Бержени"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -750,7 +774,8 @@
                                         "question":  "[RU] Кто был ведущей фигурой отечественной языковой реформы?",
                                         "answer":  "[RU] Ференц Казинци"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Multiple",
@@ -788,7 +813,8 @@
                                         "question":  "[RU] Кто написал стихотворение Первая любовь?",
                                         "answer":  "[RU] Даниэль Бержени"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -803,7 +829,8 @@
                                         "question":  "[RU] Какое одно из выдающихся произведений Даниэля Бержени?",
                                         "answer":  "[RU] Первая любовь"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -864,7 +891,8 @@
                                         "question":  "[RU] Какой город стал литературным центром страны в 1820-х годах?",
                                         "answer":  "[RU] Пешт-Буда"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -950,7 +978,8 @@
                                         "question":  "[RU] Когда открылся Пештский венгерский театр?",
                                         "answer":  "[RU] 1837"
                                     }
-                         }
+                         },
+        "inputType":  "year"
     },
     {
         "type":  "Open",
@@ -965,7 +994,8 @@
                                         "question":  "[RU] Кто написал Гимн?",
                                         "answer":  "[RU] Ференц Кёльчеи"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -980,7 +1010,8 @@
                                         "question":  "[RU] Какое одно из самых значительных произведений Ференца Кёльчеи?",
                                         "answer":  "[RU] Гимн"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1018,7 +1049,8 @@
                                         "question":  "[RU] Кто написал Призыв (Szózat)?",
                                         "answer":  "[RU] Михай Вёрёшмарти"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1033,7 +1065,8 @@
                                         "question":  "[RU] Какое одно из самых значительных произведений Михая Вёрёшмарти?",
                                         "answer":  "[RU] Призыв"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1071,7 +1104,8 @@
                                         "question":  "[RU] Кто написал Национальную песню?",
                                         "answer":  "[RU] Шандор Петёфи"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1086,7 +1120,8 @@
                                         "question":  "[RU] Какое одно из самых значительных произведений Шандора Петёфи?",
                                         "answer":  "[RU] Национальная песня"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1124,7 +1159,8 @@
                                         "question":  "[RU] Кто написал роман Сыновья человека с каменным сердцем?",
                                         "answer":  "[RU] Мор Йокаи"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1139,7 +1175,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Мора Йокаи?",
                                         "answer":  "[RU] Сыновья человека с каменным сердцем"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1177,7 +1214,8 @@
                                         "question":  "[RU] Кто написал произведение Валлийские барды?",
                                         "answer":  "[RU] Янош Арань"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1192,7 +1230,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Яноша Араня?",
                                         "answer":  "[RU] Валлийские барды"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1230,7 +1269,8 @@
                                         "question":  "[RU] Кто написал драму Банк бан?",
                                         "answer":  "[RU] Йожеф Катона"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1245,7 +1285,8 @@
                                         "question":  "[RU] Какое самое значительное произведение Йожефа Катоны?",
                                         "answer":  "[RU] Банк бан"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1283,7 +1324,8 @@
                                         "question":  "[RU] Кто написал произведение Трагедия человека?",
                                         "answer":  "[RU] Имре Мадач"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1298,7 +1340,8 @@
                                         "question":  "[RU] Какое самое значительное произведение Имре Мадача?",
                                         "answer":  "[RU] Трагедия человека"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1336,7 +1379,8 @@
                                         "question":  "[RU] Перечислите пять поэтов или писателей эпохи романтизма!",
                                         "answer":  "[RU] Ференц Кёльчеи ÷ Михай Вёрёшмарти ÷ Шандор Петёфи ÷ Мор Йокаи ÷ Янош Арань ÷ Йожеф Катона ÷ Имре Мадач"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1381,7 +1425,8 @@
                                         "question":  "[RU] Перечислите пять поэтов или писателей 20-го века!",
                                         "answer":  "[RU] Эндре Ади ÷ Жигмонд Мориц ÷ Дежё Костолани ÷ Фридьеш Каринти ÷ Аттила Йожеф ÷ Миклош Радноти ÷ Шандор Мараи"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1426,7 +1471,8 @@
                                         "question":  "[RU] Кто написал стихотворение Прощальное прекрасное послание?",
                                         "answer":  "[RU] Эндре Ади"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1441,7 +1487,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Эндре Ади?",
                                         "answer":  "[RU] Прощальное прекрасное послание"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1479,7 +1526,8 @@
                                         "question":  "[RU] Кто написал роман Родственники?",
                                         "answer":  "[RU] Жигмонд Мориц"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1494,7 +1542,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Жигмонда Морица?",
                                         "answer":  "[RU] Родственники"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1532,7 +1581,8 @@
                                         "question":  "[RU] Кто написал роман Анна Эдеш?",
                                         "answer":  "[RU] Дежё Костолани"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1547,7 +1597,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Дежё Костолани?",
                                         "answer":  "[RU] Анна Эдеш"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1585,7 +1636,8 @@
                                         "question":  "[RU] Кто написал произведение Так пишете вы?",
                                         "answer":  "[RU] Фридьеш Каринти"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1600,7 +1652,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Фридьеша Каринти?",
                                         "answer":  "[RU] Так пишете вы"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1638,7 +1691,8 @@
                                         "question":  "[RU] Кто написал стихотворение С чистым сердцем?",
                                         "answer":  "[RU] Аттила Йожеф"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1653,7 +1707,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Аттилы Йожефа?",
                                         "answer":  "[RU] С чистым сердцем"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1691,7 +1746,8 @@
                                         "question":  "[RU] Кто написал стихотворение Я не могу знать?",
                                         "answer":  "[RU] Миклош Радноти"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1706,7 +1762,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Миклоша Радноти?",
                                         "answer":  "[RU] Я не могу знать"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1744,7 +1801,8 @@
                                         "question":  "[RU] Кто написал произведение Исповедь буржуа?",
                                         "answer":  "[RU] Шандор Мараи"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1759,7 +1817,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Шандора Мараи?",
                                         "answer":  "[RU] Исповедь буржуа"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1797,7 +1856,8 @@
                                         "question":  "[RU] Перечислите трех европейских писателей!",
                                         "answer":  "[RU] Уильям Шекспир ÷ Вольтер ÷ Иоганн Вольфганг фон Гёте ÷ Гёте ÷ Шекспир"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Open",
@@ -1812,7 +1872,8 @@
                                         "question":  "[RU] Кто написал драму Ромео и Джульетта?",
                                         "answer":  "[RU] Уильям Шекспир"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1827,7 +1888,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Уильяма Шекспира?",
                                         "answer":  "[RU] Ромео и Джульетта"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1865,7 +1927,8 @@
                                         "question":  "[RU] Кто написал произведение Кандид?",
                                         "answer":  "[RU] Вольтер"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1880,7 +1943,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Вольтера?",
                                         "answer":  "[RU] Кандид"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1918,7 +1982,8 @@
                                         "question":  "[RU] Кто написал произведение Фауст?",
                                         "answer":  "[RU] Иоганн Вольфганг фон Гёте"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -1933,7 +1998,8 @@
                                         "question":  "[RU] Какое одно из самых значительных произведений Гёте?",
                                         "answer":  "[RU] Фауст"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -1971,7 +2037,8 @@
                                         "question":  "[RU] Перечислите трех европейских композиторов!",
                                         "answer":  "[RU] Людвиг ван Бетховен ÷ Вольфганг Амадей Моцарт ÷ Пётр Ильич Чайковский"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Open",
@@ -1986,7 +2053,8 @@
                                         "question":  "[RU] Кто сочинил 9-ю симфонию?",
                                         "answer":  "[RU] Людвиг ван Бетховен"
                                     }
-                         }
+                         },
+        "inputType":  "person"
     },
     {
         "type":  "Open",
@@ -2001,7 +2069,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Людвига ван Бетховена?",
                                         "answer":  "[RU] 9-я симфония"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -2039,7 +2108,8 @@
                                         "question":  "[RU] Из произведения какого композитора взят гимн ЕС?",
                                         "answer":  "[RU] Людвиг ван Бетховен"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Open",
@@ -2054,7 +2124,8 @@
                                         "question":  "[RU] Кто сочинил оперу Волшебная флейта?",
                                         "answer":  "[RU] Вольфганг Амадей Моцарт ÷ Моцарт"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Open",
@@ -2069,7 +2140,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Моцарта?",
                                         "answer":  "[RU] Волшебная флейта"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -2107,7 +2179,8 @@
                                         "question":  "[RU] Кто сочинил балет Лебединое озеро?",
                                         "answer":  "[RU] Пётр Ильич Чайковский ÷ Чайковский"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Open",
@@ -2122,7 +2195,8 @@
                                         "question":  "[RU] Какое одно из значительных произведений Чайковского?",
                                         "answer":  "[RU] Лебединое озеро"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Multiple",
@@ -2160,7 +2234,8 @@
                                         "question":  "[RU] Когда состоялась премьера 9-й симфонии Бетховена?",
                                         "answer":  "[RU] 1824"
                                     }
-                         }
+                         },
+        "inputType":  "year"
     },
     {
         "type":  "Multiple",
@@ -2198,7 +2273,8 @@
                                         "question":  "[RU] Какое стихотворение Фридриха Шиллера положил на музыку Бетховен?",
                                         "answer":  "[RU] Ода к радости"
                                     }
-                         }
+                         },
+        "inputType":  "text"
     },
     {
         "type":  "Open",
@@ -2213,7 +2289,8 @@
                                         "question":  "[RU] Когда Шиллер написал стихотворение Ода к радости?",
                                         "answer":  "[RU] 1785"
                                     }
-                         }
+                         },
+        "inputType":  "year"
     },
     {
         "type":  "Multiple",

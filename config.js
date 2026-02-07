@@ -37,7 +37,9 @@ const translations = {
         enterNumber: 'Enter number',
         enterDate: 'Enter date',
         enterDateInterval: 'Enter year range (e.g., 1241-1242)',
-        enterName: 'Enter name'
+        enterName: 'Enter name',
+        official: 'Official',
+        approximateHint: 'Approximate value accepted (±10%)'
     },
     ru: {
         subtitle: 'Изучайте венгерскую культуру и историю',
@@ -72,7 +74,9 @@ const translations = {
         enterNumber: 'Введите число',
         enterDate: 'Введите дату',
         enterDateInterval: 'Введите диапазон лет (например, 1241-1242)',
-        enterName: 'Введите имя'
+        enterName: 'Введите имя',
+        official: 'Официальное значение',
+        approximateHint: 'Принимается приблизительное значение (±10%)'
     },
     hu: {
         subtitle: 'Magyar kultúra és történelem mesterei',
@@ -107,7 +111,9 @@ const translations = {
         enterNumber: 'Írj be egy számot',
         enterDate: 'Írj be egy dátumot',
         enterDateInterval: 'Írja be az évtartományt (pl. 1241-1242)',
-        enterName: 'Írj be egy nevet'
+        enterName: 'Írj be egy nevet',
+        official: 'Hivatalos',
+        approximateHint: 'Elfogadható közelítő érték (±10%)'
     }
 };
 

@@ -12,6 +12,33 @@ function normalizeAccents(text) {
 }
 
 /**
+ * Approximate number validator - accepts values within tolerance range
+ * Used for population, area, casualties, economic figures, etc.
+ * @param {string} userAnswer - User's input
+ * @param {string} correctAnswer - Official correct value
+ * @param {number} tolerance - Acceptable deviation (default 0.1 = ±10%)
+ * @returns {object} { exact, withinTolerance, correctValue }
+ */
+function validateApproximate(userAnswer, correctAnswer, tolerance = 0.1) {
+    // Remove spaces and parse as numbers
+    const userNum = parseFloat(userAnswer.replace(/\s/g, '').replace(',', '.'));
+    const correctNum = parseFloat(correctAnswer.replace(/\s/g, '').replace(',', '.'));
+
+    if (isNaN(userNum) || isNaN(correctNum)) {
+        return { exact: false, withinTolerance: false, correctValue: null };
+    }
+
+    const diff = Math.abs(userNum - correctNum);
+    const maxDiff = correctNum * tolerance;
+
+    return {
+        exact: userNum === correctNum,
+        withinTolerance: diff <= maxDiff,
+        correctValue: correctNum
+    };
+}
+
+/**
  * Person name validator - handles Hungarian name conventions
  * Features: case-insensitive, accent-insensitive, order-agnostic
  */
@@ -145,53 +172,17 @@ function checkAnswer(userAnswer, correctAnswer) {
     return acceptableAnswers.includes(userNorm);
 }
 
-/**
- * Detect input type based on answer pattern
- */
-function detectInputType(answer) {
-    if (!answer) return 'text';
 
-    const firstAlternative = answer.split('÷')[0].trim();
-
-    // Number: starts with digit
-    if (/^\d+/.test(firstAlternative)) {
-        return 'number';
-    }
-
-    // Date interval: contains year range pattern
-    const hasInterval = /\d{3,4}-\d{2,4}/.test(answer);
-    if (hasInterval) {
-        // Only detect as interval if it's the primary content, not embedded in text
-        const intervalMatch = answer.match(/\d{3,4}-\d{2,4}/);
-        if (intervalMatch && intervalMatch[0].length > answer.length * 0.3) {
-            return 'date-interval';
-        }
-    }
-
-    // Date: contains date pattern
-    if (/\d{3,4}[.\s]\d{1,2}[.\s]\d{1,2}/.test(answer) || /^\d{4}$/.test(firstAlternative)) {
-        return 'date';
-    }
-
-    // Person: contains at least 2 words with capital letters (name pattern)
-    const words = firstAlternative.split(/\s+/);
-    const capitalWords = words.filter(w => /^[A-ZÁÉÍÓÖŐÚÜŰ]/.test(w));
-    if (capitalWords.length >= 2) {
-        return 'person';
-    }
-
-    return 'text';
-}
 
 // Export for use in main app
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = {
         normalizeAccents,
+        validateApproximate,
         validatePerson,
         validateDate,
         validateDateInterval,
         validateNumber,
-        checkAnswer,
-        detectInputType
+        checkAnswer
     };
 }
