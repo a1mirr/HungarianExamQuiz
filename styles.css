@@ -788,10 +788,16 @@ h3 {
 
 /* === Results View === */
 .results-container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
     padding: var(--spacing-xl);
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-xl);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow-xl);
+    animation: zoomIn 0.5s ease-out;
 }
 
 .results-title {
@@ -874,22 +880,24 @@ h3 {
 }
 
 .back-to-main-btn {
-    background: var(--primary);
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
     border: none;
     color: white;
-    padding: 1rem 3rem;
-    border-radius: var(--radius-md);
-    font-weight: 600;
-    font-size: 1.1rem;
+    padding: 1.2rem 3rem;
+    border-radius: var(--radius-lg);
+    font-size: 1.3rem;
+    font-weight: 700;
     cursor: pointer;
     transition: all var(--transition-fast);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-lg);
+    margin-top: var(--spacing-xl);
+    width: 100%;
+    max-width: 400px;
 }
 
 .back-to-main-btn:hover {
-    background: var(--primary-light);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 10px 30px rgba(239, 68, 68, 0.4);
 }
 
 /* ===Footer === */

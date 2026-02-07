@@ -43,7 +43,11 @@ function validateApproximate(userAnswer, correctAnswer, tolerance = 0.1) {
  * Features: case-insensitive, accent-insensitive, order-agnostic
  */
 function validatePerson(userAnswer, correctAnswer) {
-    const normalize = (text) => normalizeAccents(text).toLowerCase().trim();
+    const normalize = (text) => {
+        let norm = normalizeAccents(text).toLowerCase().trim();
+        // Remove leading articles (a, az, the) followed by space
+        return norm.replace(/^(a|az|the)\s+/i, '');
+    };
 
     // Filter out Roman numerals (I., II., III., etc.)
     const filterRomanNumerals = (parts) => {
@@ -164,7 +168,11 @@ function validateNumber(userAnswer, correctAnswer) {
  * Default validator - basic text matching
  */
 function checkAnswer(userAnswer, correctAnswer) {
-    const normalize = (text) => text.toLowerCase().trim();
+    const normalize = (text) => {
+        let norm = normalizeAccents(text).toLowerCase().trim();
+        // Remove leading articles (a, az, the) followed by space
+        return norm.replace(/^(a|az|the)\s+/i, '');
+    };
     const userNorm = normalize(userAnswer);
 
     // Check against all acceptable answers (÷ separator)
