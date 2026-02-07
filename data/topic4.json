@@ -1831,5 +1831,120 @@
                 ]
             }
         }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki Magyarország jelenlegi miniszterelnöke?",
+        "answer": "Orbán Viktor",
+        "translations": {
+            "en": {
+                "question": "[EN] Who is the current Prime Minister of Hungary?",
+                "answer": "[EN] Viktor Orbán"
+            },
+            "ru": {
+                "question": "[RU] Кто является нынешним премьер-министром Венгрии?",
+                "answer": "[RU] Виктор Орбан"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki Magyarország miniszterelnöke?",
+        "correctCount": 1,
+        "options": [
+            "Orbán Viktor",
+            "Gyurcsány Ferenc",
+            "Antall József"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "Who is the Prime Minister of Hungary?",
+                "answer": "Viktor Orbán",
+                "options": [
+                    "Viktor Orbán",
+                    "Ferenc Gyurcsány",
+                    "József Antall"
+                ]
+            },
+            "ru": {
+                "question": "Кто премьер-министр Венгрии?",
+                "answer": "Виктор Орбан",
+                "options": [
+                    "Виктор Орбан",
+                    "Ференц Дюрчань",
+                    "Йожеф Анталл"
+                ]
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki Magyarország jelenlegi köztársasági elnöke?",
+        "answer": "Dr. Sulyok Tamás ÷ Sulyok Tamás",
+        "translations": {
+            "en": {
+                "question": "[EN] Who is the current President of the Republic of Hungary?",
+                "answer": "[EN] Dr. Tamás Sulyok ÷ Tamás Sulyok"
+            },
+            "ru": {
+                "question": "[RU] Кто является нынешним Президентом Венгерской Республики?",
+                "answer": "[RU] Д-р Тамаш Шуйок ÷ Тамаш Шуйок"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki Magyarország köztársasági elnöke?",
+        "correctCount": 1,
+        "options": [
+            "Dr. Sulyok Tamás",
+            "Novák Katalin",
+            "Áder János"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "Who is the President of the Republic of Hungary?",
+                "answer": "Dr. Tamás Sulyok",
+                "options": [
+                    "Dr. Tamás Sulyok",
+                    "Katalin Novák",
+                    "János Áder"
+                ]
+            },
+            "ru": {
+                "question": "Кто Президент Венгерской Республики?",
+                "answer": "Д-р Тамаш Шуйок",
+                "options": [
+                    "Д-р Тамаш Шуйок",
+                    "Каталин Новак",
+                    "Янош Адер"
+                ]
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "list",
+        "inputCount": 3,
+        "question": "Soroljon fel három minisztériumot!",
+        "answer": "Agrárminisztérium ÷ Belügyminisztérium ÷ Honvédelmi Minisztérium ÷ Igazságügyi Minisztérium ÷ Külgazdasági és Külügyminisztérium ÷ Pénzügyminisztérium ÷ Kulturális és Innovációs Minisztérium",
+        "translations": {
+            "en": {
+                "question": "[EN] List three ministries!",
+                "answer": "[EN] Ministry of Agriculture ÷ Ministry of Interior ÷ Ministry of Defence ÷ Ministry of Justice ÷ Ministry of Foreign Affairs and Trade ÷ Ministry of Finance ÷ Ministry of Culture and Innovation"
+            },
+            "ru": {
+                "question": "[RU] Перечислите три министерства!",
+                "answer": "[RU] Министерство сельского хозяйства ÷ Министерство внутренних дел ÷ Министерство обороны ÷ Министерство юстиции ÷ Министерство иностранных дел и торговли ÷ Министерство финансов ÷ Министерство культуры и инноваций"
+            }
+        }
     }
 ]

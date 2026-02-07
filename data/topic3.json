@@ -2842,5 +2842,237 @@
                 ]
             }
         }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki volt a nyelvújítás vezéralakja?",
+        "answer": "Kazinczy Ferenc",
+        "translations": {
+            "en": {
+                "question": "[EN] Who was the leading figure of the language reform?",
+                "answer": "[EN] Ferenc Kazinczy"
+            },
+            "ru": {
+                "question": "[RU] Кто был ведущей фигурой языковой реформы?",
+                "answer": "[RU] Ференц Казинци"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Ki volt a klasszicista irodalom kiemelkedő alakja?",
+        "correctCount": 2,
+        "options": [
+            "Kazinczy Ferenc",
+            "Berzsenyi Dániel",
+            "Petőfi Sándor",
+            "Ady Endre"
+        ],
+        "correctIndices": [
+            0,
+            1
+        ],
+        "translations": {
+            "en": {
+                "question": "Who was a prominent figure of Classicist literature?",
+                "answer": "Ferenc Kazinczy, Dániel Berzsenyi",
+                "options": [
+                    "Ferenc Kazinczy",
+                    "Dániel Berzsenyi",
+                    "Sándor Petőfi",
+                    "Endre Ady"
+                ]
+            },
+            "ru": {
+                "question": "Кто был выдающейся фигурой литературы классицизма?",
+                "answer": "Ференц Казинци, Даниэль Бержени",
+                "options": [
+                    "Ференц Казинци",
+                    "Даниэль Бержени",
+                    "Шандор Петефи",
+                    "Эндре Ади"
+                ]
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki írta Az első szerelem című művet?",
+        "answer": "Berzsenyi Dániel",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the work First Love?",
+                "answer": "[EN] Dániel Berzsenyi"
+            },
+            "ru": {
+                "question": "[RU] Кто написал произведение Первая любовь?",
+                "answer": "[RU] Даниэль Бержени"
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki írta A kőszívű ember fiai című regényt?",
+        "answer": "Jókai Mór",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the novel The Baron's Sons?",
+                "answer": "[EN] Mór Jókai"
+            },
+            "ru": {
+                "question": "[RU] Кто написал роман Сыновья человека с каменным сердцем?",
+                "answer": "[RU] Мор Йокаи"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Jókai Mór alkotása?",
+        "correctCount": 1,
+        "options": [
+            "A kőszívű ember fiai",
+            "Az ember tragédiája",
+            "Bánk bán"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "Which work is Mór Jókai's creation?",
+                "answer": "The Baron's Sons",
+                "options": [
+                    "The Baron's Sons",
+                    "The Tragedy of Man",
+                    "Bánk bán"
+                ]
+            },
+            "ru": {
+                "question": "Какое произведение принадлежит Мору Йокаи?",
+                "answer": "Сыновья человека с каменным сердцем",
+                "options": [
+                    "Сыновья человека с каменным сердцем",
+                    "Трагедия человека",
+                    "Банк бан"
+                ]
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki írta A walesi bárdok című balladát?",
+        "answer": "Arany János",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the ballad The Bards of Wales?",
+                "answer": "[EN] János Arany"
+            },
+            "ru": {
+                "question": "[RU] Кто написал балладу Уэльские барды?",
+                "answer": "[RU] Янош Арань"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Arany János alkotása?",
+        "correctCount": 1,
+        "options": [
+            "A walesi bárdok",
+            "János vitéz",
+            "Himnusz"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "Which work is János Arany's creation?",
+                "answer": "The Bards of Wales",
+                "options": [
+                    "The Bards of Wales",
+                    "John the Valiant",
+                    "Hymn"
+                ]
+            },
+            "ru": {
+                "question": "Какое произведение принадлежит Яношу Араню?",
+                "answer": "Уэльские барды",
+                "options": [
+                    "Уэльские барды",
+                    "Витязь Янош",
+                    "Гимн"
+                ]
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki írta a Bánk bán című drámát?",
+        "answer": "Katona József",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the drama Bánk bán?",
+                "answer": "[EN] József Katona"
+            },
+            "ru": {
+                "question": "[RU] Кто написал драму Банк бан?",
+                "answer": "[RU] Йожеф Катона"
+            }
+        }
+    },
+    {
+        "type": "Open",
+        "inputType": "person",
+        "question": "Ki írta Az ember tragédiája című drámát?",
+        "answer": "Madách Imre",
+        "translations": {
+            "en": {
+                "question": "[EN] Who wrote the drama The Tragedy of Man?",
+                "answer": "[EN] Imre Madách"
+            },
+            "ru": {
+                "question": "[RU] Кто написал драму Трагедия человека?",
+                "answer": "[RU] Имре Мадач"
+            }
+        }
+    },
+    {
+        "type": "Multiple",
+        "question": "Melyik mű Madách Imre alkotása?",
+        "correctCount": 1,
+        "options": [
+            "Az ember tragédiája",
+            "Bánk bán",
+            "Csongor és Tünde"
+        ],
+        "correctIndices": [
+            0
+        ],
+        "translations": {
+            "en": {
+                "question": "Which work is Imre Madách's creation?",
+                "answer": "The Tragedy of Man",
+                "options": [
+                    "The Tragedy of Man",
+                    "Bánk bán",
+                    "Csongor and Tünde"
+                ]
+            },
+            "ru": {
+                "question": "Какое произведение принадлежит Имре Мадачу?",
+                "answer": "Трагедия человека",
+                "options": [
+                    "Трагедия человека",
+                    "Банк бан",
+                    "Чонгор и Тюнде"
+                ]
+            }
+        }
     }
 ]
