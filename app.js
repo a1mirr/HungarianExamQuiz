@@ -2,29 +2,6 @@
 // HUNGARIAN EXAM QUIZ - INTERACTIVE APPLICATION
 // ========================================
 
-// DEBUG: Verify script execution
-// alert('App script loaded');
-
-// == State Management ==
-const state = {
-    currentLang: 'en',
-    topics: [],
-    currentTopic: null,
-    currentQuestions: [],
-    currentQuestionIndex: 0,
-    userScore: 0,
-    answeredQuestions: 0,
-    questionAnswered: false,
-    questionTranslated: false,
-    answerTranslated: false,
-    currentQuestionHu: '',
-    currentQuestionTranslated: '',
-    currentAnswerHu: '',
-    currentAnswerTranslated: '',
-    reportedProblems: [],
-    mockExamMode: false
-};
-
 // == DOM Elements ==
 const elements = {
     // Buttons
@@ -73,6 +50,32 @@ const elements = {
     incorrectCount: document.getElementById('incorrectCount'),
     problemCount: document.getElementById('problemCount')
 };
+
+// DEBUG: Verify script execution
+// alert('App script loaded');
+
+// == State Management ==
+const state = {
+    currentLang: 'en',
+    topics: [],
+    currentTopic: null,
+    currentQuestions: [],
+    currentQuestionIndex: 0,
+    userScore: 0,
+    answeredQuestions: 0,
+    questionAnswered: false,
+    questionTranslated: false,
+    answerTranslated: false,
+    currentQuestionHu: '',
+    currentQuestionTranslated: '',
+    currentAnswerHu: '',
+    currentAnswerTranslated: '',
+    reportedProblems: [],
+    mockExamMode: false
+};
+
+// == DOM Elements ==
+
 
 
 // == Helper Functions ==
