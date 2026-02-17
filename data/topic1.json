@@ -14,7 +14,10 @@
             }
         },
         "inputType": "list",
-        "inputCount": 4
+        "inputCount": 4,
+        "pages": [
+            2
+        ]
     },
     {
         "type": "Multiple",
@@ -58,7 +61,10 @@
                     "Держава"
                 ]
             }
-        }
+        },
+        "pages": [
+            2
+        ]
     },
     {
         "type": "Multiple",
@@ -77,7 +83,7 @@
         ],
         "translations": {
             "en": {
-                "question": "Which does NOT belong to Hungary\u0027s national symbols?",
+                "question": "Which does NOT belong to Hungary's national symbols?",
                 "answer": "Buda Castle",
                 "options": [
                     "Buda Castle",
@@ -98,7 +104,10 @@
                     "Гимн"
                 ]
             }
-        }
+        },
+        "pages": [
+            2
+        ]
     },
     {
         "type": "Open",
@@ -106,7 +115,7 @@
         "answer": "Igen",
         "translations": {
             "en": {
-                "question": "Is the Holy Crown Hungary\u0027s national symbol?",
+                "question": "Is the Holy Crown Hungary's national symbol?",
                 "answer": "Yes"
             },
             "ru": {
@@ -114,7 +123,10 @@
                 "answer": "Да"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            3
+        ]
     },
     {
         "type": "Multiple",
@@ -132,7 +144,7 @@
         ],
         "translations": {
             "en": {
-                "question": "Which object counts as Hungary\u0027s national symbol?",
+                "question": "Which object counts as Hungary's national symbol?",
                 "answer": "Holy Crown, Coat of arms of Hungary",
                 "options": [
                     "Holy Crown",
@@ -151,7 +163,10 @@
                     "Здание Парламента"
                 ]
             }
-        }
+        },
+        "pages": [
+            2
+        ]
     },
     {
         "type": "Open",
@@ -167,7 +182,10 @@
                 "answer": "Красным и серебром"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            4
+        ]
     },
     {
         "type": "Open",
@@ -183,7 +201,10 @@
                 "answer": "Семь ÷ 7"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            4
+        ]
     },
     {
         "type": "Open",
@@ -199,7 +220,10 @@
                 "answer": "Корона"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            4
+        ]
     },
     {
         "type": "Open",
@@ -215,7 +239,10 @@
                 "answer": "Двойной крест"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            4
+        ]
     },
     {
         "type": "Multiple",
@@ -248,7 +275,10 @@
                     "Тройной крест"
                 ]
             }
-        }
+        },
+        "pages": [
+            4
+        ]
     },
     {
         "type": "Multiple",
@@ -289,7 +319,10 @@
                     "Лев"
                 ]
             }
-        }
+        },
+        "pages": [
+            2
+        ]
     },
     {
         "type": "Multiple",
@@ -323,7 +356,10 @@
                     "Меч"
                 ]
             }
-        }
+        },
+        "pages": [
+            4
+        ]
     },
     {
         "type": "Open",
@@ -339,7 +375,10 @@
                 "answer": "Красный, белый, зеленый"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            5
+        ]
     },
     {
         "type": "Open",
@@ -355,7 +394,10 @@
                 "answer": "Красный, белый, зеленый"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            5
+        ]
     },
     {
         "type": "Multiple",
@@ -396,7 +438,10 @@
                     "Желтый"
                 ]
             }
-        }
+        },
+        "pages": [
+            5
+        ]
     },
     {
         "type": "Open",
@@ -412,7 +457,10 @@
                 "answer": "Силу"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            5
+        ]
     },
     {
         "type": "Open",
@@ -428,7 +476,10 @@
                 "answer": "Верность"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            5
+        ]
     },
     {
         "type": "Multiple",
@@ -461,7 +512,10 @@
                     "Надежду"
                 ]
             }
-        }
+        },
+        "pages": [
+            5
+        ]
     },
     {
         "type": "Open",
@@ -477,7 +531,10 @@
                 "answer": "Надежду"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            5
+        ]
     },
     {
         "type": "Multiple",
@@ -510,7 +567,10 @@
                     "Надежду"
                 ]
             }
-        }
+        },
+        "pages": [
+            5
+        ]
     },
     {
         "type": "Open",
@@ -526,7 +586,10 @@
                 "answer": "Перед Парламентом"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            5
+        ]
     },
     {
         "type": "Open",
@@ -542,7 +605,10 @@
                 "question": "Когда поднимают национальный флаг перед Парламентом?",
                 "answer": "В национальные праздники"
             }
-        }
+        },
+        "pages": [
+            5
+        ]
     },
     {
         "type": "Multiple",
@@ -575,7 +641,10 @@
                     "Флаги армии"
                 ]
             }
-        }
+        },
+        "pages": [
+            6
+        ]
     },
     {
         "type": "Open",
@@ -592,7 +661,10 @@
             }
         },
         "inputType": "list",
-        "inputCount": 3
+        "inputCount": 3,
+        "pages": [
+            6
+        ]
     },
     {
         "type": "Multiple",
@@ -633,7 +705,10 @@
                     "Флаг"
                 ]
             }
-        }
+        },
+        "pages": [
+            6
+        ]
     },
     {
         "type": "Open",
@@ -649,7 +724,10 @@
                 "answer": "Пять ÷ 5"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            6
+        ]
     },
     {
         "type": "Multiple",
@@ -685,7 +763,10 @@
                     "Коронационная мантия"
                 ]
             }
-        }
+        },
+        "pages": [
+            6
+        ]
     },
     {
         "type": "Open",
@@ -701,7 +782,10 @@
                 "answer": "В Парламенте"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            6
+        ]
     },
     {
         "type": "Multiple",
@@ -734,7 +818,10 @@
                     "В Будайском дворце"
                 ]
             }
-        }
+        },
+        "pages": [
+            6
+        ]
     },
     {
         "type": "Multiple",
@@ -767,7 +854,10 @@
                     "Да, но только раз в год"
                 ]
             }
-        }
+        },
+        "pages": [
+            3
+        ]
     },
     {
         "type": "Open",
@@ -784,7 +874,10 @@
             }
         },
         "inputType": "list",
-        "inputCount": 3
+        "inputCount": 3,
+        "pages": [
+            7
+        ]
     },
     {
         "type": "Multiple",
@@ -825,7 +918,10 @@
                     "Сегед"
                 ]
             }
-        }
+        },
+        "pages": [
+            7
+        ]
     },
     {
         "type": "Open",
@@ -841,7 +937,10 @@
                 "answer": "Буда"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            7
+        ]
     },
     {
         "type": "Multiple",
@@ -877,7 +976,10 @@
                     "Секешфехервар"
                 ]
             }
-        }
+        },
+        "pages": [
+            7
+        ]
     },
     {
         "type": "Multiple",
@@ -896,9 +998,9 @@
         "translations": {
             "en": {
                 "question": "What does the Holy Crown embody according to the Basic Law?",
-                "answer": "Hungary\u0027s constitutional state continuity, The unity of the nation",
+                "answer": "Hungary's constitutional state continuity, The unity of the nation",
                 "options": [
-                    "Hungary\u0027s constitutional state continuity",
+                    "Hungary's constitutional state continuity",
                     "The unity of the nation",
                     "The power of the king",
                     "The power of the church"
@@ -914,7 +1016,10 @@
                     "Силу церкви"
                 ]
             }
-        }
+        },
+        "pages": [
+            6
+        ]
     },
     {
         "type": "Multiple",
@@ -951,7 +1056,10 @@
                     "Все замки"
                 ]
             }
-        }
+        },
+        "pages": [
+            7
+        ]
     },
     {
         "type": "Open",
@@ -967,7 +1075,10 @@
                 "answer": "Ференц Кёльчеи"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            8
+        ]
     },
     {
         "type": "Open",
@@ -983,7 +1094,10 @@
                 "answer": "1823"
             }
         },
-        "inputType": "year"
+        "inputType": "year",
+        "pages": [
+            8
+        ]
     },
     {
         "type": "Multiple",
@@ -1016,7 +1130,10 @@
                     "В 1867"
                 ]
             }
-        }
+        },
+        "pages": [
+            2
+        ]
     },
     {
         "type": "Open",
@@ -1032,7 +1149,10 @@
                 "answer": "Ференц Эркель"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            8
+        ]
     },
     {
         "type": "Open",
@@ -1048,7 +1168,10 @@
                 "answer": "Ференц Кёльчеи"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            8
+        ]
     },
     {
         "type": "Open",
@@ -1064,7 +1187,10 @@
                 "answer": "Михал Вёрешмарти"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            9
+        ]
     },
     {
         "type": "Open",
@@ -1080,7 +1206,10 @@
                 "answer": "1836"
             }
         },
-        "inputType": "year"
+        "inputType": "year",
+        "pages": [
+            9
+        ]
     },
     {
         "type": "Open",
@@ -1096,7 +1225,10 @@
                 "answer": "Бени Эгресси"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            9
+        ]
     },
     {
         "type": "Multiple",
@@ -1129,7 +1261,10 @@
                     "Весенний ветер"
                 ]
             }
-        }
+        },
+        "pages": [
+            9
+        ]
     },
     {
         "type": "Open",
@@ -1145,7 +1280,10 @@
                 "answer": "Непоколебимо к твоей родине"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            9
+        ]
     },
     {
         "type": "Open",
@@ -1161,7 +1299,10 @@
                 "answer": "К венграм"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            9
+        ]
     },
     {
         "type": "Open",
@@ -1177,7 +1318,10 @@
                 "answer": "Szózat"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            9
+        ]
     },
     {
         "type": "Multiple",
@@ -1210,7 +1354,10 @@
                     "Национальная песня"
                 ]
             }
-        }
+        },
+        "pages": [
+            9
+        ]
     },
     {
         "type": "Open",
@@ -1226,7 +1373,10 @@
                 "answer": "Здесь ÷ На родине ÷ В Венгрии"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            9
+        ]
     },
     {
         "type": "Multiple",
@@ -1249,7 +1399,10 @@
                 "question": "\"В великом мире вне этого / Нет для тебя места\" - из какого произведения это?",
                 "answer": "Szózat"
             }
-        }
+        },
+        "pages": [
+            9
+        ]
     },
     {
         "type": "Open",
@@ -1257,7 +1410,7 @@
         "answer": "03.15",
         "translations": {
             "en": {
-                "question": "List Hungary\u0027s three national holidays!",
+                "question": "List Hungary's three national holidays!",
                 "answer": "03.15 ÷ 08.20 ÷ 10.23"
             },
             "ru": {
@@ -1265,7 +1418,10 @@
                 "answer": "15 марта ÷ 20 августа ÷ 23 октября"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Open",
@@ -1281,7 +1437,10 @@
                 "answer": "Три ÷ 3"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Multiple",
@@ -1301,7 +1460,7 @@
         ],
         "translations": {
             "en": {
-                "question": "Which is Hungary\u0027s national holiday?",
+                "question": "Which is Hungary's national holiday?",
                 "answer": "March 15, August 20, October 23",
                 "options": [
                     "March 15",
@@ -1322,7 +1481,10 @@
                     "25 декабря"
                 ]
             }
-        }
+        },
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Open",
@@ -1338,7 +1500,10 @@
                 "answer": "В память о революции и борьбе за свободу 1848-49 годов"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Open",
@@ -1354,7 +1519,10 @@
                 "answer": "15 марта"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Multiple",
@@ -1387,7 +1555,10 @@
                     "Основания государства"
                 ]
             }
-        }
+        },
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Open",
@@ -1403,7 +1574,10 @@
                 "answer": "В память об основании государства и основателе государства короле Иштване"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Open",
@@ -1419,7 +1593,10 @@
                 "answer": "Король Иштван"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Multiple",
@@ -1456,7 +1633,10 @@
                     "Трианонского мира"
                 ]
             }
-        }
+        },
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Open",
@@ -1472,7 +1652,10 @@
                 "answer": "20 августа"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Multiple",
@@ -1505,7 +1688,10 @@
                     "Король Матьяш"
                 ]
             }
-        }
+        },
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Multiple",
@@ -1528,7 +1714,10 @@
                 "question": "Какова была роль святого Иштвана, которого мы вспоминаем 20 августа?",
                 "answer": "Он был королём-основателем государства"
             }
-        }
+        },
+        "pages": [
+            49
+        ]
     },
     {
         "type": "Open",
@@ -1544,7 +1733,10 @@
                 "answer": "В память о революции и борьбе за свободу 1956 года"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Open",
@@ -1560,7 +1752,10 @@
                 "answer": "23 октября"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Multiple",
@@ -1583,7 +1778,10 @@
                 "question": "Чей день памяти 23 октября?",
                 "answer": "Революции и борьбы за свободу 1956 года"
             }
-        }
+        },
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Open",
@@ -1599,7 +1797,10 @@
                 "answer": "1956"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Multiple",
@@ -1622,6 +1823,9 @@
                 "question": "Какое событие мы вспоминаем 23 октября?",
                 "answer": "Революцию и борьбу за свободу 1956 года"
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     }
 ]

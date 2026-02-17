@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "type": "Multiple",
         "question": "Milyen előzményekre tekint vissza az emberi jogok eszméje Európában?",
@@ -30,7 +30,10 @@
                     "Предпосылки эпохи Возрождения"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -46,7 +49,10 @@
                 "answer": "1215"
             }
         },
-        "inputType": "year"
+        "inputType": "year",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -62,7 +68,10 @@
                 "answer": "1222"
             }
         },
-        "inputType": "year"
+        "inputType": "year",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -95,7 +104,10 @@
                     "Французская декларация прав человека и гражданина"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -111,7 +123,10 @@
                 "answer": "1789"
             }
         },
-        "inputType": "year"
+        "inputType": "year",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -144,7 +159,10 @@
                     "1848"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -160,7 +178,10 @@
                 "answer": "В 17-18 веках ÷ в семнадцатом-восемнадцатом веках"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -193,7 +214,10 @@
                     "В 16-17 веках"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -209,7 +233,10 @@
                 "answer": "Перед законом"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -246,7 +273,10 @@
                     "Каждый гражданин государства выполняет одну и ту же работу"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -262,7 +292,10 @@
                 "answer": "1950"
             }
         },
-        "inputType": "year"
+        "inputType": "year",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -278,7 +311,10 @@
                 "answer": "Европейская конвенция о правах человека"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -311,7 +347,10 @@
                     "1951"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -344,7 +383,10 @@
                     "Одинаковый доход для всех граждан"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -360,7 +402,10 @@
                 "answer": "На три поколения ÷ 3"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -377,7 +422,10 @@
                 "question": "[RU] Перечислите три права первого поколения!",
                 "answer": "[RU] Право на жизнь ÷ право на личную свободу ÷ свобода собраний и объединений ÷ свобода совести и религии ÷ свобода слова и печати"
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -393,7 +441,10 @@
                 "answer": "1"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -430,7 +481,10 @@
                     "Право на забастовку"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -446,7 +500,10 @@
                 "answer": "1"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -482,7 +539,10 @@
                     "Свобода собраний"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -498,7 +558,10 @@
                 "answer": "1"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -514,7 +577,10 @@
                 "answer": "1"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -531,7 +597,10 @@
                 "question": "[RU] Перечислите два права второго поколения!",
                 "answer": "[RU] Право на труд ÷ право на забастовку ÷ право на образование ÷ право на социальное обеспечение"
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -547,7 +616,10 @@
                 "answer": "2"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -584,7 +656,10 @@
                     "Свобода слова"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -600,7 +675,10 @@
                 "answer": "2"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -636,7 +714,10 @@
                     "Право на образование"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -652,7 +733,10 @@
                 "answer": "2"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -668,7 +752,10 @@
                 "answer": "2"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -679,13 +766,16 @@
         "translations": {
             "en": {
                 "question": "List two third generation rights!",
-                "answer": "The right to a healthy environment ÷ children\u0027s rights ÷ patients\u0027 rights ÷ rights of people with disabilities"
+                "answer": "The right to a healthy environment ÷ children's rights ÷ patients' rights ÷ rights of people with disabilities"
             },
             "ru": {
                 "question": "Перечислите два права третьего поколения!",
                 "answer": "Право на здоровую окружающую среду ÷ права детей ÷ права пациентов ÷ права инвалидов"
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -693,7 +783,7 @@
         "answer": "3",
         "translations": {
             "en": {
-                "question": "Which generation rights do children\u0027s rights belong to?",
+                "question": "Which generation rights do children's rights belong to?",
                 "answer": "3"
             },
             "ru": {
@@ -701,7 +791,10 @@
                 "answer": "3"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -720,10 +813,10 @@
         "translations": {
             "en": {
                 "question": "Which right belongs to the third generation rights?",
-                "answer": "Children\u0027s rights, Patients\u0027 rights",
+                "answer": "Children's rights, Patients' rights",
                 "options": [
-                    "Children\u0027s rights",
-                    "Patients\u0027 rights",
+                    "Children's rights",
+                    "Patients' rights",
                     "The right to work",
                     "The right to life"
                 ]
@@ -738,7 +831,10 @@
                     "Право на жизнь"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -754,7 +850,10 @@
                 "answer": "3"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -790,7 +889,10 @@
                     "Права инвалидов"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -806,7 +908,10 @@
                 "answer": "3"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -814,7 +919,7 @@
         "answer": "3",
         "translations": {
             "en": {
-                "question": "Which generation rights do patients\u0027 rights belong to?",
+                "question": "Which generation rights do patients' rights belong to?",
                 "answer": "3"
             },
             "ru": {
@@ -822,7 +927,10 @@
                 "answer": "3"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Multiple",
@@ -859,7 +967,10 @@
                     "Передаваемые"
                 ]
             }
-        }
+        },
+        "pages": [
+            43
+        ]
     },
     {
         "type": "Multiple",
@@ -892,7 +1003,10 @@
                     "Отмена"
                 ]
             }
-        }
+        },
+        "pages": [
+            43
+        ]
     },
     {
         "type": "Multiple",
@@ -925,7 +1039,10 @@
                     "Никогда, ни в коем случае"
                 ]
             }
-        }
+        },
+        "pages": [
+            43
+        ]
     },
     {
         "type": "list",
@@ -942,7 +1059,10 @@
                 "question": "[RU] Перечислите по крайней мере три основных права, гарантированных Основным законом!",
                 "answer": "[RU] Равенство перед законом ÷ право на жизнь и человеческое достоинство ÷ право на справедливое разбирательство ÷ свобода мысли, совести и религии ÷ свобода выражения мнений ÷ свобода собраний ÷ право собственности и право наследования ÷ право на защиту персональных данных"
             }
-        }
+        },
+        "pages": [
+            43
+        ]
     },
     {
         "type": "Multiple",
@@ -983,7 +1103,10 @@
                     "Обязательство переехать за границу"
                 ]
             }
-        }
+        },
+        "pages": [
+            43
+        ]
     },
     {
         "type": "Multiple",
@@ -1019,7 +1142,10 @@
                     "Свобода собраний"
                 ]
             }
-        }
+        },
+        "pages": [
+            43
+        ]
     },
     {
         "type": "Multiple",
@@ -1056,7 +1182,10 @@
                     "Право на бесплатный проезд"
                 ]
             }
-        }
+        },
+        "pages": [
+            43
+        ]
     },
     {
         "type": "Open",
@@ -1072,7 +1201,10 @@
                 "answer": "1990"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            43
+        ]
     },
     {
         "type": "Open",
@@ -1088,7 +1220,10 @@
                 "answer": "Конституционный суд"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            43
+        ]
     },
     {
         "type": "Multiple",
@@ -1121,6 +1256,9 @@
                     "Правительство"
                 ]
             }
-        }
+        },
+        "pages": [
+            43
+        ]
     }
 ]

@@ -28,6 +28,9 @@ const elements = {
     resultsView: document.getElementById('resultsView'),
     topicGrid: document.getElementById('topicGrid'),
     mockExamCard: document.getElementById('mockExamCard'),
+    pageExamCard: document.getElementById('pageExamCard'),
+    pageInput: document.getElementById('pageInput'),
+    startPageExamBtn: document.getElementById('startPageExamBtn'),
     problemOptions: document.getElementById('problemOptions'),
     multipleChoice: document.getElementById('multipleChoice'),
     answerInput: document.getElementById('answerInput'),
@@ -182,6 +185,14 @@ function setupEventListeners() {
         elements.mockExamCard.addEventListener('click', startMockExam);
     }
 
+    // Page exam
+    if (elements.startPageExamBtn) {
+        elements.startPageExamBtn.addEventListener('click', startPageExam);
+    }
+
+    // Prevent input click from triggering card click (if we had card click)
+    // but here button is separate.
+
     // Back to main from results
     if (elements.backToMainBtn) {
         elements.backToMainBtn.addEventListener('click', () => {
@@ -190,7 +201,61 @@ function setupEventListeners() {
             state.currentQuestions = [];
             state.userScore = 0;
             state.answeredQuestions = 0;
+            state.mockExamMode = false;
         });
+    }
+}
+
+// == Page Exam ==
+async function startPageExam() {
+    const pageNum = parseInt(elements.pageInput.value);
+    if (!pageNum || pageNum < 3 || pageNum > 52) {
+        alert("Please enter a valid page number (3-52)");
+        return;
+    }
+
+    try {
+        // Load all questions
+        const allQuestions = [];
+        for (const topic of state.topics) {
+            const response = await fetch(`data/${topic.id}.json`);
+            const questions = await response.json();
+            allQuestions.push(...questions);
+        }
+
+        // Filter by page
+        const pageQuestions = allQuestions.filter(q => q.pages && q.pages.includes(pageNum));
+
+        if (pageQuestions.length === 0) {
+            alert(translations[state.currentLang].noQuestionsOnPage || `No questions found for page ${pageNum}. Try another page.`);
+            return;
+        }
+
+        // Setup exam state
+        state.currentQuestions = shuffleArray(pageQuestions);
+        state.currentTopic = {
+            id: 'page_exam',
+            name: {
+                en: `Page ${pageNum} Test`,
+                ru: `Тест по странице ${pageNum}`,
+                hu: `${pageNum}. oldal teszt`
+            }
+        };
+        state.currentQuestionIndex = 0;
+        state.userScore = 0;
+        state.answeredQuestions = 0;
+        state.questionAnswered = false;
+        state.mockExamMode = true;
+
+        elements.topicTitle.textContent = state.currentTopic.name[state.currentLang];
+
+        loadQuestion();
+        updateProgress();
+        showView('quiz');
+
+    } catch (error) {
+        console.error('Failed to start page exam:', error);
+        alert('Error starting exam: ' + error.message);
     }
 }
 

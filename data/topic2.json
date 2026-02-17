@@ -13,7 +13,10 @@
                 "question": "[RU] Когда было обретение родины?",
                 "answer": "[RU] 895-896 ÷ в 895-896 годах ÷ в конце IX века"
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Open",
@@ -29,7 +32,10 @@
                 "question": "[RU] В конце какого века произошло обретение родины?",
                 "answer": "[RU] В конце IX века"
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Multiple",
@@ -62,7 +68,10 @@
                     "В 800"
                 ]
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Open",
@@ -78,7 +87,10 @@
                 "question": "[RU] Сколько венгерских племен заняли Карпатский бассейн?",
                 "answer": "[RU] Семь ÷ 7"
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Open",
@@ -94,7 +106,10 @@
                 "question": "[RU] Кто возглавлял венгров при обретении родины?",
                 "answer": "[RU] Арпад"
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Multiple",
@@ -127,7 +142,10 @@
                     "Князь Геза"
                 ]
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Multiple",
@@ -160,7 +178,10 @@
                     "10 племен"
                 ]
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Open",
@@ -176,7 +197,10 @@
                 "question": "[RU] Какую территорию заняли венгры в 895-896 годах?",
                 "answer": "[RU] Карпатский бассейн"
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Multiple",
@@ -209,7 +233,10 @@
                     "Морской образ жизни"
                 ]
             }
-        }
+        },
+        "pages": [
+            5
+        ]
     },
     {
         "type": "Open",
@@ -225,7 +252,10 @@
                 "question": "[RU] В каком году короновали первого венгерского короля?",
                 "answer": "[RU] 1001"
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Open",
@@ -241,7 +271,10 @@
                 "question": "[RU] Кто был первым христианским венгерским королем?",
                 "answer": "[RU] Святой Иштван I ÷ Святой Иштван"
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Multiple",
@@ -278,7 +311,10 @@
                     "Лидер эпохи реформ"
                 ]
             }
-        }
+        },
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Multiple",
@@ -311,7 +347,10 @@
                     "Византийскую культуру"
                 ]
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Open",
@@ -327,7 +366,10 @@
                 "question": "[RU] Какую религию приняла страна во времена Святого Иштвана?",
                 "answer": "[RU] Римско-католическую религию"
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Multiple",
@@ -360,7 +402,10 @@
                     "Протестантскую религию"
                 ]
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Open",
@@ -376,7 +421,10 @@
                 "question": "[RU] Сколько епархий основал Святой Иштван?",
                 "answer": "[RU] Десять ÷ 10"
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Multiple",
@@ -417,7 +465,10 @@
                     "Железные дороги"
                 ]
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Multiple",
@@ -450,7 +501,10 @@
                     "Его еще не существовало"
                 ]
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Multiple",
@@ -466,7 +520,7 @@
         ],
         "translations": {
             "en": {
-                "question": "What characterized the period after St. Stephen\u0027s death?",
+                "question": "What characterized the period after St. Stephen's death?",
                 "answer": "Throne disputes",
                 "options": [
                     "Throne disputes",
@@ -483,7 +537,10 @@
                     "Большой экономический подъём"
                 ]
             }
-        }
+        },
+        "pages": [
+            10
+        ]
     },
     {
         "type": "Open",
@@ -499,7 +556,10 @@
                 "question": "[RU] Кто был другим наиболее значительным правителем из династии Арпадов наряду со Святым Ласло?",
                 "answer": "[RU] Кальман Книжник"
             }
-        }
+        },
+        "pages": [
+            13
+        ]
     },
     {
         "type": "Open",
@@ -515,7 +575,10 @@
                 "question": "[RU] Два самых значительных правителя из династии Арпадов после Святого Иштвана?",
                 "answer": "[RU] Святой Ласло ÷ Кальман Книжник"
             }
-        }
+        },
+        "pages": [
+            13
+        ]
     },
     {
         "type": "Open",
@@ -531,7 +594,10 @@
                 "question": "[RU] Когда Андраш II издал Золотую буллу?",
                 "answer": "[RU] 1222"
             }
-        }
+        },
+        "pages": [
+            13
+        ]
     },
     {
         "type": "Open",
@@ -547,7 +613,10 @@
                 "question": "[RU] Какой король издал Золотую буллу в 1222 году?",
                 "answer": "[RU] Андраш II"
             }
-        }
+        },
+        "pages": [
+            13
+        ]
     },
     {
         "type": "Multiple",
@@ -580,7 +649,10 @@
                     "В 1301"
                 ]
             }
-        }
+        },
+        "pages": [
+            32
+        ]
     },
     {
         "type": "Open",
@@ -596,7 +668,10 @@
                 "question": "[RU] Чьи права подытожила Золотая булла?",
                 "answer": "[RU] Дворян"
             }
-        }
+        },
+        "pages": [
+            13
+        ]
     },
     {
         "type": "Multiple",
@@ -629,7 +704,10 @@
                     "Обязанности короля"
                 ]
             }
-        }
+        },
+        "pages": [
+            32
+        ]
     },
     {
         "type": "Open",
@@ -645,7 +723,10 @@
                 "question": "[RU] Когда было татаро-монгольское нашествие?",
                 "answer": "[RU] Между 1241-42 ÷ 1241-1242"
             }
-        }
+        },
+        "pages": [
+            13
+        ]
     },
     {
         "type": "Multiple",
@@ -682,7 +763,10 @@
                     "Были построены новые города"
                 ]
             }
-        }
+        },
+        "pages": [
+            13
+        ]
     },
     {
         "type": "Open",
@@ -698,7 +782,10 @@
                 "question": "[RU] Какой король был вторым основателем государства?",
                 "answer": "[RU] Бела IV"
             }
-        }
+        },
+        "pages": [
+            13
+        ]
     },
     {
         "type": "Multiple",
@@ -731,7 +818,10 @@
                     "Святой Ласло"
                 ]
             }
-        }
+        },
+        "pages": [
+            13
+        ]
     },
     {
         "type": "Open",
@@ -747,7 +837,10 @@
                 "question": "[RU] Когда вымерла династия Арпадов?",
                 "answer": "[RU] 1301"
             }
-        }
+        },
+        "pages": [
+            13
+        ]
     },
     {
         "type": "Open",
@@ -763,7 +856,10 @@
                 "question": "[RU] Со смертью какого короля вымерла династия Арпадов?",
                 "answer": "[RU] Со смертью Андраша III"
             }
-        }
+        },
+        "pages": [
+            13
+        ]
     },
     {
         "type": "Multiple",
@@ -800,7 +896,10 @@
                     "Из династии Тюдоров"
                 ]
             }
-        }
+        },
+        "pages": [
+            12
+        ]
     },
     {
         "type": "Open",
@@ -816,7 +915,10 @@
                 "question": "[RU] С какой империей вело войны Венгерское королевство с XV века?",
                 "answer": "[RU] С Османской"
             }
-        }
+        },
+        "pages": [
+            14
+        ]
     },
     {
         "type": "Open",
@@ -832,7 +934,10 @@
                 "question": "[RU] Когда была победа при Нандорфехерваре?",
                 "answer": "[RU] 1456"
             }
-        }
+        },
+        "pages": [
+            14
+        ]
     },
     {
         "type": "Open",
@@ -848,7 +953,10 @@
                 "question": "[RU] Кто возглавлял венгерскую армию при Нандорфехерваре в 1456 году?",
                 "answer": "[RU] Янош Хуньяди"
             }
-        }
+        },
+        "pages": [
+            14
+        ]
     },
     {
         "type": "Open",
@@ -864,7 +972,10 @@
                 "question": "[RU] Как называется современный город Нандорфехервар?",
                 "answer": "[RU] Белград"
             }
-        }
+        },
+        "pages": [
+            14
+        ]
     },
     {
         "type": "Multiple",
@@ -897,7 +1008,10 @@
                     "Иштван Сеченьи"
                 ]
             }
-        }
+        },
+        "pages": [
+            14
+        ]
     },
     {
         "type": "Open",
@@ -913,7 +1027,10 @@
                 "question": "[RU] На сколько лет победа при Нандорфехерваре остановила турецкую экспансию?",
                 "answer": "[RU] На 70 лет"
             }
-        }
+        },
+        "pages": [
+            14
+        ]
     },
     {
         "type": "Multiple",
@@ -946,7 +1063,10 @@
                     "Об основании государства"
                 ]
             }
-        }
+        },
+        "pages": [
+            14
+        ]
     },
     {
         "type": "Open",
@@ -962,7 +1082,10 @@
                 "question": "[RU] Во время чьего правления ренессансная Венгрия переживала свой золотой век?",
                 "answer": "[RU] Матьяша Хуньяди"
             }
-        }
+        },
+        "pages": [
+            14
+        ]
     },
     {
         "type": "Open",
@@ -978,7 +1101,10 @@
                 "question": "[RU] Когда правил Матьяш Хуньяди?",
                 "answer": "[RU] Между 1458-1490 годами"
             }
-        }
+        },
+        "pages": [
+            14
+        ]
     },
     {
         "type": "Multiple",
@@ -1011,7 +1137,10 @@
                     "Белы IV"
                 ]
             }
-        }
+        },
+        "pages": [
+            14
+        ]
     },
     {
         "type": "Multiple",
@@ -1044,7 +1173,10 @@
                     "Между 1848-1849 годами"
                 ]
             }
-        }
+        },
+        "pages": [
+            14
+        ]
     },
     {
         "type": "Open",
@@ -1060,7 +1192,10 @@
                 "question": "[RU] Когда была битва при Мохаче?",
                 "answer": "[RU] 1526.08.29"
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Open",
@@ -1076,7 +1211,10 @@
                 "question": "[RU] В каком году венгры потерпели поражение при Мохаче?",
                 "answer": "[RU] 1526"
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Multiple",
@@ -1109,7 +1247,10 @@
                     "Была ничья"
                 ]
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Open",
@@ -1125,7 +1266,10 @@
                 "question": "[RU] Когда турки захватили Буду?",
                 "answer": "[RU] 1541"
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Open",
@@ -1141,7 +1285,10 @@
                 "question": "[RU] Что было центром Венгерского королевства, захваченным в 1541 году?",
                 "answer": "[RU] Буда"
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Open",
@@ -1157,7 +1304,10 @@
                 "question": "[RU] На сколько частей раскололась Венгрия в 1541 году?",
                 "answer": "[RU] На три части ÷ 3"
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Open",
@@ -1173,7 +1323,10 @@
                 "question": "[RU] Как долго Венгрия была расколота на три части?",
                 "answer": "[RU] Почти 150 лет"
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Open",
@@ -1189,7 +1342,10 @@
                 "question": "[RU] Когда была осада Эгера?",
                 "answer": "[RU] 1552"
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Multiple",
@@ -1222,7 +1378,10 @@
                     "Секешфехервар"
                 ]
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Open",
@@ -1238,7 +1397,10 @@
                 "question": "[RU] Когда была отвоевана Буда?",
                 "answer": "[RU] 1686.09.02"
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Open",
@@ -1254,7 +1416,10 @@
                 "question": "[RU] Под чьим руководством была отвоевана Буда в 1686 году?",
                 "answer": "[RU] Под руководством Габсбургов"
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Multiple",
@@ -1287,7 +1452,10 @@
                     "В 1526 г."
                 ]
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Multiple",
@@ -1324,7 +1492,10 @@
                     "Закрыл церкви"
                 ]
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Multiple",
@@ -1360,7 +1531,10 @@
                     "При обретении родины"
                 ]
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Open",
@@ -1369,14 +1543,17 @@
         "answer": "1703-1711",
         "translations": {
             "en": {
-                "question": "[EN] When was Rákóczi\u0027s War of Independence?",
+                "question": "[EN] When was Rákóczi's War of Independence?",
                 "answer": "[EN] Between 1703-1711"
             },
             "ru": {
                 "question": "[RU] Когда была освободительная война Ракоци?",
                 "answer": "[RU] Между 1703-1711 годами"
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Open",
@@ -1392,7 +1569,10 @@
                 "question": "[RU] Кто возглавлял восстание против гнета Габсбургов между 1703-1711 годами?",
                 "answer": "[RU] Ференц Ракоци II"
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Multiple",
@@ -1425,7 +1605,10 @@
                     "Лайош Кошут"
                 ]
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Multiple",
@@ -1441,7 +1624,7 @@
         ],
         "translations": {
             "en": {
-                "question": "When was Francis II Rákóczi\u0027s uprising?",
+                "question": "When was Francis II Rákóczi's uprising?",
                 "answer": "Between 1703-1711",
                 "options": [
                     "Between 1703-1711",
@@ -1458,7 +1641,10 @@
                     "В 1956 году"
                 ]
             }
-        }
+        },
+        "pages": [
+            15
+        ]
     },
     {
         "type": "Open",
@@ -1474,7 +1660,10 @@
                 "question": "[RU] Когда была Эпоха реформ?",
                 "answer": "[RU] Между 1825-1848 годами"
             }
-        }
+        },
+        "pages": [
+            16
+        ]
     },
     {
         "type": "Multiple",
@@ -1507,7 +1696,10 @@
                     "Между 1867-1918 годами"
                 ]
             }
-        }
+        },
+        "pages": [
+            16
+        ]
     },
     {
         "type": "Multiple",
@@ -1548,7 +1740,10 @@
                     "Татаро-монгольское нашествие"
                 ]
             }
-        }
+        },
+        "pages": [
+            16
+        ]
     },
     {
         "type": "Open",
@@ -1564,7 +1759,10 @@
                 "question": "[RU] Что было основано в Эпоху реформ?",
                 "answer": "[RU] Первые национальные учреждения"
             }
-        }
+        },
+        "pages": [
+            16
+        ]
     },
     {
         "type": "Multiple",
@@ -1601,7 +1799,10 @@
                     "Эпидемии"
                 ]
             }
-        }
+        },
+        "pages": [
+            16
+        ]
     },
     {
         "type": "Open",
@@ -1618,7 +1819,10 @@
                 "question": "[RU] Перечислите три политические цели Эпохи реформ",
                 "answer": "[RU] Сделать венгерский официальным языком ÷ Ликвидация феодальных отношений ÷ Начало урбанизации ÷ Уния с Трансильванией"
             }
-        }
+        },
+        "pages": [
+            16
+        ]
     },
     {
         "type": "Multiple",
@@ -1659,7 +1863,10 @@
                     "Свержение короля"
                 ]
             }
-        }
+        },
+        "pages": [
+            16
+        ]
     },
     {
         "type": "Multiple",
@@ -1692,7 +1899,10 @@
                     "Габсбургское правление"
                 ]
             }
-        }
+        },
+        "pages": [
+            16
+        ]
     },
     {
         "type": "Multiple",
@@ -1725,7 +1935,10 @@
                     "Промышленная революция"
                 ]
             }
-        }
+        },
+        "pages": [
+            42
+        ]
     },
     {
         "type": "Open",
@@ -1741,7 +1954,10 @@
                 "question": "[RU] Когда жил Иштван Сечени?",
                 "answer": "[RU] Между 1791-1860 годами"
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Multiple",
@@ -1774,7 +1990,10 @@
                     "1802-1849"
                 ]
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Open",
@@ -1790,7 +2009,10 @@
                 "question": "[RU] Основателем какого учреждения был Иштван Сечени?",
                 "answer": "[RU] Основатель Венгерской академии наук"
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Multiple",
@@ -1823,7 +2045,10 @@
                     "Национальный музей"
                 ]
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Multiple",
@@ -1864,7 +2089,10 @@
                     "Религия"
                 ]
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Open",
@@ -1873,14 +2101,17 @@
         "answer": "A Lánchíd",
         "translations": {
             "en": {
-                "question": "[EN] The construction of which bridge is linked to Széchenyi\u0027s name?",
+                "question": "[EN] The construction of which bridge is linked to Széchenyi's name?",
                 "answer": "[EN] The Chain Bridge"
             },
             "ru": {
                 "question": "[RU] Строительство какого моста связано с именем Сечени?",
                 "answer": "[RU] Цепной мост"
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Open",
@@ -1896,7 +2127,10 @@
                 "question": "[RU] Что соединил Цепной мост?",
                 "answer": "[RU] Буду и Пешт"
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Multiple",
@@ -1912,7 +2146,7 @@
         ],
         "translations": {
             "en": {
-                "question": "The building of which bridge is linked to István Széchenyi\u0027s name?",
+                "question": "The building of which bridge is linked to István Széchenyi's name?",
                 "answer": "Chain Bridge",
                 "options": [
                     "Chain Bridge",
@@ -1929,7 +2163,10 @@
                     "Мост Маргит"
                 ]
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Open",
@@ -1945,7 +2182,10 @@
                 "question": "[RU] Как называют Иштвана Сечени?",
                 "answer": "[RU] Величайший венгр"
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Multiple",
@@ -1963,7 +2203,7 @@
         ],
         "translations": {
             "en": {
-                "question": "What was István Széchenyi\u0027s role?",
+                "question": "What was István Széchenyi's role?",
                 "answer": "He initiated significant developments, The construction of the Chain Bridge is linked to his name",
                 "options": [
                     "He initiated significant developments",
@@ -1982,7 +2222,10 @@
                     "Он был казнен"
                 ]
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Open",
@@ -1999,7 +2242,10 @@
                 "question": "[RU] Перечислите трех других значительных личностей Эпохи реформ помимо Сечени",
                 "answer": "[RU] Лайош Кошут ÷ Лайош Баттьяни ÷ Ференц Деак ÷ Ференц Кёльчеи ÷ Миклош Вешшеленьи"
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Multiple",
@@ -2040,7 +2286,10 @@
                     "Святой Иштван"
                 ]
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Multiple",
@@ -2073,7 +2322,10 @@
                     "Конституционной"
                 ]
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Open",
@@ -2089,7 +2341,10 @@
                 "question": "[RU] Когда вспыхнула революция в Вене?",
                 "answer": "[RU] 1848.03.13"
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Multiple",
@@ -2122,7 +2377,10 @@
                     "17 марта 1848 г."
                 ]
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Open",
@@ -2138,7 +2396,10 @@
                 "question": "[RU] Когда новость о венской революции дошла до Пожони и Пешт-Буды?",
                 "answer": "[RU] 1848.03.14"
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Multiple",
@@ -2175,7 +2436,10 @@
                     "В Сегед"
                 ]
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Open",
@@ -2191,7 +2455,10 @@
                 "question": "[RU] Когда вспыхнула венгерская революция?",
                 "answer": "[RU] 1848.03.15"
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Open",
@@ -2207,7 +2474,10 @@
                 "question": "[RU] Где собралась Мартовская молодежь?",
                 "answer": "[RU] В кафе Пильвакс"
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Multiple",
@@ -2240,7 +2510,10 @@
                     "В Национальном музее"
                 ]
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Open",
@@ -2250,13 +2523,16 @@
         "translations": {
             "en": {
                 "question": "[EN] Where were the 12 points printed?",
-                "answer": "[EN] At Landerer\u0027s printing press"
+                "answer": "[EN] At Landerer's printing press"
             },
             "ru": {
                 "question": "[RU] Где напечатали 12 пунктов?",
                 "answer": "[RU] В типографии Ландерера"
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Multiple",
@@ -2273,7 +2549,7 @@
         ],
         "translations": {
             "en": {
-                "question": "What was printed in Landerer\u0027s printing press?",
+                "question": "What was printed in Landerer's printing press?",
                 "answer": "The 12 points",
                 "options": [
                     "The 12 points",
@@ -2290,7 +2566,10 @@
                     "Газету"
                 ]
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Open",
@@ -2306,7 +2585,10 @@
                 "question": "[RU] Из скольких пунктов состояли мартовские требования?",
                 "answer": "[RU] 12 пунктов ÷ 12"
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Open",
@@ -2322,7 +2604,10 @@
                 "question": "[RU] Где провели большой митинг 15 марта?",
                 "answer": "[RU] Перед Национальным музеем"
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Open",
@@ -2338,7 +2623,10 @@
                 "question": "[RU] Кого освободили из тюрьмы 15 марта?",
                 "answer": "[RU] Михая Танчича"
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Multiple",
@@ -2371,7 +2659,10 @@
                     "Перед парламентом"
                 ]
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Open",
@@ -2387,7 +2678,10 @@
                 "question": "[RU] Когда Лайоша Баттьяни назначили премьер-министром?",
                 "answer": "[RU] 1848.03.17"
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Multiple",
@@ -2420,122 +2714,10 @@
                     "Иштван Сечени"
                 ]
             }
-        }
-    },
-    {
-        "type": "Open",
-        "inputType": "list",
-        "inputCount": 3,
-        "question": "Soroljon fel három szereplőt a márciusi eseményekből",
-        "answer": "Petőfi Sándor ÷ Jókai Mór ÷ Vasvári Pál ÷ Irinyi József ÷ Bulyovszky Gyula ÷ Táncsics Mihály",
-        "translations": {
-            "en": {
-                "question": "[EN] List three figures from the March events",
-                "answer": "[EN] Sándor Petőfi ÷ Mór Jókai ÷ Pál Vasvári ÷ József Irinyi ÷ Gyula Bulyovszky"
-            },
-            "ru": {
-                "question": "[RU] Перечислите трех участников мартовских событий",
-                "answer": "[RU] Шандор Петефи ÷ Мор Йокаи ÷ Пал Вашвари ÷ Йожеф Ирини ÷ Дьюла Буёвски"
-            }
-        }
-    },
-    {
-        "type": "Open",
-        "inputType": "text",
-        "question": "Mi az 1848-49-es forradalom és szabadságharc egyik legfőbb szimbóluma?",
-        "answer": "A piros-fehér-zöld kokárda",
-        "translations": {
-            "en": {
-                "question": "[EN] What is one of the main symbols of the 1848-49 Revolution and War of Independence?",
-                "answer": "[EN] The red-white-green cockade"
-            },
-            "ru": {
-                "question": "[RU] Что является одним из главных символов революции и освободительной войны 1848-49 годов?",
-                "answer": "[RU] Красно-бело-зеленая кокарда"
-            }
-        }
-    },
-    {
-        "type": "Multiple",
-        "question": "Mi volt a forradalom egyik legfőbb jelképe?",
-        "correctCount": 1,
-        "options": [
-            "A piros-fehér-zöld kokárda",
-            "A lyukas zászló",
-            "A Lánchíd"
-        ],
-        "correctIndices": [
-            0
-        ],
-        "translations": {
-            "en": {
-                "question": "What was one of the main symbols of the revolution?",
-                "answer": "The red-white-green cockade",
-                "options": [
-                    "The red-white-green cockade",
-                    "The holey flag",
-                    "The Chain Bridge"
-                ]
-            },
-            "ru": {
-                "question": "Что было одним из главных символов революции?",
-                "answer": "Красно-бело-зеленая кокарда",
-                "options": [
-                    "Красно-бело-зеленая кокарда",
-                    "Дырявый флаг",
-                    "Цепной мост"
-                ]
-            }
-        }
-    },
-    {
-        "type": "Open",
-        "inputType": "date",
-        "question": "Mikor alakult meg az első felelős magyar kormány?",
-        "answer": "1848.04.11",
-        "translations": {
-            "en": {
-                "question": "[EN] When was the first responsible Hungarian government formed?",
-                "answer": "[EN] 1848.04.11"
-            },
-            "ru": {
-                "question": "[RU] Когда было сформировано первое ответственное венгерское правительство?",
-                "answer": "[RU] 1848.04.11"
-            }
-        }
-    },
-    {
-        "type": "Multiple",
-        "question": "Mikor alakult az első felelős magyar kormány?",
-        "correctCount": 1,
-        "options": [
-            "1848. április 11-én",
-            "1848. március 15-én",
-            "1849. április 11-én"
-        ],
-        "correctIndices": [
-            0
-        ],
-        "translations": {
-            "en": {
-                "question": "When was the first responsible Hungarian government formed?",
-                "answer": "On April 11, 1848",
-                "options": [
-                    "On April 11, 1848",
-                    "On March 15, 1848",
-                    "On April 11, 1849"
-                ]
-            },
-            "ru": {
-                "question": "Когда сформировалось первое ответственное венгерское правительство?",
-                "answer": "11 апреля 1848 г.",
-                "options": [
-                    "11 апреля 1848 г.",
-                    "15 марта 1848 г.",
-                    "11 апреля 1849 г."
-                ]
-            }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Open",
@@ -2551,7 +2733,10 @@
                 "question": "[RU] Кто был премьер-министром первого ответственного венгерского правительства?",
                 "answer": "[RU] Лайош Баттьяни"
             }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Open",
@@ -2567,7 +2752,10 @@
                 "question": "[RU] Кто был министром внутренних дел в первом венгерском правительстве?",
                 "answer": "[RU] Берталан Семере"
             }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Open",
@@ -2583,7 +2771,10 @@
                 "question": "[RU] Кто был министром финансов в 1848 году?",
                 "answer": "[RU] Лайош Кошут"
             }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Open",
@@ -2599,7 +2790,10 @@
                 "question": "[RU] Кто был министром общественных работ и транспорта в 1848 году?",
                 "answer": "[RU] Иштван Сечени"
             }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Open",
@@ -2615,7 +2809,10 @@
                 "question": "[RU] Кто был министром юстиции в 1848 году?",
                 "answer": "[RU] Ференц Деак"
             }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Open",
@@ -2631,7 +2828,10 @@
                 "question": "[RU] Кто был военным министром в 1848 году?",
                 "answer": "[RU] Лазар Месарош"
             }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Multiple",
@@ -2664,7 +2864,10 @@
                     "Йожеф Этвеш"
                 ]
             }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Open",
@@ -2680,7 +2883,10 @@
                 "question": "[RU] Кто был министром сельского хозяйства, промышленности и торговли в 1848 году?",
                 "answer": "[RU] Габор Клаузал"
             }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Open",
@@ -2696,7 +2902,10 @@
                 "question": "[RU] Кто был министром религии и народного образования в 1848 году?",
                 "answer": "[RU] Йожеф Этвеш"
             }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Open",
@@ -2712,7 +2921,10 @@
                 "question": "[RU] Кто был министром при особе короля в 1848 году?",
                 "answer": "[RU] Пал Эстерхази"
             }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Multiple",
@@ -2745,7 +2957,10 @@
                     "12 членов"
                 ]
             }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Multiple",
@@ -2778,7 +2993,10 @@
                     "Английская армия"
                 ]
             }
-        }
+        },
+        "pages": [
+            18
+        ]
     },
     {
         "type": "Open",
@@ -2794,7 +3012,10 @@
                 "question": "[RU] Когда Артур Гёргей сложил оружие?",
                 "answer": "[RU] 1849.08.13"
             }
-        }
+        },
+        "pages": [
+            20
+        ]
     },
     {
         "type": "Open",
@@ -2810,7 +3031,10 @@
                 "question": "[RU] Где Артур Гёргей сложил оружие?",
                 "answer": "[RU] При Вилагоше"
             }
-        }
+        },
+        "pages": [
+            20
+        ]
     },
     {
         "type": "Multiple",
@@ -2843,7 +3067,10 @@
                     "6 октября 1849 г."
                 ]
             }
-        }
+        },
+        "pages": [
+            20
+        ]
     },
     {
         "type": "Multiple",
@@ -2876,7 +3103,10 @@
                     "Лайош Баттьяни"
                 ]
             }
-        }
+        },
+        "pages": [
+            20
+        ]
     },
     {
         "type": "Open",
@@ -2892,13 +3122,17 @@
                 "question": "[RU] Когда казнили арадских мучеников?",
                 "answer": "[RU] 1849.10.06"
             }
-        }
+        },
+        "pages": [
+            20
+        ]
     },
     {
         "type": "Open",
         "inputType": "number",
         "question": "Hány honvédtisztet végeztek ki Aradon?",
         "answer": "13",
+        "tolerance": 1.0,
         "translations": {
             "en": {
                 "question": "[EN] How many Honvéd officers were executed in Arad?",
@@ -2908,7 +3142,10 @@
                 "question": "[RU] Сколько офицеров гонведа казнили в Араде?",
                 "answer": "[RU] 13 ÷ тринадцать ÷ 13"
             }
-        }
+        },
+        "pages": [
+            20
+        ]
     },
     {
         "type": "Multiple",
@@ -2941,7 +3178,10 @@
                     "10"
                 ]
             }
-        }
+        },
+        "pages": [
+            20
+        ]
     },
     {
         "type": "Open",
@@ -2957,7 +3197,10 @@
                 "question": "[RU] Где казнили Лайоша Баттьяни?",
                 "answer": "[RU] В Пеште"
             }
-        }
+        },
+        "pages": [
+            20
+        ]
     },
     {
         "type": "Open",
@@ -2973,7 +3216,10 @@
                 "question": "[RU] Когда казнили Лайоша Баттьяни?",
                 "answer": "[RU] 1849.10.06"
             }
-        }
+        },
+        "pages": [
+            20
+        ]
     },
     {
         "type": "Multiple",
@@ -3006,7 +3252,10 @@
                     "Ференц Деак"
                 ]
             }
-        }
+        },
+        "pages": [
+            20
+        ]
     },
     {
         "type": "Open",
@@ -3017,13 +3266,16 @@
         "translations": {
             "en": {
                 "question": "[EN] How many freedom fighters were executed, imprisoned or sentenced to forced labor after 1848-1849?",
-                "answer": "[EN] Thousands ÷ \u003e1000 ÷ 1000"
+                "answer": "[EN] Thousands ÷ >1000 ÷ 1000"
             },
             "ru": {
                 "question": "[RU] Сколько борцов за свободу казнили, посадили в тюрьму или приговорили к каторжным работам после 1848-1849?",
-                "answer": "[RU] Тысячи ÷ \u003e1000 ÷ 1000"
+                "answer": "[RU] Тысячи ÷ >1000 ÷ 1000"
             }
-        }
+        },
+        "pages": [
+            20
+        ]
     },
     {
         "type": "Multiple",
@@ -3060,7 +3312,10 @@
                     "Здравоохранение"
                 ]
             }
-        }
+        },
+        "pages": [
+            20
+        ]
     },
     {
         "type": "Open",
@@ -3076,7 +3331,10 @@
                 "question": "[RU] Когда жил Ференц Деак?",
                 "answer": "[RU] Между 1803-1876 годами"
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Open",
@@ -3092,7 +3350,10 @@
                 "question": "[RU] Как называют Ференца Деака?",
                 "answer": "[RU] Мудрец нации"
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Open",
@@ -3101,14 +3362,17 @@
         "answer": "Igazságügy-miniszter",
         "translations": {
             "en": {
-                "question": "[EN] What was Ferenc Deák\u0027s role in the Batthyány government?",
+                "question": "[EN] What was Ferenc Deák's role in the Batthyány government?",
                 "answer": "[EN] Minister of Justice"
             },
             "ru": {
                 "question": "[RU] Какова была роль Ференца Деака в правительстве Баттьяни?",
                 "answer": "[RU] Министр юстиции"
             }
-        }
+        },
+        "pages": [
+            19
+        ]
     },
     {
         "type": "Multiple",
@@ -3141,7 +3405,10 @@
                     "Второй основатель государства"
                 ]
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Multiple",
@@ -3174,7 +3441,10 @@
                     "Между 1703-1711 годами"
                 ]
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Open",
@@ -3190,7 +3460,10 @@
                 "question": "[RU] Что возглавлял Ференц Деак в годы репрессий?",
                 "answer": "[RU] Пассивное сопротивление"
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Multiple",
@@ -3223,7 +3496,10 @@
                     "Бегство за границу"
                 ]
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Open",
@@ -3239,7 +3515,10 @@
                 "question": "[RU] Между какими двумя городами произошло Соглашение?",
                 "answer": "[RU] Между Веной и Пешт-Будой"
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Multiple",
@@ -3272,7 +3551,10 @@
                     "В 1849 году"
                 ]
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Open",
@@ -3288,7 +3570,10 @@
                 "question": "[RU] Что было создано Соглашением 1867 года?",
                 "answer": "[RU] Австро-Венгерская монархия"
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Open",
@@ -3304,7 +3589,10 @@
                 "question": "[RU] Сколько длился период от Соглашения до начала Первой мировой войны?",
                 "answer": "[RU] Между 1867-1914 годами"
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Multiple",
@@ -3337,7 +3625,10 @@
                     "Период упадка"
                 ]
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Multiple",
@@ -3374,7 +3665,10 @@
                     "Экономический кризис"
                 ]
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Open",
@@ -3390,7 +3684,10 @@
                 "question": "[RU] Когда была Первая мировая война?",
                 "answer": "[RU] Между 1914-1918 годами"
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Open",
@@ -3406,7 +3703,10 @@
                 "question": "[RU] Кто был наследником престола Австро-Венгерской монархии, которого убили?",
                 "answer": "[RU] Франц Фердинанд"
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Open",
@@ -3422,7 +3722,10 @@
                 "question": "[RU] Когда убили наследника престола Франца Фердинанда?",
                 "answer": "[RU] 1914.06.28"
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Multiple",
@@ -3455,7 +3758,10 @@
                     "11 ноября 1918 г."
                 ]
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Open",
@@ -3471,7 +3777,10 @@
                 "question": "[RU] Где убили Франца Фердинанда и его жену?",
                 "answer": "[RU] В Сараево"
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Open",
@@ -3487,7 +3796,10 @@
                 "question": "[RU] Кто убил Франца Фердинанда?",
                 "answer": "[RU] Сербский националист"
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Multiple",
@@ -3520,7 +3832,10 @@
                     "В Будапеште"
                 ]
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Open",
@@ -3536,7 +3851,10 @@
                 "question": "[RU] Когда Австро-Венгерская монархия объявила войну Сербии?",
                 "answer": "[RU] 1914.07.28"
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Multiple",
@@ -3569,7 +3887,10 @@
                     "1 сентября 1939 г."
                 ]
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Open",
@@ -3586,7 +3907,10 @@
                 "question": "[RU] Перечислите три страны Антанты",
                 "answer": "[RU] Франция ÷ Россия ÷ Великобритания ÷ Италия ÷ Япония ÷ США ÷ Сербия ÷ Румыния"
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Multiple",
@@ -3627,7 +3951,10 @@
                     "Австро-Венгерская монархия"
                 ]
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Open",
@@ -3644,7 +3971,10 @@
                 "question": "[RU] Перечислите три Центральные державы",
                 "answer": "[RU] Германия ÷ Австро-Венгерская монархия ÷ Османская империя ÷ Болгария"
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Multiple",
@@ -3685,7 +4015,10 @@
                     "Россия"
                 ]
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Open",
@@ -3701,7 +4034,10 @@
                 "question": "[RU] На чьей стороне воевала Венгрия в Первой мировой войне?",
                 "answer": "[RU] Центральные державы"
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Multiple",
@@ -3734,7 +4070,10 @@
                     "Была нейтральной"
                 ]
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Multiple",
@@ -3767,7 +4106,10 @@
                     "Была ничья"
                 ]
             }
-        }
+        },
+        "pages": [
+            22
+        ]
     },
     {
         "type": "Multiple",
@@ -3800,7 +4142,10 @@
                     "Между 1914-1918 годами"
                 ]
             }
-        }
+        },
+        "pages": [
+            21
+        ]
     },
     {
         "type": "Open",
@@ -3816,7 +4161,10 @@
                 "question": "[RU] Когда был подписан Трианонский мирный договор?",
                 "answer": "[RU] 1920.06.04"
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Open",
@@ -3832,7 +4180,10 @@
                 "question": "[RU] В каком году был заключен Трианонский мир?",
                 "answer": "[RU] 1920"
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Multiple",
@@ -3865,7 +4216,10 @@
                     "28 июня 1919 г."
                 ]
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Multiple",
@@ -3898,7 +4252,10 @@
                     "Капитуляцию при Вилагоше"
                 ]
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Open",
@@ -3914,7 +4271,10 @@
                 "question": "[RU] Какую часть своей территории потеряла Венгрия в Трианоне?",
                 "answer": "[RU] Около двух третей ÷ 2/3"
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Multiple",
@@ -3947,7 +4307,10 @@
                     "Одну треть"
                 ]
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Multiple",
@@ -3980,7 +4343,10 @@
                     "10 миллионов человек"
                 ]
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Open",
@@ -3996,7 +4362,10 @@
                 "question": "[RU] Сколько миллионов венгров остались за пределами наших границ после Трианона?",
                 "answer": "[RU] 3,3 миллиона венгров"
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Open",
@@ -4012,7 +4381,10 @@
                 "question": "[RU] Какая часть венгерской нации оказалась за границей?",
                 "answer": "[RU] Одна треть ÷ 1/3"
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Multiple",
@@ -4045,7 +4417,10 @@
                     "5 миллионов"
                 ]
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Multiple",
@@ -4078,7 +4453,10 @@
                     "Полная независимость"
                 ]
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Open",
@@ -4095,11 +4473,14 @@
                 "question": "[RU] Перечислите двух определяющих политиков в 20-е и 30-е годы",
                 "answer": "[RU] Губернатор Миклош Хорти ÷ Иштван Бетлен ÷ Пал Телеки ÷ Дьюла Гёмбёш"
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Multiple",
-        "question": "Ki volt meghatározó politikus a \u002720-as és \u002730-as években?",
+        "question": "Ki volt meghatározó politikus a '20-as és '30-as években?",
         "correctCount": 2,
         "options": [
             "Horthy Miklós kormányzó",
@@ -4132,7 +4513,10 @@
                     "Лайош Баттьяни"
                 ]
             }
-        }
+        },
+        "pages": [
+            23
+        ]
     },
     {
         "type": "Open",
@@ -4148,7 +4532,10 @@
                 "question": "[RU] Когда была Вторая мировая война?",
                 "answer": "[RU] Между 1939-1945 годами"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4164,7 +4551,10 @@
                 "question": "[RU] Когда Германия напала на Польшу?",
                 "answer": "[RU] 1939.09.01"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4180,7 +4570,10 @@
                 "question": "[RU] Какую страну Германия атаковала 1 сентября 1939 года?",
                 "answer": "[RU] Польшу"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4197,7 +4590,10 @@
                 "question": "[RU] Перечислите три страны-союзника во Второй мировой войне!",
                 "answer": "[RU] Великобритания ÷ США ÷ Советский Союз ÷ Франция ÷ Китай"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Multiple",
@@ -4238,7 +4634,10 @@
                     "Япония"
                 ]
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4255,7 +4654,10 @@
                 "question": "[RU] Перечислите три страны Оси",
                 "answer": "[RU] Германия ÷ Италия ÷ Япония ÷ Венгрия ÷ Румыния ÷ Болгария"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Multiple",
@@ -4296,7 +4698,10 @@
                     "Советский Союз"
                 ]
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4312,7 +4717,10 @@
                 "question": "[RU] Когда Венгрия вступила во Вторую мировую войну?",
                 "answer": "[RU] 1941"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4328,7 +4736,10 @@
                 "question": "[RU] На чьей стороне воевала Венгрия во Второй мировой войне?",
                 "answer": "[RU] На стороне держав Оси"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Multiple",
@@ -4361,7 +4772,10 @@
                     "В 1944 году"
                 ]
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Multiple",
@@ -4394,7 +4808,10 @@
                     "На Африканском фронте"
                 ]
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4410,7 +4827,10 @@
                 "question": "[RU] Когда была уничтожена 2-я венгерская армия в районе Дона?",
                 "answer": "[RU] 1943"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4426,7 +4846,10 @@
                 "question": "[RU] Где была уничтожена 2-я венгерская армия в 1943 году?",
                 "answer": "[RU] В излучине Дона"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4442,7 +4865,10 @@
                 "question": "[RU] Когда Германия оккупировала Венгрию?",
                 "answer": "[RU] 1944.03.19"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Multiple",
@@ -4475,7 +4901,10 @@
                     "В 1945 году"
                 ]
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4491,7 +4920,10 @@
                 "question": "[RU] Кто был регентом Венгрии в 1944 году?",
                 "answer": "[RU] Миклош Хорти"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4507,7 +4939,10 @@
                 "question": "[RU] Когда отрекся Миклош Хорти?",
                 "answer": "[RU] В октябре 1944 года"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Multiple",
@@ -4540,7 +4975,10 @@
                     "Наступил мир"
                 ]
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Multiple",
@@ -4573,7 +5011,10 @@
                     "Венгрия восстановила свою независимость"
                 ]
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4590,7 +5031,10 @@
                 "question": "[RU] Каково оценочное число жертв Холокоста в Венгрии?",
                 "answer": "[RU] Около 600 000"
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Multiple",
@@ -4623,7 +5067,10 @@
                     "1 миллион человек"
                 ]
             }
-        }
+        },
+        "pages": [
+            24
+        ]
     },
     {
         "type": "Open",
@@ -4639,7 +5086,10 @@
                 "question": "[RU] Как долго шли бои в Венгрии?",
                 "answer": "[RU] До апреля 1945 года"
             }
-        }
+        },
+        "pages": [
+            25
+        ]
     },
     {
         "type": "Multiple",
@@ -4672,7 +5122,10 @@
                     "Пострадали только пригороды"
                 ]
             }
-        }
+        },
+        "pages": [
+            25
+        ]
     },
     {
         "type": "Open",
@@ -4688,7 +5141,10 @@
                 "question": "[RU] На какую работу угоняли людей в ГУЛАГ?",
                 "answer": "[RU] На принудительные работы"
             }
-        }
+        },
+        "pages": [
+            25
+        ]
     },
     {
         "type": "Multiple",
@@ -4721,7 +5177,10 @@
                     "Во Францию"
                 ]
             }
-        }
+        },
+        "pages": [
+            25
+        ]
     },
     {
         "type": "Open",
@@ -4737,7 +5196,10 @@
                 "question": "[RU] Когда закончилась Вторая мировая война в Европе?",
                 "answer": "[RU] 1945.05.09"
             }
-        }
+        },
+        "pages": [
+            25
+        ]
     },
     {
         "type": "Multiple",
@@ -4770,7 +5232,10 @@
                     "В 1943 году"
                 ]
             }
-        }
+        },
+        "pages": [
+            25
+        ]
     },
     {
         "type": "Multiple",
@@ -4803,7 +5268,10 @@
                     "Не потеряла территории"
                 ]
             }
-        }
+        },
+        "pages": [
+            25
+        ]
     },
     {
         "type": "Open",
@@ -4819,7 +5287,10 @@
                 "question": "[RU] К чему обязали Венгрию державы-победительницы?",
                 "answer": "[RU] Выплатить военные репарации"
             }
-        }
+        },
+        "pages": [
+            25
+        ]
     },
     {
         "type": "Multiple",
@@ -4852,7 +5323,10 @@
                     "Начать новую войну"
                 ]
             }
-        }
+        },
+        "pages": [
+            25
+        ]
     },
     {
         "type": "Open",
@@ -4869,7 +5343,10 @@
                 "question": "[RU] Сколько венгров снова оказалось за границей?",
                 "answer": "[RU] Миллионы"
             }
-        }
+        },
+        "pages": [
+            25
+        ]
     },
     {
         "type": "Multiple",
@@ -4902,7 +5379,10 @@
                     "Румын"
                 ]
             }
-        }
+        },
+        "pages": [
+            25
+        ]
     },
     {
         "type": "Open",
@@ -4918,7 +5398,10 @@
                 "question": "[RU] Вышла ли советская армия из Венгрии после Второй мировой войны?",
                 "answer": "[RU] Нет"
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Multiple",
@@ -4951,7 +5434,10 @@
                     "Вышла в 1946 году"
                 ]
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Multiple",
@@ -4984,7 +5470,10 @@
                     "Военные"
                 ]
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Open",
@@ -5000,7 +5489,10 @@
                 "question": "[RU] Какую систему создали коммунисты?",
                 "answer": "[RU] Однопартийную диктатуру"
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Multiple",
@@ -5041,7 +5533,10 @@
                     "Рабочих"
                 ]
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Open",
@@ -5057,7 +5552,10 @@
                 "question": "[RU] Кто был ненавистным лидером режима?",
                 "answer": "[RU] Матьяш Ракоши"
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Open",
@@ -5073,7 +5571,10 @@
                 "question": "[RU] Когда началась революция 1956 года?",
                 "answer": "[RU] 1956.10.23"
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Multiple",
@@ -5106,7 +5607,10 @@
                     "6 октября 1956 года"
                 ]
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Open",
@@ -5122,7 +5626,10 @@
                 "question": "[RU] Как началась революция 1956 года?",
                 "answer": "[RU] С мирной демонстрации"
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Open",
@@ -5138,7 +5645,10 @@
                 "question": "[RU] Где произошло вооруженное столкновение 23 октября 1956 года?",
                 "answer": "[RU] У здания Радио"
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Multiple",
@@ -5171,7 +5681,10 @@
                     "В Крепости"
                 ]
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Open",
@@ -5187,7 +5700,10 @@
                 "question": "[RU] Где быстро распространились бои в 1956 году?",
                 "answer": "[RU] По всей стране"
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Multiple",
@@ -5220,7 +5736,10 @@
                     "Сегед"
                 ]
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Open",
@@ -5236,7 +5755,10 @@
                 "question": "[RU] Кто возглавил революционное правительство 1956 года?",
                 "answer": "[RU] Имре Надь"
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Multiple",
@@ -5269,7 +5791,10 @@
                     "Матьяш Ракоши"
                 ]
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Open",
@@ -5286,7 +5811,10 @@
                 "question": "[RU] Перечислите два знаковых места революции 1956 года",
                 "answer": "[RU] Переулок Корвин ÷ Площадь Сена ÷ Венгерское радио ÷ Парламент"
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Multiple",
@@ -5323,7 +5851,10 @@
                     "Остров Маргит"
                 ]
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Open",
@@ -5339,7 +5870,10 @@
                 "question": "[RU] Что является одним из главных символов революции 1956 года?",
                 "answer": "[RU] Флаг с дыркой"
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Open",
@@ -5355,7 +5889,10 @@
                 "question": "[RU] Что вырезали из флага в 1956 году?",
                 "answer": "[RU] Герб Ракоши"
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Multiple",
@@ -5388,7 +5925,10 @@
                     "Святая Корона"
                 ]
             }
-        }
+        },
+        "pages": [
+            26
+        ]
     },
     {
         "type": "Open",
@@ -5404,7 +5944,10 @@
                 "question": "[RU] Когда советские войска начали ликвидацию венгерского сопротивления?",
                 "answer": "[RU] 1956.11.04"
             }
-        }
+        },
+        "pages": [
+            27
+        ]
     },
     {
         "type": "Multiple",
@@ -5437,7 +5980,10 @@
                     "1 декабря"
                 ]
             }
-        }
+        },
+        "pages": [
+            27
+        ]
     },
     {
         "type": "Multiple",
@@ -5470,7 +6016,10 @@
                     "Они начали переговоры"
                 ]
             }
-        }
+        },
+        "pages": [
+            27
+        ]
     },
     {
         "type": "Multiple",
@@ -5503,7 +6052,10 @@
                     "Была образована монархия"
                 ]
             }
-        }
+        },
+        "pages": [
+            27
+        ]
     },
     {
         "type": "Open",
@@ -5519,7 +6071,10 @@
                 "question": "[RU] Кого назначили руководить Венгрией?",
                 "answer": "[RU] Яноша Кадара"
             }
-        }
+        },
+        "pages": [
+            27
+        ]
     },
     {
         "type": "Open",
@@ -5535,7 +6090,10 @@
                 "question": "[RU] Что сделали с Имре Надем?",
                 "answer": "[RU] Его казнили"
             }
-        }
+        },
+        "pages": [
+            27
+        ]
     },
     {
         "type": "Multiple",
@@ -5568,7 +6126,10 @@
                     "Матьяш Ракоши"
                 ]
             }
-        }
+        },
+        "pages": [
+            27
+        ]
     },
     {
         "type": "Open",
@@ -5584,7 +6145,10 @@
                 "question": "[RU] Чье имя ознаменовало коммунистическую эпоху между 1956-1989 годами?",
                 "answer": "[RU] Яноша Кадара"
             }
-        }
+        },
+        "pages": [
+            27
+        ]
     },
     {
         "type": "Open",
@@ -5600,7 +6164,10 @@
                 "question": "[RU] Как долго длилась эпоха Кадара?",
                 "answer": "[RU] До 1989 года"
             }
-        }
+        },
+        "pages": [
+            27
+        ]
     },
     {
         "type": "Multiple",
@@ -5633,7 +6200,10 @@
                     "С 1945 по 1989 год"
                 ]
             }
-        }
+        },
+        "pages": [
+            27
+        ]
     },
     {
         "type": "Multiple",
@@ -5666,7 +6236,10 @@
                     "Только экономические изменения"
                 ]
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Open",
@@ -5682,7 +6255,10 @@
                 "question": "[RU] Как произошла смена режима в Венгрии?",
                 "answer": "[RU] Мирно"
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Multiple",
@@ -5715,7 +6291,10 @@
                     "Путем революции"
                 ]
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Multiple",
@@ -5748,7 +6327,10 @@
                     "Монархия"
                 ]
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Open",
@@ -5764,7 +6346,10 @@
                 "question": "[RU] Когда были проведены первые демократические парламентские выборы?",
                 "answer": "[RU] 1990"
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Multiple",
@@ -5797,7 +6382,10 @@
                     "Весной 1991 года"
                 ]
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Open",
@@ -5813,7 +6401,10 @@
                 "question": "[RU] Под чьим руководством было сформировано правительство в 1990 году?",
                 "answer": "[RU] Йожефа Анталла"
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Multiple",
@@ -5846,7 +6437,10 @@
                     "Янош Кадар"
                 ]
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Open",
@@ -5862,7 +6456,10 @@
                 "question": "[RU] Кто стал президентом республики в 1990 году?",
                 "answer": "[RU] Арпад Гёнц"
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Multiple",
@@ -5895,7 +6492,10 @@
                     "Правительство"
                 ]
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Open",
@@ -5911,7 +6511,10 @@
                 "question": "[RU] Когда советские войска окончательно покинули страну?",
                 "answer": "[RU] 1991"
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Multiple",
@@ -5944,7 +6547,10 @@
                     "В 1989 году"
                 ]
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Open",
@@ -5960,7 +6566,10 @@
                 "question": "[RU] Когда было торжественное перезахоронение Имре Надя и его товарищей-мучеников?",
                 "answer": "[RU] 1989.06.16"
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     },
     {
         "type": "Multiple",
@@ -5993,6 +6602,9 @@
                     "Вывод советских войск"
                 ]
             }
-        }
+        },
+        "pages": [
+            28
+        ]
     }
 ]

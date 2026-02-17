@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "type": "Open",
         "question": "Mi az Alaptörvény?",
@@ -6,14 +6,17 @@
         "translations": {
             "en": {
                 "question": "[EN] What is the Fundamental Law?",
-                "answer": "[EN] Hungary\u0027s constitution ÷ the highest legal norm standing above all other laws"
+                "answer": "[EN] Hungary's constitution ÷ the highest legal norm standing above all other laws"
             },
             "ru": {
                 "question": "[RU] Что такое Основной закон?",
                 "answer": "[RU] Конституция Венгрии ÷ высшая правовая норма, стоящая над всеми другими законами"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Multiple",
@@ -50,7 +53,10 @@
                     "Город"
                 ]
             }
-        }
+        },
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Open",
@@ -58,15 +64,18 @@
         "answer": "Az Alaptörvény ÷ Magyarország Alaptörvénye",
         "translations": {
             "en": {
-                "question": "[EN] What is the basis of Hungary\u0027s legal system?",
-                "answer": "[EN] The Fundamental Law ÷ Hungary\u0027s Fundamental Law"
+                "question": "[EN] What is the basis of Hungary's legal system?",
+                "answer": "[EN] The Fundamental Law ÷ Hungary's Fundamental Law"
             },
             "ru": {
                 "question": "[RU] Что является основой правовой системы Венгрии?",
                 "answer": "[RU] Основной закон ÷ Основной закон Венгрии"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Multiple",
@@ -99,7 +108,10 @@
                     "Гражданский кодекс"
                 ]
             }
-        }
+        },
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Open",
@@ -115,7 +127,10 @@
                 "answer": "[RU] 2011.04.18"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Open",
@@ -123,7 +138,7 @@
         "answer": "2011",
         "translations": {
             "en": {
-                "question": "[EN] In which year was Hungary\u0027s new Fundamental Law adopted?",
+                "question": "[EN] In which year was Hungary's new Fundamental Law adopted?",
                 "answer": "[EN] 2011"
             },
             "ru": {
@@ -131,7 +146,10 @@
                 "answer": "[RU] 2011"
             }
         },
-        "inputType": "year"
+        "inputType": "year",
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Multiple",
@@ -164,7 +182,10 @@
                     "В 2010 году"
                 ]
             }
-        }
+        },
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Open",
@@ -180,7 +201,10 @@
                 "answer": "[RU] 2012.01.01"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Open",
@@ -196,7 +220,10 @@
                 "answer": "[RU] 2012"
             }
         },
-        "inputType": "year"
+        "inputType": "year",
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Multiple",
@@ -229,7 +256,10 @@
                     "В 2013 году"
                 ]
             }
-        }
+        },
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Open",
@@ -237,7 +267,7 @@
         "answer": "Az Országgyűlés",
         "translations": {
             "en": {
-                "question": "[EN] Who adopted Hungary\u0027s Fundamental Law?",
+                "question": "[EN] Who adopted Hungary's Fundamental Law?",
                 "answer": "[EN] The National Assembly"
             },
             "ru": {
@@ -245,7 +275,10 @@
                 "answer": "[RU] Государственное собрание"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Multiple",
@@ -278,7 +311,10 @@
                     "Президент республики"
                 ]
             }
-        }
+        },
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Multiple",
@@ -311,7 +347,10 @@
                     "Советская модель"
                 ]
             }
-        }
+        },
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Multiple",
@@ -348,7 +387,10 @@
                     "Монархия"
                 ]
             }
-        }
+        },
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Multiple",
@@ -389,7 +431,10 @@
                     "Феодальные традиции"
                 ]
             }
-        }
+        },
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Multiple",
@@ -426,7 +471,10 @@
                     "Только мужчин"
                 ]
             }
-        }
+        },
+        "pages": [
+            36
+        ]
     },
     {
         "type": "Open",
@@ -434,7 +482,7 @@
         "answer": "Az Országgyűlés",
         "translations": {
             "en": {
-                "question": "[EN] What is Hungary\u0027s supreme representative body?",
+                "question": "[EN] What is Hungary's supreme representative body?",
                 "answer": "[EN] The National Assembly"
             },
             "ru": {
@@ -442,7 +490,10 @@
                 "answer": "[RU] Государственное собрание"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Multiple",
@@ -475,7 +526,10 @@
                     "Президент республики"
                 ]
             }
-        }
+        },
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Open",
@@ -491,7 +545,10 @@
                 "answer": "[RU] На 4 года"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Multiple",
@@ -524,7 +581,10 @@
                     "На 6 лет"
                 ]
             }
-        }
+        },
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Open",
@@ -540,7 +600,10 @@
                 "answer": "[RU] 199 человек"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Open",
@@ -556,7 +619,10 @@
                 "answer": "[RU] 199"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Multiple",
@@ -597,7 +663,10 @@
                     "Осуществляет правосудие"
                 ]
             }
-        }
+        },
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Open",
@@ -605,7 +674,7 @@
         "answer": "Az Országgyűlés",
         "translations": {
             "en": {
-                "question": "[EN] Who creates and amends Hungary\u0027s Fundamental Law?",
+                "question": "[EN] Who creates and amends Hungary's Fundamental Law?",
                 "answer": "[EN] The National Assembly"
             },
             "ru": {
@@ -613,7 +682,10 @@
                 "answer": "[RU] Государственное собрание"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Multiple",
@@ -646,7 +718,10 @@
                     "Президент республики"
                 ]
             }
-        }
+        },
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Open",
@@ -662,7 +737,10 @@
                 "answer": "[RU] Государственное собрание"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Open",
@@ -678,7 +756,10 @@
                 "answer": "[RU] Государственное собрание"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Multiple",
@@ -711,7 +792,10 @@
                     "Министерства"
                 ]
             }
-        }
+        },
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Open",
@@ -727,7 +811,10 @@
                 "answer": "[RU] Государственное собрание"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Open",
@@ -743,7 +830,10 @@
                 "answer": "[RU] Государственное собрание"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            37
+        ]
     },
     {
         "type": "Multiple",
@@ -776,7 +866,10 @@
                     "Народ напрямую"
                 ]
             }
-        }
+        },
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Multiple",
@@ -813,7 +906,10 @@
                     "Суды"
                 ]
             }
-        }
+        },
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Open",
@@ -829,7 +925,10 @@
                 "answer": "[RU] Глава правительства (премьер-министр) и министры"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Open",
@@ -845,7 +944,10 @@
                 "answer": "[RU] Премьер-министр ÷ глава правительства"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Multiple",
@@ -882,7 +984,10 @@
                     "Судьи"
                 ]
             }
-        }
+        },
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Open",
@@ -890,7 +995,7 @@
         "answer": "Orbán Viktor",
         "translations": {
             "en": {
-                "question": "[EN] Who is Hungary\u0027s Prime Minister?",
+                "question": "[EN] Who is Hungary's Prime Minister?",
                 "answer": "[EN] Viktor Orbán"
             },
             "ru": {
@@ -898,7 +1003,10 @@
                 "answer": "[RU] Виктор Орбан"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Multiple",
@@ -931,7 +1039,10 @@
                     "Янош Кадар"
                 ]
             }
-        }
+        },
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Open",
@@ -947,7 +1058,10 @@
                 "answer": "[RU] Государственное собрание"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Multiple",
@@ -980,7 +1094,10 @@
                     "Президент республики"
                 ]
             }
-        }
+        },
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Open",
@@ -996,7 +1113,10 @@
                 "answer": "[RU] Премьер-министр ÷ глава правительства"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Open",
@@ -1012,7 +1132,10 @@
                 "answer": "[RU] В Европейском совете"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Multiple",
@@ -1045,7 +1168,10 @@
                     "В Европейской комиссии"
                 ]
             }
-        }
+        },
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Multiple",
@@ -1086,7 +1212,10 @@
                     "Избирает Президента"
                 ]
             }
-        }
+        },
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Multiple",
@@ -1119,7 +1248,10 @@
                     "Судами"
                 ]
             }
-        }
+        },
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Open",
@@ -1136,7 +1268,10 @@
                 "question": "[RU] Перечислите две государственные системы обеспечения!",
                 "answer": "[RU] Национальная оборона ÷ правоохранительные органы ÷ образование ÷ здравоохранение"
             }
-        }
+        },
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Multiple",
@@ -1177,7 +1312,10 @@
                     "Судопроизводство"
                 ]
             }
-        }
+        },
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Open",
@@ -1188,13 +1326,16 @@
         "translations": {
             "en": {
                 "question": "[EN] List five ministries!",
-                "answer": "[EN] Ministry of Agriculture ÷ Ministry of Interior ÷ Ministry of Energy ÷ Ministry of Construction and Transport ÷ Ministry of European Union Affairs ÷ Ministry of Defence ÷ Ministry of Justice ÷ Ministry of Public Administration and Regional Development ÷ Ministry of Culture and Innovation ÷ Ministry of Foreign Affairs and Trade ÷ Cabinet Office of the Prime Minister ÷ Prime Minister\u0027s Office ÷ Ministry for National Economy"
+                "answer": "[EN] Ministry of Agriculture ÷ Ministry of Interior ÷ Ministry of Energy ÷ Ministry of Construction and Transport ÷ Ministry of European Union Affairs ÷ Ministry of Defence ÷ Ministry of Justice ÷ Ministry of Public Administration and Regional Development ÷ Ministry of Culture and Innovation ÷ Ministry of Foreign Affairs and Trade ÷ Cabinet Office of the Prime Minister ÷ Prime Minister's Office ÷ Ministry for National Economy"
             },
             "ru": {
                 "question": "[RU] Перечислите пять министерств!",
                 "answer": "[RU] Министерство сельского хозяйства ÷ Министерство внутренних дел ÷ Министерство энергетики ÷ Министерство строительства и транспорта ÷ Министерство по делам Европейского Союза ÷ Министерство обороны ÷ Министерство юстиции ÷ Министерство государственного управления и регионального развития ÷ Министерство культуры и инноваций ÷ Министерство внешнеэкономических связей и иностранных дел ÷ Кабинет премьер-министра ÷ Канцелярия премьер-министра ÷ Министерство национальной экономики"
             }
-        }
+        },
+        "pages": [
+            39
+        ]
     },
     {
         "type": "Multiple",
@@ -1246,7 +1387,10 @@
                     "Министерство по делам религий"
                 ]
             }
-        }
+        },
+        "pages": [
+            39
+        ]
     },
     {
         "type": "Multiple",
@@ -1282,7 +1426,10 @@
                     "Министерство юстиции"
                 ]
             }
-        }
+        },
+        "pages": [
+            39
+        ]
     },
     {
         "type": "Open",
@@ -1290,7 +1437,7 @@
         "answer": "A köztársasági elnök",
         "translations": {
             "en": {
-                "question": "[EN] What is Hungary\u0027s head of state?",
+                "question": "[EN] What is Hungary's head of state?",
                 "answer": "[EN] The President of the Republic"
             },
             "ru": {
@@ -1298,7 +1445,10 @@
                 "answer": "[RU] Президент республики"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Open",
@@ -1306,7 +1456,7 @@
         "answer": "A köztársasági elnök",
         "translations": {
             "en": {
-                "question": "[EN] Who is Hungary\u0027s head of state?",
+                "question": "[EN] Who is Hungary's head of state?",
                 "answer": "[EN] The President of the Republic"
             },
             "ru": {
@@ -1314,7 +1464,10 @@
                 "answer": "[RU] Президент республики"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Open",
@@ -1330,7 +1483,10 @@
                 "answer": "[RU] Единство нации"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Multiple",
@@ -1367,7 +1523,10 @@
                     "Управляет"
                 ]
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Open",
@@ -1375,7 +1534,7 @@
         "answer": "Dr. Sulyok Tamás",
         "translations": {
             "en": {
-                "question": "[EN] Who is Hungary\u0027s President of the Republic?",
+                "question": "[EN] Who is Hungary's President of the Republic?",
                 "answer": "[EN] Dr. Tamás Sulyok"
             },
             "ru": {
@@ -1383,7 +1542,10 @@
                 "answer": "[RU] Д-р Тамаш Шуйок"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Multiple",
@@ -1416,7 +1578,10 @@
                     "Арпад Гёнц"
                 ]
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Open",
@@ -1432,7 +1597,10 @@
                 "answer": "[RU] Государственное собрание"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Open",
@@ -1448,7 +1616,10 @@
                 "answer": "[RU] Тайным голосованием"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Multiple",
@@ -1481,7 +1652,10 @@
                     "Правительство"
                 ]
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Open",
@@ -1497,7 +1671,10 @@
                 "answer": "[RU] На 5 лет"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Multiple",
@@ -1530,7 +1707,10 @@
                     "На 6 лет"
                 ]
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Open",
@@ -1546,7 +1726,10 @@
                 "answer": "[RU] Максимум один раз ÷ 1"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Open",
@@ -1562,7 +1745,10 @@
                 "answer": "[RU] Максимум два ÷ 2"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Multiple",
@@ -1595,7 +1781,10 @@
                     "Трижды"
                 ]
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Multiple",
@@ -1628,7 +1817,10 @@
                     "Референдумом"
                 ]
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Open",
@@ -1644,7 +1836,10 @@
                 "answer": "[RU] Президент республики"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Multiple",
@@ -1677,7 +1872,10 @@
                     "Министр обороны"
                 ]
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Multiple",
@@ -1710,7 +1908,10 @@
                     "Министерские встречи"
                 ]
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Multiple",
@@ -1743,7 +1944,10 @@
                     "Нет"
                 ]
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Multiple",
@@ -1776,7 +1980,10 @@
                     "Никогда"
                 ]
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Open",
@@ -1793,7 +2000,10 @@
                 "question": "[RU] Перечислите два полномочия Президента республики!",
                 "answer": "[RU] Главнокомандующий Силами обороны Венгрии ÷ созывает учредительное заседание Государственного собрания ÷ может распустить Государственное собрание в определенных случаях"
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Multiple",
@@ -1830,7 +2040,10 @@
                     "Назначает министров"
                 ]
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Open",
@@ -1846,7 +2059,10 @@
                 "question": "[RU] Кто является нынешним премьер-министром Венгрии?",
                 "answer": "[RU] Виктор Орбан"
             }
-        }
+        },
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Multiple",
@@ -1879,7 +2095,10 @@
                     "Йожеф Анталл"
                 ]
             }
-        }
+        },
+        "pages": [
+            38
+        ]
     },
     {
         "type": "Open",
@@ -1895,7 +2114,10 @@
                 "question": "[RU] Кто является нынешним Президентом Венгерской Республики?",
                 "answer": "[RU] Д-р Тамаш Шуйок ÷ Тамаш Шуйок"
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Multiple",
@@ -1928,7 +2150,10 @@
                     "Янош Адер"
                 ]
             }
-        }
+        },
+        "pages": [
+            40
+        ]
     },
     {
         "type": "Open",
@@ -1945,6 +2170,9 @@
                 "question": "[RU] Перечислите три министерства!",
                 "answer": "[RU] Министерство сельского хозяйства ÷ Министерство внутренних дел ÷ Министерство обороны ÷ Министерство юстиции ÷ Министерство иностранных дел и торговли ÷ Министерство финансов ÷ Министерство культуры и инноваций"
             }
-        }
+        },
+        "pages": [
+            39
+        ]
     }
 ]

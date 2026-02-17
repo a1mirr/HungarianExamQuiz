@@ -44,6 +44,19 @@
                     <p class="mock-exam-desc" data-i18n="mockExamDesc">12 random questions (2 from each topic)</p>
                 </div>
             </div>
+
+            <!-- Page Exam Card -->
+            <div class="mock-exam-section" style="margin-top: var(--spacing-md);">
+                <div class="mock-exam-card" id="pageExamCard" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(147, 51, 234, 0.2)); border-color: var(--secondary);">
+                    <span class="mock-exam-icon">📄</span>
+                    <h3 class="mock-exam-title" data-i18n="pageExam">Page Test</h3>
+                    <p class="mock-exam-desc" data-i18n="pageExamDesc">Practice questions from a specific page (3-52)</p>
+                    <div class="page-selector" style="margin-top: 1rem; display: flex; justify-content: center; gap: 1rem; align-items: center;">
+                        <input type="number" id="pageInput" min="3" max="52" value="3" class="answer-field" style="width: 100px; padding: 0.5rem; text-align: center;" onclick="event.stopPropagation()">
+                        <button id="startPageExamBtn" class="action-btn" style="padding: 0.5rem 1.5rem; background: var(--secondary);" data-i18n="start">Start</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Quiz View -->

@@ -41,7 +41,11 @@ const translations = {
         official: 'Official',
         approximateHint: 'Approximate value accepted (±10%)',
         translateAnswer: 'Translate Answer',
-        finish: 'Finish'
+        finish: 'Finish',
+        pageExam: 'Page Test',
+        pageExamDesc: 'Practice questions from a specific page (3-52)',
+        start: 'Start',
+        noQuestionsOnPage: 'No questions found for this page.'
     },
     ru: {
         subtitle: 'Изучайте венгерскую культуру и историю',
@@ -80,7 +84,11 @@ const translations = {
         official: 'Официальное значение',
         approximateHint: 'Принимается приблизительное значение (±10%)',
         translateAnswer: 'Перевести ответ',
-        finish: 'Завершить'
+        finish: 'Завершить',
+        pageExam: 'Тест по странице',
+        pageExamDesc: 'Практика вопросов с конкретной страницы (3-52)',
+        start: 'Начать',
+        noQuestionsOnPage: 'Вопросов для этой страницы не найдено.'
     },
     hu: {
         subtitle: 'Magyar kultúra és történelem mesterei',
@@ -119,7 +127,11 @@ const translations = {
         official: 'Hivatalos',
         approximateHint: 'Elfogadható közelítő érték (±10%)',
         translateAnswer: 'Válasz fordítása',
-        finish: 'Befejezés'
+        finish: 'Befejezés',
+        pageExam: 'Oldal Teszt',
+        pageExamDesc: 'Gyakoroljon kérdéseket egy adott oldalról (3-52)',
+        start: 'Indítás',
+        noQuestionsOnPage: 'Nincs kérdés ezen az oldalon.'
     }
 };
 

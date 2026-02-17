@@ -1,11 +1,11 @@
-﻿[
+[
     {
         "type": "Open",
         "question": "Mi Magyarország államformája?",
         "answer": "Köztársaság",
         "translations": {
             "en": {
-                "question": "What is Hungary\u0027s form of government?",
+                "question": "What is Hungary's form of government?",
                 "answer": "Republic"
             },
             "ru": {
@@ -13,7 +13,10 @@
                 "answer": "Республика"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Multiple",
@@ -46,7 +49,10 @@
                     "Диктатура"
                 ]
             }
-        }
+        },
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -62,7 +68,10 @@
                 "answer": "93 тысячи км² ÷ 93000 км²"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -78,7 +87,10 @@
                 "answer": "9,6 миллиона человек"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -94,7 +106,10 @@
                 "answer": "Будапешт"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -102,7 +117,7 @@
         "answer": "Forint",
         "translations": {
             "en": {
-                "question": "What is Hungary\u0027s currency?",
+                "question": "What is Hungary's currency?",
                 "answer": "Forint"
             },
             "ru": {
@@ -110,7 +125,10 @@
                 "answer": "Форинт"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -118,7 +136,7 @@
         "answer": "Magyar",
         "translations": {
             "en": {
-                "question": "What is Hungary\u0027s official language?",
+                "question": "What is Hungary's official language?",
                 "answer": "Hungarian"
             },
             "ru": {
@@ -126,7 +144,10 @@
                 "answer": "Венгерский"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -143,7 +164,10 @@
                 "question": "Перечислите три венгерские природные зоны!",
                 "answer": "Великая Венгерская равнина ÷ Альпокалья ÷ Трансдунбийские холмы ÷ Трансдунбийское среднегорье ÷ Северное среднегорье ÷ Малая Венгерская низменность"
             }
-        }
+        },
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Multiple",
@@ -184,7 +208,10 @@
                     "Карпаты"
                 ]
             }
-        }
+        },
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -200,7 +227,10 @@
                 "answer": "Шесть ÷ 6"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -210,14 +240,17 @@
         "answer": "Balaton ÷ Fertő tó ÷ Velencei-tó",
         "translations": {
             "en": {
-                "question": "List Hungary\u0027s three largest lakes!",
+                "question": "List Hungary's three largest lakes!",
                 "answer": "Lake Balaton ÷ Lake Fertő ÷ Lake Velence"
             },
             "ru": {
                 "question": "Перечислите три крупнейших озера Венгрии!",
                 "answer": "Балатон ÷ озеро Фертё ÷ озеро Веленце"
             }
-        }
+        },
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -225,7 +258,7 @@
         "answer": "Balaton",
         "translations": {
             "en": {
-                "question": "What is Hungary\u0027s largest lake?",
+                "question": "What is Hungary's largest lake?",
                 "answer": "Lake Balaton"
             },
             "ru": {
@@ -233,7 +266,10 @@
                 "answer": "Балатон"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -243,14 +279,17 @@
         "answer": "Duna ÷ Tisza ÷ Dráva ÷ Rába",
         "translations": {
             "en": {
-                "question": "List Hungary\u0027s four largest rivers!",
+                "question": "List Hungary's four largest rivers!",
                 "answer": "Danube ÷ Tisza ÷ Drava ÷ Rába"
             },
             "ru": {
                 "question": "Перечислите четыре крупнейшие реки Венгрии!",
                 "answer": "Дунай ÷ Тиса ÷ Драва ÷ Раба"
             }
-        }
+        },
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Multiple",
@@ -295,7 +334,10 @@
                     "Одер"
                 ]
             }
-        }
+        },
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -312,7 +354,10 @@
                 "question": "Перечислите пять соседних стран!",
                 "answer": "Словакия ÷ Украина ÷ Румыния ÷ Сербия ÷ Хорватия ÷ Словения ÷ Австрия"
             }
-        }
+        },
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -328,7 +373,10 @@
                 "answer": "Семь ÷ 7"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Multiple",
@@ -376,7 +424,10 @@
                     "Германия"
                 ]
             }
-        }
+        },
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Open",
@@ -393,7 +444,10 @@
                 "question": "Перечислите пять национальностей, проживающих в Венгрии!",
                 "answer": "Болгарская ÷ Греческая ÷ Хорватская ÷ Польская ÷ Немецкая ÷ Армянская ÷ Цыганская ÷ Румынская ÷ Русинская ÷ Сербская ÷ Словацкая ÷ Словенская ÷ Украинская"
             }
-        }
+        },
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Multiple",
@@ -445,7 +499,10 @@
                     "Испанцы"
                 ]
             }
-        }
+        },
+        "pages": [
+            45
+        ]
     },
     {
         "type": "Multiple",
@@ -481,7 +538,10 @@
                     "Италия"
                 ]
             }
-        }
+        },
+        "pages": [
+            51
+        ]
     },
     {
         "type": "Multiple",
@@ -526,7 +586,10 @@
                     "Швейцария"
                 ]
             }
-        }
+        },
+        "pages": [
+            51
+        ]
     },
     {
         "type": "Open",
@@ -542,7 +605,10 @@
                 "answer": "Девятнадцать ÷ 19"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            46
+        ]
     },
     {
         "type": "Open",
@@ -559,7 +625,10 @@
                 "question": "Перечислите пять областей!",
                 "answer": "Барань ÷ Боршод-Абауй-Земплен ÷ Бачки-Кишкун ÷ Бекеш ÷ Чонград-Чанад ÷ Фейер ÷ Дьёр-Мошон-Шопрон ÷ Хайду-Бихар ÷ Хевеш ÷ Яс-Надькун-Шольнок ÷ Комаром-Эстергом ÷ Ноград ÷ Пешт ÷ Шомодь ÷ Саболь-Сатмар-Берег ÷ Толна ÷ Ваш ÷ Веспрем ÷ Зала"
             }
-        }
+        },
+        "pages": [
+            46
+        ]
     },
     {
         "type": "Multiple",
@@ -611,7 +680,10 @@
                     "Южная Венгрия"
                 ]
             }
-        }
+        },
+        "pages": [
+            46
+        ]
     },
     {
         "type": "Open",
@@ -627,7 +699,10 @@
                 "answer": "1873.11.17"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            47
+        ]
     },
     {
         "type": "Open",
@@ -643,7 +718,10 @@
                 "answer": "Из объединения Пешта, Буды и Обуды"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            47
+        ]
     },
     {
         "type": "Multiple",
@@ -684,7 +762,10 @@
                     "Липотварош"
                 ]
             }
-        }
+        },
+        "pages": [
+            47
+        ]
     },
     {
         "type": "Multiple",
@@ -717,7 +798,10 @@
                     "Драва"
                 ]
             }
-        }
+        },
+        "pages": [
+            17
+        ]
     },
     {
         "type": "Open",
@@ -733,7 +817,10 @@
                 "answer": "23 ÷ двадцать три"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            47
+        ]
     },
     {
         "type": "Open",
@@ -749,7 +836,10 @@
                 "answer": "1994"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            47
+        ]
     },
     {
         "type": "Open",
@@ -760,13 +850,16 @@
         "translations": {
             "en": {
                 "question": "List five Budapest landmarks!",
-                "answer": "Buda Castle ÷ Citadel ÷ Gellért Spa ÷ Fisherman\u0027s Bastion ÷ Heroes\u0027 Square ÷ Hungarian National Museum ÷ House of Hungarian Music ÷ Hungarian State Opera House ÷ Matthias Church ÷ Parliament ÷ St. Stephen\u0027s Basilica ÷ Széchenyi Chain Bridge ÷ Museum of Fine Arts ÷ Vajdahunyad Castle"
+                "answer": "Buda Castle ÷ Citadel ÷ Gellért Spa ÷ Fisherman's Bastion ÷ Heroes' Square ÷ Hungarian National Museum ÷ House of Hungarian Music ÷ Hungarian State Opera House ÷ Matthias Church ÷ Parliament ÷ St. Stephen's Basilica ÷ Széchenyi Chain Bridge ÷ Museum of Fine Arts ÷ Vajdahunyad Castle"
             },
             "ru": {
                 "question": "Перечислите пять достопримечательностей Будапешта!",
                 "answer": "Будайский замок ÷ Цитадель ÷ Купальня Геллерт ÷ Рыбацкий бастион ÷ Площадь Героев ÷ Венгерский национальный музей ÷ Дом венгерской музыки ÷ Венгерский государственный оперный театр ÷ Церковь Матяша ÷ Парламент ÷ Базилика Святого Иштвана ÷ Цепной мост Сечени ÷ Музей изобразительных искусств ÷ Замок Вайдахуняд"
             }
-        }
+        },
+        "pages": [
+            47
+        ]
     },
     {
         "type": "Multiple",
@@ -815,7 +908,10 @@
                     "Акрополь"
                 ]
             }
-        }
+        },
+        "pages": [
+            47
+        ]
     },
     {
         "type": "Open",
@@ -832,7 +928,10 @@
                 "question": "Перечислите три хунгарикум блюда!",
                 "answer": "Гуляш ÷ Байская и Тисайская рыбная уха ÷ Торт Добош ÷ Зимняя салями Пик"
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Multiple",
@@ -873,7 +972,10 @@
                     "Венский шницель"
                 ]
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Open",
@@ -890,7 +992,10 @@
                 "question": "Перечислите два хунгарикум ингредиента!",
                 "answer": "Макойский лук ÷ Калочский и Сегедский молотый перец"
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Multiple",
@@ -927,7 +1032,10 @@
                     "Дебрецен"
                 ]
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Open",
@@ -944,7 +1052,10 @@
                 "question": "Перечислите два хунгарикум напитка!",
                 "answer": "Венгерские вина (Токайское асу, Эгри бикавер) ÷ палинка"
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Multiple",
@@ -981,7 +1092,10 @@
                     "Оласрислинг"
                 ]
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Multiple",
@@ -1018,7 +1132,10 @@
                     "Кьянти"
                 ]
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Open",
@@ -1035,7 +1152,10 @@
                 "question": "Перечислите два культурных наследия хунгарикума!",
                 "answer": "Мохачский карнавал бусо ÷ Паннонхалмское бенедиктинское аббатство ÷ Холлокё ÷ Бал Анны в Фюреде"
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Multiple",
@@ -1076,7 +1196,10 @@
                     "Вишеградская крепость"
                 ]
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Open",
@@ -1093,7 +1216,10 @@
                 "question": "Перечислите три хунгарикум животных!",
                 "answer": "Серая корова ÷ Венгерские пастушьи собаки (Пули, Комондор, Кувас) ÷ Венгерские охотничьи собаки (Венгерская выжла, Трансильванская гончая)"
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Multiple",
@@ -1134,7 +1260,10 @@
                     "Лабрадор"
                 ]
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Open",
@@ -1151,7 +1280,10 @@
                 "question": "Перечислите две венгерские пастушьи собаки!",
                 "answer": "Пули ÷ Комондор ÷ Кувас"
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Multiple",
@@ -1192,7 +1324,10 @@
                     "Серая корова"
                 ]
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Open",
@@ -1209,7 +1344,10 @@
                 "question": "Перечислите две венгерские охотничьи собаки!",
                 "answer": "Венгерская выжла ÷ Трансильванская гончая"
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Open",
@@ -1226,7 +1364,10 @@
                 "question": "Перечислите три народных и промышленных искусства хунгарикума!",
                 "answer": "Халашское кружево ÷ Матьёское народное искусство ÷ Холлохазский и Золнайский фарфор"
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Multiple",
@@ -1267,7 +1408,10 @@
                     "Секлерские ворота"
                 ]
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Multiple",
@@ -1304,7 +1448,10 @@
                     "Лиможский фарфор"
                 ]
             }
-        }
+        },
+        "pages": [
+            48
+        ]
     },
     {
         "type": "Open",
@@ -1314,14 +1461,17 @@
         "answer": "Katolikus ÷ Református ÷ Evangélikus",
         "translations": {
             "en": {
-                "question": "List Hungary\u0027s three oldest and most significant denominations!",
+                "question": "List Hungary's three oldest and most significant denominations!",
                 "answer": "Hungarian Catholic Church ÷ Hungarian Reformed Church ÷ Hungarian Evangelical Church"
             },
             "ru": {
                 "question": "Перечислите три старейшие и наиболее значимые конфессии Венгрии!",
                 "answer": "Венгерская католическая церковь ÷ Венгерская реформатская церковь ÷ Венгерская евангелическая церковь"
             }
-        }
+        },
+        "pages": [
+            49
+        ]
     },
     {
         "type": "Multiple",
@@ -1362,7 +1512,10 @@
                     "Буддизм"
                 ]
             }
-        }
+        },
+        "pages": [
+            49
+        ]
     },
     {
         "type": "Open",
@@ -1378,7 +1531,10 @@
                 "answer": "24-26 декабря"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            49
+        ]
     },
     {
         "type": "Open",
@@ -1394,7 +1550,10 @@
                 "answer": "Иисуса, рождение Спасителя"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            49
+        ]
     },
     {
         "type": "Multiple",
@@ -1427,7 +1586,10 @@
                     "Рождение Святого Иштвана"
                 ]
             }
-        }
+        },
+        "pages": [
+            49
+        ]
     },
     {
         "type": "Multiple",
@@ -1464,7 +1626,10 @@
                     "Рождение Святого Иштвана"
                 ]
             }
-        }
+        },
+        "pages": [
+            49
+        ]
     },
     {
         "type": "Open",
@@ -1480,7 +1645,10 @@
                 "answer": "Короля Святого Иштвана"
             }
         },
-        "inputType": "person"
+        "inputType": "person",
+        "pages": [
+            49
+        ]
     },
     {
         "type": "Open",
@@ -1489,14 +1657,17 @@
         "translations": {
             "en": {
                 "question": "What day is August 20?",
-                "answer": "Day of Hungarian state foundation ÷ King Saint Stephen\u0027s day"
+                "answer": "Day of Hungarian state foundation ÷ King Saint Stephen's day"
             },
             "ru": {
                 "question": "Какой день 20 августа?",
                 "answer": "День основания венгерского государства ÷ День короля Святого Иштвана"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            49
+        ]
     },
     {
         "type": "Multiple",
@@ -1533,7 +1704,10 @@
                     "Пасхальная церемония"
                 ]
             }
-        }
+        },
+        "pages": [
+            49
+        ]
     },
     {
         "type": "Open",
@@ -1550,7 +1724,10 @@
                 "question": "Перечислите пять венгерских святых или блаженных!",
                 "answer": "Святой Иштван ÷ Святой Ласло ÷ Святой Имре ÷ Святой Геллерт ÷ Святая Маргит из дома Арпадов ÷ Святая Эржебет из дома Арпадов"
             }
-        }
+        },
+        "pages": [
+            49
+        ]
     },
     {
         "type": "Multiple",
@@ -1595,7 +1772,10 @@
                     "Святой Павел"
                 ]
             }
-        }
+        },
+        "pages": [
+            49
+        ]
     },
     {
         "type": "Open",
@@ -1611,7 +1791,10 @@
                 "answer": "2004.05.01"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            50
+        ]
     },
     {
         "type": "Open",
@@ -1627,7 +1810,10 @@
                 "answer": "450 миллионов"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            50
+        ]
     },
     {
         "type": "Open",
@@ -1643,7 +1829,10 @@
                 "answer": "2007"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            50
+        ]
     },
     {
         "type": "Multiple",
@@ -1666,7 +1855,10 @@
                 "question": "Что означает Шенгенская зона?",
                 "answer": "Свободное пересечение границ"
             }
-        }
+        },
+        "pages": [
+            50
+        ]
     },
     {
         "type": "Open",
@@ -1682,7 +1874,10 @@
                 "answer": "Брюссель"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            50
+        ]
     },
     {
         "type": "Open",
@@ -1699,7 +1894,10 @@
                 "question": "Перечислите три института ЕС!",
                 "answer": "Европейская комиссия ÷ Совет ÷ Европейский парламент ÷ Европейский совет"
             }
-        }
+        },
+        "pages": [
+            50
+        ]
     },
     {
         "type": "Multiple",
@@ -1740,7 +1938,10 @@
                     "НАТО"
                 ]
             }
-        }
+        },
+        "pages": [
+            50
+        ]
     },
     {
         "type": "Open",
@@ -1756,7 +1957,10 @@
                 "answer": "Каждые пять лет"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            50
+        ]
     },
     {
         "type": "Open",
@@ -1772,7 +1976,10 @@
                 "answer": "21 представителем"
             }
         },
-        "inputType": "text"
+        "inputType": "text",
+        "pages": [
+            50
+        ]
     },
     {
         "type": "Open",
@@ -1788,7 +1995,10 @@
                 "answer": "27"
             }
         },
-        "inputType": "number"
+        "inputType": "number",
+        "pages": [
+            51
+        ]
     },
     {
         "type": "Open",
@@ -1805,6 +2015,9 @@
                 "question": "Перечислите четыре государства-члена ЕС!",
                 "answer": "Австрия ÷ Бельгия ÷ Болгария ÷ Кипр ÷ Чехия ÷ Дания ÷ Эстония ÷ Финляндия ÷ Франция ÷ Греция ÷ Нидерланды ÷ Хорватия ÷ Ирландия ÷ Польша ÷ Латвия ÷ Литва ÷ Люксембург ÷ Венгрия ÷ Мальта ÷ Германия ÷ Италия ÷ Португалия ÷ Румыния ÷ Испания ÷ Швеция ÷ Словакия ÷ Словения"
             }
-        }
+        },
+        "pages": [
+            51
+        ]
     }
 ]
