@@ -1045,7 +1045,7 @@
         ]
     },
     {
-        "type": "list",
+        "type": "Open",
         "inputType": "list",
         "inputCount": 3,
         "question": "Írjon le legalább három, az Alaptörvényben biztosított alapvető jogot",

@@ -75,9 +75,10 @@ const state = {
     currentQuestionTranslated: '',
     currentAnswerHu: '',
     currentAnswerTranslated: '',
+    currentAnswerTranslated: '',
     reportedProblems: [],
-    mockExamMode: false
-};
+    mockExamMode: false,
+    sessionAnswers: {} // Key: topicId_questionIndex, Value: { answered: boolean, correct: boolean, userAnswer: any }
 
 // == DOM Elements ==
 
@@ -85,17 +86,20 @@ const state = {
 
 // == Helper Functions ==
 function shuffleArray(array) {
-    const shuffled = [...array];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-    return shuffled;
+        const shuffled = [...array];
+for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+}
+return shuffled;
 }
 
-function normalizeAnswer(text) {
-    return text.toLowerCase().trim().replace(/\s+/g, ' ');
+    }
+return shuffled;
 }
+
+// Fix Bug #13: Remove unused normalizeAnswer
+// function normalizeAnswer(text) { ... }
 
 // Note: Validators (validatePerson, validateDate, etc.) are in validators.js
 // Note: Config (translations, inputTypeConfig) are in config.js
@@ -149,6 +153,12 @@ function setupEventListeners() {
         state.currentQuestions = [];
         state.userScore = 0;
         state.answeredQuestions = 0;
+
+        // Fix Bug #15: Reset mock exam mode when going back
+        state.mockExamMode = false;
+
+        // Clear session answers
+        state.sessionAnswers = {};
     });
 
     // Check answer button
@@ -200,7 +210,9 @@ function setupEventListeners() {
             state.currentTopic = null;
             state.currentQuestions = [];
             state.userScore = 0;
+            state.userScore = 0;
             state.answeredQuestions = 0;
+            state.sessionAnswers = {}; // Reset session
             state.mockExamMode = false;
         });
     }
@@ -244,6 +256,8 @@ async function startPageExam() {
         state.currentQuestionIndex = 0;
         state.userScore = 0;
         state.answeredQuestions = 0;
+        state.answeredQuestions = 0;
+        state.sessionAnswers = {}; // Reset
         state.questionAnswered = false;
         state.mockExamMode = true;
 
@@ -327,7 +341,7 @@ function loadQuestion() {
 
     if (!question) return;
 
-    // Reset state
+    // Reset state defaults
     state.questionAnswered = false;
     state.questionTranslated = false;
     state.answerTranslated = false;
@@ -336,6 +350,43 @@ function loadQuestion() {
     elements.feedback.classList.add('hidden');
     elements.feedback.classList.remove('correct', 'incorrect');
     elements.userAnswer.value = '';
+
+    // Check if question was already answered in this session
+    // We use a unique key for the question. In topic mode: topicId_index. 
+    // In mixed/page modes, we might need a better ID if questions are shuffled, but they are stored in state.currentQuestions.
+    // If we navigate back/forth in the SAME 'session' (currentQuestions list), index is sufficient UNIQUE identifier for THIS session.
+    // If we reload topic, state.sessionAnswers should probably be cleared? 
+    // Actually, loadTopic clears state.userScore, so it should clear sessionAnswers too.
+
+    // For now, let's use index as key relative to currentQuestions
+    const sessionKey = `${state.currentTopic ? state.currentTopic.id : 'unknown'}_${state.currentQuestionIndex}`;
+    const savedState = state.sessionAnswers[sessionKey];
+
+    if (savedState && savedState.answered) {
+        state.questionAnswered = true;
+        elements.checkBtn.disabled = true;
+        elements.showAnswerBtn.classList.remove('hidden');
+
+        // Restore feedback
+        showFeedback(savedState.correct, question);
+
+        // Restore specific input states would require more complex render logic 
+        // (e.g. pre-filling inputs). 
+        // For simplicity in this fix, we primarily ensure SCORING is not repeated.
+        // But for UX, we should ideally show their previous answer.
+        // We will try to restore input values if saved.
+        if (savedState.userAnswer) {
+            if (question.type === 'Multiple') {
+                // We need to wait for renderMultipleChoice to happen first, 
+                // So we can't do it here easily unless we move render logic up or doing it after render.
+                // We will handle this by setting a flag or doing it after type setup.
+            } else if (question.inputType === 'list') {
+                // Similar issue
+            } else {
+                elements.userAnswer.value = savedState.userAnswer;
+            }
+        }
+    }
 
     // Set question type
     elements.questionType.textContent = question.type === 'Multiple' ? 'Multiple Choice' : 'Open Question';
@@ -350,9 +401,15 @@ function loadQuestion() {
 
     // Store answer translations
     if (question.type === 'Multiple' && question.options) {
-        const correctOptions = question.correctIndices?.map(idx => question.options[idx]) || [];
+        // Correct options are the first N options
+        const correctCount = question.correctCount || 0;
+        const correctOptions = question.options.slice(0, correctCount);
+
         state.currentAnswerHu = question.answer || correctOptions.join(', ');
-        state.currentAnswerTranslated = trans?.answer || state.currentAnswerHu;
+        // For translations, we also assume first N are correct (migration script ensures this)
+        const transOptions = trans?.options || [];
+        const transCorrectOptions = transOptions.slice(0, correctCount);
+        state.currentAnswerTranslated = trans?.answer || (transCorrectOptions.length ? transCorrectOptions.join(', ') : state.currentAnswerHu);
     } else {
         state.currentAnswerHu = question.answer || '-';
         state.currentAnswerTranslated = trans?.answer || question.answer || '-';
@@ -414,8 +471,15 @@ function loadQuestion() {
                     elements.userAnswer.setAttribute('step', '1');
                     break;
                 case 'date':
-                    htmlType = 'date';
-                    placeholder = translations[state.currentLang].enterDate || 'Enter date';
+                    // Fix Bug #8: Use text input for historical dates
+                    htmlType = 'text';
+                    placeholder = translations[state.currentLang].enterDate || 'YYYY.MM.DD';
+                    inputMode = 'numeric'; // Help mobile keyboards
+                    break;
+                case 'year':
+                    htmlType = 'number';
+                    placeholder = translations[state.currentLang].enterYear || 'Enter year (e.g. 1001)';
+                    inputMode = 'numeric';
                     break;
                 case 'date-interval':
                     htmlType = 'text';
@@ -507,25 +571,27 @@ function checkUserAnswer() {
         }
 
         // Correct answers are always the first N options (where N = correctCount)
+        // Correct answers are always the first N options (where N = correctCount)
         const correctCount = question.correctCount || 0;
-        const correctIndices = Array.from({ length: correctCount }, (_, i) => i);
 
+        // Get original indices of selected options
         const selectedOriginalIndices = selected.map(checkbox =>
             parseInt(checkbox.closest('.option-item').dataset.originalIndex)
         );
 
-        // Check if selection matches correct answers
-        if (selectedOriginalIndices.length !== correctIndices.length) {
+        // Check if selection matches correct answers (indices < correctCount)
+        // Since we reordered specific options to be first in JSON, 
+        // any option with originalIndex < correctCount is correct.
+        if (selectedOriginalIndices.length !== correctCount) {
             isCorrect = false;
         } else {
-            isCorrect = selectedOriginalIndices.every(idx => correctIndices.includes(idx)) &&
-                correctIndices.every(idx => selectedOriginalIndices.includes(idx));
+            isCorrect = selectedOriginalIndices.every(idx => idx < correctCount);
         }
 
         // Show correct/incorrect visually
         document.querySelectorAll('.option-item').forEach(item => {
             const originalIndex = parseInt(item.dataset.originalIndex);
-            if (correctIndices.includes(originalIndex)) {
+            if (originalIndex < correctCount) {
                 item.classList.add('correct');
             } else if (selectedOriginalIndices.includes(originalIndex)) {
                 item.classList.add('incorrect');
@@ -597,14 +663,17 @@ function checkUserAnswer() {
                     const officialLabel = translations[state.currentLang].official;
 
                     elements.feedback.className = 'feedback correct';
-                    elements.feedback.textContent = `${translations[state.currentLang].correct} (${officialLabel}: ${formatted} ${unit})`;
+                    elements.feedback.className = 'feedback correct';
+                    // Fix Bug #9: Use feedbackText to preserve DOM structure (icon etc)
+                    elements.feedbackText.textContent = `${translations[state.currentLang].correct} (${officialLabel}: ${formatted} ${unit})`;
                     elements.feedback.classList.remove('hidden');
 
                     // Update UI
                     elements.userAnswer.disabled = true;
                     elements.checkBtn.classList.add('hidden');
                     elements.showAnswerBtn.classList.add('hidden');
-                    updateScore();
+                    // Fix Bug #10: Remove undefined updateScore, call updateProgress
+                    updateProgress();
                     return;
                 } else {
                     isCorrect = false;
@@ -639,12 +708,38 @@ function checkUserAnswer() {
     state.answeredQuestions++;
     state.questionAnswered = true;
 
+    // Save state to prevent double counting (Bug #1)
+    const sessionKey = `${state.currentTopic?.id}_${state.currentQuestionIndex}`;
+
+    // Capture user answer for restoration
+    let savedAnswer = null;
+    if (question.type === 'Multiple') {
+        const selected = Array.from(elements.optionsList.querySelectorAll('input[type="checkbox"]:checked'));
+        savedAnswer = selected.map(cb => parseInt(cb.closest('.option-item').dataset.originalIndex));
+    } else if (question.inputType === 'list') {
+        // ... capture list ...
+    } else {
+        savedAnswer = elements.userAnswer.value;
+    }
+
+    state.sessionAnswers[sessionKey] = {
+        answered: true,
+        correct: isCorrect,
+        userAnswer: savedAnswer
+    };
+
     // Show feedback
     showFeedback(isCorrect, question);
 
     // Update buttons
     elements.checkBtn.disabled = true;
-    elements.showAnswerBtn.classList.remove('hidden');
+
+    // Fix Bug #19: Hide Show Answer button if correct, otherwise show it
+    if (isCorrect) {
+        elements.showAnswerBtn.classList.add('hidden');
+    } else {
+        elements.showAnswerBtn.classList.remove('hidden');
+    }
 
     // Show translate answer button
     const translateBtn = document.getElementById('translateAnswerBtn');
@@ -655,12 +750,59 @@ function checkUserAnswer() {
     }
 }
 
+// Helper to restore MC visual state after re-render
+function reapplyMultipleChoiceFeedback() {
+    const question = state.currentQuestions[state.currentQuestionIndex];
+    const correctCount = question.correctCount || 0;
+
+    // We need to know what the user selected. 
+    // If we saved it in sessionAnswers, use that.
+    const sessionKey = `${state.currentTopic?.id}_${state.currentQuestionIndex}`;
+    const savedState = state.sessionAnswers[sessionKey];
+    const savedSelection = savedState?.userAnswer || []; // Array of original indices
+
+    document.querySelectorAll('.option-item').forEach(item => {
+        const originalIndex = parseInt(item.dataset.originalIndex);
+        const input = item.querySelector('input');
+
+        // Restore checked state
+        if (savedSelection.includes(originalIndex)) {
+            input.checked = true;
+        }
+        input.disabled = true;
+
+        if (originalIndex < correctCount) {
+            item.classList.add('correct');
+        } else if (savedSelection.includes(originalIndex)) {
+            item.classList.add('incorrect');
+        }
+    });
+}
+
 // == Translation Toggle ==
 function toggleQuestionTranslation() {
     state.questionTranslated = !state.questionTranslated;
     elements.questionText.textContent = state.questionTranslated
         ? state.currentQuestionTranslated
         : state.currentQuestionHu;
+
+    // Fix Bug #6: Re-render multiple choice options if needed
+    const question = state.currentQuestions[state.currentQuestionIndex];
+    if (question && question.type === 'Multiple') {
+        renderMultipleChoice(question);
+        // If question was answered, we need to restore the visual state of the new options
+        if (state.questionAnswered) {
+            const sessionKey = `${state.currentTopic?.id}_${state.currentQuestionIndex}`;
+            const savedState = state.sessionAnswers[sessionKey];
+            // Re-apply correct/incorrect classes using saved answers or logic
+            // This is complex because we just re-rendered. 
+            // We can just call checkUserAnswer again? No, that updates score.
+            // We should inspect the options against saved logic provided we have it.
+            // For now, simpler: just let them see the translated text. 
+            // Ideally we re-run the "visual feedback" part of checkUserAnswer.
+            reapplyMultipleChoiceFeedback();
+        }
+    }
 }
 
 function toggleAnswerTranslation() {
@@ -725,211 +867,234 @@ function showCorrectAnswer() {
     }
 
     state.questionAnswered = true;
-    elements.checkBtn.disabled = true;
-}
 
-// == Navigation ==
-function navigateQuestion(direction) {
-    const newIndex = state.currentQuestionIndex + direction;
-
-    // Check if we're moving past the last question
-    if (newIndex >= state.currentQuestions.length) {
-        showResults();
-        return;
-    }
-
-    state.currentQuestionIndex = newIndex;
-    loadQuestion();
-}
-
-function updateNavigationButtons() {
-    elements.prevBtn.disabled = state.currentQuestionIndex === 0;
-
-    const isLastQuestion = state.currentQuestionIndex === state.currentQuestions.length - 1;
-    const nextBtnText = elements.nextBtn.querySelector('span');
-
-    if (isLastQuestion) {
-        nextBtnText.textContent = translations[state.currentLang].finish || 'Finish';
-        elements.nextBtn.classList.add('finish-btn');
-    } else {
-        nextBtnText.textContent = translations[state.currentLang].next || 'Next';
-        elements.nextBtn.classList.remove('finish-btn');
-    }
-    // Always enable next button to allow finishing
-    elements.nextBtn.disabled = false;
-}
-
-// == Progress ==
-function updateProgress() {
-    const current = state.currentQuestionIndex + 1;
-    const total = state.currentQuestions.length;
-    const percentage = (current / total) * 100;
-
-    let scoreText = '';
-    if (state.answeredQuestions > 0) {
-        const scorePercentage = ((state.userScore / state.answeredQuestions) * 100).toFixed(1);
-        scoreText = ` | ${translations[state.currentLang].score}: ${state.userScore}/${state.answeredQuestions} (${scorePercentage}%)`;
-    }
-    elements.progressText.textContent = `${current} / ${total}${scoreText}`;
-    elements.progressFill.style.width = `${percentage}%`;
-}
-
-// == Results Screen ==
-function showResults() {
-    const totalQuestions = state.answeredQuestions;
-    const correctAnswers = state.userScore;
-    const incorrectAnswers = totalQuestions - correctAnswers;
-    const percentage = totalQuestions > 0 ? ((correctAnswers / totalQuestions) * 100).toFixed(1) : 0;
-
-    // Update results display
-    elements.finalPercentage.textContent = `${percentage}%`;
-    elements.finalScore.textContent = `${correctAnswers} / ${totalQuestions}`;
-    elements.correctCount.textContent = correctAnswers;
-    elements.incorrectCount.textContent = incorrectAnswers;
-
-    // Show results view
-    showView('results');
-}
-
-// == UI Updates ==
-function showView(viewName) {
-    elements.topicView.classList.toggle('active', viewName === 'topic');
-    elements.quizView.classList.toggle('active', viewName === 'quiz');
-    elements.resultsView.classList.toggle('active', viewName === 'results');
-}
-
-function updateActiveLanguageButton() {
-    elements.langBtns.forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.lang === state.currentLang);
-    });
-}
-
-function updateUI() {
-    // Update all data-i18n elements
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.dataset.i18n;
-        if (translations[state.currentLang][key]) {
-            el.textContent = translations[state.currentLang][key];
-        }
-    });
-
-    // Update topic names
-    if (elements.topicGrid) {
-        renderTopics();
-    }
-}
-
-// == Problem Reporting ==
-function submitProblem() {
-    const checkboxes = document.querySelectorAll('.problem-checkbox:checked');
-    if (checkboxes.length === 0) {
-        alert('Please select at least one issue type');
-        return;
-    }
-
-    const issues = Array.from(checkboxes).map(cb => cb.value);
-    const question = state.currentQuestions[state.currentQuestionIndex];
-    const notes = elements.problemNotes.value.trim();
-
-    state.reportedProblems.push({
-        topicId: state.currentTopic.id,
-        topicName: state.currentTopic.name.en,
-        questionIndex: state.currentQuestionIndex,
-        questionHu: state.currentQuestionHu,
-        questionTranslated: state.currentQuestionTranslated,
-        answerHu: state.currentAnswerHu,
-        answerTranslated: state.currentAnswerTranslated,
-        questionType: question.type,
-        options: question.options || null,
-        correctIndices: question.correctIndices || null,
-        issues: issues,
-        notes: notes,
-        timestamp: new Date().toISOString()
-    });
-
-    // Update UI
-    elements.problemCount.textContent = state.reportedProblems.length;
-    elements.exportProblemsBtn.classList.remove('hidden');
-    elements.problemOptions.classList.add('hidden');
-
-    // Reset form
-    checkboxes.forEach(cb => cb.checked = false);
-    elements.problemNotes.value = '';
-
-    // Show confirmation
-    alert(translations[state.currentLang].problemReported);
-}
-
-function exportProblems() {
-    if (state.reportedProblems.length === 0) {
-        alert('No problems to export');
-        return;
-    }
-
-    // Format as JSON with readable structure
-    const exportData = {
-        exportDate: new Date().toISOString(),
-        totalProblems: state.reportedProblems.length,
-        problems: state.reportedProblems
-    };
-
-    // Create downloadable file
-    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `hungarian-quiz-problems-${Date.now()}.json`;
-    a.click();
-    URL.revokeObjectURL(url);
-}
-
-// == Mock Exam ==
-async function startMockExam() {
-    try {
-        const allQuestions = [];
-
-        // Load 2 random questions from each topic
-        for (const topic of state.topics) {
-            const response = await fetch(`data/${topic.id}.json`);
-            const questions = await response.json();
-
-            // Shuffle and take 2
-            const shuffled = shuffleArray(questions);
-            const selected = shuffled.slice(0, 2).map(q => ({
-                ...q,
-                topicName: topic.name[state.currentLang],
-                topicId: topic.id
-            }));
-
-            allQuestions.push(...selected);
-        }
-
-        // Shuffle all 12 questions
-        state.currentQuestions = shuffleArray(allQuestions);
-        state.currentTopic = {
-            id: 'mock-exam',
-            name: {
-                en: 'Mock Exam',
-                ru: 'Пробный экзамен',
-                hu: 'Próbavizsga'
-            }
+    // Fix Bug #5: Show Answer didn't count as answered
+    if (!state.sessionAnswers[`${state.currentTopic?.id}_${state.currentQuestionIndex}`]?.answered) {
+        state.answeredQuestions++;
+        // Mark as answered but NOT correct (score not incremented)
+        state.sessionAnswers[`${state.currentTopic?.id}_${state.currentQuestionIndex}`] = {
+            answered: true,
+            correct: false,
+            userAnswer: null // No user answer
         };
-        state.currentQuestionIndex = 0;
-        state.userScore = 0;
-        state.answeredQuestions = 0;
-        state.questionAnswered = false;
-        state.mockExamMode = true;
-
-        elements.topicTitle.textContent = state.currentTopic.name[state.currentLang];
-
-        loadQuestion();
         updateProgress();
-        showView('quiz');
-    } catch (error) {
-        console.error('Failed to load mock exam:', error);
-        alert('Failed to load mock exam. Please try again.');
     }
-}
 
-// == Start Application ==
-document.addEventListener('DOMContentLoaded', init);
+    elements.checkBtn.disabled = true;
+
+    // Fix Bug #19: Hide Show Answer button after clicking it? 
+    // No, user might want to toggle translation of answer. 
+    // But maybe change text?
+    // The issue says "Show Answer button redundancy". 
+    // If we showed the answer, the button is now performing its function. 
+    // Usually it stays to verify.
+    elements.showAnswerBtn.classList.add('hidden');
+    // Wait, if we hide it, we can't toggle translation if that was attached to it?
+    // The translate button is separate: `translateAnswerBtn`.
+    // So `showAnswerBtn` can be hidden.
+
+    // == Navigation ==
+    function navigateQuestion(direction) {
+        const newIndex = state.currentQuestionIndex + direction;
+
+        // Check if we're moving past the last question
+        if (newIndex >= state.currentQuestions.length) {
+            showResults();
+            return;
+        }
+
+        state.currentQuestionIndex = newIndex;
+        loadQuestion();
+    }
+
+    function updateNavigationButtons() {
+        elements.prevBtn.disabled = state.currentQuestionIndex === 0;
+
+        const isLastQuestion = state.currentQuestionIndex === state.currentQuestions.length - 1;
+        const nextBtnText = elements.nextBtn.querySelector('span');
+
+        if (isLastQuestion) {
+            nextBtnText.textContent = translations[state.currentLang].finish || 'Finish';
+            elements.nextBtn.classList.add('finish-btn');
+        } else {
+            nextBtnText.textContent = translations[state.currentLang].next || 'Next';
+            elements.nextBtn.classList.remove('finish-btn');
+        }
+        // Always enable next button to allow finishing
+        elements.nextBtn.disabled = false;
+    }
+
+    // == Progress ==
+    function updateProgress() {
+        const current = state.currentQuestionIndex + 1;
+        const total = state.currentQuestions.length;
+        const percentage = (current / total) * 100;
+
+        let scoreText = '';
+        if (state.answeredQuestions > 0) {
+            const scorePercentage = ((state.userScore / state.answeredQuestions) * 100).toFixed(1);
+            scoreText = ` | ${translations[state.currentLang].score}: ${state.userScore}/${state.answeredQuestions} (${scorePercentage}%)`;
+        }
+        elements.progressText.textContent = `${current} / ${total}${scoreText}`;
+        elements.progressFill.style.width = `${percentage}%`;
+    }
+
+    // == Results Screen ==
+    function showResults() {
+        const totalQuestions = state.answeredQuestions;
+        const correctAnswers = state.userScore;
+        const incorrectAnswers = totalQuestions - correctAnswers;
+        const percentage = totalQuestions > 0 ? ((correctAnswers / totalQuestions) * 100).toFixed(1) : 0;
+
+        // Update results display
+        elements.finalPercentage.textContent = `${percentage}%`;
+        elements.finalScore.textContent = `${correctAnswers} / ${totalQuestions}`;
+        elements.correctCount.textContent = correctAnswers;
+        elements.incorrectCount.textContent = incorrectAnswers;
+
+        // Show results view
+        showView('results');
+    }
+
+    // == UI Updates ==
+    function showView(viewName) {
+        elements.topicView.classList.toggle('active', viewName === 'topic');
+        elements.quizView.classList.toggle('active', viewName === 'quiz');
+        elements.resultsView.classList.toggle('active', viewName === 'results');
+    }
+
+    function updateActiveLanguageButton() {
+        elements.langBtns.forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.lang === state.currentLang);
+        });
+    }
+
+    function updateUI() {
+        // Update all data-i18n elements
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.dataset.i18n;
+            if (translations[state.currentLang][key]) {
+                el.textContent = translations[state.currentLang][key];
+            }
+        });
+
+        // Update topic names
+        if (elements.topicGrid) {
+            renderTopics();
+        }
+    }
+
+    // == Problem Reporting ==
+    function submitProblem() {
+        const checkboxes = document.querySelectorAll('.problem-checkbox:checked');
+        if (checkboxes.length === 0) {
+            alert('Please select at least one issue type');
+            return;
+        }
+
+        const issues = Array.from(checkboxes).map(cb => cb.value);
+        const question = state.currentQuestions[state.currentQuestionIndex];
+        const notes = elements.problemNotes.value.trim();
+
+        state.reportedProblems.push({
+            topicId: state.currentTopic.id,
+            topicName: state.currentTopic.name.en,
+            questionIndex: state.currentQuestionIndex,
+            questionHu: state.currentQuestionHu,
+            questionTranslated: state.currentQuestionTranslated,
+            answerHu: state.currentAnswerHu,
+            answerTranslated: state.currentAnswerTranslated,
+            questionType: question.type,
+            options: question.options || null,
+            correctIndices: question.correctIndices || null,
+            issues: issues,
+            notes: notes,
+            timestamp: new Date().toISOString()
+        });
+
+        // Update UI
+        elements.problemCount.textContent = state.reportedProblems.length;
+        elements.exportProblemsBtn.classList.remove('hidden');
+        elements.problemOptions.classList.add('hidden');
+
+        // Reset form
+        checkboxes.forEach(cb => cb.checked = false);
+        elements.problemNotes.value = '';
+
+        // Show confirmation
+        alert(translations[state.currentLang].problemReported);
+    }
+
+    function exportProblems() {
+        if (state.reportedProblems.length === 0) {
+            alert('No problems to export');
+            return;
+        }
+
+        // Format as JSON with readable structure
+        const exportData = {
+            exportDate: new Date().toISOString(),
+            totalProblems: state.reportedProblems.length,
+            problems: state.reportedProblems
+        };
+
+        // Create downloadable file
+        const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `hungarian-quiz-problems-${Date.now()}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+
+    // == Mock Exam ==
+    async function startMockExam() {
+        try {
+            const allQuestions = [];
+
+            // Load 2 random questions from each topic
+            for (const topic of state.topics) {
+                const response = await fetch(`data/${topic.id}.json`);
+                const questions = await response.json();
+
+                // Shuffle and take 2
+                const shuffled = shuffleArray(questions);
+                const selected = shuffled.slice(0, 2).map(q => ({
+                    ...q,
+                    topicName: topic.name[state.currentLang],
+                    topicId: topic.id
+                }));
+
+                allQuestions.push(...selected);
+            }
+
+            // Shuffle all 12 questions
+            state.currentQuestions = shuffleArray(allQuestions);
+            state.currentTopic = {
+                id: 'mock-exam',
+                name: {
+                    en: 'Mock Exam',
+                    ru: 'Пробный экзамен',
+                    hu: 'Próbavizsga'
+                }
+            };
+            state.currentQuestionIndex = 0;
+            state.userScore = 0;
+            state.answeredQuestions = 0;
+            state.questionAnswered = false;
+            state.mockExamMode = true;
+
+            elements.topicTitle.textContent = state.currentTopic.name[state.currentLang];
+
+            loadQuestion();
+            updateProgress();
+            showView('quiz');
+        } catch (error) {
+            console.error('Failed to load mock exam:', error);
+            alert('Failed to load mock exam. Please try again.');
+        }
+    }
+
+    // == Start Application ==
+    document.addEventListener('DOMContentLoaded', init);
