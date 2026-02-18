@@ -882,212 +882,210 @@ function showCorrectAnswer() {
     // If we showed the answer, the button is now performing its function. 
     // Usually it stays to verify.
     elements.showAnswerBtn.classList.add('hidden');
-    // Wait, if we hide it, we can't toggle translation if that was attached to it?
-    // The translate button is separate: `translateAnswerBtn`.
-    // So `showAnswerBtn` can be hidden.
+}
 
-    // == Navigation ==
-    function navigateQuestion(direction) {
-        const newIndex = state.currentQuestionIndex + direction;
+// == Navigation ==
+function navigateQuestion(direction) {
+    const newIndex = state.currentQuestionIndex + direction;
 
-        // Check if we're moving past the last question
-        if (newIndex >= state.currentQuestions.length) {
-            showResults();
-            return;
+    // Check if we're moving past the last question
+    if (newIndex >= state.currentQuestions.length) {
+        showResults();
+        return;
+    }
+
+    state.currentQuestionIndex = newIndex;
+    loadQuestion();
+}
+
+function updateNavigationButtons() {
+    elements.prevBtn.disabled = state.currentQuestionIndex === 0;
+
+    const isLastQuestion = state.currentQuestionIndex === state.currentQuestions.length - 1;
+    const nextBtnText = elements.nextBtn.querySelector('span');
+
+    if (isLastQuestion) {
+        nextBtnText.textContent = translations[state.currentLang].finish || 'Finish';
+        elements.nextBtn.classList.add('finish-btn');
+    } else {
+        nextBtnText.textContent = translations[state.currentLang].next || 'Next';
+        elements.nextBtn.classList.remove('finish-btn');
+    }
+    // Always enable next button to allow finishing
+    elements.nextBtn.disabled = false;
+}
+
+// == Progress ==
+function updateProgress() {
+    const current = state.currentQuestionIndex + 1;
+    const total = state.currentQuestions.length;
+    const percentage = (current / total) * 100;
+
+    let scoreText = '';
+    if (state.answeredQuestions > 0) {
+        const scorePercentage = ((state.userScore / state.answeredQuestions) * 100).toFixed(1);
+        scoreText = ` | ${translations[state.currentLang].score}: ${state.userScore}/${state.answeredQuestions} (${scorePercentage}%)`;
+    }
+    elements.progressText.textContent = `${current} / ${total}${scoreText}`;
+    elements.progressFill.style.width = `${percentage}%`;
+}
+
+// == Results Screen ==
+function showResults() {
+    const totalQuestions = state.answeredQuestions;
+    const correctAnswers = state.userScore;
+    const incorrectAnswers = totalQuestions - correctAnswers;
+    const percentage = totalQuestions > 0 ? ((correctAnswers / totalQuestions) * 100).toFixed(1) : 0;
+
+    // Update results display
+    elements.finalPercentage.textContent = `${percentage}%`;
+    elements.finalScore.textContent = `${correctAnswers} / ${totalQuestions}`;
+    elements.correctCount.textContent = correctAnswers;
+    elements.incorrectCount.textContent = incorrectAnswers;
+
+    // Show results view
+    showView('results');
+}
+
+// == UI Updates ==
+function showView(viewName) {
+    elements.topicView.classList.toggle('active', viewName === 'topic');
+    elements.quizView.classList.toggle('active', viewName === 'quiz');
+    elements.resultsView.classList.toggle('active', viewName === 'results');
+}
+
+function updateActiveLanguageButton() {
+    elements.langBtns.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === state.currentLang);
+    });
+}
+
+function updateUI() {
+    // Update all data-i18n elements
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (translations[state.currentLang][key]) {
+            el.textContent = translations[state.currentLang][key];
+        }
+    });
+
+    // Update topic names
+    if (elements.topicGrid) {
+        renderTopics();
+    }
+}
+
+// == Problem Reporting ==
+function submitProblem() {
+    const checkboxes = document.querySelectorAll('.problem-checkbox:checked');
+    if (checkboxes.length === 0) {
+        alert('Please select at least one issue type');
+        return;
+    }
+
+    const issues = Array.from(checkboxes).map(cb => cb.value);
+    const question = state.currentQuestions[state.currentQuestionIndex];
+    const notes = elements.problemNotes.value.trim();
+
+    state.reportedProblems.push({
+        topicId: state.currentTopic.id,
+        topicName: state.currentTopic.name.en,
+        questionIndex: state.currentQuestionIndex,
+        questionHu: state.currentQuestionHu,
+        questionTranslated: state.currentQuestionTranslated,
+        answerHu: state.currentAnswerHu,
+        answerTranslated: state.currentAnswerTranslated,
+        questionType: question.type,
+        options: question.options || null,
+        correctIndices: question.correctIndices || null,
+        issues: issues,
+        notes: notes,
+        timestamp: new Date().toISOString()
+    });
+
+    // Update UI
+    elements.problemCount.textContent = state.reportedProblems.length;
+    elements.exportProblemsBtn.classList.remove('hidden');
+    elements.problemOptions.classList.add('hidden');
+
+    // Reset form
+    checkboxes.forEach(cb => cb.checked = false);
+    elements.problemNotes.value = '';
+
+    // Show confirmation
+    alert(translations[state.currentLang].problemReported);
+}
+
+function exportProblems() {
+    if (state.reportedProblems.length === 0) {
+        alert('No problems to export');
+        return;
+    }
+
+    // Format as JSON with readable structure
+    const exportData = {
+        exportDate: new Date().toISOString(),
+        totalProblems: state.reportedProblems.length,
+        problems: state.reportedProblems
+    };
+
+    // Create downloadable file
+    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `hungarian-quiz-problems-${Date.now()}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+}
+
+// == Mock Exam ==
+async function startMockExam() {
+    try {
+        const allQuestions = [];
+
+        // Load 2 random questions from each topic
+        for (const topic of state.topics) {
+            const response = await fetch(`data/${topic.id}.json`);
+            const questions = await response.json();
+
+            // Shuffle and take 2
+            const shuffled = shuffleArray(questions);
+            const selected = shuffled.slice(0, 2).map(q => ({
+                ...q,
+                topicName: topic.name[state.currentLang],
+                topicId: topic.id
+            }));
+
+            allQuestions.push(...selected);
         }
 
-        state.currentQuestionIndex = newIndex;
-        loadQuestion();
-    }
-
-    function updateNavigationButtons() {
-        elements.prevBtn.disabled = state.currentQuestionIndex === 0;
-
-        const isLastQuestion = state.currentQuestionIndex === state.currentQuestions.length - 1;
-        const nextBtnText = elements.nextBtn.querySelector('span');
-
-        if (isLastQuestion) {
-            nextBtnText.textContent = translations[state.currentLang].finish || 'Finish';
-            elements.nextBtn.classList.add('finish-btn');
-        } else {
-            nextBtnText.textContent = translations[state.currentLang].next || 'Next';
-            elements.nextBtn.classList.remove('finish-btn');
-        }
-        // Always enable next button to allow finishing
-        elements.nextBtn.disabled = false;
-    }
-
-    // == Progress ==
-    function updateProgress() {
-        const current = state.currentQuestionIndex + 1;
-        const total = state.currentQuestions.length;
-        const percentage = (current / total) * 100;
-
-        let scoreText = '';
-        if (state.answeredQuestions > 0) {
-            const scorePercentage = ((state.userScore / state.answeredQuestions) * 100).toFixed(1);
-            scoreText = ` | ${translations[state.currentLang].score}: ${state.userScore}/${state.answeredQuestions} (${scorePercentage}%)`;
-        }
-        elements.progressText.textContent = `${current} / ${total}${scoreText}`;
-        elements.progressFill.style.width = `${percentage}%`;
-    }
-
-    // == Results Screen ==
-    function showResults() {
-        const totalQuestions = state.answeredQuestions;
-        const correctAnswers = state.userScore;
-        const incorrectAnswers = totalQuestions - correctAnswers;
-        const percentage = totalQuestions > 0 ? ((correctAnswers / totalQuestions) * 100).toFixed(1) : 0;
-
-        // Update results display
-        elements.finalPercentage.textContent = `${percentage}%`;
-        elements.finalScore.textContent = `${correctAnswers} / ${totalQuestions}`;
-        elements.correctCount.textContent = correctAnswers;
-        elements.incorrectCount.textContent = incorrectAnswers;
-
-        // Show results view
-        showView('results');
-    }
-
-    // == UI Updates ==
-    function showView(viewName) {
-        elements.topicView.classList.toggle('active', viewName === 'topic');
-        elements.quizView.classList.toggle('active', viewName === 'quiz');
-        elements.resultsView.classList.toggle('active', viewName === 'results');
-    }
-
-    function updateActiveLanguageButton() {
-        elements.langBtns.forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.lang === state.currentLang);
-        });
-    }
-
-    function updateUI() {
-        // Update all data-i18n elements
-        document.querySelectorAll('[data-i18n]').forEach(el => {
-            const key = el.dataset.i18n;
-            if (translations[state.currentLang][key]) {
-                el.textContent = translations[state.currentLang][key];
+        // Shuffle all 12 questions
+        state.currentQuestions = shuffleArray(allQuestions);
+        state.currentTopic = {
+            id: 'mock-exam',
+            name: {
+                en: 'Mock Exam',
+                ru: 'Пробный экзамен',
+                hu: 'Próbavizsga'
             }
-        });
-
-        // Update topic names
-        if (elements.topicGrid) {
-            renderTopics();
-        }
-    }
-
-    // == Problem Reporting ==
-    function submitProblem() {
-        const checkboxes = document.querySelectorAll('.problem-checkbox:checked');
-        if (checkboxes.length === 0) {
-            alert('Please select at least one issue type');
-            return;
-        }
-
-        const issues = Array.from(checkboxes).map(cb => cb.value);
-        const question = state.currentQuestions[state.currentQuestionIndex];
-        const notes = elements.problemNotes.value.trim();
-
-        state.reportedProblems.push({
-            topicId: state.currentTopic.id,
-            topicName: state.currentTopic.name.en,
-            questionIndex: state.currentQuestionIndex,
-            questionHu: state.currentQuestionHu,
-            questionTranslated: state.currentQuestionTranslated,
-            answerHu: state.currentAnswerHu,
-            answerTranslated: state.currentAnswerTranslated,
-            questionType: question.type,
-            options: question.options || null,
-            correctIndices: question.correctIndices || null,
-            issues: issues,
-            notes: notes,
-            timestamp: new Date().toISOString()
-        });
-
-        // Update UI
-        elements.problemCount.textContent = state.reportedProblems.length;
-        elements.exportProblemsBtn.classList.remove('hidden');
-        elements.problemOptions.classList.add('hidden');
-
-        // Reset form
-        checkboxes.forEach(cb => cb.checked = false);
-        elements.problemNotes.value = '';
-
-        // Show confirmation
-        alert(translations[state.currentLang].problemReported);
-    }
-
-    function exportProblems() {
-        if (state.reportedProblems.length === 0) {
-            alert('No problems to export');
-            return;
-        }
-
-        // Format as JSON with readable structure
-        const exportData = {
-            exportDate: new Date().toISOString(),
-            totalProblems: state.reportedProblems.length,
-            problems: state.reportedProblems
         };
+        state.currentQuestionIndex = 0;
+        state.userScore = 0;
+        state.answeredQuestions = 0;
+        state.questionAnswered = false;
+        state.mockExamMode = true;
 
-        // Create downloadable file
-        const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = `hungarian-quiz-problems-${Date.now()}.json`;
-        a.click();
-        URL.revokeObjectURL(url);
+        elements.topicTitle.textContent = state.currentTopic.name[state.currentLang];
+
+        loadQuestion();
+        updateProgress();
+        showView('quiz');
+    } catch (error) {
+        console.error('Failed to load mock exam:', error);
+        alert('Failed to load mock exam. Please try again.');
     }
+}
 
-    // == Mock Exam ==
-    async function startMockExam() {
-        try {
-            const allQuestions = [];
-
-            // Load 2 random questions from each topic
-            for (const topic of state.topics) {
-                const response = await fetch(`data/${topic.id}.json`);
-                const questions = await response.json();
-
-                // Shuffle and take 2
-                const shuffled = shuffleArray(questions);
-                const selected = shuffled.slice(0, 2).map(q => ({
-                    ...q,
-                    topicName: topic.name[state.currentLang],
-                    topicId: topic.id
-                }));
-
-                allQuestions.push(...selected);
-            }
-
-            // Shuffle all 12 questions
-            state.currentQuestions = shuffleArray(allQuestions);
-            state.currentTopic = {
-                id: 'mock-exam',
-                name: {
-                    en: 'Mock Exam',
-                    ru: 'Пробный экзамен',
-                    hu: 'Próbavizsga'
-                }
-            };
-            state.currentQuestionIndex = 0;
-            state.userScore = 0;
-            state.answeredQuestions = 0;
-            state.questionAnswered = false;
-            state.mockExamMode = true;
-
-            elements.topicTitle.textContent = state.currentTopic.name[state.currentLang];
-
-            loadQuestion();
-            updateProgress();
-            showView('quiz');
-        } catch (error) {
-            console.error('Failed to load mock exam:', error);
-            alert('Failed to load mock exam. Please try again.');
-        }
-    }
-
-    // == Start Application ==
-    document.addEventListener('DOMContentLoaded', init);
+// == Start Application ==
+document.addEventListener('DOMContentLoaded', init);
