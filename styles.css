@@ -786,6 +786,16 @@ h3 {
 }
 
 /* === Navigation Controls === */
+.next-btn {
+    background: var(--secondary);
+    border-color: var(--secondary-light);
+    color: white;
+}
+
+.next-btn:hover {
+    background: var(--secondary-light);
+}
+
 .nav-controls {
     display: flex;
     gap: var(--spacing-md);
@@ -857,6 +867,15 @@ h3 {
 
     h1 {
         font-size: 2rem;
+    }
+
+    .finish-btn {
+        background: var(--success) !important;
+        border-color: var(--success);
+    }
+
+    .finish-btn:hover {
+        background: var(--success-light) !important;
     }
 
     /* Fix Bug #21: Prevent language selector overlap */

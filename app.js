@@ -1021,7 +1021,20 @@ function submitProblem() {
     elements.problemNotes.value = '';
 
     // Show confirmation
-    alert(translations[state.currentLang].problemReported);
+    // Show confirmation with copyable text
+    const reportText = `REPORT PROBLEM
+Topic: ${state.currentTopic.name.en} (${state.currentTopic.id})
+Question Index: ${state.currentQuestionIndex}
+Type: ${question.type}
+Issues: ${issues.join(', ')}
+Notes: ${notes}
+
+Question: ${state.currentQuestionHu}
+Answer: ${state.currentAnswerHu}
+`;
+
+    const message = translations[state.currentLang].mailToDev || "Please send to @a1mirr on Telegram:";
+    prompt(message, reportText);
 }
 
 function exportProblems() {

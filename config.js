@@ -45,7 +45,8 @@ const translations = {
         pageExam: 'Page Test',
         pageExamDesc: 'Practice questions from a specific page (3-52)',
         start: 'Start',
-        noQuestionsOnPage: 'No questions found for this page.'
+        noQuestionsOnPage: 'No questions found for this page.',
+        mailToDev: 'Please copy the text below and send it to Telegram: @a1mirr'
     },
     ru: {
         subtitle: 'Изучайте венгерскую культуру и историю',
@@ -88,7 +89,8 @@ const translations = {
         pageExam: 'Тест по странице',
         pageExamDesc: 'Практика вопросов с конкретной страницы (3-52)',
         start: 'Начать',
-        noQuestionsOnPage: 'Вопросов для этой страницы не найдено.'
+        noQuestionsOnPage: 'Вопросов для этой страницы не найдено.',
+        mailToDev: 'Пожалуйста, скопируйте текст ниже и отправьте его в Telegram: @a1mirr'
     },
     hu: {
         subtitle: 'Magyar kultúra és történelem mesterei',
@@ -131,7 +133,8 @@ const translations = {
         pageExam: 'Oldal Teszt',
         pageExamDesc: 'Gyakoroljon kérdéseket egy adott oldalról (3-52)',
         start: 'Indítás',
-        noQuestionsOnPage: 'Nincs kérdés ezen az oldalon.'
+        noQuestionsOnPage: 'Nincs kérdés ezen az oldalon.',
+        mailToDev: 'Kérjük, másolja ki az alábbi szöveget, és küldje el Telegramon: @a1mirr'
     }
 };
 
