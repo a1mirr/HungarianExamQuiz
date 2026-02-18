@@ -541,7 +541,7 @@ h3 {
     border: 1px solid var(--glass-border);
     border-radius: var(--radius-md);
     /* Fix Bug #16: Improve visibility in dark mode */
-    background: rgba(255, 255, 255, 0.1); 
+    background: rgba(255, 255, 255, 0.1);
     color: var(--text-primary);
     font-size: 1rem;
     transition: all var(--transition-fast);
@@ -803,8 +803,13 @@ h3 {
 
 /* === Animations === */
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeInDown {
@@ -812,6 +817,7 @@ h3 {
         opacity: 0;
         transform: translateY(-20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -823,6 +829,7 @@ h3 {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -835,6 +842,7 @@ h3 {
         opacity: 0;
         transform: scale(0.9);
     }
+
     to {
         opacity: 1;
         transform: scale(1);
@@ -858,7 +866,7 @@ h3 {
         right: var(--spacing-md);
         flex-direction: column-reverse;
     }
-    
+
     .container {
         padding: var(--spacing-lg) var(--spacing-sm);
     }
@@ -866,7 +874,8 @@ h3 {
 }
 
 .nav-btn {
-    flex: 1;
+    /* flex: 1; -- Removed to prevent full-width stretching */
+    min-width: 120px;
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
     color: var(--text-primary);

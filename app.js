@@ -339,6 +339,8 @@ function loadQuestion() {
     state.questionTranslated = false;
     state.answerTranslated = false;
     elements.checkBtn.disabled = false;
+    elements.checkBtn.classList.remove('hidden');
+    elements.nextBtn.classList.add('hidden');
     elements.showAnswerBtn.classList.add('hidden');
     elements.feedback.classList.add('hidden');
     elements.feedback.classList.remove('correct', 'incorrect');
@@ -357,7 +359,9 @@ function loadQuestion() {
 
     if (savedState && savedState.answered) {
         state.questionAnswered = true;
-        elements.checkBtn.disabled = true;
+        // elements.checkBtn.disabled = true; 
+        elements.checkBtn.classList.add('hidden');
+        elements.nextBtn.classList.remove('hidden');
         elements.showAnswerBtn.classList.remove('hidden');
 
         // Restore feedback
@@ -663,7 +667,9 @@ function checkUserAnswer() {
 
                     // Update UI
                     elements.userAnswer.disabled = true;
+                    elements.userAnswer.disabled = true;
                     elements.checkBtn.classList.add('hidden');
+                    elements.nextBtn.classList.remove('hidden');
                     elements.showAnswerBtn.classList.add('hidden');
                     // Fix Bug #10: Remove undefined updateScore, call updateProgress
                     updateProgress();
@@ -725,7 +731,8 @@ function checkUserAnswer() {
     showFeedback(isCorrect, question);
 
     // Update buttons
-    elements.checkBtn.disabled = true;
+    elements.checkBtn.classList.add('hidden');
+    elements.nextBtn.classList.remove('hidden');
 
     // Fix Bug #19: Hide Show Answer button if correct, otherwise show it
     if (isCorrect) {
@@ -873,7 +880,8 @@ function showCorrectAnswer() {
         updateProgress();
     }
 
-    elements.checkBtn.disabled = true;
+    elements.checkBtn.classList.add('hidden');
+    elements.nextBtn.classList.remove('hidden');
 
     // Fix Bug #19: Hide Show Answer button after clicking it? 
     // No, user might want to toggle translation of answer. 
