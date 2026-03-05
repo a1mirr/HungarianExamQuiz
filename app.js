@@ -345,6 +345,7 @@ function loadQuestion() {
     elements.feedback.classList.add('hidden');
     elements.feedback.classList.remove('correct', 'incorrect');
     elements.userAnswer.value = '';
+    state.currentQuestionShuffledOrder = null;
 
     // Check if question was already answered in this session
     // We use a unique key for the question. In topic mode: topicId_index. 
@@ -542,7 +543,15 @@ function renderMultipleChoice(question) {
     }));
 
     // Randomize option order
-    const shuffledOptions = shuffleArray(indexedOptions);
+    let shuffledOptions;
+    if (state.currentQuestionShuffledOrder && state.currentQuestionShuffledOrder.length === indexedOptions.length) {
+        shuffledOptions = state.currentQuestionShuffledOrder.map(originalIdx =>
+            indexedOptions.find(opt => opt.originalIndex === originalIdx)
+        );
+    } else {
+        shuffledOptions = shuffleArray(indexedOptions);
+        state.currentQuestionShuffledOrder = shuffledOptions.map(opt => opt.originalIndex);
+    }
 
     elements.optionsList.innerHTML = shuffledOptions.map((item, displayIndex) => `
         <label class="option-item" data-original-index="${item.originalIndex}">

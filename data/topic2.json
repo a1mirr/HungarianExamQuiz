@@ -22,15 +22,15 @@
         "type": "Open",
         "inputType": "text",
         "question": "Melyik évszázad végén történt a honfoglalás?",
-        "answer": "IX. század végén",
+        "answer": "IX. század végén ÷ 9 ÷ IX",
         "translations": {
             "en": {
                 "question": "[EN] At the end of which century did the Conquest take place?",
-                "answer": "[EN] At the end of the 9th century"
+                "answer": "[EN] At the end of the 9th century ÷ 9 ÷ IX"
             },
             "ru": {
                 "question": "[RU] В конце какого века произошло обретение родины?",
-                "answer": "[RU] В конце IX века"
+                "answer": "[RU] В конце IX века ÷ 9 ÷ IX"
             }
         },
         "pages": [
@@ -235,7 +235,7 @@
             }
         },
         "pages": [
-            5
+            12
         ]
     },
     {
@@ -898,7 +898,7 @@
             }
         },
         "pages": [
-            12
+            13
         ]
     },
     {

@@ -110,6 +110,11 @@ Works on all modern browsers:
 
 All questions are sourced from the official Hungarian cultural exam materials and have been translated into English and Russian.
 
+The primary source documents located in the repository root are:
+- `magyar-kulturalis-ismereti-vizsga-HU.pdf` (main exam questions/answers)
+- `magyar-kulturalis-ismereti-vizsga-segedanyag.pdf` (supplementary reading)
+- `magyar-kulturalis-ismereti-vizsga-jelentkezesi-lap.docx.pdf` (application form)
+
 ## 🤝 Contributing
 
 Feel free to add more questions or improve translations:

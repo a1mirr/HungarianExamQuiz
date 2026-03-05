@@ -446,7 +446,7 @@
     {
         "type": "Open",
         "question": "Mit jelképez a piros sáv a magyar zászlón?",
-        "answer": "Az erőt",
+        "answer": "Az erőt ÷ Erő",
         "translations": {
             "en": {
                 "question": "What does the red stripe symbolize on the Hungarian flag?",
@@ -454,7 +454,7 @@
             },
             "ru": {
                 "question": "Что символизирует красная полоса на венгерском флаге?",
-                "answer": "Силу"
+                "answer": "Силу ÷ Сила"
             }
         },
         "inputType": "text",
@@ -465,7 +465,7 @@
     {
         "type": "Open",
         "question": "A fehér sáv mit szimbolizál a magyar zászlón?",
-        "answer": "A hűséget",
+        "answer": "A hűséget ÷ Hűség",
         "translations": {
             "en": {
                 "question": "What does the white stripe symbolize on the Hungarian flag?",
@@ -520,7 +520,7 @@
     {
         "type": "Open",
         "question": "A zöld sáv mit jelképez a zászlón?",
-        "answer": "A reményt",
+        "answer": "A reményt ÷ Remény",
         "translations": {
             "en": {
                 "question": "What does the green stripe represent on the flag?",
@@ -528,7 +528,7 @@
             },
             "ru": {
                 "question": "Что представляет зеленая полоса на флаге?",
-                "answer": "Надежду"
+                "answer": "Надежду ÷ Надежда"
             }
         },
         "inputType": "text",
@@ -1018,7 +1018,7 @@
             }
         },
         "pages": [
-            6
+            7
         ]
     },
     {
@@ -1156,16 +1156,35 @@
     },
     {
         "type": "Open",
-        "question": "Kinek a műve a Himnusz költeménye?",
-        "answer": "Kölcsey Ferenc",
+        "question": "Kit szólít meg a Himnusz?",
+        "answer": "Istent ÷ Isten",
         "translations": {
             "en": {
-                "question": "Whose work is the anthem poem?",
-                "answer": "Ferenc Kölcsey"
+                "question": "Who is addressed in the Himnusz?",
+                "answer": "God"
             },
             "ru": {
-                "question": "Чьё произведение стихотворение гимна?",
-                "answer": "Ференц Кёльчеи"
+                "question": "К кому идёт обращение в Гимне?",
+                "answer": "К Богу ÷ Бог"
+            }
+        },
+        "inputType": "text",
+        "pages": [
+            8
+        ]
+    },
+    {
+        "type": "Open",
+        "question": "Mi a Himnusz első sora?",
+        "answer": "Isten, áldd meg a magyart",
+        "translations": {
+            "en": {
+                "question": "What is the first line of the Himnusz?",
+                "answer": "God bless the Hungarian(s)"
+            },
+            "ru": {
+                "question": "Какая первая строка Гимна?",
+                "answer": "Боже, благослови мадьяра"
             }
         },
         "inputType": "text",
@@ -1288,7 +1307,7 @@
     {
         "type": "Open",
         "question": "Kit szólít meg a Szózat?",
-        "answer": "A magyart",
+        "answer": "A magyart ÷ Magyar",
         "translations": {
             "en": {
                 "question": "Who does the Szózat address?",
@@ -1296,7 +1315,7 @@
             },
             "ru": {
                 "question": "К кому обращается Szózat?",
-                "answer": "К венграм"
+                "answer": "К венграм ÷ Венгр"
             }
         },
         "inputType": "text",
@@ -1362,15 +1381,15 @@
     {
         "type": "Open",
         "question": "A Szózat szerint hol kell élned és halnod?",
-        "answer": "Itt",
+        "answer": "Itt ÷ Magyarországon ÷ Magyarország ÷ Hazádban ÷ Haza",
         "translations": {
             "en": {
                 "question": "According to Szózat, where should you live and die?",
-                "answer": "Here ÷ In your homeland ÷ In Hungary"
+                "answer": "Here ÷ In Hungary ÷ Homeland ÷ In your homeland"
             },
             "ru": {
                 "question": "Согласно Szózat, где ты должен жить и умереть?",
-                "answer": "Здесь ÷ На родине ÷ В Венгрии"
+                "answer": "Здесь ÷ В Венгрии ÷ На родине ÷ Родина"
             }
         },
         "inputType": "text",
@@ -1407,18 +1426,19 @@
     {
         "type": "Open",
         "question": "Sorolja fel Magyarország három nemzeti ünnepét",
-        "answer": "03.15",
+        "answer": "03.15 ÷ 15.03 ÷ Március 15. | 08.20 ÷ 20.08 ÷ Augusztus 20. | 10.23 ÷ 23.10 ÷ Október 23.",
         "translations": {
             "en": {
                 "question": "List Hungary's three national holidays!",
-                "answer": "03.15 ÷ 08.20 ÷ 10.23"
+                "answer": "03.15 ÷ 15.03 ÷ March 15 | 08.20 ÷ 20.08 ÷ August 20 | 10.23 ÷ 23.10 ÷ October 23"
             },
             "ru": {
                 "question": "Перечислите три национальных праздника Венгрии!",
-                "answer": "15 марта ÷ 20 августа ÷ 23 октября"
+                "answer": "15 марта ÷ 15.03 ÷ 03.15 | 20 августа ÷ 20.08 ÷ 08.20 | 23 октября ÷ 23.10 ÷ 10.23"
             }
         },
-        "inputType": "text",
+        "inputType": "list",
+        "inputCount": 3,
         "pages": [
             10
         ]
@@ -1489,15 +1509,15 @@
     {
         "type": "Open",
         "question": "Minek az emlékére van március 15-én nemzeti ünnep?",
-        "answer": "Az 1848-49-es forradalom és szabadságharc emlékére",
+        "answer": "Az 1848-49-es forradalom és szabadságharc emlékére ÷ Az 1848-1849-es forradalom és szabadságharc emlékére ÷ Az 1848-as forradalom emlékére ÷ Forradalom és szabadságharc ÷ 1848-as forradalom",
         "translations": {
             "en": {
                 "question": "In memory of what is there a national holiday on March 15?",
-                "answer": "In memory of the 1848-49 revolution and freedom fight"
+                "answer": "In memory of the 1848-49 revolution and freedom fight ÷ 1848 revolution"
             },
             "ru": {
                 "question": "В память о чём 15 марта национальный праздник?",
-                "answer": "В память о революции и борьбе за свободу 1848-49 годов"
+                "answer": "В память о революции и борьбе за свободу 1848-49 годов ÷ Революция 1848 года"
             }
         },
         "inputType": "text",
@@ -1508,15 +1528,15 @@
     {
         "type": "Open",
         "question": "Melyik dátum az 1848-49-es forradalom és szabadságharc emléknapja?",
-        "answer": "03.15",
+        "answer": "03.15 ÷ 15.03 ÷ Március 15. ÷ Március 15",
         "translations": {
             "en": {
                 "question": "Which date is the memorial day of the 1848-49 revolution and freedom fight?",
-                "answer": "03.15"
+                "answer": "03.15 ÷ 15.03 ÷ March 15"
             },
             "ru": {
                 "question": "Какая дата является днём памяти революции и борьбы за свободу 1848-49 годов?",
-                "answer": "15 марта"
+                "answer": "15 марта ÷ 15.03 ÷ 03.15"
             }
         },
         "inputType": "text",
@@ -1561,20 +1581,37 @@
         ]
     },
     {
-        "type": "Open",
+        "type": "Multiple",
         "question": "Minek az emlékére van augusztus 20-án nemzeti ünnep?",
-        "answer": "Az államalapítás és az államalapító Szent István király emlékére",
+        "correctCount": 1,
+        "options": [
+            "Az államalapítás és az államalapító Szent István király emlékére",
+            "Az 1848-49-es forradalom és szabadságharc emlékére",
+            "Az 1956. évi forradalom emlékére"
+        ],
+        "correctIndices": [
+            0
+        ],
         "translations": {
             "en": {
                 "question": "In memory of what is there a national holiday on August 20?",
-                "answer": "In memory of the state foundation and the state founder St. István king"
+                "answer": "In memory of the state foundation and the state founder St. István king",
+                "options": [
+                    "In memory of the state foundation and the state founder St. István king",
+                    "In memory of the 1848-49 revolution and freedom fight",
+                    "In memory of the 1956 revolution"
+                ]
             },
             "ru": {
                 "question": "В память о чём 20 августа национальный праздник?",
-                "answer": "В память об основании государства и основателе государства короле Иштване"
+                "answer": "В память об основании государства и основателе государства короле Иштване",
+                "options": [
+                    "В память об основании государства и основателе государства короле Иштване",
+                    "В память о революции и борьбе за свободу 1848-49 годов",
+                    "В память о революции 1956 года"
+                ]
             }
         },
-        "inputType": "text",
         "pages": [
             10
         ]
@@ -1582,15 +1619,15 @@
     {
         "type": "Open",
         "question": "Ki volt az államalapító király, akire augusztus 20-án emlékezünk?",
-        "answer": "Szent István király",
+        "answer": "Szent István király ÷ Szent István ÷ István",
         "translations": {
             "en": {
                 "question": "Who was the state founder king we commemorate on August 20?",
-                "answer": "King Saint István"
+                "answer": "King Saint István ÷ Saint Stephen"
             },
             "ru": {
                 "question": "Кто был королём-основателем государства, которого мы вспоминаем 20 августа?",
-                "answer": "Король Иштван"
+                "answer": "Король Иштван ÷ Святой Иштван ÷ Иштван"
             }
         },
         "inputType": "person",
@@ -1641,15 +1678,15 @@
     {
         "type": "Open",
         "question": "Melyik dátum az államalapítás ünnepe?",
-        "answer": "08.20",
+        "answer": "08.20 ÷ 20.08 ÷ Augusztus 20. ÷ Augusztus 20",
         "translations": {
             "en": {
                 "question": "Which date is the state foundation holiday?",
-                "answer": "08.20"
+                "answer": "08.20 ÷ 20.08 ÷ August 20"
             },
             "ru": {
                 "question": "Какая дата праздника основания государства?",
-                "answer": "20 августа"
+                "answer": "20 августа ÷ 20.08 ÷ 08.20"
             }
         },
         "inputType": "text",
@@ -1741,15 +1778,15 @@
     {
         "type": "Open",
         "question": "Melyik dátum az 1956-os forradalom emléknapja?",
-        "answer": "10.23",
+        "answer": "10.23 ÷ 23.10 ÷ Október 23. ÷ Október 23",
         "translations": {
             "en": {
                 "question": "Which date is the memorial day of the 1956 revolution?",
-                "answer": "10.23"
+                "answer": "10.23 ÷ 23.10 ÷ October 23"
             },
             "ru": {
                 "question": "Какая дата дня памяти революции 1956 года?",
-                "answer": "23 октября"
+                "answer": "23 октября ÷ 23.10 ÷ 10.23"
             }
         },
         "inputType": "text",
